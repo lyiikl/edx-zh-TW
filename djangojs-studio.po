@@ -1,0 +1,1377 @@
+# edX translation file.
+# Copyright (C) 2018 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# bhsfmiao <inactive+bhsfmiao@transifex.com>, 2014
+# 陳子琦 <christtabris@gmail.com>, 2014
+# LIU,SHU-HAO <jeremy55662004@gmail.com>, 2014
+# JEN-HAO HSIEH <orienthauz@gmail.com>, 2015
+# Joey Chiou <Joeyc0916@gmail.com>, 2013-2014
+# Joey Chiou <Joeyc0916@gmail.com>, 2013
+# Juan Camilo Montoya Franco <juan.montoya@edunext.co>, 2017
+# KUN-MIN SYU <qwer20108@gmail.com>, 2014
+# Lin Yu-Chun <iftwoplustwoequalsfive@gmail.com>, 2013-2015
+# LIU,SHU-HAO <jeremy55662004@gmail.com>, 2014
+# bhsfmiao <inactive+bhsfmiao@transifex.com>, 2014
+# MOH CHIN LAM <chinlam91@gmail.com>, 2014-2015
+# Lin Yu-Chun <iftwoplustwoequalsfive@gmail.com>, 2013
+# Rainy Chang <7100014011s@gmail.com>, 2016
+# Shawn Li <tp9106@gmail.com>, 2017
+# Xaver Y.R. Chen <yrchen@atcity.org>, 2013-2016,2018
+# Xaver Y.R. Chen <yrchen@atcity.org>, 2013
+# Ya-chi Chang <yacchang@mail.fcu.edu.tw>, 2016
+# Yenling Chen <bugchen.chen@gmail.com>, 2016
+# Zhen-Rong Chen <zhenrc@gmail.com>, 2014
+# Zhen-Rong Chen <zhenrc@gmail.com>, 2014
+# Zhen-Rong Chen <zhenrc@gmail.com>, 2014
+# 陳子琦 <christtabris@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2018-04-22 20:42+0000\n"
+"PO-Revision-Date: 2018-04-15 20:43+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/open-edx/edx-platform/language/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cms/static/cms/js/main.js:37
+#: cms/static/js/views/active_video_upload_list.js:35
+#: cms/static/js/views/video_transcripts.js:31
+msgid ""
+"This may be happening because of an error with our server or your internet "
+"connection. Try refreshing the page or making sure you are online."
+msgstr "發生的原因可能歸咎於我們的伺服器或是您的網路連線錯誤，請重新整理頁面或確定您仍在線上。"
+
+#: cms/static/cms/js/main.js:46
+msgid "Studio's having trouble saving your work"
+msgstr "Studio在儲存您的工作時遇到了問題。"
+
+#: cms/static/cms/js/xblock/cms.runtime.v1.js:98
+msgid "OpenAssessment Save Error"
+msgstr "開啟評分儲存錯誤"
+
+#: cms/static/js/base.js:71
+msgid "This link will open in a new browser window/tab"
+msgstr "該連結將在新的瀏覽器視窗或標籤中打開"
+
+#: cms/static/js/base.js:75
+msgid "This link will open in a modal window"
+msgstr "該連結將在一個強制回應視窗中開啓"
+
+#: cms/static/js/certificates/collections/certificates.js:37
+msgid "Could not parse certificate JSON. %(message)s"
+msgstr "無法分析JSON的憑證。%(message)s"
+
+#: cms/static/js/certificates/models/certificate.js:77
+msgid "Certificate name is required."
+msgstr "證書名稱為必填選項。"
+
+#: cms/static/js/certificates/models/certificate.js:86
+msgid "Signatory field(s) has invalid data."
+msgstr "已輸入的 field(s) 包含無效資料。"
+
+#: cms/static/js/certificates/views/certificate_details.js:45
+msgid "Edit this certificate?"
+msgstr "編輯此證書？"
+
+#: cms/static/js/certificates/views/certificate_details.js:46
+msgid ""
+"This certificate has already been activated and is live. Are you sure you "
+"want to continue editing?"
+msgstr "此認證已被啟動並使用中。您確定是否繼續編輯?"
+
+#: cms/static/js/certificates/views/certificate_details.js:47
+msgid "Yes, allow edits to the active Certificate"
+msgstr "是的，允許編輯此證書。"
+
+#: cms/static/js/certificates/views/certificate_item.js:21
+#: cms/static/js/certificates/views/certificates_list.js:16
+msgid "certificate"
+msgstr "證書"
+
+#: cms/static/js/certificates/views/certificates_list.js:18
+msgid "Set up your certificate"
+msgstr "建立您的證書。"
+
+#: cms/static/js/certificates/views/certificates_list.js:21
+msgid "You have not created any certificates yet."
+msgstr "您尚未創建任何證書。"
+
+#: cms/static/js/certificates/views/signatory_editor.js:133
+msgid "Delete \"<%= signatoryName %>\" from the list of signatories?"
+msgstr "從簽署者清單中移除\"<%= signatoryName %>\"?"
+
+#: cms/static/js/certificates/views/signatory_editor.js:136
+#: cms/static/js/views/course_info_update.js:241
+msgid "This action cannot be undone."
+msgstr "這個操作必須完成。"
+
+#: cms/static/js/certificates/views/signatory_editor.js:142
+#: cms/static/js/views/course_info_update.js:252
+#: cms/static/js/views/list_item.js:62 cms/static/js/views/show_textbook.js:42
+#: cms/static/js/views/tabs.js:173
+#: cms/static/js/views/utils/xblock_utils.js:133
+msgid "Deleting"
+msgstr "刪除中"
+
+#: cms/static/js/certificates/views/signatory_editor.js:174
+msgid "Upload signature image."
+msgstr "上傳簽名檔圖像。"
+
+#: cms/static/js/certificates/views/signatory_editor.js:175
+msgid "Image must be in PNG format."
+msgstr "圖片必須是PNG格式。"
+
+#: cms/static/js/collections/group.js:42
+#, javascript-format
+msgid "Group %s"
+msgstr "群組%s"
+
+#. Translators: Dictionary used for creation ids that are used in
+#. default group names. For example: A, B, AA in Group A,
+#. Group B, ..., Group AA, etc.
+#. */
+#: cms/static/js/collections/group.js:62
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+msgstr "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+#: cms/static/js/factories/export.js:35
+msgid "Your export has failed."
+msgstr ""
+
+#: cms/static/js/factories/manage_users.js:10
+msgid "Already a course team member"
+msgstr "已經是一位課程團隊成員"
+
+#: cms/static/js/factories/manage_users.js:12
+msgid ""
+"Are you sure you want to delete {email} from the course team for "
+"“{container}”?"
+msgstr "您確定要從課程團隊“{container}”中刪除{email}？"
+
+#: cms/static/js/factories/manage_users.js:19
+#: cms/static/js/factories/manage_users_lib.js:21
+msgid "Staff"
+msgstr "工作人員"
+
+#: cms/static/js/factories/manage_users.js:19
+#: cms/static/js/factories/manage_users_lib.js:22
+msgid "Admin"
+msgstr "管理員"
+
+#: cms/static/js/factories/manage_users_lib.js:10
+msgid "Already a library team member"
+msgstr "已經是課程組件庫隊伍成員"
+
+#: cms/static/js/factories/manage_users_lib.js:12
+msgid ""
+"Are you sure you want to delete {email} from the library “{container}”?"
+msgstr "您確定要從課程組件庫\"{container}\"刪除{email} ？"
+
+#: cms/static/js/factories/manage_users_lib.js:20
+msgid "Library User"
+msgstr "課程組件庫使用者"
+
+#: cms/static/js/factories/settings_advanced.js:32
+msgid "Hide Deprecated Settings"
+msgstr "隱藏棄用的設定"
+
+#: cms/static/js/factories/settings_advanced.js:36
+msgid "Show Deprecated Settings"
+msgstr "顯示棄用的設定"
+
+#: cms/static/js/factories/textbooks.js:16
+#: cms/static/js/views/pages/group_configurations.js:83
+msgid "You have unsaved changes. Do you really want to leave this page?"
+msgstr "您尚未儲存修改，您確定要離開此頁面嗎？"
+
+#: cms/static/js/features/import/factories/import.js:20
+msgid "There was an error during the upload process."
+msgstr "在上傳的過程中發生錯誤"
+
+#: cms/static/js/features/import/factories/import.js:21
+msgid "There was an error while unpacking the file."
+msgstr "在解壓縮檔案的過程中發生錯誤。"
+
+#: cms/static/js/features/import/factories/import.js:22
+msgid "There was an error while verifying the file you submitted."
+msgstr "驗證您提交的檔案時發生錯誤。"
+
+#: cms/static/js/features/import/factories/import.js:31
+msgid "Choose new file"
+msgstr "選擇新的檔案"
+
+#: cms/static/js/features/import/factories/import.js:46
+msgid ""
+"File format not supported. Please upload a file with a {ext} extension."
+msgstr ""
+
+#: cms/static/js/features/import/factories/import.js:54
+msgid "There was an error while importing the new library to our database."
+msgstr "在匯入新函式庫至我們的資料庫時發生錯誤。"
+
+#: cms/static/js/features/import/factories/import.js:56
+msgid "There was an error while importing the new course to our database."
+msgstr "匯入新課程到我們的資料庫時發生錯誤。"
+
+#: cms/static/js/features/import/factories/import.js:119
+msgid "Your import has failed."
+msgstr "您的匯入失敗。"
+
+#: cms/static/js/features/import/views/import.js:66
+msgid "Your import is in progress; navigating away will abort it."
+msgstr "您的匯入正在進行中，離開頁面將會中止匯入。"
+
+#: cms/static/js/features/import/views/import.js:253
+msgid "Error importing course"
+msgstr "匯入課程發生錯誤"
+
+#: cms/static/js/features/import/views/import.js:298
+msgid "There was an error with the upload"
+msgstr "上傳時發生錯誤"
+
+#: cms/static/js/maintenance/force_publish_course.js:71
+msgid "Internal Server Error."
+msgstr "內部伺服器錯誤"
+
+#: cms/static/js/models/active_video_upload.js:9
+msgid "Queued"
+msgstr "佇列"
+
+#: cms/static/js/models/active_video_upload.js:14
+msgid "Upload completed"
+msgstr "上傳完成"
+
+#: cms/static/js/models/active_video_upload.js:16
+msgid "Upload failed"
+msgstr "上傳失敗"
+
+#: cms/static/js/models/chapter.js:35
+msgid "Chapter name and asset_path are both required"
+msgstr "單元名稱和參考資料的路徑都是必要的"
+
+#: cms/static/js/models/chapter.js:40
+msgid "Chapter name is required"
+msgstr "章節名稱為必填選項"
+
+#: cms/static/js/models/chapter.js:45
+msgid "asset_path is required"
+msgstr "asset_path 是必要的"
+
+#: cms/static/js/models/course.js:8 cms/static/js/models/section.js:9
+msgid "You must specify a name"
+msgstr "您必須指定一個名稱"
+
+#: cms/static/js/models/course_update.js:14
+msgid "Action required: Enter a valid date."
+msgstr "需要執行的操作：輸入有效的日期。"
+
+#: cms/static/js/models/group.js:40
+msgid "Group name is required"
+msgstr "群組名稱為必填選項"
+
+#: cms/static/js/models/group_configuration.js:16
+msgid "Group A"
+msgstr "群組 A"
+
+#: cms/static/js/models/group_configuration.js:20
+msgid "Group B"
+msgstr "群組 B"
+
+#: cms/static/js/models/group_configuration.js:88
+msgid "Group Configuration name is required."
+msgstr "群組設定名稱為必填選項。"
+
+#: cms/static/js/models/group_configuration.js:95
+msgid "There must be at least one group."
+msgstr "務必至少含一個群組。"
+
+#: cms/static/js/models/group_configuration.js:112
+msgid "All groups must have a name."
+msgstr "所有群組務必有一個名稱。"
+
+#: cms/static/js/models/group_configuration.js:120
+msgid "All groups must have a unique name."
+msgstr "所有群組必須有一個唯一的名稱。"
+
+#: cms/static/js/models/settings/course_details.js:48
+msgid "The course must have an assigned start date."
+msgstr "課程必須有指定的開始日期。"
+
+#: cms/static/js/models/settings/course_details.js:52
+msgid "The course end date must be later than the course start date."
+msgstr "課程的結束日期不能在開始日期之前。"
+
+#: cms/static/js/models/settings/course_details.js:55
+msgid "The course start date must be later than the enrollment start date."
+msgstr "課程的開始日期應在課程的註冊開始日期之後。"
+
+#: cms/static/js/models/settings/course_details.js:58
+msgid "The enrollment start date cannot be after the enrollment end date."
+msgstr "註冊開始日期應該早於註冊截止日期。"
+
+#: cms/static/js/models/settings/course_details.js:61
+msgid "The enrollment end date cannot be after the course end date."
+msgstr "註冊結束日期應在課程結束日期之前。"
+
+#: cms/static/js/models/settings/course_details.js:66
+msgid "The certificate available date must be later than the course end date."
+msgstr ""
+
+#: cms/static/js/models/settings/course_details.js:71
+msgid "Key should only contain letters, numbers, _, or -"
+msgstr "關鍵字只能包含字母、數字、_或-。"
+
+#: cms/static/js/models/settings/course_details.js:81
+msgid "Please enter an integer between %(min)s and %(max)s."
+msgstr "請輸入一個介於%(min)s到%(max)s的整數。"
+
+#: cms/static/js/models/settings/course_grader.js:27
+msgid "The assignment type must have a name."
+msgstr ""
+
+#: cms/static/js/models/settings/course_grader.js:32
+msgid "There's already another assignment type with this name."
+msgstr "已經有另一個作業類型使用了這個名字。"
+
+#: cms/static/js/models/settings/course_grader.js:39
+msgid "Please enter an integer between 0 and 100."
+msgstr "請輸入一個介於0到100之間的整數。"
+
+#: cms/static/js/models/settings/course_grader.js:54
+msgid "Please enter an integer greater than 0."
+msgstr "請輸入一個大於0的整數。"
+
+#: cms/static/js/models/settings/course_grader.js:61
+msgid "Please enter non-negative integer."
+msgstr "請輸入一個非負整數。"
+
+#: cms/static/js/models/settings/course_grader.js:66
+msgid "Cannot drop more <%= types %> assignments than are assigned."
+msgstr "刪除的 <%= types %> 不能超過將分配的數量。"
+
+#: cms/static/js/models/settings/course_grading_policy.js:67
+msgid "Grace period must be specified in HH:MM format."
+msgstr "寬限時間必須以 HH:MM 格式指定。"
+
+#: cms/static/js/models/settings/course_grading_policy.js:77
+msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
+msgstr "不能設定及格分數小於 %(minimum_grade_cutoff)s%。"
+
+#: cms/static/js/models/textbook.js:62
+msgid "Textbook name is required"
+msgstr "教材名稱為必填選項"
+
+#: cms/static/js/models/textbook.js:68
+msgid "Please add at least one chapter"
+msgstr "請加入至少一個章節"
+
+#: cms/static/js/models/textbook.js:81
+msgid "All chapters must have a name and asset"
+msgstr "所有章節都必須有名稱與價值"
+
+#: cms/static/js/models/uploads.js:17
+msgid ""
+"Only <%= fileTypes %> files can be uploaded. Please select a file ending in "
+"<%= fileExtensions %> to upload."
+msgstr "只有 <%= fileTypes %> 檔案可以上傳，請選擇 <%= fileExtensions %> 型式的檔案上傳。"
+
+#: cms/static/js/models/uploads.js:63
+msgid "or"
+msgstr "或者"
+
+#: cms/static/js/models/xblock_validation.js:23
+msgid "This unit has validation issues."
+msgstr ""
+
+#: cms/static/js/models/xblock_validation.js:25
+msgid "This component has validation issues."
+msgstr "此組件有驗證問題"
+
+#: cms/static/js/views/active_video_upload.js:41
+#: cms/static/js/views/assets.js:210
+msgid "Your file could not be uploaded"
+msgstr "您的檔案無法上傳"
+
+#: cms/static/js/views/active_video_upload_list.js:27
+msgid "Upload Videos"
+msgstr ""
+
+#: cms/static/js/views/active_video_upload_list.js:29
+msgid "Drag and drop or {spanStart}browse your computer{spanEnd}."
+msgstr ""
+
+#: cms/static/js/views/active_video_upload_list.js:56
+msgid "Maximum file size: {maxFileSize} GB"
+msgstr ""
+
+#: cms/static/js/views/active_video_upload_list.js:62
+msgid "Supported file types: {supportedVideoTypes}"
+msgstr ""
+
+#: cms/static/js/views/active_video_upload_list.js:155
+msgid "Your video uploads are not complete."
+msgstr "您的影像尚未上傳完成。"
+
+#: cms/static/js/views/active_video_upload_list.js:296
+msgid "Upload completed for video {fileName}"
+msgstr ""
+
+#: cms/static/js/views/active_video_upload_list.js:330
+#: cms/static/js/views/active_video_upload_list.js:354
+msgid "Upload failed for video {fileName}"
+msgstr ""
+
+#: cms/static/js/views/active_video_upload_list.js:383
+msgid ""
+"{filename} is not in a supported file format. Supported file formats are "
+"{supportedFileFormats}."
+msgstr ""
+
+#: cms/static/js/views/active_video_upload_list.js:390
+msgid "{filename} exceeds maximum size of {maxFileSizeInGB} GB."
+msgstr "您的{filename}檔案超出容量上限{maxFileSizeInGB} GB"
+
+#: cms/static/js/views/active_video_upload_list.js:425
+msgid ": video upload complete."
+msgstr "完成影片上傳"
+
+#: cms/static/js/views/active_video_upload_list.js:434
+msgid "Previous Uploads table has been updated."
+msgstr "已經更新先前的上傳目錄"
+
+#: cms/static/js/views/asset.js:50
+msgid "Delete File Confirmation"
+msgstr "確認刪除檔案"
+
+#: cms/static/js/views/asset.js:51
+msgid ""
+"Are you sure you wish to delete this item. It cannot be reversed!\n"
+"\n"
+"Also any content that links/refers to this item will no longer work (e.g. broken images and/or links)"
+msgstr "删除的項目無法恢復！您確定要刪除這個項目嗎?\n\n與這個項目相關的一切訊息（如相關的圖片和連結）都將遺失。"
+
+#: cms/static/js/views/asset.js:61
+msgid "Your file has been deleted."
+msgstr "您的檔案已經被刪除"
+
+#: cms/static/js/views/assets.js:111
+msgid "Date Added"
+msgstr "新增日期"
+
+#: cms/static/js/views/assets.js:112
+msgid "Type"
+msgstr "類型"
+
+#: cms/static/js/views/assets.js:197
+msgid "File {filename} exceeds maximum size of {maxFileSizeInMBs} MB"
+msgstr "檔案{filename}超過{maxFileSizeInMBs} MB的最大容量"
+
+#: cms/static/js/views/assets.js:204
+msgid ""
+"Please follow the instructions here to upload a file elsewhere and link to "
+"it: {maxFileSizeRedirectUrl}"
+msgstr "請遵循說明上傳檔案並連結：{maxFileSizeRedirectUrl}"
+
+#: cms/static/js/views/assets.js:216
+msgid "Max file size exceeded"
+msgstr "超過最大檔案容量"
+
+#: cms/static/js/views/assets.js:334 cms/static/js/views/assets.js:348
+msgid "Upload New File"
+msgstr "上傳新檔案"
+
+#: cms/static/js/views/assets.js:339 cms/static/js/views/assets.js:353
+msgid "Load Another File"
+msgstr "載入另一個檔案"
+
+#: cms/static/js/views/components/add_xblock.js:66
+#: cms/static/js/views/utils/xblock_utils.js:51
+msgid "Adding"
+msgstr "新增中"
+
+#: cms/static/js/views/course_info_update.js:240
+msgid "Are you sure you want to delete this update?"
+msgstr "您確定要刪除這項更新嗎？"
+
+#: cms/static/js/views/course_rerun.js:47
+msgid "Create Re-run"
+msgstr "建立再次執行"
+
+#: cms/static/js/views/course_rerun.js:53
+msgid "Processing Re-run Request"
+msgstr "正在處理再次執行需求"
+
+#: cms/static/js/views/course_video_settings.js:25
+msgid "An error has occurred. Wait a few minutes, and then try again."
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:304
+msgid "Select turnaround"
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:332
+msgid "Select fidelity"
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:384
+#: cms/static/js/views/course_video_settings.js:420
+msgid "Select language"
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:472
+msgid "Press Remove to remove language"
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:482
+msgid "Settings updated"
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:491
+msgid "Last updated"
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:554
+msgid "Required"
+msgstr "需要評分"
+
+#: cms/static/js/views/course_video_settings.js:681
+msgid "Automatic transcripts are disabled."
+msgstr ""
+
+#: cms/static/js/views/course_video_settings.js:718
+msgid "{selectedProvider} credentials saved"
+msgstr ""
+
+#: cms/static/js/views/edit_chapter.js:62
+msgid "Upload a new PDF to “<%= name %>”"
+msgstr "上傳一個新的PDF檔案至\"<%= name %>\""
+
+#: cms/static/js/views/edit_chapter.js:64
+msgid "Please select a PDF file to upload."
+msgstr "請選擇要上傳的PDF文件"
+
+#: cms/static/js/views/export.js:312
+msgid "There has been an error while exporting."
+msgstr "匯出時發生錯誤。"
+
+#: cms/static/js/views/export.js:313
+msgid ""
+"There has been a failure to export to XML at least one component. It is "
+"recommended that you go to the edit page and repair the error before "
+"attempting another export. Please check that all components on the page are "
+"valid and do not display any error messages."
+msgstr "匯出至XML時，有至少一個組件出現故障。建議您再嘗試另一次匯出，先去編輯頁面修復此錯誤。請檢查所有頁面上的組件皆是有效且沒有顯示任何錯誤訊息。"
+
+#: cms/static/js/views/export.js:320
+msgid "Correct failed component"
+msgstr "更正錯誤組件"
+
+#: cms/static/js/views/export.js:327
+msgid "Return to Export"
+msgstr "返回到匯出"
+
+#: cms/static/js/views/export.js:336
+msgid ""
+"Your library could not be exported to XML. There is not enough information "
+"to identify the failed component. Inspect your library to identify any "
+"problematic components and try again."
+msgstr "您的課程組件庫無法匯出至XML，無足夠的資訊去辨識錯誤組件。請檢查您函式庫來辨識有問題的元件並且重試。"
+
+#: cms/static/js/views/export.js:339
+msgid "Take me to the main library page"
+msgstr "帶我到主要課程組件庫頁面"
+
+#: cms/static/js/views/export.js:341
+msgid ""
+"Your course could not be exported to XML. There is not enough information to"
+" identify the failed component. Inspect your course to identify any "
+"problematic components and try again."
+msgstr "您的課程無法匯出至XML。無足夠的資訊去辨識錯誤組件。請檢查您的課程以辨識有問題的組件並且重試。"
+
+#: cms/static/js/views/export.js:344
+msgid "Take me to the main course page"
+msgstr "帶我到主要課程頁面"
+
+#: cms/static/js/views/export.js:346
+msgid "The raw error message is:"
+msgstr "原始錯誤訊息是："
+
+#: cms/static/js/views/export.js:348
+msgid "There has been an error with your export."
+msgstr "您在匯出時發生錯誤。"
+
+#. Translators: 'count' is number of groups that the group
+#. configuration contains.
+#. */
+#: cms/static/js/views/group_configuration_details.js:70
+msgid "Contains {count} group"
+msgid_plural "Contains {count} groups"
+msgstr[0] "包含 {count} 群組"
+
+#: cms/static/js/views/group_configuration_details.js:81
+#: cms/static/js/views/partition_group_details.js:66
+msgid "Not in Use"
+msgstr "未使用"
+
+#. Translators: 'count' is number of units that the group
+#. configuration is used in.
+#. */
+#. Translators: 'count' is number of locations that the group
+#. configuration is used in.
+#. */
+#: cms/static/js/views/group_configuration_details.js:89
+#: cms/static/js/views/partition_group_details.js:74
+msgid "Used in {count} location"
+msgid_plural "Used in {count} locations"
+msgstr[0] ""
+
+#: cms/static/js/views/group_configuration_item.js:26
+#: cms/static/js/views/group_configurations_list.js:18
+msgid "group configuration"
+msgstr "群組設定"
+
+#: cms/static/js/views/group_configurations_list.js:20
+msgid "Add your first group configuration"
+msgstr "新增您的第一個群組設定"
+
+#: cms/static/js/views/group_configurations_list.js:22
+msgid "You have not created any group configurations yet."
+msgstr "您尚未創建任何一個群組設定。"
+
+#: cms/static/js/views/instructor_info.js:74
+msgid "Upload instructor image."
+msgstr "上傳教師照片。"
+
+#: cms/static/js/views/instructor_info.js:75
+#: cms/static/js/views/settings/main.js:437
+msgid "Files must be in JPEG or PNG format."
+msgstr "檔案必須是JPEG或者PNG格式"
+
+#: cms/static/js/views/license.js:8
+msgid "All Rights Reserved"
+msgstr "版權所有"
+
+#: cms/static/js/views/license.js:9
+msgid "You reserve all rights for your work"
+msgstr "您保留您對作品的所有權利"
+
+#: cms/static/js/views/license.js:12
+msgid "Creative Commons"
+msgstr "創用 CC"
+
+#: cms/static/js/views/license.js:13
+msgid "You waive some rights for your work, such that others can use it too"
+msgstr "您放棄您對作品的一些權利，使得其他人也可以使用"
+
+#: cms/static/js/views/license.js:17
+msgid "Version"
+msgstr "版本"
+
+#: cms/static/js/views/license.js:22
+msgid "Attribution"
+msgstr "署名"
+
+#: cms/static/js/views/license.js:25
+msgid ""
+"Allow others to copy, distribute, display and perform your copyrighted work "
+"but only if they give credit the way you request. Currently, this option is "
+"required."
+msgstr "允許他人複製、散布、公開展示、演出您的作品，唯一的條件是，必須按照你指定的方式表彰你的姓名。讓其他人知道你是原創人。目前，這個選項是必需。"
+
+#: cms/static/js/views/license.js:29
+msgid "Noncommercial"
+msgstr "非商業性"
+
+#: cms/static/js/views/license.js:32
+msgid ""
+"Allow others to copy, distribute, display and perform your work - and "
+"derivative works based upon it - but for noncommercial purposes only."
+msgstr "允許他人在非商業目的下複製、散布、公開展示、演出您的作品 - 並以此為基礎衍生著作。"
+
+#: cms/static/js/views/license.js:35
+msgid "No Derivatives"
+msgstr "禁止改作"
+
+#: cms/static/js/views/license.js:38
+msgid ""
+"Allow others to copy, distribute, display and perform only verbatim copies "
+"of your work, not derivative works based upon it. This option is "
+"incompatible with \"Share Alike\"."
+msgstr "允許他人完整的複製、散布、公開展示、演出您的作品， 但不允許以此為基礎衍生著作。此選項與「相同方式分享」不兼容。"
+
+#: cms/static/js/views/license.js:42
+msgid "Share Alike"
+msgstr "相同方式分享"
+
+#: cms/static/js/views/license.js:45
+msgid ""
+"Allow others to distribute derivative works only under a license identical "
+"to the license that governs your work. This option is incompatible with \"No"
+" Derivatives\"."
+msgstr "允許他人依同樣的授權條款來散布該衍生著作。此選項與「禁止改作」不兼容。"
+
+#: cms/static/js/views/list_item.js:50
+msgid "Delete this %(item_display_name)s?"
+msgstr "刪除這%(item_display_name)s？"
+
+#: cms/static/js/views/list_item.js:55
+msgid "Deleting this %(item_display_name)s is permanent and cannot be undone."
+msgstr "刪除這%(item_display_name)s 是永久的以及無法再變更。"
+
+#: cms/static/js/views/manage_users_and_roles.js:11
+msgid "There was an error changing the user's role"
+msgstr "更改使用者角色時發生錯誤"
+
+#: cms/static/js/views/manage_users_and_roles.js:15
+msgid "Error adding user"
+msgstr "新增使用者發生錯誤"
+
+#: cms/static/js/views/manage_users_and_roles.js:16
+msgid "Error removing user"
+msgstr "移除使用者發生錯誤"
+
+#: cms/static/js/views/manage_users_and_roles.js:19
+msgid "A valid email address is required"
+msgstr "需要一個有效的電子郵件地址"
+
+#: cms/static/js/views/manage_users_and_roles.js:20
+msgid "You must enter a valid email address in order to add a new team member"
+msgstr "您必須輸入一個有效的電子郵件地址來新增一位新的團隊成員。"
+
+#: cms/static/js/views/manage_users_and_roles.js:21
+msgid "Return and add email address"
+msgstr "返回並新增電子郵件地址。"
+
+#: cms/static/js/views/manage_users_and_roles.js:24
+msgid "Already a member"
+msgstr "已經是會員"
+
+#: cms/static/js/views/manage_users_and_roles.js:25
+msgid ""
+"{email} is already on the {container} team. Recheck the email address if you"
+" want to add a new member."
+msgstr "{email}已經在{container} 團隊。如果您要新增一個會員，請再檢查電子郵件位址。"
+
+#: cms/static/js/views/manage_users_and_roles.js:26
+msgid "Return to team listing"
+msgstr "返回至團隊列表"
+
+#: cms/static/js/views/manage_users_and_roles.js:29
+msgid "Are you sure?"
+msgstr "您確定嗎？"
+
+#: cms/static/js/views/manage_users_and_roles.js:30
+msgid "Are you sure you want to restrict {email} access to “{container}”?"
+msgstr "您確定要禁止{email}存取到“{container}”？"
+
+#: cms/static/js/views/modals/course_outline_modals.js:119
+msgid "{display_name} Settings"
+msgstr "{display_name} 設定"
+
+#: cms/static/js/views/modals/course_outline_modals.js:199
+msgid "Publish {display_name}"
+msgstr "發布 {display_name}"
+
+#: cms/static/js/views/modals/course_outline_modals.js:206
+msgid "Publish all unpublished changes for this {item}?"
+msgstr "為此{item}發布所有未發布的變更嗎？"
+
+#: cms/static/js/views/modals/course_outline_modals.js:212
+msgid "Publish"
+msgstr "發佈"
+
+#: cms/static/js/views/modals/course_outline_modals.js:233
+msgid "Highlights for {display_name}"
+msgstr ""
+
+#: cms/static/js/views/modals/course_outline_modals.js:273
+msgid "Enable Weekly Highlight Emails"
+msgstr ""
+
+#: cms/static/js/views/modals/course_outline_modals.js:291
+msgid "Enable"
+msgstr ""
+
+#: cms/static/js/views/modals/course_outline_modals.js:292
+msgid "Not yet"
+msgstr ""
+
+#: cms/static/js/views/modals/course_outline_modals.js:736
+msgid "All Learners and Staff"
+msgstr "所有學習者及工作人員"
+
+#: cms/static/js/views/modals/course_outline_modals.js:1040
+msgid "Basic"
+msgstr "基本"
+
+#: cms/static/js/views/modals/course_outline_modals.js:1045
+msgid "Visibility"
+msgstr "能見度"
+
+#: cms/static/js/views/modals/edit_xblock.js:22
+msgid "Editing: %(title)s"
+msgstr "編輯: %(title)s"
+
+#: cms/static/js/views/modals/edit_xblock.js:123
+msgid "Unit"
+msgstr "單元"
+
+#: cms/static/js/views/modals/edit_xblock.js:125
+msgid "Component"
+msgstr "組件"
+
+#: cms/static/js/views/modals/move_xblock_modal.js:37
+msgid "Move"
+msgstr "移動"
+
+#: cms/static/js/views/modals/move_xblock_modal.js:38
+msgid "Choose a location to move your component to"
+msgstr ""
+
+#: cms/static/js/views/modals/move_xblock_modal.js:66
+msgid "Move: {displayName}"
+msgstr ""
+
+#: cms/static/js/views/modals/validation_error_modal.js:16
+msgid "Validation Error While Saving"
+msgstr "儲存時，驗證發生錯誤"
+
+#: cms/static/js/views/modals/validation_error_modal.js:21
+msgid "Undo Changes"
+msgstr "復原變更"
+
+#: cms/static/js/views/modals/validation_error_modal.js:22
+msgid "Change Manually"
+msgstr "手動變更"
+
+#: cms/static/js/views/move_xblock_list.js:33
+msgid "Sections"
+msgstr "章節"
+
+#: cms/static/js/views/move_xblock_list.js:34
+msgid "Subsections"
+msgstr "小節"
+
+#: cms/static/js/views/move_xblock_list.js:35
+msgid "Units"
+msgstr ""
+
+#: cms/static/js/views/move_xblock_list.js:36
+msgid "Components"
+msgstr "組件"
+
+#: cms/static/js/views/move_xblock_list.js:37
+msgid "Groups"
+msgstr "群組"
+
+#: cms/static/js/views/move_xblock_list.js:179
+msgid "This {parentCategory} has no {childCategory}"
+msgstr ""
+
+#: cms/static/js/views/move_xblock_list.js:196
+msgid "Course Outline"
+msgstr "課程大綱"
+
+#: cms/static/js/views/paged_container.js:254
+msgid "Date added"
+msgstr "新增日期"
+
+#: cms/static/js/views/pages/container.js:200
+msgid "Editing access for: %(title)s"
+msgstr ""
+
+#: cms/static/js/views/pages/container_subviews.js:164
+msgid "Publishing"
+msgstr "發佈中"
+
+#: cms/static/js/views/pages/container_subviews.js:182
+#: cms/static/js/views/pages/container_subviews.js:184
+msgid "Discard Changes"
+msgstr "捨棄變更"
+
+#: cms/static/js/views/pages/container_subviews.js:183
+msgid ""
+"Are you sure you want to revert to the last published version of the unit? "
+"You cannot undo this action."
+msgstr "您確定要還原到此單元所發布的上一版本嗎？您無法復原此動作。"
+
+#: cms/static/js/views/pages/container_subviews.js:186
+msgid "Discarding Changes"
+msgstr "捨棄正在變更"
+
+#: cms/static/js/views/pages/container_subviews.js:233
+msgid "Hiding from Students"
+msgstr "對學生隱藏"
+
+#: cms/static/js/views/pages/container_subviews.js:236
+msgid "Explicitly Hiding from Students"
+msgstr "對學生明確隱藏"
+
+#: cms/static/js/views/pages/container_subviews.js:239
+msgid "Inheriting Student Visibility"
+msgstr "繼承學生可視性"
+
+#: cms/static/js/views/pages/container_subviews.js:242
+#: cms/static/js/views/pages/container_subviews.js:244
+msgid "Make Visible to Students"
+msgstr "使學生可見"
+
+#: cms/static/js/views/pages/container_subviews.js:243
+msgid ""
+"If the unit was previously published and released to students, any changes "
+"you made to the unit when it was hidden will now be visible to students. Do "
+"you want to proceed?"
+msgstr "如果此單元先前已被發布且釋出給學生，單元於隱藏時您所做的任何變更將對學生顯示。您希望繼續嗎?"
+
+#: cms/static/js/views/pages/container_subviews.js:246
+msgid "Making Visible to Students"
+msgstr "使學生可見"
+
+#: cms/static/js/views/pages/course_outline.js:144
+msgid "Course Index"
+msgstr "課程索引"
+
+#: cms/static/js/views/pages/course_outline.js:152
+msgid "There were errors reindexing course."
+msgstr "重新索引課程時發生錯誤。"
+
+#: cms/static/js/views/pages/paged_container.js:45
+msgid "Hide Previews"
+msgstr "隱藏預覽"
+
+#: cms/static/js/views/pages/paged_container.js:45
+msgid "Show Previews"
+msgstr "顯示預覽"
+
+#: cms/static/js/views/paging_header.js:52
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, filtered by "
+"{assetType}, sorted by {sortName} ascending"
+msgstr "顯示{currentItemRange} 超過{totalItemsCount}，使用{assetType}過濾，使用 {sortName} 向上排序"
+
+#: cms/static/js/views/paging_header.js:56
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, filtered by "
+"{assetType}, sorted by {sortName} descending"
+msgstr "顯示{currentItemRange} 超過{totalItemsCount}，使用{assetType}過濾，使用 {sortName} 向下排序"
+
+#: cms/static/js/views/paging_header.js:63
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
+"ascending"
+msgstr "從 {currentItemRange} 中顯示 {totalItemsCount}秒，按{sortName} 升序排列"
+
+#: cms/static/js/views/paging_header.js:67
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
+"descending"
+msgstr "從 {currentItemRange} 中顯示 {totalItemsCount}秒，按{sortName} 降序排列"
+
+#: cms/static/js/views/paging_header.js:98
+msgid "{totalItems} total"
+msgstr "{totalItems} 總額"
+
+#: cms/static/js/views/partition_group_item.js:24
+#: cms/static/js/views/partition_group_list.js:21
+msgid "content group"
+msgstr "內容群組"
+
+#: cms/static/js/views/partition_group_list.js:23
+msgid "Add your first content group"
+msgstr "新增您的第一個內容群組。"
+
+#: cms/static/js/views/partition_group_list.js:25
+msgid "You have not created any content groups yet."
+msgstr "您尚未創建任何內容群組。"
+
+#: cms/static/js/views/previous_video_upload.js:73
+msgid "Are you sure you want to remove this video from the list?"
+msgstr "您確定要從清單上刪除影片檔案嗎?"
+
+#: cms/static/js/views/previous_video_upload.js:74
+msgid ""
+"Removing a video from this list does not affect course content. Any content "
+"that uses a previously uploaded video ID continues to display in the course."
+msgstr "從清單上刪除影片不會影響課程內容。\n使用先前上傳影片ID的內容仍能持去在課程中播放。"
+
+#: cms/static/js/views/settings/advanced.js:68
+msgid ""
+"Your changes will not take effect until you save your progress. Take care "
+"with key and value formatting, as validation is not implemented."
+msgstr "您必須儲存您的進度，否則這些變更不會生效。由於系統暫時不支援校驗功能，請仔細檢查關鍵字和對應的值對。"
+
+#: cms/static/js/views/settings/advanced.js:117
+msgid "Your policy changes have been saved."
+msgstr "您的策略變更ß已被儲存。"
+
+#: cms/static/js/views/settings/advanced.js:118
+msgid ""
+"No validation is performed on policy keys or value pairs. If you are having "
+"difficulties, check your formatting."
+msgstr "無對策略鍵或值執行驗證。如果您遇到問題，請檢查您的格式。"
+
+#: cms/static/js/views/settings/grader.js:58
+msgid ""
+"For grading to work, you must change all {oldName} subsections to {newName}."
+msgstr "在進行評分中，您必須將所有{oldName}子節更改為{newName}。"
+
+#: cms/static/js/views/settings/main.js:59
+msgid "Course Credit Requirements"
+msgstr "課程學分要求"
+
+#: cms/static/js/views/settings/main.js:60
+msgid "The minimum grade for course credit is not set."
+msgstr "課程學分要求尚未設定。"
+
+#: cms/static/js/views/settings/main.js:145
+msgid "Course pacing cannot be changed once a course has started."
+msgstr "課程一旦開始後不能變更課程安排。"
+
+#: cms/static/js/views/settings/main.js:210
+msgid "{hours}:{minutes} (current UTC time)"
+msgstr "{hours}:{minutes} (current UTC time)"
+
+#: cms/static/js/views/settings/main.js:416
+msgid "Upload your course image."
+msgstr "上傳您的課程圖片"
+
+#: cms/static/js/views/settings/main.js:422
+msgid "Upload your banner image."
+msgstr "上傳您的橫幅圖片"
+
+#: cms/static/js/views/settings/main.js:428
+msgid "Upload your video thumbnail image."
+msgstr "上傳您的影片縮圖"
+
+#: cms/static/js/views/show_textbook.js:32
+msgid "Delete “<%= name %>”?"
+msgstr "刪除\"<%= name %>\"？∂"
+
+#: cms/static/js/views/show_textbook.js:35
+msgid ""
+"Deleting a textbook cannot be undone and once deleted any reference to it in"
+" your courseware's navigation will also be removed."
+msgstr "刪除教材的操作將無法復原。一旦被删除，教材的相關訊息將會在課程導覽中被移除。"
+
+#: cms/static/js/views/tabs.js:159
+msgid "Delete Page Confirmation"
+msgstr "刪除頁面確認"
+
+#: cms/static/js/views/tabs.js:160
+msgid ""
+"Are you sure you want to delete this page? This action cannot be undone."
+msgstr "您確定要刪除這個頁面？此動作無法還原。"
+
+#: cms/static/js/views/uploads.js:24
+msgid "Upload"
+msgstr "上傳"
+
+#: cms/static/js/views/uploads.js:115
+msgid "We're sorry, there was an error"
+msgstr "很抱歉，目前發生錯誤"
+
+#: cms/static/js/views/utils/create_course_utils.js:8
+msgid ""
+"The combined length of the organization, course number, and course run "
+"fields cannot be more than <%=limit%> characters."
+msgstr "組織、課程編碼、以及開課時程欄位的總長度不能超過 <%=limit%> 字元。"
+
+#: cms/static/js/views/utils/create_library_utils.js:8
+msgid ""
+"The combined length of the organization and library code fields cannot be "
+"more than <%=limit%> characters."
+msgstr "組織與課程組件庫編碼欄位的總長度不能超過<%=limit%>字元。"
+
+#: cms/static/js/views/utils/move_xblock_utils.js:31
+msgid "Success! \"{displayName}\" has been moved."
+msgstr ""
+
+#: cms/static/js/views/utils/move_xblock_utils.js:56
+msgid ""
+"Move cancelled. \"{sourceDisplayName}\" has been moved back to its original "
+"location."
+msgstr ""
+
+#: cms/static/js/views/utils/move_xblock_utils.js:74
+msgid "Undo move"
+msgstr ""
+
+#: cms/static/js/views/utils/move_xblock_utils.js:90
+msgid "Take me to the new location"
+msgstr ""
+
+#: cms/static/js/views/utils/xblock_utils.js:79
+msgid "Duplicating"
+msgstr "複製中"
+
+#: cms/static/js/views/utils/xblock_utils.js:106
+msgid "Undo moving"
+msgstr ""
+
+#: cms/static/js/views/utils/xblock_utils.js:106
+msgid "Moving"
+msgstr ""
+
+#: cms/static/js/views/utils/xblock_utils.js:147
+msgid "Deleting this {xblock_type} is permanent and cannot be undone."
+msgstr "刪除此{xblock_type}是永久且無法恢復的。"
+
+#: cms/static/js/views/utils/xblock_utils.js:153
+msgid ""
+"Any content that has listed this content as a prerequisite will also have "
+"access limitations removed."
+msgstr "已將此內容列為先決條件也將刪除拜訪限制。"
+
+#: cms/static/js/views/utils/xblock_utils.js:156
+msgid "Delete this {xblock_type} (and prerequisite)?"
+msgstr "確定刪除 {xblock_type} (and prerequisite)?"
+
+#: cms/static/js/views/utils/xblock_utils.js:162
+#: cms/static/js/views/utils/xblock_utils.js:177
+msgid "Yes, delete this {xblock_type}"
+msgstr "確定刪除{xblock_type}"
+
+#: cms/static/js/views/utils/xblock_utils.js:171
+msgid "Delete this {xblock_type}?"
+msgstr "確定刪除{xblock_type}?"
+
+#: cms/static/js/views/utils/xblock_utils.js:263
+msgid "section"
+msgstr "章節"
+
+#: cms/static/js/views/utils/xblock_utils.js:265
+msgid "subsection"
+msgstr "小節"
+
+#: cms/static/js/views/utils/xblock_utils.js:267
+msgid "unit"
+msgstr "單元"
+
+#: cms/static/js/views/validation.js:22
+msgid "You've made some changes"
+msgstr "您已經做了更改"
+
+#: cms/static/js/views/validation.js:23
+msgid "Your changes will not take effect until you save your progress."
+msgstr "您所做的變更儲存之後才會生效。"
+
+#: cms/static/js/views/validation.js:24
+msgid "You've made some changes, but there are some errors"
+msgstr "您做了一些變更，但出現錯誤。"
+
+#: cms/static/js/views/validation.js:25
+msgid ""
+"Please address the errors on this page first, and then save your progress."
+msgstr "請先說明本頁面出現的錯誤，然後儲存您的進度。"
+
+#: cms/static/js/views/validation.js:117
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: cms/static/js/views/video/transcripts/file_uploader.js:110
+msgid "Please select a file in .srt format."
+msgstr "請選擇一個.srt格式的檔案。"
+
+#: cms/static/js/views/video/transcripts/file_uploader.js:188
+msgid "Error: Uploading failed."
+msgstr "錯誤：上傳失敗。"
+
+#: cms/static/js/views/video/transcripts/message_manager.js:147
+msgid "Error: Import failed."
+msgstr "錯誤：匯入失敗。"
+
+#: cms/static/js/views/video/transcripts/message_manager.js:161
+msgid "Error: Replacing failed."
+msgstr "錯誤：覆蓋失敗。"
+
+#: cms/static/js/views/video/transcripts/message_manager.js:177
+#: cms/static/js/views/video/transcripts/message_manager.js:191
+msgid "Error: Choosing failed."
+msgstr "錯誤：選擇失敗。"
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:66
+msgid "Error: Connection with server failed."
+msgstr "錯誤：連線至伺服器失敗。"
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:82
+msgid "No sources"
+msgstr "無來源"
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:369
+msgid "Link types should be unique."
+msgstr "連結類型必須是獨一的。"
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:382
+msgid "Links should be unique."
+msgstr "連結必須是獨一的。"
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:404
+msgid "Incorrect url format."
+msgstr "不正確網址格式。"
+
+#: cms/static/js/views/video/translations_editor.js:15
+msgid ""
+"Sorry, there was an error parsing the subtitles that you uploaded. Please "
+"check the format and try again."
+msgstr "很抱歉，在分析您上傳的字幕時發生錯誤，請檢查您的檔案格式並重試一次。"
+
+#: cms/static/js/views/video/translations_editor.js:155
+msgid "Upload translation"
+msgstr "上傳翻譯"
+
+#: cms/static/js/views/video_thumbnail.js:31
+msgid "Add Thumbnail"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:35
+msgid "Edit Thumbnail"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:39
+msgid ""
+"{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
+"{videoImageSupportedFileFormats}{spanEnd}"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:52
+msgid "Image upload failed"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:64
+msgid ""
+"{ReqTextSpanStart}Requirements{spanEnd}{lineBreak}{InstructionsSpanStart}{videoImageResoultion}{lineBreak}"
+" {videoImageSupportedFileFormats}{spanEnd}"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:130
+msgid "{maxWidth}x{maxHeight} pixels"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:138
+msgid "Thumbnail for {videoName}"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:146
+msgid "Add Thumbnail - {videoName}"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:172
+msgid "Video duration is {humanizeDuration}"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:189
+msgid "minutes"
+msgstr "分鐘"
+
+#: cms/static/js/views/video_thumbnail.js:189
+msgid "minute"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:192
+msgid "{minutes} {unit}"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:198
+msgid "seconds"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:198
+msgid "second"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:201
+msgid "{seconds} {unit}"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:207
+msgid " and "
+msgstr "和"
+
+#: cms/static/js/views/video_thumbnail.js:234
+msgid "Video image upload started"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:246
+msgid "Video image upload completed"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:321
+msgid ""
+"This image file type is not supported. Supported file types are "
+"{supportedFileFormats}."
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:330
+msgid "The selected image must be smaller than {maxFileSizeInMB}."
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:338
+msgid "The selected image must be larger than {minFileSizeInKB}."
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:366
+msgid "Could not upload the video image file"
+msgstr ""
+
+#: cms/static/js/views/video_thumbnail.js:368
+msgid "Image upload failed. "
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:30
+msgid "The file could not be uploaded."
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:128
+msgid "Hide transcripts ({transcriptCount})"
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:147
+msgid "Show transcripts ({transcriptCount})"
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:165
+msgid ""
+"This file type is not supported. Supported file type is "
+"{supportedFileFormat}."
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:226
+msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:266
+msgid "Are you sure you want to remove this transcript?"
+msgstr ""
+
+#: cms/static/js/views/video_transcripts.js:267
+msgid ""
+"If you remove this transcript, the transcript will not be available for any "
+"components that use this video."
+msgstr ""
+
+#: cms/static/js/views/xblock_editor.js:42
+msgid "Editor"
+msgstr "編輯器"
+
+#: cms/static/js/views/xblock_editor.js:43
+msgid "Settings"
+msgstr "設定"
+
+#: cms/static/js/views/xblock_outline.js:90
+msgid "New {component_type}"
+msgstr "新增{component_type}"
+
+#: cms/static/js/views/xblock_validation.js:48
+msgid "Warning"
+msgstr "警告"
+
+#: cms/static/js/xblock_asides/structured_tags.js:23
+msgid "Updating Tags"
+msgstr "標籤更新中"

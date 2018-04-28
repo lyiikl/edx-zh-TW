@@ -1,0 +1,3325 @@
+# edX translation file
+# Copyright (C) 2018 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# bhsfmiao <inactive+bhsfmiao@transifex.com>, 2014
+# LIU,SHU-HAO <jeremy55662004@gmail.com>, 2014
+# HSU-CHENG CHIANG <tosti.chiang@gmail.com>, 2013
+# JEN-HAO HSIEH <orienthauz@gmail.com>, 2015
+# Joey Chiou <Joeyc0916@gmail.com>, 2013
+# Joey Chiou <Joeyc0916@gmail.com>, 2013
+# Juan Camilo Montoya Franco <juan.montoya@edunext.co>, 2017
+# KUN-MIN SYU <qwer20108@gmail.com>, 2014
+# lin31504 <lin31504@gmail.com>, 2014
+# lin31504 <lin31504@gmail.com>, 2014
+# Lin Yu-Chun <iftwoplustwoequalsfive@gmail.com>, 2014
+# LIU,SHU-HAO <jeremy55662004@gmail.com>, 2014-2015
+# bhsfmiao <inactive+bhsfmiao@transifex.com>, 2014
+# MOH CHIN LAM <chinlam91@gmail.com>, 2014-2015
+# myles <i@myles.hk>, 2016
+# Lin Yu-Chun <iftwoplustwoequalsfive@gmail.com>, 2013-2014
+# Shawn Li <tp9106@gmail.com>, 2017
+# Shung-Hsi Yu <shy.no.reply@gmail.com>, 2017
+# Timothy K. Shih <timothykshih@gmail.com>, 2013
+# HSU-CHENG CHIANG <tosti.chiang@gmail.com>, 2013
+# Timothy K. Shih <timothykshih@gmail.com>, 2013
+# vincent <orzkng2007@yahoo.com.tw>, 2015
+# wei-chi lin <vickybunny1989@hotmail.com>, 2016
+# Xaver Y.R. Chen <yrchen@atcity.org>, 2014-2017
+# Ya-chi Chang <yacchang@mail.fcu.edu.tw>, 2016
+# Ya-chi Chang <yacchang@mail.fcu.edu.tw>, 2016
+# Zhen-Rong Chen <zhenrc@gmail.com>, 2014
+# Zhen-Rong Chen <zhenrc@gmail.com>, 2014-2015
+# Zhen-Rong Chen <zhenrc@gmail.com>, 2014
+# KUN-MIN SYU <qwer20108@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2018-04-22 20:42+0000\n"
+"PO-Revision-Date: 2018-04-01 20:43+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/open-edx/edx-platform/language/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cms/templates/404.html:19
+msgid "The page that you were looking for was not found."
+msgstr "無法找到您所搜尋的頁面"
+
+#: cms/templates/404.html:20
+msgid ""
+"Go back to the {homepage} or let us know about any pages that may have been "
+"moved at {email}."
+msgstr "回到 {homepage} 或發電子郵件至 {email} 告訴我們可能被移動的頁面。"
+
+#: cms/templates/500.html:8
+msgid "{studio_name} Server Error"
+msgstr "{studio_name}伺服器發生錯誤"
+
+#: cms/templates/500.html:19
+msgid "The {em_start}{studio_name}{em_end} servers encountered an error"
+msgstr " {em_start}{studio_name}{em_end}伺服器發生錯誤"
+
+#: cms/templates/500.html:28
+msgid ""
+"An error occurred in {studio_name} and the page could not be loaded. Please "
+"try again in a few moments."
+msgstr "{studio_name}出現錯誤，頁面無法載入。請稍後再試。"
+
+#: cms/templates/500.html:31
+msgid ""
+"We've logged the error and our staff is currently working to resolve this "
+"error as soon as possible."
+msgstr "我們已經記錄下這個錯誤，同時技術人員正試圖儘快解決這個問題。"
+
+#: cms/templates/500.html:32
+msgid "If the problem persists, please email us at {email_link}."
+msgstr "如果問題仍然存在，請寄電子郵件至 {email_link}."
+
+#: cms/templates/accessibility.html:10
+msgid "Studio Accessibility Policy"
+msgstr ""
+
+#: cms/templates/activation_active.html:9
+#: cms/templates/activation_complete.html:12
+#: cms/templates/activation_invalid.html:12
+msgid "{studio_name} Account Activation"
+msgstr "{studio_name}帳號啟動"
+
+#: cms/templates/activation_active.html:21
+msgid "Your account is already active"
+msgstr "您的帳戶已經啟動"
+
+#: cms/templates/activation_active.html:23
+msgid ""
+"This account, set up using {email}, has already been activated. Please sign "
+"in to start working within {studio_name}."
+msgstr "這個帳戶，利用 {email}建立的，已經被啟動。請登入來開始使用{studio_name}工作。"
+
+#: cms/templates/activation_active.html:30
+#: cms/templates/activation_complete.html:39
+msgid "Sign into {studio_name}"
+msgstr "登入 {studio_name}"
+
+#: cms/templates/activation_complete.html:26
+msgid "Your account activation is complete!"
+msgstr "您的帳戶已經完成啟動！"
+
+#: cms/templates/activation_complete.html:29
+msgid ""
+"Thank you for activating your account. You may now sign in and start using "
+"{studio_name} to author courses."
+msgstr "感謝您啟動您的帳戶。現在您可以登入並且開始使用{studio_name}來建立課程。"
+
+#: cms/templates/activation_invalid.html:26
+msgid "Your account activation is invalid"
+msgstr "您的帳戶啟動無效"
+
+#: cms/templates/activation_invalid.html:28
+msgid ""
+"We're sorry. Something went wrong with your activation. Check to make sure "
+"the URL you went to was correct, as e-mail programs will sometimes split it "
+"into two lines."
+msgstr "很抱歉，您的啟用出現了一些錯誤。請核對以確保您進入的網址是正確的，郵件程式有時候會將它分割成兩行。"
+
+#: cms/templates/activation_invalid.html:30
+msgid ""
+"If you still have issues, contact {platform_name} Support. In the meantime, "
+"you can also return to {link_start}the {studio_name} homepage.{link_end}"
+msgstr "如果您還有問題，請聯繫{platform_name}支援團隊。這期間您也可以返回至{link_start}的{studio_name} 首頁。{link_end}"
+
+#: cms/templates/asset_index.html:10 cms/templates/asset_index.html:28
+#: cms/templates/widgets/header.html:65
+msgid "Files & Uploads"
+msgstr "檔案及上傳"
+
+#: cms/templates/certificates.html:12
+msgid "Course Certificates"
+msgstr "課程證書"
+
+#: cms/templates/certificates.html:54 cms/templates/certificates.html:64
+#: cms/templates/certificates.html:87 cms/templates/export.html:217
+#: cms/templates/widgets/header.html:103
+msgid "Certificates"
+msgstr "證書"
+
+#: cms/templates/certificates.html:68
+msgid "This module is not enabled."
+msgstr "該模塊未啟用。"
+
+#: cms/templates/certificates.html:74
+msgid "This course does not use a mode that offers certificates."
+msgstr "本課程不提供證書。"
+
+#: cms/templates/certificates.html:88
+msgid "Working with Certificates"
+msgstr "使用證書"
+
+#: cms/templates/certificates.html:89
+msgid ""
+"Specify a course title to use on the certificate if the course's official "
+"title is too long to be displayed well."
+msgstr "如果課程的正式名稱太長以致無法完整顯示，請指定一簡短課程名稱以便於證書上使用"
+
+#: cms/templates/certificates.html:90
+msgid ""
+"For verified certificates, specify between one and four signatories and "
+"upload the associated images."
+msgstr "對於驗證的證書，指定1到4個簽署國，並上傳了相關圖片。"
+
+#: cms/templates/certificates.html:91
+msgid ""
+"To edit or delete a certificate before it is activated, hover over the top "
+"right corner of the form and select {em_start}Edit{em_end} or the delete "
+"icon."
+msgstr "編輯或刪除證書之前，它被激活，將鼠標懸停在表的右上角，然後選擇{em_start}修改{em_end}或刪除圖標。"
+
+#: cms/templates/certificates.html:92
+msgid ""
+"To view a sample certificate, choose a course mode and select "
+"{em_start}Preview Certificate{em_end}."
+msgstr "要查看樣品證書，選擇課程模式，並選擇{em_start}預覽證書{em_end}。"
+
+#: cms/templates/certificates.html:94
+msgid "Issuing Certificates to Learners"
+msgstr "頒發證書學員"
+
+#: cms/templates/certificates.html:95
+msgid ""
+"To begin issuing course certificates, a course team member with either the "
+"Staff or Admin role selects {em_start}Activate{em_end}. Only course team "
+"members with these roles can edit or delete an activated certificate."
+msgstr ""
+
+#: cms/templates/certificates.html:96
+msgid ""
+"{em_start}Do not{em_end} delete certificates after a course has started; "
+"learners who have already earned certificates will no longer be able to "
+"access them."
+msgstr "{em_start}不要{em_end}刪除證書後，課程開始;誰已經獲得了證書，學生將不再能夠訪問它們。"
+
+#: cms/templates/certificates.html:97
+msgid "Learn more about certificates"
+msgstr "了解更多有關證書"
+
+#: cms/templates/certificates.html:108 cms/templates/certificates.html:109
+#: cms/templates/group_configurations.html:121
+#: cms/templates/group_configurations.html:122 cms/templates/settings.html:636
+#: cms/templates/settings.html:637 cms/templates/settings_advanced.html:101
+#: cms/templates/settings_advanced.html:102
+#: cms/templates/settings_graders.html:158
+#: cms/templates/settings_graders.html:159
+msgid "Other Course Settings"
+msgstr "其他課程設定"
+
+#: cms/templates/certificates.html:111 cms/templates/settings_graders.html:161
+msgid "Details &amp; Schedule"
+msgstr "細節與時程"
+
+#: cms/templates/certificates.html:112
+#: cms/templates/group_configurations.html:125 cms/templates/settings.html:639
+#: cms/templates/settings_advanced.html:105
+#: cms/templates/settings_graders.html:43 cms/templates/widgets/header.html:90
+msgid "Grading"
+msgstr "評分"
+
+#: cms/templates/certificates.html:113
+#: cms/templates/group_configurations.html:126
+#: cms/templates/manage_users.html:27 cms/templates/settings.html:640
+#: cms/templates/settings_advanced.html:106
+#: cms/templates/settings_graders.html:162
+#: cms/templates/widgets/header.html:93
+msgid "Course Team"
+msgstr "課程團隊"
+
+#: cms/templates/certificates.html:114
+#: cms/templates/group_configurations.html:127 cms/templates/settings.html:642
+#: cms/templates/settings_advanced.html:13
+#: cms/templates/settings_advanced.html:38
+#: cms/templates/settings_graders.html:164
+#: cms/templates/widgets/header.html:99
+msgid "Advanced Settings"
+msgstr "進階設置"
+
+#: cms/templates/certificates.html:115
+#: cms/templates/group_configurations.html:16
+#: cms/templates/group_configurations.html:45 cms/templates/settings.html:641
+#: cms/templates/settings_advanced.html:107
+#: cms/templates/settings_graders.html:163
+#: cms/templates/widgets/header.html:96
+msgid "Group Configurations"
+msgstr "群組設定"
+
+#: cms/templates/component.html:17 cms/templates/studio_xblock_wrapper.html:96
+#: cms/templates/studio_xblock_wrapper.html:98
+msgid "Duplicate"
+msgstr "重複"
+
+#: cms/templates/component.html:19
+msgid "Duplicate this component"
+msgstr "複製這個組件"
+
+#: cms/templates/component.html:23 cms/templates/component.html:28
+#: cms/templates/studio_xblock_wrapper.html:104
+#: cms/templates/studio_xblock_wrapper.html:109
+msgid "Move"
+msgstr "移動"
+
+#: cms/templates/component.html:32
+#: cms/templates/studio_xblock_wrapper.html:117
+#: cms/templates/studio_xblock_wrapper.html:119
+msgid "Delete"
+msgstr "刪除"
+
+#: cms/templates/component.html:34
+msgid "Delete this component"
+msgstr "刪除此組件"
+
+#: cms/templates/component.html:39 cms/templates/edit-tabs.html:117
+#: cms/templates/edit-tabs.html:118
+#: cms/templates/studio_xblock_wrapper.html:125
+msgid "Drag to reorder"
+msgstr "拖動以重新排序"
+
+#: cms/templates/container.html:85 cms/templates/library.html:51
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#: cms/templates/container.html:92 cms/templates/container.html:93
+#: cms/templates/course-create-rerun.html:32
+#: cms/templates/course-create-rerun.html:33 cms/templates/course_info.html:44
+#: cms/templates/course_info.html:45 cms/templates/course_outline.html:120
+#: cms/templates/course_outline.html:121 cms/templates/edit-tabs.html:37
+#: cms/templates/edit-tabs.html:38 cms/templates/index.html:29
+#: cms/templates/index.html:30 cms/templates/library.html:56
+#: cms/templates/library.html:57 cms/templates/manage_users.html:30
+#: cms/templates/manage_users.html:31 cms/templates/manage_users_lib.html:30
+#: cms/templates/manage_users_lib.html:31 cms/templates/textbooks.html:44
+#: cms/templates/textbooks.html:45 cms/templates/videos_index.html:62
+#: cms/templates/videos_index.html:63
+msgid "Page Actions"
+msgstr "頁面功能"
+
+#: cms/templates/container.html:97
+msgid "Open the courseware in the LMS"
+msgstr "開啟數位學習系統上的教材"
+
+#: cms/templates/container.html:98
+msgid "View Live Version"
+msgstr "檢視線上版本"
+
+#: cms/templates/container.html:102
+msgid "Preview the courseware in the LMS"
+msgstr "預覽數位學習系統上的教材"
+
+#: cms/templates/container.html:103
+msgid "Preview"
+msgstr "預覽"
+
+#: cms/templates/container.html:134
+msgid "Adding components"
+msgstr "新增組件中"
+
+#: cms/templates/container.html:135
+msgid ""
+"Select a component type under {strong_start}Add New Component{strong_end}. "
+"Then select a template."
+msgstr "選擇一個組件類型在{strong_start}之下，並新增新的組件{strong_end}。然後選擇一個範本。"
+
+#: cms/templates/container.html:139
+msgid ""
+"The new component is added at the bottom of the page or group. You can then "
+"edit and move the component."
+msgstr "新的組件被新增在頁面或群組的底端。您之後可以編輯或移動此組件。"
+
+#: cms/templates/container.html:140
+msgid "Editing components"
+msgstr "編輯組件"
+
+#: cms/templates/container.html:141
+msgid ""
+"Click the {strong_start}Edit{strong_end} icon in a component to edit its "
+"content."
+msgstr "從組件中，點擊{strong_start}編輯{strong_end}圖示，編輯內容。"
+
+#: cms/templates/container.html:145
+msgid "Reorganizing components"
+msgstr "重新組織組件"
+
+#: cms/templates/container.html:146
+msgid "Drag components to new locations within this component."
+msgstr "拖動此組件中的組件到新位置。"
+
+#: cms/templates/container.html:147
+msgid "For content experiments, you can drag components to other groups."
+msgstr "對於內容實驗，你可以拖動組件到其他群組。"
+
+#: cms/templates/container.html:148
+msgid "Working with content experiments"
+msgstr "內容實驗的工作"
+
+#: cms/templates/container.html:149
+msgid ""
+"Confirm that you have properly configured content in each of your experiment"
+" groups."
+msgstr "請確認你已經正確地在每個實驗群組的配置內容。"
+
+#: cms/templates/container.html:152
+msgid "Learn more about component containers"
+msgstr "學習更多關於組件"
+
+#: cms/templates/container.html:158
+msgid "Unit Location"
+msgstr "單元位置"
+
+#: cms/templates/container.html:160
+msgid "Location ID"
+msgstr "位置 ID"
+
+#: cms/templates/container.html:163
+msgid ""
+"To create a link to this unit from an HTML component in this course, enter "
+"\"/jump_to_id/<location ID>\" as the URL value."
+msgstr ""
+
+#: cms/templates/container.html:167
+msgid "Location in Course Outline"
+msgstr "課程位置大綱"
+
+#: cms/templates/course-create-rerun.html:10
+msgid "Create a Course Rerun of:"
+msgstr "建立一個重新開課的:"
+
+#: cms/templates/course-create-rerun.html:29
+msgid "Create a re-run of a course"
+msgstr "建立一個重新開的課程"
+
+#: cms/templates/course-create-rerun.html:36
+#: cms/templates/course-create-rerun.html:121 cms/templates/index.html:123
+#: cms/templates/index.html:183 cms/templates/manage_users.html:67
+#: cms/templates/manage_users_lib.html:67
+msgid "Cancel"
+msgstr "取消"
+
+#: cms/templates/course-create-rerun.html:42
+msgid "You are creating a re-run from:"
+msgstr "您正再次執行："
+
+#: cms/templates/course-create-rerun.html:56
+msgid ""
+"Provide identifying information for this re-run of the course. The original "
+"course is not affected in any way by a re-run."
+msgstr "提供用來辨識此重新開課課程的辨識資訊，原始課程並不會被重新開課的課程所影響。"
+
+#: cms/templates/course-create-rerun.html:57
+msgid ""
+"Note: Together, the organization, course number, and course run must "
+"uniquely identify this new course instance."
+msgstr "注意：組織、課程編號及課程運行皆必須是這個新課程能夠唯一識別的實例。"
+
+#: cms/templates/course-create-rerun.html:72
+msgid "Required Information to Create a re-run of a course"
+msgstr "需要資訊以重新開課"
+
+#. Translators: This is an example name for a new course, seen when
+#. filling out the form to create a new course.
+#: cms/templates/course-create-rerun.html:77 cms/templates/index.html:75
+msgid "e.g. Introduction to Computer Science"
+msgstr "例如：計算機科學的介紹"
+
+#: cms/templates/course-create-rerun.html:79
+msgid ""
+"The public display name for the new course. (This name is often the same as "
+"the original course name.)"
+msgstr "新課程的公開顯示名稱。(此名稱通常與原始課程名稱相同。)"
+
+#: cms/templates/course-create-rerun.html:84 cms/templates/index.html:80
+#: cms/templates/index.html:156 cms/templates/settings.html:69
+msgid "Organization"
+msgstr "組織名稱"
+
+#. Translators: This is an example for the name of the organization sponsoring
+#. a course, seen when filling out the form to create a new course. The
+#. organization name cannot contain spaces.
+#. Translators: "e.g. UniversityX or OrganizationX" is a placeholder displayed
+#. when user put no data into this field.
+#: cms/templates/course-create-rerun.html:85 cms/templates/index.html:83
+#: cms/templates/index.html:157
+msgid "e.g. UniversityX or OrganizationX"
+msgstr "例如：UniversityX 或 OrganizationX"
+
+#: cms/templates/course-create-rerun.html:87
+msgid ""
+"The name of the organization sponsoring the new course. (This name is often "
+"the same as the original organization name.)"
+msgstr "贊助此新課程的組織名稱。(此名稱通常會與原組織名稱相同。)"
+
+#: cms/templates/course-create-rerun.html:88
+#: cms/templates/course-create-rerun.html:108
+msgid "Note: No spaces or special characters are allowed."
+msgstr "注意：不能使用空格或者特殊的字元。"
+
+#. Translators: This is an example for the number used to identify a course,
+#. seen when filling out the form to create a new course. The number here is
+#. short for "Computer Science 101". It can contain letters but cannot contain
+#. spaces.
+#: cms/templates/course-create-rerun.html:96 cms/templates/index.html:96
+msgid "e.g. CS101"
+msgstr "例如：CS101"
+
+#: cms/templates/course-create-rerun.html:98
+msgid ""
+"The unique number that identifies the new course within the organization.  "
+"(This number will be the same as the original course number and cannot be "
+"changed.)"
+msgstr ""
+
+#: cms/templates/course-create-rerun.html:104 cms/templates/index.html:105
+#: cms/templates/settings.html:81
+msgid "Course Run"
+msgstr "開課時程"
+
+#. Translators: This is an example for the "run" used to identify different
+#. instances of a course, seen when filling out the form to create a new
+#. course.
+#: cms/templates/course-create-rerun.html:105 cms/templates/index.html:108
+msgid "e.g. 2014_T1"
+msgstr "例如：2014_T1"
+
+#: cms/templates/course-create-rerun.html:107
+msgid ""
+"The term in which the new course will run. (This value is often different "
+"than the original course run value.)"
+msgstr "您的課程開始的學期(此值通常會不同於原始課程開始的值。)"
+
+#: cms/templates/course-create-rerun.html:120
+msgid "Create Re-run"
+msgstr "建立再次執行"
+
+#: cms/templates/course-create-rerun.html:130
+msgid "When will my course re-run start?"
+msgstr "哪時候我的課程將會重新開課?"
+
+#: cms/templates/course-create-rerun.html:132
+msgid "The new course is set to start on January 1, 2030 at midnight (UTC)."
+msgstr "此新課程將被設定開始在1月1號午夜2030年(UTC)。"
+
+#: cms/templates/course-create-rerun.html:137
+msgid "What transfers from the original course?"
+msgstr "什麼事物會從原始課程傳送?"
+
+#: cms/templates/course-create-rerun.html:139
+msgid ""
+"The new course has the same course outline and content as the original "
+"course. All problems, videos, announcements, and other files are duplicated "
+"to the new course."
+msgstr "新課程擁有和原始課程一樣的課程大綱及內容。所有的問題、影片、公告及其他檔案皆會被複製到新課程。"
+
+#: cms/templates/course-create-rerun.html:144
+msgid "What does not transfer from the original course?"
+msgstr "什麼事物不會從原始課程傳送?"
+
+#: cms/templates/course-create-rerun.html:146
+msgid ""
+"You are the only member of the new course's staff. No students are enrolled "
+"in the course, and there is no student data. There is no content in the "
+"discussion topics or wiki."
+msgstr "您是此新課程的唯一成員。此課程沒有學生註冊且沒有學生資料。 討論主題或wiki.內並沒有任何內容。"
+
+#: cms/templates/course-create-rerun.html:151
+msgid "Learn more about Course Re-runs"
+msgstr "學習更多有關課程重新開課"
+
+#: cms/templates/course_info.html:13 cms/templates/course_info.html:41
+msgid "Course Updates"
+msgstr "公佈欄"
+
+#: cms/templates/course_info.html:48
+msgid "New Update"
+msgstr "新增公告"
+
+#: cms/templates/course_info.html:58
+msgid ""
+"Use course updates to notify students of important dates or exams, highlight"
+" particular discussions in the forums, announce schedule changes, and "
+"respond to student questions. You add or edit updates in HTML."
+msgstr "使用公佈欄以提醒學生重要日期或考試、強調討論區中特定的討論內容、公告時間表的改變和回答學生問題。以HTML新增或編輯公告。"
+
+#: cms/templates/course_outline.html:43
+msgid ""
+"This course was created as a re-run. Some manual configuration is needed."
+msgstr "此課程被重新開課。有些手動設定是必須的。"
+
+#: cms/templates/course_outline.html:45
+msgid ""
+"No course content is currently visible, and no learners are enrolled. Be "
+"sure to review and reset all dates, including the Course Start Date; set up "
+"the course team; review course updates and other assets for dated material; "
+"and seed the discussions and wiki."
+msgstr "目前無課程內容可被瀏覽，且無學習者註冊。請確認並重新設定所有日期，包含課程開始日期;設定課程團隊; 審查課程更新及其他過期的教材資源; 並且初始化論壇及wiki。"
+
+#: cms/templates/course_outline.html:63
+msgid "Warning"
+msgstr "警告"
+
+#: cms/templates/course_outline.html:66
+msgid "This course uses features that are no longer supported."
+msgstr "本課程使用不再支持的功能。"
+
+#: cms/templates/course_outline.html:70
+msgid "You must delete or replace the following components."
+msgstr "您必須刪除或替換以下組件。"
+
+#: cms/templates/course_outline.html:71
+msgid "Unsupported Components"
+msgstr "不支援的組件"
+
+#: cms/templates/course_outline.html:78
+msgid "Deprecated Component"
+msgstr "已過時的組件"
+
+#: cms/templates/course_outline.html:90
+msgid ""
+"To avoid errors, {platform_name} strongly recommends that you remove "
+"unsupported features from the course advanced settings. To do this, go to "
+"the {link_start}Advanced Settings page{link_end}, locate the \"Advanced "
+"Module List\" setting, and then delete the following modules from the list."
+msgstr "為了避免發生錯誤，{platform_name}強烈建議您從進階設置中刪除不支持的功能。為此在進階設定頁面 {link_start} 進階設定頁面 {link_end}，在“進階模塊列表”中，從列表中刪除以下模塊。"
+
+#: cms/templates/course_outline.html:96
+msgid "Unsupported Advance Modules"
+msgstr "不支持的進階模塊"
+
+#: cms/templates/course_outline.html:124
+msgid "Click to add a new section"
+msgstr "點選以新增一個新的章節"
+
+#: cms/templates/course_outline.html:125
+msgid "New Section"
+msgstr "建立新章節"
+
+#: cms/templates/course_outline.html:130
+msgid "Reindex current course"
+msgstr "重新索引當前課程"
+
+#: cms/templates/course_outline.html:131
+msgid "Reindex"
+msgstr "重新索引"
+
+#: cms/templates/course_outline.html:137
+msgid "Collapse All Sections"
+msgstr "折疊所有章節"
+
+#: cms/templates/course_outline.html:138
+msgid "Expand All Sections"
+msgstr "展開所有章節"
+
+#: cms/templates/course_outline.html:143
+msgid "Click to open the courseware in the LMS in a new tab"
+msgstr "點選開啟LMS中的教材在新的欄位中"
+
+#: cms/templates/course_outline.html:143 cms/templates/edit-tabs.html:44
+msgid "View Live"
+msgstr "線上檢視"
+
+#: cms/templates/course_outline.html:161 cms/templates/course_outline.html:163
+msgid "Edit Start Date"
+msgstr "編輯開始日期"
+
+#: cms/templates/course_outline.html:169 cms/templates/settings.html:579
+msgid "Course Pacing"
+msgstr "課程開始"
+
+#: cms/templates/course_outline.html:172 cms/templates/settings.html:593
+msgid "Self-Paced"
+msgstr "自定進度"
+
+#: cms/templates/course_outline.html:174 cms/templates/settings.html:588
+msgid "Instructor-Paced"
+msgstr "講師進度"
+
+#: cms/templates/course_outline.html:197
+msgid "Creating your course organization"
+msgstr "建立您的課程組織"
+
+#: cms/templates/course_outline.html:198
+msgid "You add sections, subsections, and units directly in the outline."
+msgstr "您可以直接於大綱內新增章節、小節、單元。"
+
+#: cms/templates/course_outline.html:199
+msgid ""
+"Create a section, then add subsections and units. Open a unit to add course "
+"components."
+msgstr "建立一個章節，然後增加小節和單元，開啟單元以便增加課程組件。"
+
+#: cms/templates/course_outline.html:202
+msgid "Reorganizing your course"
+msgstr "重新組織您的課程"
+
+#: cms/templates/course_outline.html:203
+msgid "Drag sections, subsections, and units to new locations in the outline."
+msgstr "拖拉章節、小節和單元來重新放置於您的大綱。"
+
+#: cms/templates/course_outline.html:205
+msgid "Learn more about the course outline"
+msgstr "學習更多關於課程編輯的方法"
+
+#: cms/templates/course_outline.html:209
+msgid "Setting release dates and grading policies"
+msgstr "設定釋出日期和評價政策"
+
+#: cms/templates/course_outline.html:210
+msgid ""
+"Select the Configure icon for a section or subsection to set its release "
+"date. When you configure a subsection, you can also set the grading policy "
+"and due date."
+msgstr "選擇章節或小節之配置圖標來設定釋出日期。當您配置一個小節，您也可以設定評分政策及截止日期。"
+
+#: cms/templates/course_outline.html:212
+msgid "Learn more about grading policy settings"
+msgstr "了解更多有關評分策略的設定"
+
+#: cms/templates/course_outline.html:216
+msgid "Changing the content learners see"
+msgstr "修改學習者看見的內容"
+
+#: cms/templates/course_outline.html:217
+msgid ""
+"To publish draft content, select the Publish icon for a section, subsection,"
+" or unit."
+msgstr "想要發布草稿內容，選擇章節、小節或是單元的發布圖案。"
+
+#: cms/templates/course_outline.html:218
+msgid ""
+"To make a section, subsection, or unit unavailable to learners, select the "
+"Configure icon for that level, then select the appropriate "
+"{em_start}Hide{em_end} option. Grades for hidden sections, subsections, and "
+"units are not included in grade calculations."
+msgstr "欲對學習者隱藏某個部分或單元，請選擇該級別的\"配置\"圖標，然後選擇相應的{em_start}隱藏{em_end}選項。 成績計算中不包括隱藏節，子節和單位的成績。"
+
+#: cms/templates/course_outline.html:219
+msgid ""
+"To hide the content of a subsection from learners after the subsection due "
+"date has passed, select the Configure icon for a subsection, then select "
+"{em_start}Hide content after due date{em_end}. Grades for the subsection "
+"remain included in grade calculations."
+msgstr "要在子分段截止日期過後隱藏子分段的內容，請選擇子分段的“配置”圖標，然後選擇{em_start}到期日之後隱藏內容{em_end}。 該分數的成績將保留在成績計算中。"
+
+#: cms/templates/course_outline.html:221
+msgid "Learn more about content visibility settings"
+msgstr "了解更多有關內容庫的設定"
+
+#. Translators: Pages refer to the tabs that appear in the top navigation of
+#. each course.
+#: cms/templates/edit-tabs.html:11 cms/templates/edit-tabs.html:34
+#: cms/templates/export.html:201 cms/templates/widgets/header.html:62
+msgid "Pages"
+msgstr "自訂頁面"
+
+#: cms/templates/edit-tabs.html:41
+msgid "New Page"
+msgstr "新增頁面"
+
+#: cms/templates/edit-tabs.html:56
+msgid ""
+"Note: Pages are publicly visible. If users know the URL of a page, they can "
+"view the page even if they are not registered for or logged in to your "
+"course."
+msgstr "注意：自訂頁面是公開可見的，如果使用者知道自訂頁面的URL，就算使用者並未註冊或是登入您的課程，依然可以看見其內容。"
+
+#: cms/templates/edit-tabs.html:103
+msgid "Show this page"
+msgstr "顯示該頁面"
+
+#: cms/templates/edit-tabs.html:105 cms/templates/edit-tabs.html:107
+msgid "Show/hide page"
+msgstr "顯示/隱藏頁面"
+
+#: cms/templates/edit-tabs.html:121 cms/templates/edit-tabs.html:122
+msgid "This page cannot be reordered"
+msgstr "無法復原此頁面"
+
+#: cms/templates/edit-tabs.html:135
+msgid "You can add additional custom pages to your course."
+msgstr "您可以增加額外的自訂頁面到您的課程中"
+
+#: cms/templates/edit-tabs.html:135
+msgid "Add a New Page"
+msgstr "新增頁面"
+
+#: cms/templates/edit-tabs.html:143
+msgid "What are pages?"
+msgstr "什麼是\"自訂頁面\"？"
+
+#: cms/templates/edit-tabs.html:144
+msgid ""
+"Pages are listed horizontally at the top of your course. Default pages "
+"(Home, Course, Discussion, Wiki, and Progress) are followed by textbooks and"
+" custom pages that you create."
+msgstr "自訂頁面會水平列在您的課程上方。預設頁面(首頁、課程、討論區、Wiki和進度) 會接在您建立的教材和自訂頁面之後。"
+
+#: cms/templates/edit-tabs.html:147
+msgid "Custom pages"
+msgstr "自訂頁面"
+
+#: cms/templates/edit-tabs.html:148
+msgid ""
+"You can create and edit custom pages to provide students with additional "
+"course content. For example, you can create pages for the grading policy, "
+"course slides, and a course calendar. "
+msgstr "您可以建立自訂頁面以提供學生額外的課程資訊，舉例來說，您可以建立關於課程評分策略、課程簡報以及行事曆等相關頁面。"
+
+#: cms/templates/edit-tabs.html:151
+msgid "How do pages look to students in my course?"
+msgstr "在我的課程中頁面呈現給學生的樣子？"
+
+#: cms/templates/edit-tabs.html:152
+msgid ""
+"Students see the default and custom pages at the top of your course and use "
+"these links to navigate."
+msgstr "學生在您的課程上方將會於看到預設以及自訂的頁面，並且利用這些連結導覽課程"
+
+#: cms/templates/edit-tabs.html:152
+msgid "See an example"
+msgstr "瞧瞧範例"
+
+#: cms/templates/edit-tabs.html:160
+msgid "Pages in Your Course"
+msgstr "您課程中的頁面"
+
+#: cms/templates/edit-tabs.html:162
+msgid "Preview of Pages in your course"
+msgstr "在課程中預覽靜態頁面"
+
+#: cms/templates/edit-tabs.html:163
+msgid ""
+"Pages appear in your course's top navigation bar. The default pages (Home, "
+"Course, Discussion, Wiki, and Progress) are followed by textbooks and custom"
+" pages."
+msgstr "靜態頁面會出現在在課程上方的導覽列。預設頁面(首頁、課程、討論區、Wiki和進度)會接在教材和自訂的靜態頁面之後。"
+
+#: cms/templates/edit-tabs.html:168 cms/templates/howitworks.html:182
+#: cms/templates/howitworks.html:195 cms/templates/howitworks.html:208
+msgid "close modal"
+msgstr "關閉模式"
+
+#: cms/templates/error.html:13
+msgid "Internal Server Error"
+msgstr "內部伺服器錯誤"
+
+#: cms/templates/error.html:25
+msgid "The Page You Requested Page Cannot be Found"
+msgstr "無法找到您請求的頁面"
+
+#: cms/templates/error.html:26
+msgid ""
+"We're sorry. We couldn't find the {studio_name} page you're looking for. You"
+" may want to return to the {studio_name} Dashboard and try again. If you are"
+" still having problems accessing things, please feel free to "
+"{link_start}contact {studio_name} support{link_end} for further help."
+msgstr "很抱歉，我們無法找到您查詢的 {studio_name} 頁面。您可能需要返回至 {studio_name} 控制台重新嘗試。如果您仍遇到問題，請與 '{link_start}' {studio_name} 技術支援團隊'{link_end}'聯繫以尋求幫助。"
+
+#: cms/templates/error.html:32
+msgid "The Server Encountered an Error"
+msgstr "伺服器發生錯誤"
+
+#: cms/templates/error.html:33
+msgid ""
+"We're sorry. There was a problem with the server while trying to process "
+"your last request. You may want to return to the {studio_name} Dashboard or "
+"try this request again. If you are still having problems accessing things, "
+"please feel free to {link_start}contact {studio_name} support{link_end} for "
+"further help."
+msgstr "很抱歉，伺服器在處理您的上一個請求時出現錯誤。您可能需要返回至 {studio_name}控制台或重新提交請求。如果您仍遇到問題，請與'{link_start}' {studio_name}技術支援團隊'{link_end}'聯繫以尋求幫助。"
+
+#: cms/templates/error.html:39
+msgid "Back to dashboard"
+msgstr "回到我的課程"
+
+#: cms/templates/export.html:22 cms/templates/export.html:46
+msgid "Library Export"
+msgstr "課程組件庫匯出"
+
+#: cms/templates/export.html:24 cms/templates/export.html:48
+msgid "Course Export"
+msgstr "匯出課程"
+
+#: cms/templates/export.html:43 cms/templates/export_git.html:16
+#: cms/templates/import.html:32 cms/templates/widgets/header.html:112
+#: cms/templates/widgets/header.html:166
+msgid "Tools"
+msgstr "工具"
+
+#: cms/templates/export.html:60
+msgid "About Exporting Libraries"
+msgstr "關於匯出函式庫"
+
+#. Translators: ".tar.gz" is a file extension, and should not be translated
+#: cms/templates/export.html:63
+msgid ""
+"You can export libraries and edit them outside of {studio_name}. The "
+"exported file is a .tar.gz file (that is, a .tar file compressed with GNU "
+"Zip) that contains the library structure and content. You can also re-import"
+" libraries that you've exported."
+msgstr "您可以在{studio_name}之外匯出課程組件庫並且編輯它們。匯出的檔案會是一個 .tar.gz 的檔案 (即 .tar 檔案再以 GNU Zip 壓縮)，包含著課程組件庫結構以及內容。您也可以重新匯入已經匯出的課程組件庫。"
+
+#: cms/templates/export.html:68
+msgid "About Exporting Courses"
+msgstr "關於匯出課程"
+
+#. Translators: ".tar.gz" is a file extension, and should not be translated
+#: cms/templates/export.html:71
+msgid ""
+"You can export courses and edit them outside of {studio_name}. The exported "
+"file is a .tar.gz file (that is, a .tar file compressed with GNU Zip) that "
+"contains the course structure and content. You can also re-import courses "
+"that you've exported."
+msgstr "您可以在{studio_name}之外匯出課程並且編輯它們。匯出的檔案會是一個 .tar.gz 的檔案 (即 .tar 檔案再以 GNU Zip 壓縮)，其中包含的課程結構以及內容。您也可以重新匯入已經匯出的課程。"
+
+#: cms/templates/export.html:74
+msgid ""
+"{em_start}Caution:{em_end} When you export a course, information such as "
+"MATLAB API keys, LTI passports, annotation secret token strings, and "
+"annotation storage URLs are included in the exported data. If you share your"
+" exported files, you may also be sharing sensitive or license-specific "
+"information."
+msgstr "{em_start}注意：{em_end}當您匯出課程時，資訊像是MATLAB API 密鑰，LTI帳戶，註解隱藏字串，和註解儲存網址通通被包含在匯出資料裡。如果您分享您的匯出檔案，您可能也會分享一些敏感或是特殊許可的資訊。"
+
+#: cms/templates/export.html:85
+msgid "Export My Library Content"
+msgstr "匯出我的課程組件庫內容"
+
+#: cms/templates/export.html:87
+msgid "Export My Course Content"
+msgstr "匯出我的課程內容"
+
+#: cms/templates/export.html:96
+msgid "Export Library Content"
+msgstr "匯出課程組件庫內容"
+
+#: cms/templates/export.html:98
+msgid "Export Course Content"
+msgstr "匯出課程內容"
+
+#: cms/templates/export.html:108
+msgid "Library Export Status"
+msgstr "課程組件庫匯出狀態"
+
+#: cms/templates/export.html:110
+msgid "Course Export Status"
+msgstr "課程匯出狀態"
+
+#: cms/templates/export.html:122
+msgid "Preparing"
+msgstr "準備中"
+
+#: cms/templates/export.html:126
+msgid "Preparing to start the export"
+msgstr "準備進行匯出中"
+
+#: cms/templates/export.html:137
+msgid "Exporting"
+msgstr "匯出中"
+
+#: cms/templates/export.html:138
+msgid ""
+"Creating the export data files (You can now leave this page safely, but "
+"avoid making drastic changes to content until this export is complete)"
+msgstr ""
+
+#: cms/templates/export.html:149
+msgid "Compressing"
+msgstr "壓縮中"
+
+#: cms/templates/export.html:150
+msgid "Compressing the exported data and preparing it for download"
+msgstr "壓縮匯出檔案並準備提供下載中"
+
+#: cms/templates/export.html:161 cms/templates/import.html:175
+msgid "Success"
+msgstr "成功"
+
+#: cms/templates/export.html:166
+msgid "Your exported library can now be downloaded"
+msgstr ""
+
+#: cms/templates/export.html:168
+msgid "Your exported course can now be downloaded"
+msgstr "您所匯出的課程已可以下載"
+
+#: cms/templates/export.html:176
+msgid "Download Exported Library"
+msgstr "下載匯出的課程組件庫"
+
+#: cms/templates/export.html:178
+msgid "Download Exported Course"
+msgstr ""
+
+#: cms/templates/export.html:192
+msgid "Data {em_start}exported with{em_end} your course:"
+msgstr "資料 {em_start} 匯出 {em_end} 您的課程："
+
+#: cms/templates/export.html:197
+msgid ""
+"Values from Advanced Settings, including MATLAB API keys and LTI passports"
+msgstr "從進階設定的值，包含MATLAB API密鑰和LTI 帳戶"
+
+#: cms/templates/export.html:198
+msgid "Course Content (all Sections, Sub-sections, and Units)"
+msgstr "課程內容 (所有章節、小節以及單元)"
+
+#: cms/templates/export.html:199
+msgid "Course Structure"
+msgstr "課程架構"
+
+#: cms/templates/export.html:200
+msgid "Individual Problems"
+msgstr "個別問題"
+
+#: cms/templates/export.html:202
+msgid "Course Assets"
+msgstr "課程資源"
+
+#: cms/templates/export.html:203
+msgid "Course Settings"
+msgstr "課程設定"
+
+#: cms/templates/export.html:209
+msgid "Data {em_start}not exported{em_end} with your course:"
+msgstr "資料 {em_start} 並沒有與課程一起匯出 {em_end} ："
+
+#: cms/templates/export.html:214
+msgid "User Data"
+msgstr "用戶資料"
+
+#: cms/templates/export.html:215
+msgid "Course Team Data"
+msgstr "課程團隊資料"
+
+#: cms/templates/export.html:216
+msgid "Forum/discussion Data"
+msgstr "討論區/討論資料"
+
+#: cms/templates/export.html:226
+msgid "Why export a library?"
+msgstr "為何匯出一個課程組件庫？"
+
+#: cms/templates/export.html:227
+msgid ""
+"You may want to edit the XML in your library directly, outside of "
+"{studio_name}. You may want to create a backup copy of your library. Or, you"
+" may want to create a copy of your library that you can later import into "
+"another library instance and customize."
+msgstr "您或許想要直接地在{studio_name}之外修改一個在您課程組件庫中的XML檔案。您或許想要創建一個您課程組件庫的備份。 或者，您可能想要建立一份您的課程組件庫，之後您就可用來匯入至另一個課程組件庫的實體並客製化。"
+
+#: cms/templates/export.html:233 cms/templates/export.html:257
+msgid "Opening the downloaded file"
+msgstr "開啟下載的檔案"
+
+#. Translators: ".tar.gz" is a file extension, and should not be translated
+#: cms/templates/export.html:235
+msgid ""
+"Use an archive program to extract the data from the .tar.gz file. Extracted "
+"data includes the library.xml file, as well as subfolders that contain "
+"library content."
+msgstr "使用一個壓縮程式從 .tar.gz 檔案提取資料。提取後的資料包括課程組件庫的 .xml 檔案，還有一些存放課程組件庫內容的子目錄。"
+
+#: cms/templates/export.html:238
+msgid "Learn more about exporting a library"
+msgstr "學習更多關於匯出課程組件庫"
+
+#: cms/templates/export.html:244
+msgid "Why export a course?"
+msgstr "為何匯出課程?"
+
+#: cms/templates/export.html:245
+msgid ""
+"You may want to edit the XML in your course directly, outside of "
+"{studio_name}. You may want to create a backup copy of your course. Or, you "
+"may want to create a copy of your course that you can later import into "
+"another course instance and customize."
+msgstr "您或許想要直接地在{studio_name}之外修改一個在您課程中的XML檔案。您或許想要創建一個您課程的備份。 或者，您可能想要建立一份您的課程副本，之後您就可用來匯入至另一門課程的實體並客制。"
+
+#: cms/templates/export.html:251
+msgid "What content is exported?"
+msgstr "什麼內容被匯出?"
+
+#: cms/templates/export.html:253
+msgid ""
+"The course content and structure (including sections, subsections, and "
+"units) are exported. Values from Advanced Settings, including MATLAB API "
+"keys and LTI passports, are also exported. Other data, including student "
+"data, grading information, discussion forum data, course settings, and "
+"course team information, is not exported."
+msgstr "課程內容和架構(包括章節、小節、單元)被匯入。從進階設定的值，包含MATLAB API密鑰和LTI 帳戶將被匯出。其他的資料，包括學生資料、評分資訊、討論區資料、課程設定或者課程團隊資訊將不會被匯出。"
+
+#. Translators: ".tar.gz" is a file extension, and should not be translated
+#: cms/templates/export.html:259
+msgid ""
+"Use an archive program to extract the data from the .tar.gz file. Extracted "
+"data includes the course.xml file, as well as subfolders that contain course"
+" content."
+msgstr "使用一個壓縮程式從 .tar.gz 檔案提取資料。\n提取後的資料包括課程的 .xml 檔案，還有一些存放課程內容的子目錄。"
+
+#: cms/templates/export.html:262
+msgid "Learn more about exporting a course"
+msgstr "學習更多有關匯出課程"
+
+#: cms/templates/export_git.html:9
+msgid "Export Course to Git"
+msgstr "匯出課程 到 Git"
+
+#: cms/templates/export_git.html:17 cms/templates/export_git.html:44
+#: cms/templates/widgets/header.html:124
+msgid "Export to Git"
+msgstr "匯出到 Git"
+
+#: cms/templates/export_git.html:27
+msgid "About Export to Git"
+msgstr "關於匯出到 Git"
+
+#: cms/templates/export_git.html:29
+msgid "Use this to export your course to its git repository."
+msgstr "使用這個來匯出您的課程到它的git庫。"
+
+#: cms/templates/export_git.html:30
+msgid ""
+"This will then trigger an automatic update of the main LMS site and update "
+"the contents of your course visible there to students if automatic git "
+"imports are configured."
+msgstr "如果自動化git匯入被設置。這會觸發主要LMS網站自動更新將會讓學生對您的課程內容為可見。"
+
+#: cms/templates/export_git.html:35
+msgid "Export Course to Git:"
+msgstr "匯出課程到Git："
+
+#: cms/templates/export_git.html:38
+msgid ""
+"giturl must be defined in your course settings before you can export to git."
+msgstr "在您可以匯出到Git前，giturl必須在課程設置中被定義。"
+
+#: cms/templates/export_git.html:53
+msgid "Export Failed"
+msgstr "匯出失敗"
+
+#: cms/templates/export_git.html:55
+msgid "Export Succeeded"
+msgstr "匯出成功"
+
+#: cms/templates/export_git.html:63
+msgid "Your course:"
+msgstr "您的課程："
+
+#: cms/templates/export_git.html:65
+msgid "Course git url:"
+msgstr "課程git url："
+
+#: cms/templates/group_configurations.html:66
+#: cms/templates/group_configurations.html:105
+msgid "Experiment Group Configurations"
+msgstr "實驗群組設定"
+
+#: cms/templates/group_configurations.html:70
+msgid "This module is disabled at the moment."
+msgstr "這個模組現在不能使用"
+
+#: cms/templates/group_configurations.html:85
+msgid "Enrollment Track Groups"
+msgstr ""
+
+#: cms/templates/group_configurations.html:86
+msgid ""
+"Enrollment track groups allow you to offer different course content to "
+"learners in each enrollment track. Learners enrolled in each enrollment "
+"track in your course are automatically included in the corresponding "
+"enrollment track group."
+msgstr ""
+
+#: cms/templates/group_configurations.html:87
+msgid ""
+"On unit pages in the course outline, you can restrict access to components "
+"to learners based on their enrollment track."
+msgstr ""
+
+#: cms/templates/group_configurations.html:88
+msgid ""
+"You cannot edit enrollment track groups, but you can expand each group to "
+"view details of the course content that is designated for learners in the "
+"group."
+msgstr ""
+
+#: cms/templates/group_configurations.html:95
+msgid "Content Groups"
+msgstr "內容群組"
+
+#: cms/templates/group_configurations.html:96
+msgid ""
+"If you have cohorts enabled in your course, you can use content groups to "
+"create cohort-specific courseware. In other words, you can customize the "
+"content that particular cohorts see in your course."
+msgstr "如果您在您的課程有啟用學習夥伴功能，你可使用內容群組來創建學習夥伴群組的教材。换言之，您可以在課程自訂教材讓特定的學習夥伴看到。"
+
+#: cms/templates/group_configurations.html:97
+msgid ""
+"Each content group that you create can be associated with one or more "
+"cohorts. In addition to making course content available to all learners, you"
+" can restrict access to some content to learners in specific content groups."
+" Only learners in the cohorts that are associated with the specified content"
+" groups see the additional content."
+msgstr ""
+
+#: cms/templates/group_configurations.html:98
+msgid ""
+"Click {em_start}New content group{em_end} to add a new content group. To "
+"edit the name of a content group, hover over its box and click "
+"{em_start}Edit{em_end}. You can delete a content group only if it is not in "
+"use by a unit. To delete a content group, hover over its box and click the "
+"delete icon."
+msgstr "點擊{em_start}新內容群組{em_end}以增加一個新內容群組。欲編輯內容群組名稱，停留於其上方並點擊{em_start}編輯{em_end}。您只有當內容群組未使用在單元中才可以刪除內容群組。欲刪除一個內容群組，停留於其上方並點擊刪除圖示。"
+
+#: cms/templates/group_configurations.html:106
+msgid ""
+"Use experiment group configurations if you are conducting content "
+"experiments, also known as A/B testing, in your course. Experiment group "
+"configurations define how many groups of learners are in a content "
+"experiment. When you create a content experiment for a course, you select "
+"the group configuration to use."
+msgstr ""
+
+#: cms/templates/group_configurations.html:107
+msgid ""
+"Click {em_start}New Group Configuration{em_end} to add a new configuration. "
+"To edit a configuration, hover over its box and click "
+"{em_start}Edit{em_end}. You can delete a group configuration only if it is "
+"not in use in an experiment. To delete a configuration, hover over its box "
+"and click the delete icon."
+msgstr "點擊{em_start}新群組設定{em_end}以增加一個新設定。欲編輯一個設定，停留於其上方並點擊{em_start}編輯{em_end}。您只有當群組設定未使用在實驗中才可以刪除群組設定。欲刪除一個設定，停留於其上方並點擊刪除圖示。"
+
+#: cms/templates/group_configurations.html:124
+#: cms/templates/settings_advanced.html:104
+msgid "Details & Schedule"
+msgstr "細節與時程"
+
+#: cms/templates/howitworks.html:11
+msgid "Welcome"
+msgstr "歡迎"
+
+#: cms/templates/howitworks.html:19
+msgid "Welcome to {studio_name}"
+msgstr "歡迎來到{studio_name}"
+
+#: cms/templates/howitworks.html:22
+msgid ""
+"{studio_name} helps manage your online courses, so you can focus on teaching"
+" them"
+msgstr "{studio_name}幫您管理線上課程，讓您可以專注於課程的教學"
+
+#: cms/templates/howitworks.html:32
+msgid "{studio_name}'s Many Features"
+msgstr "{studio_name}的許多特色"
+
+#: cms/templates/howitworks.html:39 cms/templates/howitworks.html:40
+msgid "{studio_name} Helps You Keep Your Courses Organized"
+msgstr "{studio_name}幫助您的課程有組織性"
+
+#: cms/templates/howitworks.html:42 cms/templates/howitworks.html:87
+#: cms/templates/howitworks.html:121
+msgid "Enlarge image"
+msgstr "放大圖片"
+
+#: cms/templates/howitworks.html:48
+msgid "Keeping Your Course Organized"
+msgstr "維持您的課程井然有序"
+
+#: cms/templates/howitworks.html:49
+msgid ""
+"The backbone of your course is how it is organized. {studio_name} offers an "
+"{strong_start}Outline{strong_end} editor, providing a simple hierarchy and "
+"easy drag and drop to help you and your students stay organized."
+msgstr "課程的骨幹是其組織形式。{studio_name} 為您提供了{strong_start}大綱{strong_end}編輯器，通過簡單的層次組織和拖放操作來幫助您和您的學生保持有序組織。"
+
+#: cms/templates/howitworks.html:57
+msgid "Simple Organization For Content"
+msgstr "簡單的內容組織"
+
+#: cms/templates/howitworks.html:58
+msgid ""
+"{studio_name} uses a simple hierarchy of {strong_start}sections{strong_end} "
+"and {strong_start}subsections{strong_end} to organize your content."
+msgstr "{studio_name} 使用一個簡單的包括 {strong_start}章節{strong_end}  和{strong_start}小節{strong_end}的層次結構來組織您的內容。"
+
+#: cms/templates/howitworks.html:66
+msgid "Change Your Mind Anytime"
+msgstr "隨時改變您的想法"
+
+#: cms/templates/howitworks.html:67
+msgid ""
+"Draft your outline and build content anywhere. Simple drag and drop tools "
+"let you reorganize quickly."
+msgstr "您可以在任意位置起草大綱並建立內容。簡單的拖放工具將幫助您快速地重新組織課程內容。"
+
+#: cms/templates/howitworks.html:71
+msgid "Go A Week Or A Semester At A Time"
+msgstr "去一個星期或一個學期的時間"
+
+#: cms/templates/howitworks.html:72
+msgid ""
+"Build and release {strong_start}sections{strong_end} to your students "
+"incrementally. You don't have to have it all done at once."
+msgstr "定期設置和發佈 {strong_start}章節{strong_end}給您的學生。則您不需要一次發佈所有的章節內容。"
+
+#: cms/templates/howitworks.html:84 cms/templates/howitworks.html:85
+#: cms/templates/howitworks.html:93
+msgid "Learning is More than Just Lectures"
+msgstr "學習不僅僅是聽課"
+
+#: cms/templates/howitworks.html:94
+msgid ""
+"{studio_name} lets you weave your content together in a way that reinforces "
+"learning. Insert videos, discussions, and a wide variety of exercises with "
+"just a few clicks."
+msgstr "{studio_name}以一種能鞏固學習效果的方式幫您組織內容。只需簡單地幾次點擊，就可以插入視頻、討論以及各種各​​樣的練習題。"
+
+#: cms/templates/howitworks.html:98
+msgid "Create Learning Pathways"
+msgstr "建立學習途徑"
+
+#: cms/templates/howitworks.html:99
+msgid ""
+"Help your students understand one concept at a time with multimedia, HTML, "
+"and exercises."
+msgstr "幫助您的學生一次性理解某個概念通過多媒體，網頁和練習。"
+
+#: cms/templates/howitworks.html:103
+msgid "Work Visually, Organize Quickly"
+msgstr "視覺化地工作，快速地組織"
+
+#: cms/templates/howitworks.html:104
+msgid ""
+"Work visually and see exactly what your students will see. Reorganize all "
+"your content with drag and drop."
+msgstr "視覺化地工作並且準確地看到您的學生將要看的內容。透過拖放操作重新組織您的課程內容。"
+
+#: cms/templates/howitworks.html:108
+msgid "A Broad Library of Problem Types"
+msgstr "關於問題類型的豐富知識庫"
+
+#: cms/templates/howitworks.html:109
+msgid ""
+"It's more than just multiple choice. {studio_name} supports more than a "
+"dozen types of problems to challenge your learners."
+msgstr "它不僅僅是選擇題。 {studio_name} 支持各種各樣的題型來挑戰您的學生們。"
+
+#: cms/templates/howitworks.html:118 cms/templates/howitworks.html:119
+msgid ""
+"{studio_name} Gives You Simple, Fast, and Incremental Publishing. With "
+"Friends."
+msgstr "{studio_name}提供您和您的朋友簡單、快速和增量式的內容發佈。"
+
+#: cms/templates/howitworks.html:127
+msgid "Simple, Fast, and Incremental Publishing. With Friends."
+msgstr "與其他人一起合作，體驗簡單、快速、增量式的內容發佈過程"
+
+#: cms/templates/howitworks.html:128
+msgid ""
+"{studio_name} works like web applications you already know, yet understands "
+"how you build curriculum. Instant publishing to the web when you want it, "
+"incremental release when it makes sense. And with co-authors, you can have a"
+" whole team building a course, together."
+msgstr "{studio_name} 的運行機制與您熟悉的網路應用類似，但還是需要瞭解一下如何創建課程。您可以在需要時在網站上即時發佈，或是根據情況增量釋出資訊。您還可以和合作者一起，以一個團隊的形式來創建課程。"
+
+#: cms/templates/howitworks.html:132
+msgid "Instant Changes"
+msgstr "即時修改"
+
+#: cms/templates/howitworks.html:133
+msgid ""
+"Caught a bug? No problem. When you want, your changes go live when you click"
+" Save."
+msgstr "發現了一個錯誤？沒有問題。只要您需要，點擊儲存按鈕就可以隨時儲存修改並呈現給學生。"
+
+#: cms/templates/howitworks.html:137
+msgid "Release-On Date Publishing"
+msgstr "公開發佈日期"
+
+#: cms/templates/howitworks.html:138
+msgid ""
+"When you've finished a {strong_start}section{strong_end}, pick when you want"
+" it to go live and {studio_name} takes care of the rest. Build your course "
+"incrementally."
+msgstr "當您完成了一個{strong_start}章節{strong_end}，請先確定發佈時間，然後 {studio_name} 會完成後面的工作。如此便可用增量的方式創建您的課程。"
+
+#: cms/templates/howitworks.html:146
+msgid "Work in Teams"
+msgstr "以團隊合作"
+
+#: cms/templates/howitworks.html:147
+msgid ""
+"Co-authors have full access to all the same authoring tools. Make your "
+"course better through a team effort."
+msgstr "合作者擁有完整存取相同的創作工具的權限。團隊協作將提高您的課程品質。"
+
+#: cms/templates/howitworks.html:159
+msgid "Sign Up for {studio_name} Today!"
+msgstr "馬上註冊加入{studio_name}！"
+
+#: cms/templates/howitworks.html:164
+msgid "Sign Up & Start Making Your {platform_name} Course"
+msgstr "註冊並開始建立您的{platform_name}課程"
+
+#: cms/templates/howitworks.html:167
+msgid "Already have a {studio_name} Account? Sign In"
+msgstr "已經有了{studio_name}帳號了嗎？登入"
+
+#: cms/templates/howitworks.html:174
+msgid "Outlining Your Course"
+msgstr "概述您的課程大綱"
+
+#: cms/templates/howitworks.html:177
+msgid ""
+"Simple two-level outline to organize your course. Drag and drop, and see "
+"your course at a glance."
+msgstr "使用簡單的二層大綱形式來組織您的課程。通過拖放操作可一目了然地瀏覽您的課程。"
+
+#: cms/templates/howitworks.html:187
+msgid "More than Just Lectures"
+msgstr "不僅僅是講座"
+
+#: cms/templates/howitworks.html:190
+msgid ""
+"Quickly create videos, text snippets, inline discussions, and a variety of "
+"problem types."
+msgstr "快速建立影片、文件片段、內部討論和各種問題類型。"
+
+#: cms/templates/howitworks.html:200
+msgid "Publishing on Date"
+msgstr "出版日期"
+
+#: cms/templates/howitworks.html:203
+msgid ""
+"Simply set the date of a section or subsection, and {studio_name} will "
+"publish it to your students for you."
+msgstr "請設置章節或小節的發佈時間，{studio_name} 系統會按照設定時間發佈這些內容。"
+
+#: cms/templates/html_error.html:11
+msgid "We're having trouble rendering your component"
+msgstr "渲染組件時遇到問題"
+
+#: cms/templates/html_error.html:14
+msgid ""
+"Students will not be able to access this component. Re-edit your component "
+"to fix the error."
+msgstr "學生將不能夠存取這個組件，請重新編輯您的組件來修正這個錯誤。"
+
+#: cms/templates/import.html:21 cms/templates/import.html:35
+msgid "Library Import"
+msgstr "匯入課程組件庫"
+
+#: cms/templates/import.html:23 cms/templates/import.html:37
+msgid "Course Import"
+msgstr "匯入課程"
+
+#: cms/templates/import.html:49
+msgid ""
+"Be sure you want to import a library before continuing. The contents of the "
+"imported library will replace the contents of the existing library. "
+"{em_start}You cannot undo a library import{em_end}. Before you proceed, we "
+"recommend that you export the current library, so that you have a backup "
+"copy of it."
+msgstr "在繼續之前請確認您想要匯入一門課程。函式庫匯入的內容將取代現有的函式庫內容。{em_start} 您不能夠返回課程匯入 {em_end}。在您處理前，我們推薦您先匯出目前的函式庫，這樣您就擁有一份現有函式庫的備份。"
+
+#: cms/templates/import.html:50
+msgid ""
+"The library that you import must be in a .tar.gz file (that is, a .tar file "
+"compressed with GNU Zip). This .tar.gz file must contain a library.xml file."
+" It may also contain other files."
+msgstr "您匯入的課程組件庫必須是一個 .tar.gz 檔案 (也就是一個以 GNU Zip 壓縮的 .tar 檔案)。這個 .tar.gz 檔案必須包含一個課程組件庫 .xml 檔案，也可能包含其他檔案。"
+
+#: cms/templates/import.html:51
+msgid ""
+"The import process has five stages. During the first two stages, you must "
+"stay on this page. You can leave this page after the Unpacking stage has "
+"completed. We recommend, however, that you don't make important changes to "
+"your library until the import operation has completed."
+msgstr "匯入的過程有五個步驟。前兩個步驟，您必須停留在這個頁面。您可以在解壓縮步驟完成後離開這個頁面。不過，我們建議您在匯入操作結束前，不要對課程組件庫做什麼重要更改。"
+
+#: cms/templates/import.html:53
+msgid ""
+"Be sure you want to import a course before continuing. The contents of the "
+"imported course will replace the contents of the existing course. "
+"{em_start}You cannot undo a course import{em_end}. Before you proceed, we "
+"recommend that you export the current course, so that you have a backup copy"
+" of it."
+msgstr "在繼續之前請確認您想要匯入一門課程。課程匯入的內容將取代這個原先課程的內容。{em_start} 您不能夠返回課程匯入 {em_end}。在處理前，我們推薦您先匯出目前的課程，這樣您就擁有一份現有課程的備份。"
+
+#: cms/templates/import.html:54
+msgid ""
+"The course that you import must be in a .tar.gz file (that is, a .tar file "
+"compressed with GNU Zip). This .tar.gz file must contain a course.xml file. "
+"It may also contain other files."
+msgstr "這個您匯入的課程必須是一個 .tar.gz 檔案 (也就是一個以 GNU Zip 壓縮的 .tar 檔案)。這個 .tar.gz 檔案必須包含一個課程 .xml 檔案，也可能包含其他檔案。"
+
+#: cms/templates/import.html:55
+msgid ""
+"The import process has five stages. During the first two stages, you must "
+"stay on this page. You can leave this page after the Unpacking stage has "
+"completed. We recommend, however, that you don't make important changes to "
+"your course until the import operation has completed."
+msgstr "匯入的過程有五個步驟。前兩個步驟，您必須停留在這個頁面。您可以在解壓縮步驟完成後離開這個頁面。不過，我們建議您在匯入操作結束前，不要對課程做什麼重要更改。"
+
+#: cms/templates/import.html:65
+msgid "Select a .tar.gz File to Replace Your Library Content"
+msgstr "選擇一個.tar.gz檔案來覆蓋您的課程組件庫內容"
+
+#: cms/templates/import.html:67
+msgid "Select a .tar.gz File to Replace Your Course Content"
+msgstr "選擇一個 .tar.gz 檔案來取代您的課程內容"
+
+#: cms/templates/import.html:75
+msgid "Choose a File to Import"
+msgstr "選擇一個檔案來匯入"
+
+#: cms/templates/import.html:80
+msgid "File Chosen:"
+msgstr "選擇的檔案："
+
+#: cms/templates/import.html:88
+msgid "Replace my library with the selected file"
+msgstr "使用選擇的檔案來覆蓋我的課程組件庫"
+
+#: cms/templates/import.html:90
+msgid "Replace my course with the selected file"
+msgstr "使用選擇的檔案來覆蓋我的課程"
+
+#: cms/templates/import.html:98
+msgid "Library Import Status"
+msgstr "課程組件庫匯入狀態"
+
+#: cms/templates/import.html:100
+msgid "Course Import Status"
+msgstr "課程匯入狀態"
+
+#: cms/templates/import.html:112
+msgid "Uploading"
+msgstr "上傳中"
+
+#: cms/templates/import.html:116
+msgid "Transferring your file to our servers"
+msgstr "將您的檔案傳送到我們的伺服器上"
+
+#: cms/templates/import.html:127
+msgid "Unpacking"
+msgstr "打開中"
+
+#: cms/templates/import.html:128
+msgid ""
+"Expanding and preparing folder/file structure (You can now leave this page "
+"safely, but avoid making drastic changes to content until this import is "
+"complete)"
+msgstr "擴大並且準備資料夾/檔案架構(您現在可以安全地離開這個頁面，但要避免做出急劇的內容改變直到這個匯入被完成)"
+
+#: cms/templates/import.html:140
+msgid "Verifying"
+msgstr "驗證中"
+
+#: cms/templates/import.html:141
+msgid "Reviewing semantics, syntax, and required data"
+msgstr "審查語意、語法和所需的資料"
+
+#: cms/templates/import.html:154
+msgid "Updating Library"
+msgstr "課程組件庫更新中"
+
+#: cms/templates/import.html:156
+msgid "Updating Course"
+msgstr "更新課程中"
+
+#: cms/templates/import.html:161
+msgid ""
+"Integrating your imported content into this library. This process might take"
+" longer with larger libraries."
+msgstr "整合您所匯入的內容至此課程組件庫中，較大的課程組件庫可能會需要更多時間。"
+
+#: cms/templates/import.html:163
+msgid ""
+"Integrating your imported content into this course. This process might take "
+"longer with larger courses."
+msgstr "整合您所匯入的內容至此課程。較大的課程可能會較為耗時。"
+
+#: cms/templates/import.html:180
+msgid "Your imported content has now been integrated into this library"
+msgstr "您所匯入的內容現在已經整合到這個課程組件庫當中。"
+
+#: cms/templates/import.html:182
+msgid "Your imported content has now been integrated into this course"
+msgstr "您所匯入的內容現在已經整合到這個課程當中。"
+
+#: cms/templates/import.html:190
+msgid "View Updated Library"
+msgstr "預覽更新的課程組件庫"
+
+#: cms/templates/import.html:192
+msgid "View Updated Outline"
+msgstr "檢視更新後的大綱"
+
+#: cms/templates/import.html:207
+msgid "Why import a library?"
+msgstr "為何匯入一個課程組件庫？"
+
+#: cms/templates/import.html:208
+msgid ""
+"You might want to update an existing library to a new version, or replace an"
+" existing library entirely. You might also have developed a library outside "
+"of {studio_name}."
+msgstr "您可能需要更新現有的課程組件庫至新的版本，或者完全覆蓋現有的課程組件庫。您可能也需要在{studio_name}以外開發課程組件庫。"
+
+#: cms/templates/import.html:212
+msgid "Note: Library content is not automatically updated in courses"
+msgstr "注意：課程組件庫的內容不會自動的更新到課程中"
+
+#: cms/templates/import.html:213
+msgid ""
+"If you change and import a library that is referenced by randomized content "
+"blocks in one or more courses, those courses do not automatically use the "
+"updated content. You must manually refresh the randomized content blocks to "
+"bring them up to date with the latest library content."
+msgstr "如果您更改或匯入的課程組件庫有被一個或多個課程中隨機挑選的內容區塊引用，則這些課程並不會自動使用更新的內容，您必須手動更新這些內容區塊來使用最新的課程組件庫。    "
+
+#: cms/templates/import.html:216
+msgid "Learn more about importing a library"
+msgstr "學習更多關於匯入一個課程組件庫"
+
+#: cms/templates/import.html:222
+msgid "Why import a course?"
+msgstr "為何匯入課程?"
+
+#: cms/templates/import.html:223
+msgid ""
+"You may want to run a new version of an existing course, or replace an "
+"existing course altogether. Or, you may have developed a course outside "
+"{studio_name}."
+msgstr "您可能想要執行一個新版現有的課程，或者完全取代一個現有課程。或者，您可能已經在{studio_name}之外開發一個課程。"
+
+#: cms/templates/import.html:227
+msgid "What content is imported?"
+msgstr "什麼內容被匯入?"
+
+#: cms/templates/import.html:228
+msgid "The following content is imported."
+msgstr ""
+
+#: cms/templates/import.html:230
+msgid "Course content and structure"
+msgstr ""
+
+#: cms/templates/import.html:231
+msgid "Course dates"
+msgstr ""
+
+#: cms/templates/import.html:232
+msgid "Grading policy"
+msgstr ""
+
+#: cms/templates/import.html:233
+msgid "Any group configurations"
+msgstr ""
+
+#: cms/templates/import.html:234
+msgid "Settings on the Advanced Settings page"
+msgstr ""
+
+#: cms/templates/import.html:236
+msgid "The following content is not imported."
+msgstr ""
+
+#: cms/templates/import.html:238
+msgid ""
+"Learner-specific content, such as learner grades and discussion forum data"
+msgstr ""
+
+#: cms/templates/import.html:239
+msgid "The course team"
+msgstr ""
+
+#: cms/templates/import.html:244
+msgid "Warning: Importing while a course is running"
+msgstr "警告：匯入到一個進行中的課程"
+
+#: cms/templates/import.html:245
+msgid ""
+"If you perform an import while your course is running, and you change the "
+"URL names (or url_name nodes) of any Problem components, the student data "
+"associated with those Problem components may be lost. This data includes "
+"students' problem scores."
+msgstr "如果您在課程進行中時執行匯入，並更改任何問題組件的網址名稱(或 url_name 節點)，和此問題組件相關的學生資料可能會遺失，這些資料包含學生於問題中獲得的分數。"
+
+#: cms/templates/import.html:248
+msgid "Learn more about importing a course"
+msgstr "學習更多有關匯入課程。"
+
+#: cms/templates/index.html:14 cms/templates/index.html:26
+#: cms/templates/widgets/user_dropdown.html:25
+#: cms/templates/widgets/user_dropdown.html:47
+msgid "{studio_name} Home"
+msgstr "{studio_name} 首頁"
+
+#: cms/templates/index.html:35
+msgid "New Course"
+msgstr "新建課程"
+
+#: cms/templates/index.html:37
+msgid "Email staff to create course"
+msgstr "請寄信給工作人員以取得開課權限"
+
+#: cms/templates/index.html:41
+msgid "New Library"
+msgstr "新建課程組件庫"
+
+#: cms/templates/index.html:60 cms/templates/index.html:135
+msgid "Please correct the highlighted fields below."
+msgstr "請更正下面高亮顯示的欄位。"
+
+#: cms/templates/index.html:65
+msgid "Create a New Course"
+msgstr "建立一個新課程"
+
+#: cms/templates/index.html:68
+msgid "Required Information to Create a New Course"
+msgstr "建立一個新課程的必要資訊"
+
+#: cms/templates/index.html:76
+msgid ""
+"The public display name for your course. This cannot be changed, but you can"
+" set a different display name in Advanced Settings later."
+msgstr "無法修改您的課程的公開顯示名稱，但是您可以稍後在進階設定中設定不同的顯示名稱。"
+
+#: cms/templates/index.html:84
+msgid ""
+"The name of the organization sponsoring the course. {strong_start}Note: The "
+"organization name is part of the course URL.{strong_end} This cannot be "
+"changed, but you can set a different display name in Advanced Settings "
+"later."
+msgstr "開課單位名稱。{strong_start}注意：單位名稱是課程URL的一部分。{strong_end}無法更改。但您稍後可在進階設定中設定不同的顯示名稱。"
+
+#: cms/templates/index.html:97
+msgid ""
+"The unique number that identifies your course within your organization. "
+"{strong_start}Note: This is part of your course URL, so no spaces or special"
+" characters are allowed and it cannot be changed.{strong_end}"
+msgstr "識別您所編輯的課程的唯一編碼{strong_start}注意：這是您課程URL的一部分，因此不允許空格或特殊字符，且不能更改。{strong_end}"
+
+#: cms/templates/index.html:109
+msgid ""
+"The term in which your course will run. {strong_start}Note: This is part of "
+"your course URL, so no spaces or special characters are allowed and it "
+"cannot be changed.{strong_end}"
+msgstr "您的課程將在期限內運行。{strong_start}注意：這是您課程URL的一部分，因此不允許空格或特殊字符，且不能更改。{strong_end}"
+
+#: cms/templates/index.html:122 cms/templates/index.html:182
+msgid "Create"
+msgstr "建立"
+
+#: cms/templates/index.html:140
+msgid "Create a New Library"
+msgstr "建立一個新的課程組件庫"
+
+#: cms/templates/index.html:143
+msgid "Required Information to Create a New Library"
+msgstr "建立新課程組件庫所需的必要資訊"
+
+#: cms/templates/index.html:147
+msgid "Library Name"
+msgstr "課程組件庫名稱"
+
+#. Translators: This is an example name for a new content library, seen when
+#. filling out the form to create a new library.
+#. (A library is a collection of content or problems.)
+#: cms/templates/index.html:151
+msgid "e.g. Computer Science Problems"
+msgstr "例如：計算機科學問題"
+
+#: cms/templates/index.html:152
+msgid "The public display name for your library."
+msgstr "您的課程組件庫的公開顯示名稱。"
+
+#: cms/templates/index.html:158
+msgid "The public organization name for your library."
+msgstr "您的課程組件庫的公開組織名稱。"
+
+#: cms/templates/index.html:158
+msgid "This cannot be changed."
+msgstr "這無法被更改"
+
+#: cms/templates/index.html:163
+msgid "Library Code"
+msgstr "課程組件庫編碼"
+
+#. Translators: This is an example for the "code" used to identify a library,
+#. seen when filling out the form to create a new library. This example is
+#. short
+#. for "Computer Science Problems". The example number may contain letters
+#. but must not contain spaces.
+#: cms/templates/index.html:168
+msgid "e.g. CSPROB"
+msgstr "例如：CSPROB"
+
+#: cms/templates/index.html:169
+msgid ""
+"The unique code that identifies this library. {strong_start}Note: This is "
+"part of your library URL, so no spaces or special characters are "
+"allowed.{strong_end} This cannot be changed."
+msgstr "識別此庫的唯一代碼。{strong_start}注意：這是您課程URL的一部分，因此不允許空格或特殊字符，且不能更改。{strong_end}"
+
+#: cms/templates/index.html:191
+msgid "Organization and Library Settings"
+msgstr ""
+
+#: cms/templates/index.html:195
+msgid "Show all courses in organization:"
+msgstr ""
+
+#: cms/templates/index.html:197
+msgid "For example, MITx"
+msgstr ""
+
+#: cms/templates/index.html:211
+msgid "Courses Being Processed"
+msgstr "正在處理課程"
+
+#: cms/templates/index.html:237
+msgid "This course run is currently being created."
+msgstr "這個開課時程現在已經被建立。"
+
+#. Translators: This is a status message, used to inform the user of
+#. what the system is doing. This status means that the user has
+#. requested to re-run an existing course, and the system is currently
+#. in the process of duplicating and configuring the existing course
+#. so that it can be re-run.
+#: cms/templates/index.html:245
+msgid "Configuring as re-run"
+msgstr "設定為重新運行"
+
+#: cms/templates/index.html:251
+msgid ""
+"The new course will be added to your course list in 5-10 minutes. Return to "
+"this page or {link_start}refresh it{link_end} to update the course list. The"
+" new course will need some manual configuration."
+msgstr "此新課程將會在5-10分鐘加入到您的課程清單。回到此頁面或 {link_start}刷新它{link_end}以更新課程清單。此新課程將會需要一些手動設定。"
+
+#. Translators: This is a status message for the course re-runs feature.
+#. When a course admin indicates that a course should be re-run, the system
+#. needs to process the request and prepare the new course. The status of
+#. the process will follow this text.
+#: cms/templates/index.html:287
+msgid "This re-run processing status:"
+msgstr "這重新運行處理狀態："
+
+#: cms/templates/index.html:290
+msgid "Configuration Error"
+msgstr "配置錯誤"
+
+#: cms/templates/index.html:296
+msgid ""
+"A system error occurred while your course was being processed. Please go to "
+"the original course to try the re-run again, or contact your PM for "
+"assistance."
+msgstr "當您的課程正在被處理中時系統錯誤發生。請到原始課程並再次重新啟動或是聯絡您的PM請求協助。"
+
+#: cms/templates/index.html:318
+msgid "Archived Courses"
+msgstr ""
+
+#: cms/templates/index.html:321
+msgid "Libraries"
+msgstr "函式庫"
+
+#: cms/templates/index.html:344
+msgid "Are you staff on an existing {studio_name} course?"
+msgstr "您是一門已存在於{studio_name}中課程的管理員？"
+
+#: cms/templates/index.html:346
+msgid ""
+"The course creator must give you access to the course. Contact the course "
+"creator or administrator for the course you are helping to author."
+msgstr "課程創建者必須授權給您才能存取課程，請聯繫課程創建者或管理者來讓您協助編輯課程。"
+
+#: cms/templates/index.html:354 cms/templates/index.html:362
+msgid "Create Your First Course"
+msgstr "建立您的第一個課程"
+
+#: cms/templates/index.html:356
+msgid "Your new course is just a click away!"
+msgstr "您只需點擊即可建立新課程！"
+
+#: cms/templates/index.html:375
+msgid "Becoming a Course Creator in {studio_name}"
+msgstr "成為 {studio_name}中的課程創建者"
+
+#: cms/templates/index.html:380
+msgid ""
+"{studio_name} is a hosted solution for our xConsortium partners and selected"
+" guests. Courses for which you are a team member appear above for you to "
+"edit, while course creator privileges are granted by {platform_name}. Our "
+"team will evaluate your request and provide you feedback within 24 hours "
+"during the work week."
+msgstr "{studio_name} 是提供給x聯盟成員，以及挑選出來的顧客的課程託管解決方案，可讓您用來編輯{platform_name} 所授權給您與您的團隊的課程。我們的工作人員將會謹慎審核您的請求，並於24小時內回覆。"
+
+#: cms/templates/index.html:385 cms/templates/index.html:410
+#: cms/templates/index.html:438
+msgid "Your Course Creator Request Status:"
+msgstr "您的課程建立者請求狀態："
+
+#: cms/templates/index.html:389
+msgid "Request the Ability to Create Courses"
+msgstr "請求建立課程所需要的權限"
+
+#: cms/templates/index.html:399 cms/templates/index.html:427
+msgid "Your Course Creator Request Status"
+msgstr "您的課程建立者請求狀態"
+
+#: cms/templates/index.html:404
+msgid ""
+"{studio_name} is a hosted solution for our xConsortium partners and selected"
+" guests. Courses for which you are a team member appear above for you to "
+"edit, while course creator privileges are granted by {platform_name}. Our "
+"team is has completed evaluating your request."
+msgstr "{studio_name}是提供給x聯盟成員，以及挑選出來的顧客的課程託管解決方案，可讓您用來編輯 {platform_name}所授權給您與您的團隊的課程。我們的工作人員已經審核完成您的請求。"
+
+#: cms/templates/index.html:413 cms/templates/index.html:441
+msgid "Your Course Creator request is:"
+msgstr "您的課程建立者請求："
+
+#: cms/templates/index.html:416
+msgid "Denied"
+msgstr "被拒絕"
+
+#: cms/templates/index.html:417
+msgid ""
+"Your request did not meet the criteria/guidelines specified by "
+"{platform_name} Staff."
+msgstr "您的請求不符合{platform_name} 工作人員所制定的標準/指導方針。"
+
+#: cms/templates/index.html:432
+msgid ""
+"{studio_name} is a hosted solution for our xConsortium partners and selected"
+" guests. Courses for which you are a team member appear above for you to "
+"edit, while course creator privileges are granted by {platform_name}. Our "
+"team is currently  evaluating your request."
+msgstr "{studio_name} 是提供給x聯盟成員，以及挑選出來的顧客的課程託管解決方案，可讓您用來編輯 {platform_name}所授權給您與您的團隊的課程。我們的工作人員正在審核您的請求，請耐心等候，謝謝。"
+
+#: cms/templates/index.html:444
+msgid "Pending"
+msgstr "暫停"
+
+#: cms/templates/index.html:446
+msgid ""
+"Your request is currently being reviewed by {platform_name} staff and should"
+" be updated shortly."
+msgstr " {platform_name}工作人員正在檢視您的請求，預期很快就會完成。"
+
+#: cms/templates/index.html:488
+msgid "Were you expecting to see a particular library here?"
+msgstr "是您期待見到的特定課程組件庫嗎？"
+
+#: cms/templates/index.html:490
+msgid ""
+"The library creator must give you access to the library. Contact the library"
+" creator or administrator for the library you are helping to author."
+msgstr "函式庫創建者必須給您存取到函式庫。聯繫函式庫創建者或管理者來讓您協助編輯函式庫。"
+
+#: cms/templates/index.html:497 cms/templates/index.html:505
+msgid "Create Your First Library"
+msgstr "建立您的第一個課程組件庫"
+
+#: cms/templates/index.html:499
+msgid ""
+"Libraries hold a pool of components that can be re-used across multiple "
+"courses. Create your first library with the click of a button!"
+msgstr "課程組件庫擁有一個組件池，能夠在跨多門課程中被重複使用。點擊按鈕以創建您的第一個課程組件庫！"
+
+#: cms/templates/index.html:516
+msgid "New to {studio_name}?"
+msgstr "第一次使用 {studio_name}？"
+
+#: cms/templates/index.html:517
+msgid ""
+"Click Help in the upper-right corner to get more information about the "
+"{studio_name} page you are viewing. You can also use the links at the bottom"
+" of the page to access our continually updated documentation and other "
+"{studio_name} resources."
+msgstr "點擊頁面右上角的“幫助”連結獲取更多關於您正在查看的 {studio_name} 頁面的信息。您也可以通過頁面底部的連結訪問我們持續更新的文檔以及其他 {studio_name}  資源。"
+
+#: cms/templates/index.html:522
+msgid "Getting Started with {studio_name}"
+msgstr " {studio_name}入門"
+
+#: cms/templates/index.html:529 cms/templates/index.html:541
+#: cms/templates/index.html:547
+msgid "Can I create courses in {studio_name}?"
+msgstr "我可以在 {studio_name}中建立課程嗎？"
+
+#: cms/templates/index.html:530
+msgid ""
+"In order to create courses in {studio_name}, you must {link_start}contact "
+"{platform_name} staff to help you create a course{link_end}."
+msgstr "為了在 {studio_name}中創建課程，您必須{link_start}聯繫 {platform_name} 員工來幫助您創建課程{link_end}。"
+
+#: cms/templates/index.html:542
+msgid ""
+"In order to create courses in {studio_name}, you must have course creator "
+"privileges to create your own course."
+msgstr "為了在{studio_name}中創建課程，您必須獲得創建您自己課程的課程創建者特權。"
+
+#: cms/templates/index.html:548
+msgid ""
+"Your request to author courses in {studio_name} has been denied. Please "
+"{link_start}contact {platform_name} Staff with further questions{link_end}."
+msgstr "您在 {studio_name}中創作課程的請求已經被拒絕。請{link_start}聯繫 {platform_name} 人員來獲取更多的幫助{link_end}。"
+
+#: cms/templates/index.html:565
+msgid "Thanks for signing up, {name}!"
+msgstr "感謝註冊，{name}！"
+
+#: cms/templates/index.html:570
+msgid "We need to verify your email address"
+msgstr "我們需要確認您的電子郵件信箱地址"
+
+#: cms/templates/index.html:572
+msgid ""
+"Almost there! In order to complete your sign up we need you to verify your "
+"email address ({email}). An activation message and next steps should be "
+"waiting for you there."
+msgstr "快完成了！為了完成您的註冊，我們需要確認您的電子信箱({email})。一封啟動資訊以及接下來的步驟應該已經送達您的電子信箱。"
+
+#: cms/templates/index.html:580
+msgid "Need help?"
+msgstr "需要幫助？"
+
+#: cms/templates/index.html:581
+msgid ""
+"Please check your Junk or Spam folders in case our email isn't in your "
+"INBOX. Still can't find the verification email? Request help via the link "
+"below."
+msgstr "請檢查您的垃圾郵件，以防我們的郵件不在您的收件箱中。依然找不到確認郵件？透過下面的連結請求協助。"
+
+#: cms/templates/library.html:49
+msgid "Content Library"
+msgstr "課程組件庫"
+
+#: cms/templates/library.html:61
+msgid "Add Component"
+msgstr "新增組件"
+
+#: cms/templates/library.html:90
+msgid "Adding content to your library"
+msgstr "新增內容到您的課程組件庫"
+
+#: cms/templates/library.html:91
+msgid ""
+"Add components to your library for use in courses, using Add New Component "
+"at the bottom of this page."
+msgstr "要新增組件到您的課程組件庫以便使用於課程中，請點選頁面中的新增組件按鈕。"
+
+#: cms/templates/library.html:92
+msgid ""
+"Components are listed in the order in which they are added, with the most "
+"recently added at the bottom. Use the pagination arrows to navigate from "
+"page to page if you have more than one page of components in your library."
+msgstr "顯示在表上的組件已經按照新增的順序排列，最新加入的組件列在最後。如果您的課程組件庫中有較多的組件，您可以點選分頁箭頭來導覽至其他頁面檢視。"
+
+#: cms/templates/library.html:93
+msgid "Using library content in courses"
+msgstr "在課程上使用課程組件庫內容"
+
+#: cms/templates/library.html:94
+msgid ""
+"Use library content in courses by adding the "
+"{em_start}library_content{em_end} policy key to the Advanced Module List in "
+"the course's Advanced Settings, then adding a Randomized Content Block to "
+"your courseware. In the settings for each Randomized Content Block, select "
+"this library as the source library, and specify the number of problems to be"
+" randomly selected and displayed to each student."
+msgstr "使用課程的函式庫是由新增的{em_start}函式庫內容{em_end}政策所指向到課程進階設定的進階模組列表，然後新增一個隨機內容區塊到您的教材。對於每個隨機內容區塊，選擇這函式庫作為函式庫來源，以及指定問題的數量是隨機選擇來顯示於每位學生。"
+
+#: cms/templates/library.html:101
+msgid "Learn more about content libraries"
+msgstr "學習更多關於內容函式庫"
+
+#: cms/templates/manage_users.html:11
+msgid "Course Team Settings"
+msgstr "課程團隊設定"
+
+#: cms/templates/manage_users.html:35 cms/templates/manage_users_lib.html:35
+msgid "New Team Member"
+msgstr "新增團隊成員"
+
+#: cms/templates/manage_users.html:50
+msgid "Add a User to Your Course's Team"
+msgstr "新增一位使用者到您的課程團隊中"
+
+#: cms/templates/manage_users.html:53 cms/templates/manage_users_lib.html:53
+msgid "New Team Member Information"
+msgstr "新團隊成員資訊"
+
+#: cms/templates/manage_users.html:57 cms/templates/manage_users_lib.html:57
+msgid "User's Email Address"
+msgstr "用戶的電子郵件信箱地址"
+
+#: cms/templates/manage_users.html:59
+msgid "Provide the email address of the user you want to add as Staff"
+msgstr "提供用戶的電子郵件地址，你要添加為工作人員"
+
+#: cms/templates/manage_users.html:66 cms/templates/manage_users_lib.html:66
+msgid "Add User"
+msgstr "新增用戶"
+
+#: cms/templates/manage_users.html:82
+msgid "Add Team Members to This Course"
+msgstr "新增團隊成員到此課程"
+
+#: cms/templates/manage_users.html:84
+msgid ""
+"Adding team members makes course authoring collaborative. Users must be "
+"signed up for {studio_name} and have an active account."
+msgstr "新增團隊成員以協助編輯課程，使用者必須先註冊並且啟動在{studio_name}上的帳號。"
+
+#: cms/templates/manage_users.html:90
+msgid "Add a New Team Member"
+msgstr "新增一個團隊成員"
+
+#: cms/templates/manage_users.html:99
+msgid "Course Team Roles"
+msgstr "課程團隊角色"
+
+#: cms/templates/manage_users.html:100
+msgid ""
+"Course team members with the Staff role are course co-authors. They have "
+"full writing and editing privileges on all course content."
+msgstr "當然，團隊成員與工作人員的角色當然是合著者。他們對所有課程內容的寫作和編輯權限。"
+
+#: cms/templates/manage_users.html:102
+msgid ""
+"Admins are course team members who can add and remove other course team "
+"members."
+msgstr "管理員是課程團隊成員，可以新增及移除其他課程團隊成員。"
+
+#: cms/templates/manage_users.html:103
+msgid ""
+"All course team members can access content in Studio, the LMS, and Insights,"
+" but are not automatically enrolled in the course."
+msgstr "All course team members can access content in Studio, the LMS, and Insights, but are not automatically enrolled in the course."
+
+#: cms/templates/manage_users.html:108
+msgid "Transferring Ownership"
+msgstr "轉讓擁有權"
+
+#: cms/templates/manage_users.html:109
+msgid ""
+"Every course must have an Admin. If you are the Admin and you want to "
+"transfer ownership of the course, click <strong>Add admin access</strong> to"
+" make another user the Admin, then ask that user to remove you from the "
+"Course Team list."
+msgstr "每門課程必須有一名管理員。如果您是管理員並希望轉讓您的課程擁有者身分，<strong>您可以賦予access</strong> 其他用戶管理員許可權，並請求他們將您從課程團隊列表中移除。"
+
+#: cms/templates/manage_users_lib.html:11
+msgid "Library User Access"
+msgstr "課程組件庫使用者存取"
+
+#: cms/templates/manage_users_lib.html:27
+#: cms/templates/widgets/header.html:159
+msgid "User Access"
+msgstr "使用者存取"
+
+#: cms/templates/manage_users_lib.html:50
+msgid "Grant Access to This Library"
+msgstr "授予訪問權於此課程組件庫"
+
+#: cms/templates/manage_users_lib.html:59
+msgid "Provide the email address of the user you want to add"
+msgstr "提供您想要新增的使用者電子郵件地址"
+
+#: cms/templates/manage_users_lib.html:82
+msgid "Add More Users to This Library"
+msgstr "新增更多使用者到此課程組件庫"
+
+#: cms/templates/manage_users_lib.html:84
+msgid ""
+"Grant other members of your course team access to this library. New library "
+"users must have an active {studio_name} account."
+msgstr "授權您課程團隊的其他成員可以存取此課程組件庫。新的課程組件庫使用者必須要有一個啟用的{studio_name}的帳號。"
+
+#: cms/templates/manage_users_lib.html:90
+msgid "Add a New User"
+msgstr "新增使用者"
+
+#: cms/templates/manage_users_lib.html:99
+msgid "Library Access Roles"
+msgstr "課程組件庫存取角色"
+
+#: cms/templates/manage_users_lib.html:100
+msgid "There are three access roles for libraries: User, Staff, and Admin."
+msgstr "對於函式庫有三個存取角色：使用者，工作人員以及管理者。"
+
+#: cms/templates/manage_users_lib.html:101
+msgid ""
+"Library Users can view library content and can reference or use library "
+"components in their courses, but they cannot edit the contents of a library."
+msgstr "課程組件庫使用者可以查看課程組件庫的內容以及可以引用或使用課程組件庫的組件到他們的課程中，不過他們無法編輯課程組件庫的內容。"
+
+#: cms/templates/manage_users_lib.html:102
+msgid ""
+"Library Staff are content co-authors. They have full editing privileges on "
+"the contents of a library."
+msgstr "課程組件庫工作人員是內容的共同作者，他們擁有完全編輯課程組件庫內容的權限。"
+
+#: cms/templates/manage_users_lib.html:103
+msgid ""
+"Library Admins have full editing privileges and can also add and remove "
+"other team members. There must be at least one user with the Admin role in a"
+" library."
+msgstr "課程組件庫管理者擁有所有的編輯權限，也可以新增或刪除其他團體成員。課程組件庫中必須至少有一名使用者擁有管理者權限。"
+
+#: cms/templates/register.html:8 cms/templates/widgets/header.html:235
+msgid "Sign Up"
+msgstr "註冊"
+
+#: cms/templates/register.html:16
+msgid "Sign Up for {studio_name}"
+msgstr "註冊加入 {studio_name}"
+
+#: cms/templates/register.html:17
+msgid "Already have a {studio_name} Account? Sign in"
+msgstr "已經有了 {studio_name} 帳號了嗎？登入"
+
+#: cms/templates/register.html:20
+msgid ""
+"Ready to start creating online courses? Sign up below and start creating "
+"your first {platform_name} course today."
+msgstr "準備好開始創建線上課程了嗎？請從下面開始註冊並立刻創建您的第一門 {platform_name} 課程。"
+
+#: cms/templates/register.html:28
+msgid "Required Information to Sign Up for {studio_name}"
+msgstr "註冊 {studio_name} 所需的資訊"
+
+#: cms/templates/register.html:47
+msgid ""
+"This will be used in public discussions with your courses and in our edX101 "
+"support forums"
+msgstr "這會被用於您的課程的公開討論以及我們的edX101支援討論區。"
+
+#: cms/templates/register.html:58
+msgid "Your Location"
+msgstr "您的位置、國家、城市"
+
+#: cms/templates/register.html:63
+msgid "Preferred Language"
+msgstr "偏好的語言"
+
+#: cms/templates/register.html:71
+msgid "I agree to the {a_start} Terms of Service {a_end}"
+msgstr "我同意 {a_start}服務條款{a_end}"
+
+#: cms/templates/register.html:78
+msgid "Create My Account &amp; Start Authoring Courses"
+msgstr "建立我的帳戶 &amp; 開始製作課程"
+
+#: cms/templates/register.html:87
+msgid "Common {studio_name} Questions"
+msgstr "關於 {studio_name} 的常見問題"
+
+#: cms/templates/register.html:90
+msgid "Who is {studio_name} for?"
+msgstr "對於誰是{studio_name}？"
+
+#: cms/templates/register.html:91
+msgid ""
+"{studio_name} is for anyone that wants to create online courses that "
+"leverage the global {platform_name} platform. Our users are often faculty "
+"members, teaching assistants and course staff, and members of instructional "
+"technology groups."
+msgstr "{studio_name} 面向任何希望使用國際化{platform_name} 平臺創建線上課程的用戶，這些用戶通常是教職員、助教、課程工作人員或教學技術小組。"
+
+#: cms/templates/register.html:97
+msgid ""
+"How technically savvy do I need to be to create courses in {studio_name}?"
+msgstr "在{studio_name}創建課程需要掌握哪些技術？"
+
+#: cms/templates/register.html:98
+msgid ""
+"{studio_name} is designed to be easy to use by almost anyone familiar with "
+"common web-based authoring environments (Wordpress, Moodle, etc.). No "
+"programming knowledge is required, but for some of the more advanced "
+"features, a technical background would be helpful. As always, we are here to"
+" help, so don't hesitate to dive right in."
+msgstr "對幾乎所有熟悉線上編輯環境(WordPress、Moodle之類)的人而言，{studio_name} 是很容易使用的。它無需任何程式設計知識，不過擁有技術背景會對使用一些進階功能有所幫助。我們會一如既往地為您提供幫助，不要猶豫趕快加入吧。"
+
+#: cms/templates/register.html:104
+msgid "I've never authored a course online before. Is there help?"
+msgstr "我以前從來沒建立過線上課程，可以幫幫我嗎？"
+
+#: cms/templates/register.html:105
+msgid ""
+"Absolutely. We have created an online course, edX101, that describes some "
+"best practices: from filming video, creating exercises, to the basics of "
+"running an online course. Additionally, we're always here to help, just drop"
+" us a note."
+msgstr "當然，我們建立了一個線上課程edX101，它記述了一些最好的實踐方法：從拍攝影片，創建練習到開展線上課程的基礎。另外我們會一直提供協助，需要時請留言給我們。"
+
+#: cms/templates/settings.html:4
+msgid "Schedule & Details Settings"
+msgstr "時程表與細節設定"
+
+#: cms/templates/settings.html:52 cms/templates/widgets/header.html:87
+msgid "Schedule & Details"
+msgstr " 時程表與課程介紹"
+
+#: cms/templates/settings.html:63
+msgid "Basic Information"
+msgstr "基本資訊"
+
+#: cms/templates/settings.html:64
+msgid "The nuts and bolts of your course"
+msgstr "您的課程的具體細節"
+
+#: cms/templates/settings.html:70 cms/templates/settings.html:76
+#: cms/templates/settings.html:82 cms/templates/settings.html:147
+#: cms/templates/settings.html:158 cms/templates/settings.html:169
+msgid "This field is disabled: this information cannot be changed."
+msgstr "該欄位為關閉，資訊不可修改。"
+
+#: cms/templates/settings.html:89
+msgid "Course Summary Page"
+msgstr "課程總結頁面"
+
+#: cms/templates/settings.html:89
+msgid "(for student enrollment and access)"
+msgstr "(用於學生註冊和訪問)"
+
+#: cms/templates/settings.html:100
+msgid "Enroll in {course_display_name}"
+msgstr "註冊{course_display_name}"
+
+#: cms/templates/settings.html:103
+msgid ""
+"The course \"{course_display_name}\", provided by {platform_name}, is open "
+"for enrollment. Please navigate to this course at {link_for_about_page} to "
+"enroll."
+msgstr "課程 \"{course_display_name}\" ，被{platform_name}提供，是被開放註冊的。請透過此課程在  {link_for_about_page} 註冊。"
+
+#: cms/templates/settings.html:109
+msgid "Send a note to students via email"
+msgstr "透過電子郵件發送筆記給學生"
+
+#: cms/templates/settings.html:111
+msgid "Invite your students"
+msgstr "邀請您的學生"
+
+#: cms/templates/settings.html:119
+msgid "Promoting Your Course with {platform_name}"
+msgstr "透過{platform_name}平台推廣您的課程"
+
+#: cms/templates/settings.html:121
+msgid ""
+"Your course summary page will not be viewable until your course has been "
+"announced. To provide content for the page and preview it, follow the "
+"instructions provided by your Program Manager."
+msgstr "您的課程總結頁面直到您的課程發布之後才會可見。為了向該頁面提供內容並預覽頁面，請遵循您的程式管理者所提供的說明。"
+
+#: cms/templates/settings.html:135
+msgid "Course Credit Requirements"
+msgstr "課程學分要求"
+
+#: cms/templates/settings.html:136
+msgid "Steps required to earn course credit"
+msgstr "得到學分的要求"
+
+#: cms/templates/settings.html:144 cms/templates/settings.html:146
+msgid "Minimum Grade"
+msgstr "最低等級"
+
+#: cms/templates/settings.html:155
+msgid "Successful Proctored Exam"
+msgstr "成功監考考試"
+
+#: cms/templates/settings.html:157
+msgid "Proctored Exam {number}"
+msgstr "監考考試 {number}"
+
+#: cms/templates/settings.html:166
+msgid "ID Verification"
+msgstr "ID 驗證"
+
+#: cms/templates/settings.html:168
+msgid "In-Course Reverification {number}"
+msgstr "在課程期間重新驗證 {number}"
+
+#: cms/templates/settings.html:184
+msgid "Course Schedule"
+msgstr "課程時程表"
+
+#: cms/templates/settings.html:185
+msgid "Dates that control when your course can be viewed"
+msgstr "日期決定了您的課程何時可以被瀏覽。"
+
+#: cms/templates/settings.html:193
+msgid "First day the course begins"
+msgstr "課程開始的第一天"
+
+#: cms/templates/settings.html:197
+msgid "Course Start Time"
+msgstr "開課時間"
+
+#: cms/templates/settings.html:199 cms/templates/settings.html:213
+#: cms/templates/settings.html:241 cms/templates/settings.html:263
+msgid "(UTC)"
+msgstr "(國際標準時間)"
+
+#: cms/templates/settings.html:207
+msgid "Last day your course is active"
+msgstr "您課程可被訪問的最後一天"
+
+#: cms/templates/settings.html:211
+msgid "Course End Time"
+msgstr "課程結束時間"
+
+#: cms/templates/settings.html:222
+msgid "Certificates Available Date"
+msgstr ""
+
+#: cms/templates/settings.html:224
+msgid "By default, 48 hours after course end date"
+msgstr ""
+
+#: cms/templates/settings.html:233
+msgid "Enrollment Start Date"
+msgstr "註冊開始日期"
+
+#: cms/templates/settings.html:235
+msgid "First day students can enroll"
+msgstr "學生可以註冊的第一天"
+
+#: cms/templates/settings.html:239
+msgid "Enrollment Start Time"
+msgstr "註冊開始時間"
+
+#: cms/templates/settings.html:250
+msgid "Enrollment End Date"
+msgstr "註冊結束日期"
+
+#: cms/templates/settings.html:253
+msgid "Last day students can enroll."
+msgstr "學生可以註冊的最後一天"
+
+#: cms/templates/settings.html:255
+msgid "Contact your edX partner manager to update these settings."
+msgstr "聯繫您的 edX 夥伴管理員幫助您升級這些設定。"
+
+#: cms/templates/settings.html:261
+msgid "Enrollment End Time"
+msgstr "註冊結束時間"
+
+#: cms/templates/settings.html:270
+msgid "These Dates Are Not Used When Promoting Your Course"
+msgstr "當推廣您的課程的時候這些日期將不會被使用"
+
+#: cms/templates/settings.html:272
+msgid ""
+"These dates impact {strong_start}when your courseware can be "
+"viewed{strong_end}, but they are {strong_start}not the dates shown on your "
+"course summary page{strong_end}. To provide the course start and "
+"registration dates as shown on your course summary page, follow the "
+"instructions provided by your Program Manager."
+msgstr "這些日期會影響 {strong_start} 您的課程在何時可以讓學生瀏覽 {strong_end} ，但是它們 {strong_start}並不是在您的課程介紹頁面顯示的日期 {strong_end}。要在課程介紹頁面提供課程開始日期和註冊日期，請遵循您的管理人員所提供的指示。"
+
+#: cms/templates/settings.html:289
+msgid "Course Details"
+msgstr "課程細節"
+
+#: cms/templates/settings.html:290
+msgid "Provide useful information about your course"
+msgstr "提供有用的課程資訊"
+
+#: cms/templates/settings.html:294
+msgid "Course Language"
+msgstr "課程語言"
+
+#: cms/templates/settings.html:301
+msgid ""
+"Identify the course language here. This is used to assist users find courses"
+" that are taught in a specific language. It is also used to localize the "
+"'From:' field in bulk emails."
+msgstr ""
+
+#: cms/templates/settings.html:310
+msgid "Introducing Your Course"
+msgstr "介紹您的課程"
+
+#: cms/templates/settings.html:311
+msgid "Information for prospective students"
+msgstr "準學生的資訊"
+
+#: cms/templates/settings.html:317
+msgid "Course Title"
+msgstr "課程標題"
+
+#: cms/templates/settings.html:319
+msgid "Displayed as title on the course details page. Limit to 50 characters."
+msgstr "在課程詳細訊息頁面上顯示為標題。 最多50個字符。"
+
+#: cms/templates/settings.html:322
+msgid "Course Subtitle"
+msgstr "課程字幕"
+
+#: cms/templates/settings.html:324
+msgid ""
+"Displayed as subtitle on the course details page. Limit to 150 characters."
+msgstr "在課程詳細訊息頁面上顯示為字幕。 最多150個字。"
+
+#: cms/templates/settings.html:327
+msgid "Course Duration"
+msgstr "課程持續時間"
+
+#: cms/templates/settings.html:329
+msgid "Displayed on the course details page. Limit to 50 characters."
+msgstr "顯示在課程詳細訊息頁面上。 最多50個字。"
+
+#: cms/templates/settings.html:332
+msgid "Course Description"
+msgstr "課程簡介"
+
+#: cms/templates/settings.html:334
+msgid "Displayed on the course details page. Limit to 1000 characters."
+msgstr "顯示在課程詳細訊息頁面上。 最多1000個字。"
+
+#: cms/templates/settings.html:340
+msgid "Course Short Description"
+msgstr "課程簡介"
+
+#: cms/templates/settings.html:342
+msgid ""
+"Appears on the course catalog page when students roll over the course name. "
+"Limit to ~150 characters"
+msgstr "學生捲動課程名稱時顯示在課程目錄頁。限制 ~150個字符"
+
+#: cms/templates/settings.html:348
+msgid "Course Overview"
+msgstr "課程概述"
+
+#: cms/templates/settings.html:351
+msgid "HTML Code Editor"
+msgstr "HTML編輯器"
+
+#: cms/templates/settings.html:354
+msgid ""
+"Introductions, prerequisites, FAQs that are used on {a_link_start}your "
+"course summary page{a_link_end} (formatted in HTML)"
+msgstr "介紹說明、先修條件、常見問題解答被列在 {a_link_start}您的課程資訊頁面{a_link_end} (採用HTML格式)"
+
+#: cms/templates/settings.html:362 cms/templates/settings.html:366
+#: cms/templates/settings.html:378
+msgid "Course Card Image"
+msgstr "課程圖片"
+
+#: cms/templates/settings.html:370 cms/templates/settings.html:404
+#: cms/templates/settings.html:437
+msgid ""
+"You can manage this image along with all of your other {a_link_start}files "
+"and uploads{a_link_end}"
+msgstr "您可以管理此照片以及所有其他{a_link_start}檔案和上傳的檔案{a_link_end}"
+
+#: cms/templates/settings.html:380
+msgid ""
+"Your course currently does not have an image. Please upload one (JPEG or PNG"
+" format, and minimum suggested dimensions are 375px wide by 200px tall)"
+msgstr "您的課程目前沒有設定課程圖片，請上傳一張圖片(JPEG或PNG格式，最小建議大小為寬375像素、高200像素)"
+
+#. Translators: This is the placeholder text for a field that requests the URL
+#. for a course image
+#: cms/templates/settings.html:387
+msgid "Your course image URL"
+msgstr "您的課程圖片網址"
+
+#: cms/templates/settings.html:388
+msgid ""
+"Please provide a valid path and name to your course image (Note: only JPEG "
+"or PNG format supported)"
+msgstr "請為您的課程圖片提供一個有效的連結路徑 (注意：僅支援JPEG和PNG格式)"
+
+#: cms/templates/settings.html:390
+msgid "Upload Course Card Image"
+msgstr "上傳課程圖片"
+
+#: cms/templates/settings.html:396 cms/templates/settings.html:400
+#: cms/templates/settings.html:412
+msgid "Course Banner Image"
+msgstr "課程橫幅圖片"
+
+#: cms/templates/settings.html:414
+msgid ""
+"Your course currently does not have an image. Please upload one (JPEG or PNG"
+" format, and minimum suggested dimensions are 1440px wide by 400px tall)"
+msgstr "您的課程目前沒有設定課程圖片，請上傳一張圖片(JPEG或PNG格式，最小建議大小為寬1440像素、高400像素)"
+
+#. Translators: This is the placeholder text for a field that requests the URL
+#. for a course banner image
+#: cms/templates/settings.html:421
+msgid "Your banner image URL"
+msgstr "您的橫幅圖片網址"
+
+#: cms/templates/settings.html:422
+msgid ""
+"Please provide a valid path and name to your banner image (Note: only JPEG "
+"or PNG format supported)"
+msgstr "請為您的課程圖片提供一個有效的連結路徑 (注意：僅支援JPEG和PNG格式)"
+
+#: cms/templates/settings.html:424
+msgid "Upload Course Banner Image"
+msgstr "上傳課程橫幅圖片"
+
+#: cms/templates/settings.html:429
+msgid "Course Video Thumbnail Image"
+msgstr "課程影片縮圖圖片"
+
+#: cms/templates/settings.html:433 cms/templates/settings.html:445
+msgid "Video Thumbnail Image"
+msgstr "影片縮圖"
+
+#: cms/templates/settings.html:447
+msgid ""
+"Your course currently does not have a video thumbnail image. Please upload "
+"one (JPEG or PNG format, and minimum suggested dimensions are 375px wide by "
+"200px tall)"
+msgstr "您的課程目前沒有設定影片縮圖，請上傳一張圖片(JPEG或PNG格式，最小建議大小為寬375像素、高200像素)"
+
+#. Translators: This is the placeholder text for a field that requests the URL
+#. for a course video thumbnail image
+#: cms/templates/settings.html:454
+msgid "Your video thumbnail image URL"
+msgstr "您的影片縮圖網址"
+
+#: cms/templates/settings.html:455
+msgid ""
+"Please provide a valid path and name to your video thumbnail image (Note: "
+"only JPEG or PNG format supported)"
+msgstr "請為您的影片縮圖提供一個有效的連結路徑 (注意：僅支援JPEG和PNG格式)"
+
+#: cms/templates/settings.html:457
+msgid "Upload Video Thumbnail Image"
+msgstr "上傳影片縮圖"
+
+#: cms/templates/settings.html:464 cms/templates/settings.html:467
+msgid "Course Introduction Video"
+msgstr "課程簡介影片"
+
+#: cms/templates/settings.html:470
+msgid "Delete Current Video"
+msgstr "刪除當前影片"
+
+#. Translators: This is the placeholder text for a field that requests a
+#. YouTube video ID for a course video
+#: cms/templates/settings.html:476
+msgid "your YouTube video's ID"
+msgstr " 您的YouTube影片識別碼"
+
+#: cms/templates/settings.html:477
+msgid "Enter your YouTube video's ID (along with any restriction parameters)"
+msgstr "請輸入您的 YouTube 影片編號 (以及任何必要的限制參數)"
+
+#: cms/templates/settings.html:488
+msgid "Learning Outcomes"
+msgstr "學習成果"
+
+#: cms/templates/settings.html:489
+msgid "Add the learning outcomes for this course"
+msgstr "添加此課程學習成果"
+
+#: cms/templates/settings.html:496
+msgid "Add Learning Outcome"
+msgstr "添加學習成果"
+
+#: cms/templates/settings.html:505
+msgid "Add details about the instructors for this course"
+msgstr "添加本課程教師的詳細資訊"
+
+#: cms/templates/settings.html:512
+msgid "Add Instructor"
+msgstr "增加教師"
+
+#: cms/templates/settings.html:524
+msgid "Expectations of the students taking this course"
+msgstr "對參加這門課程的學生之期望"
+
+#: cms/templates/settings.html:530
+msgid "Hours of Effort per Week"
+msgstr "每週投入的學習時間"
+
+#: cms/templates/settings.html:532
+msgid "Time spent on all course work"
+msgstr "投入在整個課程的時間"
+
+#: cms/templates/settings.html:537
+msgid "Prerequisite Course"
+msgstr "預備課程"
+
+#: cms/templates/settings.html:539
+msgid "None"
+msgstr "無"
+
+#: cms/templates/settings.html:544
+msgid "Course that students must complete before beginning this course"
+msgstr "在開始此課程前學生必須完成的課程"
+
+#: cms/templates/settings.html:545
+msgid "set pre-requisite course"
+msgstr "設置先修課程"
+
+#: cms/templates/settings.html:550
+msgid "Entrance Exam"
+msgstr "資格考試"
+
+#: cms/templates/settings.html:554
+msgid "Require students to pass an exam before beginning the course."
+msgstr "在這課程開始之前學生需要通過考試。"
+
+#: cms/templates/settings.html:558
+msgid ""
+"You can now view and author your course entrance exam from the "
+"{link_start}Course Outline{link_end}."
+msgstr "你現在可以從{link_start}課程大綱{link_end}來查看以及計劃您的課程資格考試。"
+
+#: cms/templates/settings.html:562
+msgid "Grade Requirements"
+msgstr "評分標準"
+
+#: cms/templates/settings.html:563
+msgid " %"
+msgstr "%"
+
+#: cms/templates/settings.html:564
+msgid ""
+"The score student must meet in order to successfully complete the entrance "
+"exam. "
+msgstr "學生必須滿足分數來順利完成資格考試。"
+
+#: cms/templates/settings.html:580
+msgid "Set the pacing for this course"
+msgstr "設定課程開始"
+
+#: cms/templates/settings.html:589
+msgid ""
+"Instructor-paced courses progress at the pace that the course author sets. "
+"You can configure release dates for course content and due dates for "
+"assignments."
+msgstr "教師教學課程的進度可以由該課程作者設置。你可以為該課程設置課程內容發布時間及停止觀看時間。"
+
+#: cms/templates/settings.html:594
+msgid ""
+"Self-paced courses do not have release dates for course content or due dates"
+" for assignments. Learners can complete course material at any time before "
+"the course end date."
+msgstr "自學課程沒有課程發布時間與作業繳交時間，學生可以在課程結束時間間自由地完成。"
+
+#: cms/templates/settings.html:605
+msgid "Course Content License"
+msgstr "課程內容授權"
+
+#. Translators: At the course settings, the editor is able to select the
+#. default course content license.
+#. The course content will have this license set, some assets can override the
+#. license with their own.
+#. In the form, the license selector for course content is described using the
+#. following string:
+#: cms/templates/settings.html:609
+msgid "Select the default license for course content"
+msgstr "選擇課程內容的預設授權"
+
+#: cms/templates/settings.html:623
+msgid "How are these settings used?"
+msgstr "如何使用這些設定？"
+
+#: cms/templates/settings.html:624
+msgid ""
+"Your course's schedule determines when students can enroll in and begin a "
+"course."
+msgstr "您的課程時間表決定何時學生可以註冊和開始本門課程。"
+
+#: cms/templates/settings.html:626
+msgid ""
+"Other information from this page appears on the About page for your course. "
+"This information includes the course overview, course image, introduction "
+"video, and estimated time requirements. Students use About pages to choose "
+"new courses to take."
+msgstr "本頁面的其他資訊將會出現在您課程的關於頁面上。這些資訊包括課程概述、課程圖片、介紹影片，以及預估的時間要求。學生們可以使用關於頁面來選擇要上的課程。"
+
+#: cms/templates/settings_advanced.html:49
+msgid "Your policy changes have been saved."
+msgstr "已儲存您的設置變更。"
+
+#: cms/templates/settings_advanced.html:53
+msgid "There was an error saving your information. Please see below."
+msgstr "儲存您的訊息時發生錯誤，詳情如下。"
+
+#: cms/templates/settings_advanced.html:58
+msgid "Manual Policy Definition"
+msgstr "手動定義課程策略"
+
+#: cms/templates/settings_advanced.html:62
+msgid ""
+"{strong_start}Warning{strong_end}: Do not modify these policies unless you "
+"are familiar with their purpose."
+msgstr "{strong_start}警告{strong_end}：不要輕易修改這些設置，除非您已經非常清楚這些設定的目的。"
+
+#: cms/templates/settings_advanced.html:70
+msgid "Show Deprecated Settings"
+msgstr "顯示棄用的設定"
+
+#: cms/templates/settings_advanced.html:83
+msgid "What do advanced settings do?"
+msgstr "進階設定用來做什麼用途？"
+
+#: cms/templates/settings_advanced.html:84
+msgid ""
+"Advanced settings control specific course functionality. On this page, you "
+"can edit manual policies, which are JSON-based key and value pairs that "
+"control specific course settings."
+msgstr "進階設定控制了特定的課程功能。在這個頁面，您可以手動編輯以JSON鍵值對表示的策略設定，控制特定的課程設定。"
+
+#: cms/templates/settings_advanced.html:86
+msgid ""
+"Any policies you modify here override all other information you've defined "
+"elsewhere in {studio_name}. Do not edit policies unless you are familiar "
+"with both their purpose and syntax."
+msgstr "您在這裡的更改會覆蓋在{studio_name}其他地方定義的資訊。請注意不要修改您不熟悉的規則包括它們的目標和語法。"
+
+#: cms/templates/settings_advanced.html:88
+msgid ""
+"{em_start}Note:{em_end} When you enter strings as policy values, ensure that"
+" you use double quotation marks (\") around the string. Do not use single "
+"quotation marks (')."
+msgstr "{em_start}注意：{em_end} 當您輸入字串當作策略值時，請確認在字串中使用雙引號 (\") ，不要使用單引號  (') 。"
+
+#: cms/templates/settings_graders.html:3
+msgid "Grading Settings"
+msgstr "評分設置"
+
+#: cms/templates/settings_graders.html:54
+msgid "Overall Grade Range"
+msgstr "整體評分範圍"
+
+#: cms/templates/settings_graders.html:55
+msgid "Your overall grading scale for student final grades"
+msgstr "您對學生最終得分的整體評分範圍"
+
+#: cms/templates/settings_graders.html:61
+msgid "Add grade"
+msgstr "增加評分"
+
+#: cms/templates/settings_graders.html:90
+msgid "Credit Eligibility"
+msgstr "學分合格"
+
+#: cms/templates/settings_graders.html:91
+msgid "Settings for course credit eligibility"
+msgstr "設定學分合格"
+
+#: cms/templates/settings_graders.html:96
+msgid "Minimum Credit-Eligible Grade:"
+msgstr "最低學分合格成績:"
+
+#: cms/templates/settings_graders.html:99
+msgid "Must be greater than or equal to the course passing grade"
+msgstr "必須大於或等課程成格分數"
+
+#: cms/templates/settings_graders.html:108
+msgid "Grading Rules &amp; Policies"
+msgstr "評分規則與策略"
+
+#: cms/templates/settings_graders.html:109
+msgid "Deadlines, requirements, and logistics around grading student work"
+msgstr "對學生進行評分的截止日期，要求和流程"
+
+#: cms/templates/settings_graders.html:114
+msgid "Grace Period on Deadline:"
+msgstr "截止日期的寬限時間"
+
+#: cms/templates/settings_graders.html:116
+msgid "Leeway on due dates"
+msgstr "允許作業遲交的寬限時間"
+
+#: cms/templates/settings_graders.html:124
+msgid "Assignment Types"
+msgstr "作業類別"
+
+#: cms/templates/settings_graders.html:125
+msgid "Categories and labels for any exercises that are gradable"
+msgstr "所有可評分的練習種類和標籤"
+
+#: cms/templates/settings_graders.html:134
+msgid "New Assignment Type"
+msgstr "新增作業類別"
+
+#: cms/templates/settings_graders.html:143
+msgid "What can I do on this page?"
+msgstr "我可以在此頁做甚麼事情？"
+
+#: cms/templates/settings_graders.html:144
+msgid ""
+"You can use the slider under Overall Grade Range to specify whether your "
+"course is pass/fail or graded by letter, and to establish the thresholds for"
+" each grade."
+msgstr "您可以使用整體評分範圍下面的滑動條來指定評分標準，或者使用簡易等級字母評分，並且設定每種評分的門檻值。"
+
+#: cms/templates/settings_graders.html:146
+msgid ""
+"You can specify whether your course offers students a grace period for late "
+"assignments."
+msgstr "您可以指定您的課程是否給提供學生遲交作業的寬限期。"
+
+#: cms/templates/settings_graders.html:147
+msgid ""
+"You can also create assignment types, such as homework, labs, quizzes, and "
+"exams, and specify how much of a student's grade each assignment type is "
+"worth."
+msgstr "您也可以建立作業類型，比如家庭作業、實驗、隨堂測驗、以及考試，並且指定每個作業的評價分值。"
+
+#: cms/templates/studio_xblock_wrapper.html:63
+#: cms/templates/studio_xblock_wrapper.html:65
+msgid "Expand or Collapse"
+msgstr "展開或折疊"
+
+#: cms/templates/studio_xblock_wrapper.html:88
+msgid "Access Settings"
+msgstr ""
+
+#: cms/templates/studio_xblock_wrapper.html:90
+msgid "Set Access"
+msgstr "設置存取權"
+
+#: cms/templates/studio_xblock_wrapper.html:143
+msgid "This block contains multiple components."
+msgstr "此版塊含有多個組成部分。"
+
+#: cms/templates/textbooks.html:9 cms/templates/textbooks.html:41
+#: cms/templates/widgets/header.html:68
+msgid "Textbooks"
+msgstr "教材"
+
+#: cms/templates/textbooks.html:48
+msgid "New Textbook"
+msgstr "新的教材"
+
+#: cms/templates/textbooks.html:60
+msgid "Why should I break my textbook into chapters?"
+msgstr "為什麼我需要將教材拆分成章節？"
+
+#: cms/templates/textbooks.html:61
+msgid ""
+"Breaking your textbook into multiple chapters reduces loading times for "
+"students, especially those with slow Internet connections. Breaking up "
+"textbooks into chapters can also help students more easily find topic-based "
+"information."
+msgstr "將您的課程教材拆分成章節有助於降低學生的載入時間，特別是網路速度較慢的學生。同時可以幫助學生更容易根據主題找到他們所需的資訊。"
+
+#: cms/templates/textbooks.html:64
+msgid "What if my book isn't divided into chapters?"
+msgstr "如果我的教材沒有拆分成章節會怎麼樣？"
+
+#: cms/templates/textbooks.html:65
+msgid ""
+"If your textbook doesn't have individual chapters, you can upload the entire"
+" text as a single chapter and enter a name of your choice in the Chapter "
+"Name field."
+msgstr "如果您的教材沒有獨立的章節，您可以上傳整個文件作為一個章節，並在章節名稱欄位中輸入您所選擇的名稱。"
+
+#: cms/templates/textbooks.html:69
+msgid "Learn more about textbooks"
+msgstr "了解更多關於筆記本"
+
+#: cms/templates/videos_index.html:13 cms/templates/videos_index.html:58
+#: cms/templates/widgets/header.html:72
+msgid "Video Uploads"
+msgstr "影片上傳"
+
+#: cms/templates/videos_index.html:65
+msgid "Course Video Settings"
+msgstr ""
+
+#: cms/templates/visibility_editor.html:20
+#: cms/templates/visibility_editor.html:70
+msgid "Access is not restricted"
+msgstr ""
+
+#: cms/templates/visibility_editor.html:23
+msgid ""
+"Access to this unit is not restricted, but visibility might be affected by "
+"inherited settings."
+msgstr ""
+
+#: cms/templates/visibility_editor.html:25
+msgid ""
+"Access to this component is not restricted, but visibility might be affected"
+" by inherited settings."
+msgstr ""
+
+#: cms/templates/visibility_editor.html:29
+msgid ""
+"You can restrict access to this unit to learners in specific enrollment "
+"tracks or content groups."
+msgstr ""
+
+#: cms/templates/visibility_editor.html:31
+msgid ""
+"You can restrict access to this component to learners in specific enrollment"
+" tracks or content groups."
+msgstr ""
+
+#: cms/templates/visibility_editor.html:35
+msgid ""
+"You can restrict access to this unit to learners in specific content groups."
+msgstr ""
+
+#: cms/templates/visibility_editor.html:37
+msgid ""
+"You can restrict access to this component to learners in specific content "
+"groups."
+msgstr ""
+
+#: cms/templates/visibility_editor.html:43
+msgid "Manage content groups"
+msgstr "管理內容群組"
+
+#. Translators: Any text between {screen_reader_start} and {screen_reader_end}
+#. is only read by screen readers and never shown in the browser.
+#: cms/templates/visibility_editor.html:51
+msgid ""
+"{screen_reader_start}Warning:{screen_reader_end} The unit that contains this"
+" component is hidden from learners. The unit setting overrides the component"
+" access settings defined here."
+msgstr ""
+
+#: cms/templates/visibility_editor.html:75
+msgid "Access is restricted to:"
+msgstr ""
+
+#: cms/templates/visibility_editor.html:81
+msgid "Restrict access to:"
+msgstr "限制存取："
+
+#: cms/templates/visibility_editor.html:85
+msgid "Select a group type"
+msgstr "選擇組類型"
+
+#: cms/templates/visibility_editor.html:87
+msgid "All Learners and Staff"
+msgstr "所有學習者及工作人員"
+
+#: cms/templates/visibility_editor.html:101
+msgid "Select one or more groups:"
+msgstr "選擇一個或多個組："
+
+#: cms/templates/visibility_editor.html:113
+msgid "Deleted Group"
+msgstr "已刪除的組"
+
+#: cms/templates/visibility_editor.html:115
+msgid ""
+"This group no longer exists.  Choose another group or remove the access "
+"restriction."
+msgstr ""
+
+#: cms/templates/emails/activation_email.txt:3
+msgid ""
+"Thank you for signing up for {studio_name}! To activate your account, please"
+" copy and paste this address into your web browser's address bar:"
+msgstr "感謝您註冊 {studio_name}！要啟用您的帳號，請將下面的位址複製並貼到您的瀏覽器地址欄："
+
+#: cms/templates/emails/activation_email.txt:11
+msgid ""
+"If you didn't request this, you don't need to do anything; you won't receive"
+" any more email from us. Please do not reply to this e-mail; if you require "
+"assistance, check the help section of the {studio_name} web site."
+msgstr "如果您沒發出過任何請求，則您不需要做任何事情；您將不會再收到任何來自我們的電子郵件。如果您需要幫助，請不要回覆此電子郵件，請瀏覽{studio_name}網站。"
+
+#: cms/templates/emails/activation_email_subject.txt:2
+msgid "Your account for {studio_name}"
+msgstr "您的帳號為{studio_name}"
+
+#: cms/templates/emails/course_creator_admin_subject.txt:2
+msgid "{email} has requested {studio_name} course creator privileges on edge"
+msgstr "{email} 請求在 {studio_name} 開課的權限。"
+
+#: cms/templates/emails/course_creator_admin_user_pending.txt:2
+msgid ""
+"User '{user}' with e-mail {email} has requested {studio_name} course creator"
+" privileges on edge."
+msgstr "使用者'{user}' - {email} 請求 {studio_name} 中課程創建者的權限。"
+
+#: cms/templates/emails/course_creator_admin_user_pending.txt:5
+msgid "To grant or deny this request, use the course creator admin table."
+msgstr "要授予或拒絕此請求，請使用課程建立者管理表。"
+
+#: cms/templates/emails/course_creator_denied.txt:3
+msgid ""
+"Your request for course creation rights to {studio_name} have been denied. "
+"If you believe this was in error, please contact {email}"
+msgstr "您於{studio_name}上建立課程的許可權的申請已被拒絕。如果您覺得有問題，請聯繫{email}"
+
+#: cms/templates/emails/course_creator_granted.txt:3
+msgid ""
+"Your request for course creation rights to {studio_name} have been granted. To create your first course, visit\n"
+"\n"
+"{url}"
+msgstr "您於{studio_name}上建立課程的許可權的申請已被接受。如果您想創建您的第一門課程，請瀏覽：\n\n{url}"
+
+#: cms/templates/emails/course_creator_revoked.txt:3
+msgid ""
+"Your course creation rights to {studio_name} have been revoked. If you "
+"believe this was in error, please contact {email}"
+msgstr "您於{studio_name}上建立課程的許可權的申請已經撤銷。如果您覺得有問題，請聯繫{email}"
+
+#: cms/templates/emails/course_creator_subject.txt:2
+msgid "Your course creator status for {studio_name}"
+msgstr "您對{studio_name}課程建立者狀態"
+
+#: cms/templates/emails/user_task_complete_email.txt:5
+msgid ""
+"Your {task_name} task has completed with the status '{task_status}'. Use "
+"this URL to view task details or download any files created: {detail_url}"
+msgstr ""
+
+#: cms/templates/emails/user_task_complete_email.txt:9
+msgid ""
+"Your {task_name} task has completed with the status '{task_status}'. Sign in"
+" to view the details of your task or download any files created."
+msgstr ""
+
+#: cms/templates/emails/user_task_complete_email_subject.txt:2
+msgid "{platform_name} {studio_name}: Task Status Update"
+msgstr ""
+
+#: cms/templates/maintenance/_force_publish_course.html:12
+msgid "Required data to force publish course."
+msgstr "強制發布課程所需數據。"
+
+#: cms/templates/maintenance/_force_publish_course.html:17
+msgid "course-v1:edX+DemoX+Demo_Course"
+msgstr "course-v1:edX+DemoX+Demo_Course"
+
+#: cms/templates/maintenance/_force_publish_course.html:24
+msgid "Force Publish Course"
+msgstr "強制發布課程"
+
+#: cms/templates/maintenance/_force_publish_course.html:28
+msgid "Reset values"
+msgstr "重置分數值"
+
+#: cms/templates/maintenance/base.html:14
+#: cms/templates/maintenance/index.html:8
+msgid "Maintenance Dashboard"
+msgstr "課程維護"
+
+#: cms/templates/registration/activation_complete.html:20
+msgid "Thanks for activating your account."
+msgstr "感謝您啟用帳號。"
+
+#: cms/templates/registration/activation_complete.html:22
+msgid "This account has already been activated."
+msgstr "這個帳號已經被啟用。"
+
+#: cms/templates/registration/activation_complete.html:26
+msgid "Visit your {link_start}dashboard{link_end} to see your courses."
+msgstr "訪問{link_start}我的課程{link_end}來查看您的課程。"
+
+#: cms/templates/registration/activation_complete.html:28
+msgid "You can now {link_start}sign in{link_end}."
+msgstr "您現在可以{link_start}登入{link_end}。"
+
+#: cms/templates/registration/activation_invalid.html:14
+msgid "Activation Invalid"
+msgstr "無效的啟動"
+
+#: cms/templates/registration/activation_invalid.html:17
+msgid ""
+"Something went wrong. Email programs sometimes split URLs into two lines, so"
+" make sure the URL you're using is formatted correctly. If you still have "
+"issues, send us an email message at {email_start}{email}{email_end}."
+msgstr "發生了某些問題。請檢查並確認您連結的 URL 是否正確 -- 電子郵件程式有時會將它斷成兩行。如果問題仍然發生，請透過{email_start} {email} {email_end}向我們發送電子郵件。"
+
+#: cms/templates/registration/activation_invalid.html:25
+msgid "Return to the {link_start}home page{link_end}."
+msgstr "返回至{link_start}首頁{link_end}。"
+
+#: cms/templates/registration/reg_complete.html:3
+msgid ""
+"We've sent an email message to {email} with instructions for activating your"
+" account."
+msgstr "我們已向 {email}發送了一封電子郵件，其中包含啟動帳號的說明"
+
+#: cms/templates/widgets/footer.html:18
+msgid "Policies"
+msgstr ""
+
+#: cms/templates/widgets/footer.html:32
+msgid "Accessibility Accommodation Request"
+msgstr ""
+
+#: cms/templates/widgets/footer.html:36
+msgid "LMS"
+msgstr ""
+
+#. Translators: 'EdX', 'edX', 'Studio', and 'Open edX' are trademarks of 'edX
+#. Inc.'. Please do not translate any of these trademarks and company names.
+#: cms/templates/widgets/footer.html:47
+msgid ""
+"EdX, Open edX, Studio, and the edX and Open edX logos are registered "
+"trademarks or trademarks of {link_start}edX Inc.{link_end}"
+msgstr "Edx, Open edx, Studio, edx以及Open edx 圖示為註冊商標或為 {link_start}edX Inc商標。{link_end}"
+
+#: cms/templates/widgets/header.html:39
+msgid "Current Course:"
+msgstr "現在的課程"
+
+#: cms/templates/widgets/header.html:47 cms/templates/widgets/header.html:150
+msgid "Course Navigation"
+msgstr "課程導覽"
+
+#: cms/templates/widgets/header.html:56
+msgid "Outline"
+msgstr "課程大綱"
+
+#: cms/templates/widgets/header.html:117 cms/templates/widgets/header.html:172
+msgid "Import"
+msgstr "匯入"
+
+#: cms/templates/widgets/header.html:120 cms/templates/widgets/header.html:175
+msgid "Export"
+msgstr "匯出"
+
+#: cms/templates/widgets/header.html:142
+msgid "Current Library:"
+msgstr "目前的課程組件庫："
+
+#: cms/templates/widgets/header.html:154
+msgid "Library"
+msgstr "課程組件庫"
+
+#: cms/templates/widgets/header.html:190
+msgid "Language preference"
+msgstr "語言偏好"
+
+#: cms/templates/widgets/header.html:215 cms/templates/widgets/header.html:228
+msgid "Account Navigation"
+msgstr "帳戶導航"
+
+#: cms/templates/widgets/header.html:218 cms/templates/widgets/header.html:231
+msgid "Contextual Online Help"
+msgstr "線上情境幫助"
+
+#: cms/templates/widgets/metadata-edit.html:35
+msgid "Launch Latex Source Compiler"
+msgstr "啟動 Latex 排版系統的原始檔案編譯器"
+
+#: cms/templates/widgets/problem-edit.html:17
+#: cms/templates/widgets/problem-edit.html:81
+msgid "Heading"
+msgstr "標題"
+
+#: cms/templates/widgets/problem-edit.html:19
+#: cms/templates/widgets/problem-edit.html:83
+msgid "Insert a heading"
+msgstr "插入一個標題"
+
+#: cms/templates/widgets/problem-edit.html:24
+#: cms/templates/widgets/problem-edit.html:92
+msgid "Multiple Choice"
+msgstr "單選題"
+
+#: cms/templates/widgets/problem-edit.html:26
+#: cms/templates/widgets/problem-edit.html:94
+msgid "Add a multiple choice question"
+msgstr "新增一個單選的問題"
+
+#: cms/templates/widgets/problem-edit.html:31
+#: cms/templates/widgets/problem-edit.html:103
+msgid "Checkboxes"
+msgstr "複選題"
+
+#: cms/templates/widgets/problem-edit.html:33
+#: cms/templates/widgets/problem-edit.html:105
+msgid "Add a question with checkboxes"
+msgstr "新增一個可複選的問題"
+
+#: cms/templates/widgets/problem-edit.html:38
+#: cms/templates/widgets/problem-edit.html:114
+msgid "Text Input"
+msgstr "文字輸入"
+
+#: cms/templates/widgets/problem-edit.html:40
+#: cms/templates/widgets/problem-edit.html:116
+msgid "Insert a text response"
+msgstr "插入一個文字的回應"
+
+#: cms/templates/widgets/problem-edit.html:45
+#: cms/templates/widgets/problem-edit.html:125
+msgid "Numerical Input"
+msgstr "數字輸入"
+
+#: cms/templates/widgets/problem-edit.html:47
+#: cms/templates/widgets/problem-edit.html:127
+msgid "Insert a numerical response"
+msgstr "插入一個數字的回應"
+
+#: cms/templates/widgets/problem-edit.html:52
+#: cms/templates/widgets/problem-edit.html:135
+msgid "Dropdown"
+msgstr "下拉清單"
+
+#: cms/templates/widgets/problem-edit.html:54
+#: cms/templates/widgets/problem-edit.html:137
+msgid "Insert a dropdown response"
+msgstr "插入一個下拉式的回應"
+
+#: cms/templates/widgets/problem-edit.html:59
+#: cms/templates/widgets/problem-edit.html:150
+msgid "Explanation"
+msgstr "詳解"
+
+#: cms/templates/widgets/problem-edit.html:61
+#: cms/templates/widgets/problem-edit.html:152
+msgid "Add an explanation for this question"
+msgstr "新增此問題的詳解"
+
+#: cms/templates/widgets/problem-edit.html:67
+msgid "Advanced Editor"
+msgstr "進階編輯器"
+
+#: cms/templates/widgets/problem-edit.html:68
+msgid "Toggle Cheatsheet"
+msgstr "切換備忘錄"
+
+#: cms/templates/widgets/problem-edit.html:144
+msgid "Label"
+msgstr "標籤"
+
+#: cms/templates/widgets/sock_links.html:19
+msgid "Access the Open edX Portal"
+msgstr "存取 Open edX Portal"
+
+#: cms/templates/widgets/sock_links.html:20
+msgid "Open edX Portal"
+msgstr "Open edX Portal"
+
+#: cms/templates/widgets/user_dropdown.html:13
+#: cms/templates/widgets/user_dropdown.html:37
+msgid "Currently signed in as:"
+msgstr "目前登入為："
+
+#: cms/templates/widgets/user_dropdown.html:51
+msgid "Maintenance"
+msgstr "維護"

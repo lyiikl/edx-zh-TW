@@ -1,0 +1,492 @@
+# #-#-#-#-#  django.po (ecommerce)  #-#-#-#-#
+# edX translation file
+# Copyright (C) 2018 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# JEN-HAO HSIEH <orienthauz@gmail.com>, 2015
+# Mushiyo, 2015
+# TW C2 <info@weasto.com>, 2016
+# wei-chi lin <vickybunny1989@hotmail.com>, 2016
+# Wun-Han Syu <whsyu@mail.fcu.edu.tw>, 2016
+# Ya-chi Chang <yacchang@mail.fcu.edu.tw>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-05 11:00+0000\n"
+"PO-Revision-Date: 2018-03-26 19:44+0000\n"
+"Last-Translator: JEN-HAO HSIEH <orienthauz@gmail.com>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/open-edx/edx-platform/language/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ecommerce/static/js/models/coupon_model.js:33
+msgid "This field is required."
+msgstr "此為必填欄位。"
+
+#: ecommerce/static/js/models/coupon_model.js:34
+msgid "This value must be a number."
+msgstr "此數值必須為數字。"
+
+#: ecommerce/static/js/models/coupon_model.js:35
+msgid "This value must be a date."
+msgstr "此數值必須為日期。"
+
+#: ecommerce/static/js/models/coupon_model.js:36
+msgid "At least one seat type must be selected."
+msgstr "至少必須選擇一個名額類型。"
+
+#: ecommerce/static/js/models/coupon_model.js:82
+msgid "This field must be empty or contain 1-16 alphanumeric characters."
+msgstr "本欄位必須空白，或包含 1 至 16 個字元的字母或數字。"
+
+#: ecommerce/static/js/models/coupon_model.js:86
+msgid "A valid course ID is required"
+msgstr "需要一個有效的ID"
+
+#: ecommerce/static/js/models/coupon_model.js:106
+#, javascript-format
+msgid "Email domain {%s} is invalid."
+msgstr ""
+
+#: ecommerce/static/js/models/coupon_model.js:124
+msgid "Must occur after start date"
+msgstr "必須發生於開始日期之後"
+
+#: ecommerce/static/js/models/coupon_model.js:154
+msgid "Max uses for multi-use coupons must be higher than 2."
+msgstr ""
+
+#: ecommerce/static/js/models/coupon_model.js:166
+msgid "A valid Program UUID is required."
+msgstr ""
+
+#: ecommerce/static/js/models/coupon_model.js:190
+msgid "Must occur before end date"
+msgstr "必須發生於結束日期之前"
+
+#: ecommerce/static/js/models/course_model.js:54
+msgid "You must select a course type."
+msgstr "您必須選擇一個課程類別。"
+
+#: ecommerce/static/js/models/course_model.js:60
+msgid "You must choose if an honor seat should be created."
+msgstr "您必須選擇如果優先席位需備創建。"
+
+#: ecommerce/static/js/models/course_model.js:77
+msgid "The verification deadline must occur AFTER the upgrade deadline."
+msgstr "驗證期限必須在更新期限之後。"
+
+#: ecommerce/static/js/models/course_model.js:86
+msgid "Product validation failed."
+msgstr "產品認證失敗。"
+
+#: ecommerce/static/js/models/course_model.js:94
+#: ecommerce/static/js/views/dynamic_catalog_view.js:70
+msgid "Course ID"
+msgstr "課程編號"
+
+#: ecommerce/static/js/models/course_model.js:95
+msgid "Course Name"
+msgstr "課程名稱"
+
+#: ecommerce/static/js/models/course_model.js:96
+#: ecommerce/static/js/views/course_list_view.js:72
+msgid "Course Type"
+msgstr "課程類別"
+
+#: ecommerce/static/js/models/course_model.js:97
+msgid "Verification Deadline"
+msgstr "驗證期限"
+
+#: ecommerce/static/js/models/course_model.js:98
+msgid "Include Honor Seat"
+msgstr "包含優先席位"
+
+#: ecommerce/static/js/models/course_seats/course_seat.js:28
+msgid "All course seats must have a price."
+msgstr "所有課程必須有價位。"
+
+#: ecommerce/static/js/models/course_seats/course_seat.js:45
+msgid "Verified seats must have an upgrade deadline."
+msgstr ""
+
+#: ecommerce/static/js/models/course_seats/course_seat.js:53
+msgid "The upgrade deadline must occur BEFORE the verification deadline."
+msgstr "驗證期限必須在更新期限之前。"
+
+#: ecommerce/static/js/models/course_seats/course_seat.js:84
+#: ecommerce/static/js/views/course_form_view.js:60
+msgid "Verified"
+msgstr "已驗證"
+
+#: ecommerce/static/js/models/course_seats/course_seat.js:86
+#: ecommerce/static/js/views/course_form_view.js:71
+msgid "Credit"
+msgstr "學分"
+
+#: ecommerce/static/js/models/course_seats/course_seat.js:89
+msgid "Professional"
+msgstr "專業的"
+
+#: ecommerce/static/js/models/course_seats/course_seat.js:91
+msgid "Honor"
+msgstr "榮譽"
+
+#: ecommerce/static/js/models/course_seats/course_seat.js:93
+msgid "Audit"
+msgstr "旁聽"
+
+#: ecommerce/static/js/models/course_seats/course_seat.js:101
+msgid "Verified Certificate"
+msgstr "合格證書"
+
+#: ecommerce/static/js/models/course_seats/course_seat.js:105
+msgid "Professional Certificate"
+msgstr "專業認證"
+
+#: ecommerce/static/js/models/course_seats/course_seat.js:108
+msgid "Honor Certificate"
+msgstr "榮譽證書"
+
+#: ecommerce/static/js/models/course_seats/course_seat.js:111
+msgid "No Certificate"
+msgstr "未認證"
+
+#: ecommerce/static/js/models/course_seats/credit_seat.js:26
+msgid "All credit seats must have a credit provider."
+msgstr "所有學分必須有學分提供方。"
+
+#: ecommerce/static/js/models/course_seats/credit_seat.js:30
+msgid "Please select a valid credit provider."
+msgstr "請選擇有效的學分提供者。"
+
+#: ecommerce/static/js/models/course_seats/credit_seat.js:39
+msgid "All credit seats must designate a number of credit hours."
+msgstr "所有學分必須指定學分小時數。"
+
+#: ecommerce/static/js/pages/basket_page.js:27
+msgid "Problem occurred during checkout. Please contact support."
+msgstr ""
+
+#: ecommerce/static/js/pages/basket_page.js:101
+msgid "This field is required"
+msgstr ""
+
+#: ecommerce/static/js/pages/basket_page.js:136
+msgid "Invalid card number"
+msgstr ""
+
+#: ecommerce/static/js/pages/basket_page.js:138
+msgid "Unsupported card type"
+msgstr ""
+
+#: ecommerce/static/js/pages/basket_page.js:140
+msgid "Invalid security number"
+msgstr ""
+
+#: ecommerce/static/js/pages/basket_page.js:145
+msgid "Invalid month"
+msgstr ""
+
+#: ecommerce/static/js/pages/basket_page.js:147
+msgid "Invalid year"
+msgstr ""
+
+#: ecommerce/static/js/pages/basket_page.js:149
+msgid "Card expired"
+msgstr ""
+
+#: ecommerce/static/js/pages/basket_page.js:485
+msgid "<Choose state/province>"
+msgstr ""
+
+#: ecommerce/static/js/pages/basket_page.js:486
+msgid "State/Province (required)"
+msgstr ""
+
+#: ecommerce/static/js/pages/coupon_create_page.js:12
+msgid "Create New Coupon"
+msgstr "創建新的優惠券"
+
+#: ecommerce/static/js/pages/coupon_detail_page.js:13
+msgid "View Coupon"
+msgstr "查看優惠券"
+
+#: ecommerce/static/js/pages/coupon_edit_page.js:13
+msgid "Edit Coupon"
+msgstr "編輯優惠券"
+
+#: ecommerce/static/js/pages/coupon_list_page.js:12
+msgid "Coupon Codes"
+msgstr "優惠卷代碼"
+
+#: ecommerce/static/js/pages/course_create_page.js:12
+msgid "Create New Course"
+msgstr "創建新的課程"
+
+#: ecommerce/static/js/pages/course_detail_page.js:13
+msgid "View Course"
+msgstr "檢視課程"
+
+#: ecommerce/static/js/pages/course_edit_page.js:13
+msgid "Edit Course"
+msgstr "編輯課程"
+
+#: ecommerce/static/js/pages/course_list_page.js:12
+msgid "Courses"
+msgstr "課程"
+
+#: ecommerce/static/js/pages/offer_page.js:14
+msgid "Redeem"
+msgstr "兌換"
+
+#: ecommerce/static/js/pages/receipt_page.js:21
+msgid ""
+"Caution! Using the back button on this page may cause you to be charged "
+"again."
+msgstr ""
+
+#. Translators: Do not translate "Apple Pay".
+#: ecommerce/static/js/payment_processors/cybersource.js:218
+msgid ""
+"Apple Pay is not available at this time. Please try another payment method."
+msgstr ""
+
+#: ecommerce/static/js/payment_processors/cybersource.js:249
+msgid ""
+"An error occurred while processing your payment. You have NOT been charged. "
+"Please try again, or select another payment method."
+msgstr ""
+
+#: ecommerce/static/js/payment_processors/stripe.js:71
+msgid ""
+"An error occurred while attempting to process your payment. You have not "
+"been charged. Please check your payment details, and try again."
+msgstr ""
+
+#: ecommerce/static/js/payment_processors/stripe.js:110
+msgid "An error occurred while processing your payment. Please try again."
+msgstr ""
+
+#: ecommerce/static/js/utils/utils.js:184
+msgid "Trailing comma not allowed."
+msgstr ""
+
+#: ecommerce/static/js/views/coupon_detail_view.js:107
+#: ecommerce/static/js/views/coupon_form_view.js:60
+msgid "Can be used once by one customer"
+msgstr "只能被一位消費者使用一次"
+
+#: ecommerce/static/js/views/coupon_detail_view.js:109
+#: ecommerce/static/js/views/coupon_form_view.js:68
+msgid "Can be used multiple times by multiple customers"
+msgstr "可多次被多位消費者使用"
+
+#: ecommerce/static/js/views/coupon_detail_view.js:111
+#: ecommerce/static/js/views/coupon_form_view.js:64
+msgid "Can be used once by multiple customers"
+msgstr "可被多位消費者使用一次"
+
+#: ecommerce/static/js/views/coupon_form_view.js:49
+msgid "Enrollment Code"
+msgstr "註冊代碼"
+
+#: ecommerce/static/js/views/coupon_form_view.js:53
+msgid "Discount Code"
+msgstr "折扣代碼"
+
+#: ecommerce/static/js/views/coupon_form_view.js:768
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: ecommerce/static/js/views/coupon_form_view.js:783
+msgid "Create Coupon"
+msgstr "創建優惠券"
+
+#: ecommerce/static/js/views/coupon_list_view.js:47
+#: ecommerce/static/js/views/course_list_view.js:37
+msgid "Search..."
+msgstr "搜索..."
+
+#: ecommerce/static/js/views/coupon_list_view.js:57
+#: ecommerce/static/js/views/course_list_view.js:47
+msgid "Next"
+msgstr "下一個"
+
+#: ecommerce/static/js/views/coupon_list_view.js:58
+#: ecommerce/static/js/views/course_list_view.js:48
+msgid "Previous"
+msgstr "上一個"
+
+#. Translators: _START_, _END_, and _TOTAL_ are placeholders. Do NOT translate
+#. them.
+#: ecommerce/static/js/views/coupon_list_view.js:62
+msgid "Displaying _START_ to _END_ of _TOTAL_ coupons"
+msgstr "顯示_開始_到_結束_在_所有_優惠券"
+
+#. Translators: _MAX_ is a placeholder. Do NOT translate it.
+#: ecommerce/static/js/views/coupon_list_view.js:65
+msgid "(filtered from _MAX_ total coupons)"
+msgstr "(filtered from _MAX_ total coupons)"
+
+#. Translators: _MENU_ is a placeholder. Do NOT translate it.
+#: ecommerce/static/js/views/coupon_list_view.js:68
+msgid "Display _MENU_ coupons"
+msgstr "顯示 _選單_ 優惠券"
+
+#: ecommerce/static/js/views/coupon_list_view.js:74
+msgid "Name"
+msgstr "名稱"
+
+#: ecommerce/static/js/views/coupon_list_view.js:81
+msgid "Created"
+msgstr ""
+
+#: ecommerce/static/js/views/coupon_list_view.js:85
+msgid "Custom Code"
+msgstr ""
+
+#: ecommerce/static/js/views/coupon_list_view.js:89
+msgid "Client"
+msgstr ""
+
+#: ecommerce/static/js/views/coupon_list_view.js:93
+msgid "Category"
+msgstr ""
+
+#: ecommerce/static/js/views/coupon_list_view.js:97
+msgid "Coupon Report"
+msgstr "優惠券報告"
+
+#: ecommerce/static/js/views/course_form_view.js:55
+msgid "Free (Audit)"
+msgstr "免費(成人)"
+
+#: ecommerce/static/js/views/course_form_view.js:56
+msgid "Free audit track. No certificate."
+msgstr "免費審核追蹤。沒有證書。"
+
+#: ecommerce/static/js/views/course_form_view.js:61
+msgid ""
+"Paid certificate track with initial verification and Verified Certificate"
+msgstr "初步認證與合格證書的付費證書課程"
+
+#: ecommerce/static/js/views/course_form_view.js:65
+msgid "Professional Education"
+msgstr "專業教育"
+
+#: ecommerce/static/js/views/course_form_view.js:66
+msgid ""
+"Paid certificate track with initial verification and Professional Education "
+"Certificate"
+msgstr "初步認證與專業教育認證的付費證書課程"
+
+#: ecommerce/static/js/views/course_form_view.js:72
+msgid ""
+"Paid certificate track with initial verification and Verified Certificate, "
+"and option to purchase credit"
+msgstr "初步認證與簽名認證的付費證書課程，可選擇購買學分課程。"
+
+#. Translators: _START_, _END_, and _TOTAL_ are placeholders. Do NOT translate
+#. them.
+#: ecommerce/static/js/views/course_list_view.js:52
+msgid "Displaying _START_ to _END_ of _TOTAL_ courses"
+msgstr "顯示_開始_到_結束_在_所有_課程"
+
+#. Translators: _MAX_ is a placeholder. Do NOT translate it.
+#: ecommerce/static/js/views/course_list_view.js:55
+msgid "(filtered from _MAX_ total courses)"
+msgstr "(filtered from _MAX_ total courses)"
+
+#. Translators: _MENU_ is a placeholder. Do NOT translate it.
+#: ecommerce/static/js/views/course_list_view.js:58
+msgid "Display _MENU_ courses"
+msgstr "顯示 _選單_ 課程"
+
+#: ecommerce/static/js/views/course_list_view.js:64
+msgid "Course"
+msgstr "課程"
+
+#: ecommerce/static/js/views/course_list_view.js:79
+msgid "Last Edited"
+msgstr "上一次編輯"
+
+#: ecommerce/static/js/views/dynamic_catalog_view.js:74
+msgid "Seat title"
+msgstr "名額標題"
+
+#: ecommerce/static/js/views/dynamic_catalog_view.js:78
+msgid "Seat type"
+msgstr "名額類型"
+
+#: ecommerce/static/js/views/form_view.js:69
+msgid "A course with the specified ID already exists."
+msgstr "指定編號的課程已存在。"
+
+#: ecommerce/static/js/views/form_view.js:79
+#: ecommerce/static/js/views/form_view.js:172
+msgid "Error!"
+msgstr "錯誤!"
+
+#: ecommerce/static/js/views/form_view.js:125
+msgid "Saving..."
+msgstr "儲存中"
+
+#: ecommerce/static/js/views/form_view.js:134
+msgid "Please complete all required fields."
+msgstr "請完成所有的欄位。"
+
+#: ecommerce/static/js/views/form_view.js:159
+msgid "An error occurred while saving the data."
+msgstr "儲存時發生錯誤。"
+
+#: ecommerce/static/js/views/offer_view.js:198
+msgid "Ellipsis"
+msgstr "省略符號"
+
+#: ecommerce/static/js/views/offer_view.js:205
+msgid "Load the records for page "
+msgstr "載入頁面記錄"
+
+#: ecommerce/static/js/views/offer_view.js:212
+msgid "Load the records for the next page"
+msgstr "載入下一頁記錄"
+
+#: ecommerce/static/js/views/offer_view.js:220
+msgid "Load the records for the previous page"
+msgstr "載入上一頁記錄"
+
+#: ecommerce/static/js/views/provider_selection_view.js:33
+msgid "Select"
+msgstr "選擇"
+
+#: ecommerce/static/js/views/provider_selection_view.js:34
+msgid "Selected"
+msgstr "被選擇的"
+
+#: ecommerce/static/vendor-extensions/oscar/js/order_actions.js:21
+msgid "Order %(order_number)s has been fulfilled."
+msgstr "訂單 %(order_number)s 已經被履行。"
+
+#: ecommerce/static/vendor-extensions/oscar/js/order_actions.js:27
+msgid "Failed to fulfill order %(order_number)s: %(error)s"
+msgstr "未能履行訂單 %(order_number)s: %(error)s"
+
+#: ecommerce/static/vendor-extensions/oscar/js/refund_list.js:24
+msgid "Refund #%(refund_id)s has been processed."
+msgstr "退費 #%(refund_id)s 已經被處理。"
+
+#: ecommerce/static/vendor-extensions/oscar/js/refund_list.js:33
+msgid "Error"
+msgstr "錯誤"
+
+#: ecommerce/static/vendor-extensions/oscar/js/refund_list.js:36
+msgid ""
+"Failed to process refund #%(refund_id)s: %(error)s. Please try again, or "
+"contact the E-Commerce Development Team."
+msgstr "無法處理退費#%(refund_id)s: %(error)s。請再試一遍，或是聯繫電子商務發展團隊。"
