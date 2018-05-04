@@ -2302,7 +2302,7 @@ msgstr "{courseName} 的合格證書"
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:80
 msgid ""
 "To receive a certificate, you must also verify your identity before {date}."
-msgstr "在領取證書之前，請先確認您的身分 {日期}。"
+msgstr "在領取證書之前，請先於{date}之前確認您的身分。"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:85
 msgid "To receive a certificate, you must also verify your identity."
