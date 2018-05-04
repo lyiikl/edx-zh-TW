@@ -3768,7 +3768,7 @@ msgstr "原價"
 #: lms/templates/courseware/program_marketing.html:95
 #: lms/templates/courseware/program_marketing.html:255
 msgid "${oldPrice}"
-msgstr "${老原價}"
+msgstr "${oldPrice}"
 
 #: lms/templates/courseware/program_marketing.html:98
 #: lms/templates/courseware/program_marketing.html:259
@@ -3777,11 +3777,11 @@ msgstr "打折後價格"
 
 #: lms/templates/courseware/program_marketing.html:99
 msgid "${newPrice}"
-msgstr ""
+msgstr "${newPrice}"
 
 #: lms/templates/courseware/program_marketing.html:104
 msgid "{currency})"
-msgstr ""
+msgstr "{currency})"
 
 #: lms/templates/courseware/program_marketing.html:116
 msgid "Start Learning"
