@@ -3995,7 +3995,7 @@ msgstr "成功開始重新評量所有學生問題'<%- problem_id %>'的分數�
 msgid ""
 "Error starting a task to rescore problem '<%- problem_id %>'. Make sure that"
 " the problem identifier is complete and correct."
-msgstr "調整問題時出現錯誤。請確認問題辨識碼的資訊完整且正確。"
+msgstr "對問題'<%- problem_id %>'重新評分時出現錯誤。請確認問題辨識碼的資訊完整且正確。"
 
 #. Translators: a "Task" is a background process such as grading students or
 #. sending email
