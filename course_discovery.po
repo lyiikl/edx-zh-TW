@@ -2,7 +2,7 @@
 # edX translation file
 # Copyright (C) 2018 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
+#
 # Translators:
 # chientung lu <lct331@gmail.com>, 2016
 # Ya-chi Chang <yacchang@mail.fcu.edu.tw>, 2016
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-15 20:13+0000\n"
-"PO-Revision-Date: 2018-04-09 10:40+0000\n"
+"PO-Revision-Date: 2018-06-10 21:58+0800\n"
 "Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/open-edx/edx-platform/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -20,25 +20,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.7\n"
 
 #: apps/api/filters.py
 #, python-brace-format
 msgid "No user with the username [{username}] exists."
-msgstr "沒有用戶使用這個使用者帳號[{username}] "
+msgstr "沒有用戶使用這個使用者帳號[{username}] 。"
 
 #: apps/api/filters.py
-msgid ""
-"Only staff users are permitted to filter by username. Remove the username "
-"parameter."
+msgid "Only staff users are permitted to filter by username. Remove the username parameter."
 msgstr "只允許工作人員透過使用者名稱篩選。刪除使用者名稱。"
 
 #: apps/api/serializers.py
 msgid "Number of courses contained in this catalog"
-msgstr "本目錄中包含課程數量。"
+msgstr "本目錄中包含課程數量"
 
 #: apps/api/serializers.py
 msgid "Usernames of users with explicit access to view this catalog"
-msgstr "透過顯示使用者的使用者名稱拜訪，以檢視此目錄。"
+msgstr "透過顯示使用者的使用者名稱拜訪，以檢視此目錄"
 
 #: apps/api/serializers.py
 msgid "Language in which the course is administered"
@@ -54,12 +53,11 @@ msgstr "Dictionary對應課程IDs至boolean值"
 
 #: apps/api/serializers.py
 msgid "Languages that course runs in this program are offered in."
-msgstr "在此程序提供再次開課的語言。"
+msgstr "在此頁面提供再次開課的語言。"
 
 #: apps/api/serializers.py
-msgid ""
-"Languages that course runs in this program have available transcripts in."
-msgstr "在此程序提供再次開課的語言文字紀錄。"
+msgid "Languages that course runs in this program have available transcripts in."
+msgstr "在此頁面提供再次開課的語言文字紀錄。"
 
 #: apps/api/views.py
 msgid "You are not permitted to access the API documentation."
@@ -87,12 +85,10 @@ msgstr "重要日期"
 
 #: apps/core/admin.py
 msgid "OpenID Connect"
-msgstr "公開的ID連結"
+msgstr "OpenID 連接"
 
 #: apps/core/admin.py
-msgid ""
-"OpenID Connect is used for front-end authentication as well as getting "
-"access to the APIs."
+msgid "OpenID Connect is used for front-end authentication as well as getting access to the APIs."
 msgstr "OpenID連結用於前端身分驗證以及存取 API。"
 
 #: apps/core/admin.py
@@ -108,21 +104,19 @@ msgid "Marketing Site Configuration"
 msgstr "營銷網站設定"
 
 #: apps/core/admin.py
-msgid ""
-"Configure the marketing site URLs that will be used to retrieve data and "
-"create URLs."
-msgstr "設定營銷網站網址將用於檢索資料和創建網址。"
+msgid "Configure the marketing site URLs that will be used to retrieve data and create URLs."
+msgstr "設定營銷網站 URL 將用於檢索資料和創建 URL。"
 
 #. Translators: 'period_choices' is a list of possible values, like ('second',
 #. 'minute', 'hour')
 #: apps/core/forms.py
 #, python-brace-format
 msgid "period must be one of {period_choices}."
-msgstr " 期間必須是{period_choices}其中之一。"
+msgstr "期間必須是{period_choices}其中之一。"
 
 #: apps/core/forms.py
 msgid "'rate' must be in the format defined by DRF, such as '100/hour'."
-msgstr "'rate'必須採用DRF定義的格式，如'100/時'。"
+msgstr "'rate'必須採用DRF定義的格式，例如'100/時'。"
 
 #: apps/core/models.py
 msgid "Full Name"
@@ -134,44 +128,43 @@ msgstr "推薦追蹤ID"
 
 #: apps/core/models.py
 msgid ""
-"The rate of requests to limit this user to. The format is specified by "
-"Django Rest Framework (see http://www.django-rest-framework.org/api-"
-"guide/throttling/)."
-msgstr "限制使用者請求率。此格式由 Django Rest Framework設定(請參見http://www.django-rest-framework.org/api-guide/throttling/)。"
+"The rate of requests to limit this user to. The format is specified by Django Rest Framework (see http://"
+"www.django-rest-framework.org/api-guide/throttling/)."
+msgstr ""
+"限制使用者請求率。此格式由 Django Rest Framework設定(請參見http://www.django-rest-framework.org/api-guide/"
+"throttling/)。"
 
 #: apps/core/models.py
 msgid "Short Code"
 msgstr "縮寫碼"
 
 #: apps/core/models.py
-msgid ""
-"Convenient code/slug used to identify this Partner (e.g. for management "
-"commands.)"
+msgid "Convenient code/slug used to identify this Partner (e.g. for management commands.)"
 msgstr "用於識別夥伴的便利代碼/段落(例如，用於管理命令)。"
 
 #: apps/core/models.py
 msgid "Courses API URL"
-msgstr "課程API URL"
+msgstr "課程API網址"
 
 #: apps/core/models.py
 msgid "E-Commerce API URL"
-msgstr " 電子商務API URL"
+msgstr "電子商務API網址"
 
 #: apps/core/models.py
 msgid "Organizations API URL"
-msgstr "組織API URL"
+msgstr "組織API網址"
 
 #: apps/core/models.py
 msgid "Programs API URL"
-msgstr "程式API URL "
+msgstr "程式API網址"
 
 #: apps/core/models.py
 msgid "Marketing Site API URL"
-msgstr "營銷網站API URL"
+msgstr "營銷網站API網址"
 
 #: apps/core/models.py
 msgid "Marketing Site URL"
-msgstr "營銷網站URL"
+msgstr "營銷網站網址"
 
 #: apps/core/models.py
 msgid "Marketing Site API Username"
@@ -193,14 +186,13 @@ msgstr "OpenID 連結 Key"
 msgid "OpenID Connect Secret"
 msgstr "OpenID 連結 Secret"
 
-#: apps/core/models.py apps/publisher/forms.py
-#: apps/publisher/templates/publisher/course_run_detail/_all.html
+#: apps/core/models.py apps/publisher/forms.py apps/publisher/templates/publisher/course_run_detail/_all.html
 msgid "Studio URL"
-msgstr ""
+msgstr "Studio網址"
 
 #: apps/core/models.py
 msgid "LMS URL"
-msgstr ""
+msgstr "LMS網址"
 
 #: apps/core/models.py
 msgid "Partner"
@@ -213,13 +205,13 @@ msgstr "合作夥伴"
 #: apps/course_metadata/admin.py
 #, python-brace-format
 msgid ""
-"An error occurred while publishing the {model} to the marketing site. Please"
-" try again. If the error persists, please contact the Engineering Team."
-msgstr ""
+"An error occurred while publishing the {model} to the marketing site. Please try again. If the error "
+"persists, please contact the Engineering Team."
+msgstr "將{model}發佈到市場營銷網站時發生錯誤，請再試一次，如果錯誤仍然存在，請聯繫工程團隊。"
 
 #: apps/course_metadata/admin.py
 msgid "eligible for one-click purchase"
-msgstr ""
+msgstr "一鍵購買的資格"
 
 #: apps/course_metadata/admin.py apps/publisher/forms.py
 msgid "Yes"
@@ -231,7 +223,7 @@ msgstr "否"
 
 #: apps/course_metadata/admin.py
 msgid "Included course runs"
-msgstr ""
+msgstr "包括課程運行"
 
 #: apps/course_metadata/choices.py apps/publisher/choices.py
 msgid "Published"
@@ -268,7 +260,7 @@ msgstr "刪除的"
 
 #: apps/course_metadata/forms.py
 msgid "Programs can only be activated if they have a banner image."
-msgstr ""
+msgstr "只有在具有橫幅式圖像的情況下才能啟動程式。"
 
 #: apps/course_metadata/models.py
 msgid "Facebook"
@@ -296,35 +288,32 @@ msgstr "將此欄空白以利自動產生值。"
 
 #: apps/course_metadata/models.py
 msgid "Subject model translations"
-msgstr ""
+msgstr "科目模型翻譯"
 
 #: apps/course_metadata/models.py
 msgid "Topic model translations"
-msgstr ""
+msgstr "主題模型翻譯"
 
 #: apps/course_metadata/models.py
 msgid ""
-"Please do not use any spaces or special characters other than period, "
-"underscore or hyphen. This key will be used in the course's course key."
-msgstr ""
+"Please do not use any spaces or special characters other than period, underscore or hyphen. This key will "
+"be used in the course's course key."
+msgstr "請勿使用句點、底線或連字號以外的任何空格或特殊字元。此項將為課程關鍵字中使用。"
 
 #: apps/course_metadata/models.py
 msgid ""
-"Logo to be displayed on certificates. If this logo is the same as "
-"logo_image_url, copy and paste the same value to both fields."
-msgstr ""
+"Logo to be displayed on certificates. If this logo is the same as logo_image_url, copy and paste the same "
+"value to both fields."
+msgstr "標誌會展現在證書上。如果此標誌與 logo_image_url 相同, 請將相同的值複製並粘貼到兩個欄位中。"
+
+#: apps/course_metadata/models.py
+msgid "Pick a tag from the suggestions. To make a new tag, add a comma after the tag name."
+msgstr "從建議中挑選一個標籤。若要新建標記, 請在標記名稱後添加逗號。"
 
 #: apps/course_metadata/models.py
 msgid ""
-"Pick a tag from the suggestions. To make a new tag, add a comma after the "
-"tag name."
-msgstr ""
-
-#: apps/course_metadata/models.py
-msgid ""
-"Please do not use any spaces or special characters other than period, "
-"underscore or hyphen in the key field."
-msgstr ""
+"Please do not use any spaces or special characters other than period, underscore or hyphen in the key field."
+msgstr "請不要在關鍵字欄位中使用句點、底線或連字號以外的任何空格或特殊字元。"
 
 #: apps/course_metadata/models.py
 msgid "People"
@@ -332,7 +321,7 @@ msgstr "人"
 
 #: apps/course_metadata/models.py
 msgid "Add the course image"
-msgstr ""
+msgstr "新增課程圖片"
 
 #: apps/course_metadata/models.py
 msgid "Course number format e.g CS002x, BIO1.1x, BIO1.2x"
@@ -340,45 +329,42 @@ msgstr "課程代碼格式，例如CS002x、BIO1.1x、BIO1.2x"
 
 #: apps/course_metadata/models.py apps/publisher/models.py
 msgid ""
-"Title specific for this run of a course. Leave this value blank to default "
-"to the parent course's title."
+"Title specific for this run of a course. Leave this value blank to default to the parent course's title."
 msgstr "為再次開始課程指定標題。將此值空白以使用預設的原課程標題。"
 
 #: apps/course_metadata/models.py apps/publisher/models.py
 msgid ""
-"Short description specific for this run of a course. Leave this value blank "
-"to default to the parent course's short_description attribute."
+"Short description specific for this run of a course. Leave this value blank to default to the parent "
+"course's short_description attribute."
 msgstr "為此再次開課課程設定簡短描述。將此值空白以使用預設的原課程short_description。"
 
 #: apps/course_metadata/models.py apps/publisher/models.py
 msgid ""
-"Full description specific for this run of a course. Leave this value blank "
-"to default to the parent course's full_description attribute."
+"Full description specific for this run of a course. Leave this value blank to default to the parent "
+"course's full_description attribute."
 msgstr "為此再次開課課程設定完整描述。將此值空白以使用預設的原課程full_description 。"
 
 #: apps/course_metadata/models.py apps/publisher/models.py
-msgid ""
-"Estimated minimum number of hours per week needed to complete a course run."
+msgid "Estimated minimum number of hours per week needed to complete a course run."
 msgstr "完成課程所需的每週最小時數。"
 
 #: apps/course_metadata/models.py apps/publisher/models.py
-msgid ""
-"Estimated maximum number of hours per week needed to complete a course run."
+msgid "Estimated maximum number of hours per week needed to complete a course run."
 msgstr "完成課程所需的每週最大時數。"
 
 #: apps/course_metadata/models.py
 msgid "Estimated number of weeks needed to complete this course run."
-msgstr ""
+msgstr "完成此課程所需的估計周數。"
 
 #: apps/course_metadata/models.py
 msgid "Indicates whether the course relation has been manually overridden."
-msgstr ""
+msgstr "指示課程關係是否已被手動覆蓋。"
 
 #: apps/course_metadata/models.py
 msgid ""
-"'What You Will Learn' description for this particular course run. Leave this"
-" value blank to default to the parent course's Outcome attribute."
-msgstr ""
+"'What You Will Learn' description for this particular course run. Leave this value blank to default to the "
+"parent course's Outcome attribute."
+msgstr "'你將學到什麼'這個特定課程的描述。 將此值留空以預設為父級課程的\"結果\"屬性。"
 
 #: apps/course_metadata/models.py
 msgid "Archived"
@@ -404,8 +390,7 @@ msgstr "榮譽"
 msgid "Audit"
 msgstr "旁聽"
 
-#: apps/course_metadata/models.py apps/publisher/forms.py
-#: apps/publisher/models.py
+#: apps/course_metadata/models.py apps/publisher/forms.py apps/publisher/models.py
 msgid "Verified"
 msgstr "已驗證"
 
@@ -413,13 +398,11 @@ msgstr "已驗證"
 msgid "Professional"
 msgstr "專業的"
 
-#: apps/course_metadata/models.py apps/publisher/forms.py
-#: apps/publisher/models.py
+#: apps/course_metadata/models.py apps/publisher/forms.py apps/publisher/models.py
 msgid "Credit"
 msgstr "學分"
 
-#: apps/course_metadata/models.py apps/publisher/forms.py
-#: apps/publisher/models.py
+#: apps/course_metadata/models.py apps/publisher/forms.py apps/publisher/models.py
 #: apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_revision_history.html
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
@@ -432,19 +415,20 @@ msgstr "常見問題"
 
 #: apps/course_metadata/models.py
 msgid ""
-"Seat types that qualify for completion of programs of this type. Learners "
-"completing associated courses, but enrolled in other seat types, will NOT "
-"have their completion of the course counted toward the completion of the "
-"program."
-msgstr "Seat 類型是完成系列課程的有資格者。學習者完成相關課程，並有選修其他類型，將不因此達陣而是逐步完成整個計畫的課程。"
+"Seat types that qualify for completion of programs of this type. Learners completing associated courses, "
+"but enrolled in other seat types, will NOT have their completion of the course counted toward the "
+"completion of the program."
+msgstr ""
+"Seat 類型是完成系列課程的有資格者。學習者完成相關課程，並有選修其他類型，將不因此達陣而是逐步完成整個計畫的"
+"課程。"
 
 #: apps/course_metadata/models.py
 msgid "Please provide an image file with transparent background"
-msgstr ""
+msgstr "請提供透明的圖像文件"
 
 #: apps/course_metadata/models.py
 msgid "The user-facing display title for this Program."
-msgstr "為該計畫使用端顯示標題"
+msgstr "為該計畫使用端顯示標題。"
 
 #: apps/course_metadata/models.py
 msgid "A brief, descriptive subtitle for the Program."
@@ -456,19 +440,17 @@ msgstr "本計畫的生命週期狀態。"
 
 #: apps/course_metadata/models.py
 msgid "Slug used to generate links to the marketing site"
-msgstr "Slug將用於產生至營銷網站的連結。"
+msgstr "Slug將用於產生至營銷網站的連結"
+
+#: apps/course_metadata/models.py
+msgid "If this box is not checked, courses will be ordered as in the courses select box above."
+msgstr "如果未選擇此框框，則會按照選擇框框上的課程進行順序排列課程。"
 
 #: apps/course_metadata/models.py
 msgid ""
-"If this box is not checked, courses will be ordered as in the courses select"
-" box above."
-msgstr ""
-
-#: apps/course_metadata/models.py
-msgid ""
-"This field is now deprecated (ECOM-6021).Estimated number of weeks needed to"
-" complete a course run belonging to this program."
-msgstr ""
+"This field is now deprecated (ECOM-6021).Estimated number of weeks needed to complete a course run "
+"belonging to this program."
+msgstr "此字段現在已被刪去（ECOM-6021）。估計完成屬於此程序的課程所需的周數。"
 
 #: apps/course_metadata/models.py
 msgid "Image used for discovery cards"
@@ -476,10 +458,12 @@ msgstr "用於discovery卡的圖像"
 
 #: apps/course_metadata/models.py
 msgid ""
-"This field can be used by API clients to determine the order in which "
-"instructors will be displayed on program pages. Instructors in this list "
-"should appear before all others associated with this programs courses runs."
+"This field can be used by API clients to determine the order in which instructors will be displayed on "
+"program pages. Instructors in this list should appear before all others associated with this programs "
+"courses runs."
 msgstr ""
+"客戶端的API可以使用此領域段確定教師在課程頁面上的顯示順序。 此列表中的教師應該出現在與此課程相關的所有其他課"
+"程之前。"
 
 #: apps/course_metadata/models.py
 msgid "The description of credit redemption for courses in program"
@@ -487,13 +471,11 @@ msgstr "該計畫課程的學分兌換說明"
 
 #: apps/course_metadata/models.py
 msgid "Allow courses in this program to be purchased in a single transaction"
-msgstr ""
+msgstr "該計劃的課程允許在一次交易中購買"
 
 #: apps/course_metadata/models.py
-msgid ""
-"Hide program on marketing site landing and search pages. This program MAY "
-"have a detail page."
-msgstr ""
+msgid "Hide program on marketing site landing and search pages. This program MAY have a detail page."
+msgstr "隱藏在營銷網站登陸和搜索頁面上的視窗。 這個視窗可能有一個詳細頁面。"
 
 #: apps/course_metadata/templates/admin/course_metadata/course_run.html
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
@@ -510,155 +492,149 @@ msgstr "取消"
 
 #: apps/course_metadata/templates/admin/course_metadata/course_run.html
 msgid "Back to Program"
-msgstr "返回程序"
+msgstr "返回頁面"
 
 #: apps/course_metadata/templates/admin/course_metadata/course_run.html
 msgid "Save Course Run"
-msgstr "儲存再次開課"
+msgstr "儲存課程"
 
 #: apps/course_metadata/views.py
 msgid "Update excluded course runs"
-msgstr ""
+msgstr "更新不合適的課程"
 
 #: apps/course_metadata/views.py
 msgid "The program was changed successfully."
-msgstr ""
+msgstr "課程日程已更改成功。"
 
 #: apps/publisher/api/serializers.py
 #, python-brace-format
 msgid "Invalid course key \"{lms_course_id}\""
-msgstr ""
+msgstr "無效的課程密鑰 \"{lms_course_id}\""
 
 #: apps/publisher/api/serializers.py
 #, python-brace-format
 msgid "Invalid URL format \"{preview_url}\""
-msgstr ""
+msgstr "無效的網址格式\"{preview_url}\""
 
 #: apps/publisher/api/serializers.py
 #, python-brace-format
 msgid "Cannot switch from state `{state}` to `{target_state}`"
-msgstr ""
+msgstr "無法將狀態從 `{state}` 轉換至 `{target_state}`"
 
 #: apps/publisher/choices.py
 msgid "Partner Manager"
-msgstr ""
+msgstr "合夥管理員"
 
-#: apps/publisher/choices.py
-#: apps/publisher/templates/publisher/course_list.html
+#: apps/publisher/choices.py apps/publisher/templates/publisher/course_list.html
 msgid "Project Coordinator"
-msgstr ""
+msgstr "專案協調員"
 
 #: apps/publisher/choices.py
 msgid "Marketing Reviewer"
-msgstr ""
+msgstr "購買的評論"
 
 #: apps/publisher/choices.py
 msgid "Publisher"
-msgstr ""
+msgstr "出版者"
 
-#: apps/publisher/choices.py
-#: apps/publisher/templates/publisher/dashboard/_in_progress.html
+#: apps/publisher/choices.py apps/publisher/templates/publisher/dashboard/_in_progress.html
 msgid "Course Team"
-msgstr ""
+msgstr "課程團隊"
 
-#: apps/publisher/choices.py apps/publisher/models.py
-#: apps/publisher/wrappers.py
+#: apps/publisher/choices.py apps/publisher/models.py apps/publisher/wrappers.py
 msgid "Draft"
 msgstr "草稿"
 
 #: apps/publisher/choices.py
 msgid "Review"
-msgstr ""
+msgstr "評論"
 
 #: apps/publisher/choices.py
 msgid "Approved"
-msgstr ""
+msgstr "批准"
 
 #: apps/publisher/emails.py
 #, python-brace-format
 msgid "Studio URL created: {title} {run_number}"
-msgstr ""
+msgstr "創建Studio網址 : {title} {run_number}"
 
 #: apps/publisher/emails.py
 #, python-brace-format
 msgid "Studio URL requested: {title}"
-msgstr ""
+msgstr "Studio網址需求：{title}"
 
 #: apps/publisher/emails.py
 #, python-brace-format
 msgid "Review requested: {title}"
-msgstr ""
+msgstr "審核需求: {title}"
 
 #: apps/publisher/emails.py
 #, python-brace-format
 msgid "Review complete: {title}"
-msgstr ""
+msgstr "審核完成: {title}"
 
 #: apps/publisher/emails.py
 #, python-brace-format
 msgid "Review requested: {title} {run_number}"
-msgstr ""
+msgstr "審核需求: {title} {run_number}"
 
 #: apps/publisher/emails.py
 #, python-brace-format
 msgid "Review complete: {course_name} {run_number}"
-msgstr ""
+msgstr "審核完成: {course_name} {run_number}"
 
 #: apps/publisher/emails.py
 #, python-brace-format
 msgid "Publication requested: {course_name} {run_number}"
-msgstr ""
+msgstr "出版需求: {course_name} {run_number}"
 
 #: apps/publisher/emails.py
 #, python-brace-format
 msgid "Review requested: Preview for {course_name} {run_number}"
-msgstr ""
+msgstr "審核需求: 預覽{course_name} {run_number}"
 
 #: apps/publisher/emails.py
 #, python-brace-format
 msgid "Publication complete: About page for {course_name} {run_number}"
-msgstr ""
+msgstr "出版完成: 關於{course_name} {run_number}的頁面"
 
 #: apps/publisher/emails.py
 #, python-brace-format
 msgid "{role_name} changed for {course_title}"
-msgstr ""
+msgstr "{role_name} 更改為{course_title}"
 
 #: apps/publisher/emails.py
 #, python-brace-format
 msgid "Legal review requested: {title}"
-msgstr ""
+msgstr "請求法律審查：{title}"
 
 #: apps/publisher/emails.py
 msgid "Course team"
-msgstr ""
+msgstr "課程團隊"
 
 #: apps/publisher/emails.py
 msgid "Legal Team"
-msgstr ""
+msgstr "法律團隊"
 
 #: apps/publisher/emails.py
 #, python-brace-format
 msgid "Changes to published course run: {title} {run_number}"
-msgstr ""
+msgstr "改變出版課程: {title} {run_number}"
 
 #: apps/publisher/forms.py
 msgid "Remove Image"
-msgstr ""
+msgstr "移除圖片"
 
-#: apps/publisher/forms.py
-#: apps/publisher/templates/publisher/course_detail.html
+#: apps/publisher/forms.py apps/publisher/templates/publisher/course_detail.html
 msgid "Organization Name"
-msgstr ""
+msgstr "機構名稱"
 
-#: apps/publisher/forms.py
-#: apps/publisher/templates/publisher/course_detail.html
+#: apps/publisher/forms.py apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_revision_history.html
 msgid "Course Title"
 msgstr "課程名稱"
 
-#: apps/publisher/forms.py
-#: apps/publisher/templates/publisher/course_detail.html
+#: apps/publisher/forms.py apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_list.html
 #: apps/publisher/templates/publisher/course_revision_history.html
 #: apps/publisher/templates/publisher/dashboard/_in_progress.html
@@ -667,20 +643,17 @@ msgstr "課程名稱"
 msgid "Course Number"
 msgstr "課程編號"
 
-#: apps/publisher/forms.py
-#: apps/publisher/templates/publisher/course_detail.html
+#: apps/publisher/forms.py apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_revision_history.html
 msgid "Short Description"
-msgstr ""
+msgstr "簡介"
 
-#: apps/publisher/forms.py
-#: apps/publisher/templates/publisher/course_detail.html
+#: apps/publisher/forms.py apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_revision_history.html
 msgid "Long Description"
-msgstr ""
+msgstr "詳細內容"
 
-#: apps/publisher/forms.py apps/publisher/models.py
-#: apps/publisher/templates/publisher/course_detail.html
+#: apps/publisher/forms.py apps/publisher/models.py apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_revision_history.html
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Prerequisites"
@@ -688,7 +661,7 @@ msgstr "預備知識"
 
 #: apps/publisher/forms.py
 msgid "Organization Course Admin"
-msgstr ""
+msgstr "課程機構管理員"
 
 #: apps/publisher/forms.py
 msgid "Primary"
@@ -696,44 +669,39 @@ msgstr "國小"
 
 #: apps/publisher/forms.py
 msgid "Additional Subject (optional)"
-msgstr ""
+msgstr "其他科目(選修)"
 
-#: apps/publisher/forms.py
-#: apps/publisher/templates/publisher/course_run_detail/_drupal.html
+#: apps/publisher/forms.py apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Level"
 msgstr "級別"
 
-#: apps/publisher/forms.py
-#: apps/publisher/templates/publisher/course_detail.html
+#: apps/publisher/forms.py apps/publisher/templates/publisher/course_detail.html
 msgid "What You Will Learn"
-msgstr ""
+msgstr "你會學到什麼"
 
 #: apps/publisher/forms.py
 msgid "Learner Testimonial"
-msgstr ""
+msgstr "學生證明"
 
-#: apps/publisher/forms.py
-#: apps/publisher/templates/publisher/course_detail.html
+#: apps/publisher/forms.py apps/publisher/templates/publisher/course_detail.html
 msgid "Syllabus"
-msgstr ""
+msgstr "課程大綱"
 
 #: apps/publisher/forms.py
-msgid ""
-"Please do not use any spaces or special characters other than period, "
-"underscore or hyphen."
-msgstr ""
+msgid "Please do not use any spaces or special characters other than period, underscore or hyphen."
+msgstr "請勿使用底線或連以外的任何空格或特殊字元。"
 
 #: apps/publisher/forms.py
 msgid "This course title already exists"
-msgstr ""
+msgstr "此課程名稱已存在"
 
 #: apps/publisher/forms.py
 msgid "This course number already exists"
-msgstr ""
+msgstr "此課程編號已存在"
 
 #: apps/publisher/forms.py
 msgid "Find Course"
-msgstr ""
+msgstr "查詢課程"
 
 #: apps/publisher/forms.py
 msgid "Course Start Date"
@@ -745,124 +713,120 @@ msgstr "課程結束日期"
 
 #: apps/publisher/forms.py
 msgid "Instructor"
-msgstr ""
+msgstr "教師"
 
 #: apps/publisher/forms.py
 msgid "Pacing"
-msgstr ""
+msgstr "課程速度"
 
 #: apps/publisher/forms.py
 msgid "Transcript Languages"
-msgstr ""
+msgstr "副本語言"
 
-#: apps/publisher/forms.py
-#: apps/publisher/templates/publisher/course_run_detail/_drupal.html
+#: apps/publisher/forms.py apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "XSeries"
-msgstr "系列課程"
+msgstr "XSeries"
 
-#: apps/publisher/forms.py
-#: apps/publisher/templates/publisher/course_run_detail/_drupal.html
+#: apps/publisher/forms.py apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "MicroMasters"
-msgstr ""
+msgstr "MicroMasters"
 
 #: apps/publisher/forms.py
 msgid "Professional Certificate"
-msgstr ""
+msgstr "專業證書"
 
 #: apps/publisher/forms.py
 msgid "XSeries Name"
-msgstr ""
+msgstr "XSeries名稱"
 
-#: apps/publisher/forms.py
-#: apps/publisher/templates/publisher/course_run_detail/_drupal.html
+#: apps/publisher/forms.py apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Professional Certificate Name"
-msgstr ""
+msgstr "專業證書名稱"
 
 #: apps/publisher/forms.py
 msgid "MicroMasters Name"
-msgstr ""
+msgstr "MicroMasters名稱"
 
 #: apps/publisher/forms.py
 msgid "Video Language"
-msgstr ""
+msgstr "課程語言"
 
 #: apps/publisher/forms.py
 msgid "Start date cannot be after the End date"
-msgstr ""
+msgstr "開始日期不能在結束日期之後"
 
 #: apps/publisher/forms.py
 msgid "Minimum effort cannot be greater than Maximum effort"
-msgstr ""
+msgstr "小小的付出部會比大大的付出好"
 
 #: apps/publisher/forms.py
 msgid "Minimum effort and Maximum effort can not be same"
-msgstr ""
+msgstr "小小的付出部會和大大的付出一樣"
 
 #: apps/publisher/forms.py
 msgid "Maximum effort can not be empty"
-msgstr ""
+msgstr "努力付出不會沒有回報"
 
 #: apps/publisher/forms.py
 msgid "Enter XSeries program name"
-msgstr ""
+msgstr "輸入XSeries方案名稱"
 
 #: apps/publisher/forms.py
 msgid "Enter Micromasters program name"
-msgstr ""
+msgstr "輸入Micromasters方案名稱"
 
 #: apps/publisher/forms.py
 msgid "Enter Professional Certificate program name"
-msgstr ""
+msgstr "輸入專業證書方案名稱"
 
 #: apps/publisher/forms.py
 msgid "Choose enrollment track"
-msgstr ""
+msgstr "選擇註冊方式"
 
 #: apps/publisher/forms.py
 msgid "Audit only"
-msgstr ""
+msgstr "旁聽"
 
 #: apps/publisher/forms.py
 msgid "Professional education"
-msgstr ""
+msgstr "專業教育"
 
-#: apps/publisher/forms.py
-#: apps/publisher/templates/publisher/course_detail.html
+#: apps/publisher/forms.py apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 msgid "Enrollment Track"
-msgstr ""
+msgstr "註冊方式"
 
 #: apps/publisher/forms.py
 msgid "Price must be greater than or equal to 0.01"
-msgstr ""
+msgstr "價格必須大於或等於0.01"
 
 #: apps/publisher/forms.py
 msgid "Only audit seat can be without price."
-msgstr ""
+msgstr "旁聽不用錢。"
 
 #: apps/publisher/forms.py
 msgid "Price is required."
-msgstr ""
+msgstr "價格需求。"
 
 #: apps/publisher/forms.py
 msgid "This field is required."
-msgstr ""
+msgstr "領域需求。"
 
 #: apps/publisher/forms.py
 msgid "Invalid course key."
-msgstr ""
+msgstr "無效的課程密鑰。"
 
 #: apps/publisher/forms.py
 msgid "Owner role can not be publisher if the state is draft or review"
-msgstr ""
+msgstr "如果狀態為草稿或審閱，所有者角色不能成為發布者"
 
 #: apps/publisher/forms.py
 msgid "Please create {} course user role before assigning it owner role"
-msgstr ""
+msgstr "在分配所有者角色之前，請創建 {} 課程用戶角色"
 
 #: apps/publisher/forms.py
 msgid "Create initial run for the course"
-msgstr ""
+msgstr "創建初始課程初始"
 
 #: apps/publisher/models.py
 msgid "Course title"
@@ -874,12 +838,11 @@ msgstr "課程代碼"
 
 #: apps/publisher/models.py
 msgid "Brief Description"
-msgstr ""
+msgstr "簡要描述"
 
-#: apps/publisher/models.py
-#: apps/publisher/templates/publisher/course_run_detail/_drupal.html
+#: apps/publisher/models.py apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Full Description"
-msgstr ""
+msgstr "詳細描述"
 
 #: apps/publisher/models.py
 msgid "Partner Name"
@@ -887,26 +850,25 @@ msgstr "夥伴名稱"
 
 #: apps/publisher/models.py
 msgid "Level Type"
-msgstr ""
+msgstr "級別種類"
 
 #: apps/publisher/models.py
 msgid "Expected Learnings"
-msgstr ""
+msgstr "預望的學習內容"
 
-#: apps/publisher/models.py
-#: apps/publisher/templates/publisher/course_detail.html
+#: apps/publisher/models.py apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_revision_history.html
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Learner Testimonials"
-msgstr ""
+msgstr "學生證明"
 
 #: apps/publisher/models.py
 msgid "Video Link"
-msgstr ""
+msgstr "影片連結"
 
 #: apps/publisher/models.py
 msgid "Course Metadata Course PK"
-msgstr ""
+msgstr "課程元數據課程PK"
 
 #: apps/publisher/models.py
 msgid "Level 1"
@@ -937,9 +899,7 @@ msgid "Length of course, in number of weeks"
 msgstr "課程長度，以周數"
 
 #: apps/publisher/models.py
-msgid ""
-"Please add any additional notes or special instructions for the course About"
-" Page."
+msgid "Please add any additional notes or special instructions for the course About Page."
 msgstr "請於關於課程頁面添加任何補充說明或特殊介紹。"
 
 #: apps/publisher/models.py
@@ -952,60 +912,59 @@ msgstr "逗號區隔添加的工作人員的使用者名稱或電子郵件清單
 
 #: apps/publisher/models.py
 msgid "Professional (with ID verification)"
-msgstr "專業證書 (with ID verification)"
+msgstr "專業證書 (有ID驗證)"
 
 #: apps/publisher/models.py
 msgid "Professional (no ID verification)"
-msgstr ""
+msgstr "專業證書 (無ID驗證)"
 
 #: apps/publisher/models.py
 msgid "Organization Role"
-msgstr ""
+msgstr "機構角色"
 
 #: apps/publisher/models.py
 msgid "Course Role"
-msgstr ""
+msgstr "課程角色"
 
 #: apps/publisher/models.py
 msgid "Automatically create a run in Studio"
-msgstr ""
+msgstr "在Studio自動創建課程"
 
 #: apps/publisher/models.py
 msgid ""
-"When this flag is enabled, creation of a new course run in Publisher will "
-"also create a corresponding course run in Studio."
-msgstr ""
+"When this flag is enabled, creation of a new course run in Publisher will also create a corresponding "
+"course run in Studio."
+msgstr "啟用此標誌時，在出版者創建新課程也將在Studio創建相應的課程。"
 
 #: apps/publisher/models.py
 msgid "Submitted for Marketing Review"
-msgstr ""
+msgstr "提交購買評論"
 
 #: apps/publisher/models.py
 msgid "Approved by Course Team"
-msgstr ""
+msgstr "課程團隊的批准"
 
 #: apps/publisher/models.py apps/publisher/wrappers.py
 msgid "Awaiting Course Team Review"
-msgstr ""
+msgstr "等待課程團隊的批准"
 
 #: apps/publisher/models.py apps/publisher/wrappers.py
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 #: apps/publisher/models.py
 msgid "Awaiting Marketing Review"
-msgstr ""
+msgstr "等待購買評論"
 
 #: apps/publisher/models.py
 msgid "Approved by Marketing"
-msgstr ""
+msgstr "購買成功"
 
-#: apps/publisher/serializers.py
-#: apps/publisher/templates/publisher/_approval_widget.html
+#: apps/publisher/serializers.py apps/publisher/templates/publisher/_approval_widget.html
 #: apps/publisher/templates/publisher/course_detail/_edit_warning_popup.html
 #: apps/publisher/templates/publisher/course_run_detail/_edit_warning.html
 msgid "Edit"
-msgstr ""
+msgstr "編輯"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "New Instructor"
@@ -1013,19 +972,19 @@ msgstr "新教師"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "Click here to upload your image"
-msgstr ""
+msgstr "點擊這裡上傳您的圖片"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "The image dimensions must be less than 110 x 110"
-msgstr ""
+msgstr "圖片維度必須小於110 x 100"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "The image size must be less than 256KB"
-msgstr ""
+msgstr "圖片大小必須小於256KB"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "First Name"
-msgstr ""
+msgstr "姓氏"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "required"
@@ -1033,7 +992,7 @@ msgstr "必填"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "Last Name"
-msgstr ""
+msgstr "名字"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
@@ -1045,11 +1004,11 @@ msgstr "標題"
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 #: apps/publisher/templates/publisher/course_run_detail/_instructor_profile.html
 msgid "Email"
-msgstr ""
+msgstr "電子郵件"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "Institution email is preferred"
-msgstr ""
+msgstr "機構的電子郵件為首要傳遞的"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 #: apps/publisher/templates/publisher/course_list.html
@@ -1065,127 +1024,127 @@ msgstr "組織"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "Enter a different organization"
-msgstr ""
+msgstr "輸入不同的機構"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 #: apps/publisher/templates/publisher/course_run_detail/_instructor_profile.html
 msgid "Bio"
-msgstr ""
+msgstr "Bio"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "required (1-2 paragraphs)"
-msgstr ""
+msgstr "需求項目(1-2段)"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "Facebook URL"
-msgstr ""
+msgstr "Facebook網址"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "optional"
-msgstr ""
+msgstr "選修"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "Twitter URL"
-msgstr ""
+msgstr "Twitter網址"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "Blog URL"
-msgstr ""
+msgstr "部落格網址"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "Major Works"
-msgstr ""
+msgstr "主要課程"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "optional - one per line"
-msgstr ""
+msgstr "選修 - 每行一個"
 
 #: apps/publisher/templates/publisher/_add_instructor_popup.html
 msgid "Add Staff Member"
-msgstr ""
+msgstr "新增工作人員"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "REVIEWS"
-msgstr ""
+msgstr "評論"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 #, python-format
 msgid ""
-"You can currently edit information for this course run. However, before you "
-"can submit this course run for review, you must finalize the information for"
-" %(link_start)s%(course_url)s%(link_middle)s%(course_name)s%(link_end)s with"
-" edX."
+"You can currently edit information for this course run. However, before you can submit this course run for "
+"review, you must finalize the information for %(link_start)s%(course_url)s%(link_middle)s%(course_name)s"
+"%(link_end)s with edX."
 msgstr ""
+"您目前可以編輯此課程的信息。 但是，在您提交此課程審核之前，您必須使用DeltaMOOCx確定%(link_start)s"
+"%(course_url)s%(link_middle)s%(course_name)s%(link_end)s的信息。"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "Decline"
-msgstr ""
+msgstr "拒絕"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "Accept"
-msgstr ""
+msgstr "接受"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "Accepted"
-msgstr ""
+msgstr "已接受"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 #: apps/publisher/templates/publisher/course_run_detail/course_run_detail.html
 msgid "Publish"
-msgstr ""
+msgstr "訂閱"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "Submitted for review"
-msgstr ""
+msgstr "提交評論"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "Preview Declined"
-msgstr ""
+msgstr "預覽被拒絕"
 
-#: apps/publisher/templates/publisher/_approval_widget.html
-#: apps/publisher/templates/publisher/seat_form.html
+#: apps/publisher/templates/publisher/_approval_widget.html apps/publisher/templates/publisher/seat_form.html
 msgid "Save"
 msgstr "儲存"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "ABOUT PAGE PREVIEW"
-msgstr ""
+msgstr "頁面預覽"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "Preview URL"
-msgstr ""
+msgstr "預覽網址"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "View About page preview"
-msgstr ""
+msgstr "觀看頁面預覽"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "Not available"
-msgstr ""
+msgstr "不合適的"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "Sent for Review"
-msgstr ""
+msgstr "寄出評論"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "Reviewed"
-msgstr ""
+msgstr "評論"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "day in ownership"
-msgstr ""
+msgstr "一日所有權"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "days in ownership"
-msgstr ""
+msgstr "所有權日"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "change"
-msgstr ""
+msgstr "更換"
 
 #: apps/publisher/templates/publisher/_approval_widget.html
 msgid "CHANGE"
-msgstr ""
+msgstr "更換"
 
 #: apps/publisher/templates/publisher/_footer.html
 msgid "Terms of Service"
@@ -1197,18 +1156,20 @@ msgstr "隱私權政策"
 
 #: apps/publisher/templates/publisher/_footer.html
 msgid "Legal"
-msgstr ""
+msgstr "法律"
 
 #: apps/publisher/templates/publisher/_footer.html
 #, python-format
 msgid ""
-"EdX, Open edX, Publisher, and the edX and Open edX logos are registered "
-"trademarks or trademarks of %(link_start)sedX Inc.%(link_end)s"
+"EdX, Open edX, Publisher, and the edX and Open edX logos are registered trademarks or trademarks of "
+"%(link_start)sedX Inc.%(link_end)s"
 msgstr ""
+"DeltaMOOCx, OpenDeltaMOOCx, Publisher, and the DeltaMOOCx and Open DeltaMOOCx的標誌是註冊商標"
+"和%(link_start)sedX Inc.%(link_end)s的商標"
 
 #: apps/publisher/templates/publisher/_footer.html
 msgid "Powered by Open edX"
-msgstr "技術提供：Open edX"
+msgstr "技術提供：Open DeltaMOOCx"
 
 #: apps/publisher/templates/publisher/_header.html
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
@@ -1217,11 +1178,11 @@ msgstr "帳號"
 
 #: apps/publisher/templates/publisher/_header.html
 msgid "Account Navigation"
-msgstr ""
+msgstr "帳號引導"
 
 #: apps/publisher/templates/publisher/_header.html
 msgid "Contextual Online Help"
-msgstr ""
+msgstr "上下文線上幫助"
 
 #: apps/publisher/templates/publisher/_header.html
 msgid "Help"
@@ -1245,37 +1206,37 @@ msgstr "登出"
 
 #: apps/publisher/templates/publisher/_history_widget.html
 msgid "REVISION HISTORY"
-msgstr ""
+msgstr "修訂記錄"
 
 #: apps/publisher/templates/publisher/_history_widget.html
 #, python-format
 msgid "%(history_date)s&nbsp;by&nbsp;%(changed_by)s (Latest)"
-msgstr ""
+msgstr "%(history_date)s&nbsp;by&nbsp;%(changed_by)s (Latest)"
 
 #: apps/publisher/templates/publisher/_history_widget.html
 #, python-format
 msgid "%(history_date)s&nbsp;by&nbsp;%(changed_by)s"
-msgstr ""
+msgstr "%(history_date)s&nbsp;by&nbsp;%(changed_by)s"
 
 #: apps/publisher/templates/publisher/_history_widget.html
 #: apps/publisher/templates/publisher/_revert_confirmation.html
 msgid "Restore to this version"
-msgstr ""
+msgstr "還原到此版本"
 
 #: apps/publisher/templates/publisher/_history_widget.html
 msgid "Unable to revert the revision, Please try again later."
-msgstr ""
+msgstr "目前無法還原修訂項目，請稍後在試。"
 
 #: apps/publisher/templates/publisher/_history_widget.html
 msgid "Accept All"
-msgstr ""
+msgstr "全部接受"
 
 #: apps/publisher/templates/publisher/_render_optional_field.html
 #: apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_run_detail/_credit_seat.html
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "(Optional) Not yet added"
-msgstr ""
+msgstr "(選修)尚未新增"
 
 #: apps/publisher/templates/publisher/_render_required_field.html
 #: apps/publisher/templates/publisher/course_detail.html
@@ -1284,255 +1245,256 @@ msgstr ""
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 #: apps/publisher/templates/publisher/course_run_detail/_seats.html
 msgid "(Required) Not yet added"
-msgstr ""
+msgstr "(必修)尚未新增"
 
 #: apps/publisher/templates/publisher/_revert_confirmation.html
 #: apps/publisher/templates/publisher/course_detail/_edit_warning_popup.html
 #: apps/publisher/templates/publisher/course_run_detail/_edit_warning.html
 msgid "CAUTION"
-msgstr ""
+msgstr "警告"
 
 #: apps/publisher/templates/publisher/_revert_confirmation.html
 msgid "Are you sure you want to revert all changes to this version ?"
-msgstr ""
+msgstr "您確定要恢復此版本的所有更改嗎？"
 
-#: apps/publisher/templates/publisher/add_course_form.html
-#: apps/publisher/templates/publisher/course_list.html
+#: apps/publisher/templates/publisher/add_course_form.html apps/publisher/templates/publisher/course_list.html
 msgid "Create New Course"
-msgstr ""
+msgstr "創建新課程"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "COURSE TITLE"
-msgstr ""
+msgstr "課程名稱"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Best Practices"
-msgstr ""
+msgstr "最佳實例"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Examples"
-msgstr ""
+msgstr "範例"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Maximum 70 characters. Recommended 50 or fewer characters."
-msgstr ""
+msgstr "最多70個字數。 推薦50個或更少的字數。"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "An effective course title:"
-msgstr ""
+msgstr "有效的課程名稱："
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Clearly indicates the course subject matter."
-msgstr ""
+msgstr "清楚地表明課程主題。"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Follows search engine optimization (SEO) guidelines."
-msgstr ""
+msgstr "遵循搜索引擎優化（SEO）指南。"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Targets a global audience."
-msgstr ""
+msgstr "針對全球觀眾。"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
-msgid ""
-"If the course is part of a sequence, include both sequence and course "
-"information as \\"
-msgstr ""
+msgid "If the course is part of a sequence, include both sequence and course information as \\"
+msgstr "如果課程是此序列的一部分，請將此序列和課程信息都包含為\\"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Single Courses"
-msgstr ""
+msgstr "單一課程"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "English Grammar and Essay Writing"
-msgstr ""
+msgstr "英語語法與散文寫作"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 msgid "Sequence Courses"
-msgstr ""
+msgstr "序列課程"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Statistics: Inference"
-msgstr ""
+msgstr "統計：推斷"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Statistics: Probability"
-msgstr ""
+msgstr "統計：機率"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "COURSE NUMBER"
-msgstr ""
+msgstr "課程編號"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
-msgid ""
-"Maximum 50 characters. Characters can be letters, numbers, periods, "
-"underscores or hyphens."
-msgstr ""
+msgid "Maximum 50 characters. Characters can be letters, numbers, periods, underscores or hyphens."
+msgstr "最多50個字數。 文字可以是字母，數字，句點，底線或連字符。"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
-msgid ""
-"If a course consists of several modules, the course number can have an "
-"ending such as .1x or .2x."
-msgstr ""
+msgid "If a course consists of several modules, the course number can have an ending such as .1x or .2x."
+msgstr "如果課程由多個模組組成，則課程編號可以有一個結尾，例如.1x或.2x。"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "CS002x"
-msgstr ""
+msgstr "CS002x"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 msgid "BIO1.1x; BIO1.2x etc."
-msgstr ""
+msgstr "BIO1.1x; BIO1.2x 等等。"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/add_courserun_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "CERTIFICATE TYPE AND PRICE"
-msgstr ""
+msgstr "證書類型和價格"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 #: apps/publisher/templates/publisher/add_courserun_form.html
 #: apps/publisher/templates/publisher/course_edit_form.html
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid ""
-"If the course offers a verified or professional education certificate, "
-"select the certificate type and enter the price for the certificate."
-msgstr ""
+"If the course offers a verified or professional education certificate, select the certificate type and "
+"enter the price for the certificate."
+msgstr "如果課程提供經過驗證的專業教育證書，請選擇證書類型並輸入證書的價格。"
 
 #: apps/publisher/templates/publisher/add_course_form.html
 msgid "I want to add a run to this course at this time"
-msgstr ""
+msgstr "我想要在這個時間新增課堂課程"
 
 #: apps/publisher/templates/publisher/add_courserun_form.html
 msgid "New Course Run"
-msgstr ""
+msgstr "新課程上線"
 
 #: apps/publisher/templates/publisher/add_courserun_form.html
 msgid ""
 "\n"
-"                    When you create a course run, Publisher immediately creates a page for the course run in Publisher, and the edX team creates a Studio URL for the course run. You will receive an email message when edX has created the Studio URL.\n"
+"                    When you create a course run, Publisher immediately creates a page for the course run "
+"in Publisher, and the edX team creates a Studio URL for the course run. You will receive an email message "
+"when edX has created the Studio URL.\n"
 "                "
 msgstr ""
+"\n"
+"                    當您創建課程運行時，出版者會立即為在出版者運行的課程創建一個頁面，並且DeltaMOOCx團隊將為"
+"課程運行創建一個Studio網址。 DeltaMOOCx創建Studio網址時，您會收到一封電子郵件。\n"
+"                "
 
 #: apps/publisher/templates/publisher/add_courserun_form.html
 msgid "FIND COURSE"
-msgstr ""
+msgstr "尋找課程"
 
 #: apps/publisher/templates/publisher/add_courserun_form.html
-msgid ""
-"Enter the name of the course for which you want to create a course run."
-msgstr ""
+msgid "Enter the name of the course for which you want to create a course run."
+msgstr "輸入要為其創建課程運行的課程的名稱。"
 
 #: apps/publisher/templates/publisher/add_courserun_form.html
 #, python-format
 msgid ""
 "\n"
-"                                                If your course cannot be found, make sure the course name is correct, or %(link_start)s%(new_course_url)s%(link_middle)screate a new course%(link_end)s.\n"
+"                                                If your course cannot be found, make sure the course name "
+"is correct, or %(link_start)s%(new_course_url)s%(link_middle)screate a new course%(link_end)s.\n"
 "                                            "
 msgstr ""
+"\n"
+"                                                如果您的課程無法找到，請確保課程名稱正確無誤，"
+"或%(link_start)s%(new_course_url)s%(link_middle)screate a new course%(link_end)s。\n"
+"                                            "
 
 #: apps/publisher/templates/publisher/add_courserun_form.html
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "COURSE START DATE"
-msgstr ""
+msgstr "課程開始日期"
 
 #: apps/publisher/templates/publisher/add_courserun_form.html
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "Start on a Tuesday, Wednesday, or Thursday."
-msgstr ""
+msgstr "開始於星期二、星期三或星期四。"
 
 #: apps/publisher/templates/publisher/add_courserun_form.html
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "Avoid major U.S. holidays."
-msgstr ""
+msgstr "避免美國主要的節慶。"
 
 #: apps/publisher/templates/publisher/add_courserun_form.html
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid ""
-"Specify a month, day, and year. If you are unsure of the exact date, specify"
-" a day that is close to the estimated start date. For example, if your "
-"course will start near the end of March, specify March 31."
+"Specify a month, day, and year. If you are unsure of the exact date, specify a day that is close to the "
+"estimated start date. For example, if your course will start near the end of March, specify March 31."
 msgstr ""
+"指定月份，日期和年份。 如果您不確定確切的日期，請指定一個接近預計開始日期的日期。 例如，如果您的課程將在3月"
+"底附近開始，請指定3月31日。"
 
 #: apps/publisher/templates/publisher/add_courserun_form.html
 msgid "PACING TYPE"
-msgstr ""
+msgstr "PACING TYPE"
 
 #: apps/publisher/templates/publisher/add_courserun_form.html
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid ""
-"Instructor-paced courses include individual assignments that have specific "
-"due dates before the course end date."
-msgstr ""
+"Instructor-paced courses include individual assignments that have specific due dates before the course end "
+"date."
+msgstr "課程協會指導課程的課程包括在課程結束日期之前具有特定截止日期的個人作業。"
 
 #: apps/publisher/templates/publisher/add_courserun_form.html
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid ""
-"Self-paced courses do not have individual assignments that have specific due"
-" dates before the course end date. All assignments are due on the course end"
-" date."
-msgstr ""
+"Self-paced courses do not have individual assignments that have specific due dates before the course end "
+"date. All assignments are due on the course end date."
+msgstr "自學課程沒有在課程結束日期之前具有特定截止日期的個人作業。 所有作業都在課程結束日期到期。"
 
 #: apps/publisher/templates/publisher/add_courserun_form.html
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "COURSE END DATE"
-msgstr ""
+msgstr "課程結束日期"
 
 #: apps/publisher/templates/publisher/add_courserun_form.html
 msgid ""
-"Specify a month, day, and year. If you are unsure of the exact date, specify"
-" a day that is close to the estimated end date. For example, if your course "
-"will end near the end of March, specify March 31."
+"Specify a month, day, and year. If you are unsure of the exact date, specify a day that is close to the "
+"estimated end date. For example, if your course will end near the end of March, specify March 31."
 msgstr ""
+"指定月份，日期和年份。 如果您不確定具體日期，請指定一個接近估計結束日期的日期。 例如，如果您的課程將在3月底"
+"附近結束，請指定3月31日。"
 
 #: apps/publisher/templates/publisher/add_courserun_form.html
 msgid "Create New Course Run"
-msgstr ""
+msgstr "創建新的課程影片"
 
 #: apps/publisher/templates/publisher/admin/add_user_form.html
-msgid ""
-"First, enter a username and select a group. Then, you'll be able to edit "
-"more user options."
-msgstr ""
+msgid "First, enter a username and select a group. Then, you'll be able to edit more user options."
+msgstr "首先，輸入用戶名並選擇一個組。 然後，您將可以編輯更多用戶選項。"
 
 #: apps/publisher/templates/publisher/admin/import_course.html
 msgid "Course Detail"
-msgstr ""
+msgstr "課程描述"
 
 #: apps/publisher/templates/publisher/admin/import_course.html
 msgid "Import COURSE"
-msgstr ""
+msgstr "輸入課程"
 
-#: apps/publisher/templates/publisher/base.html
-#: apps/publisher/templates/publisher/courserun_list.html
+#: apps/publisher/templates/publisher/base.html apps/publisher/templates/publisher/courserun_list.html
 msgid "Dashboard"
-msgstr ""
+msgstr "儀表板"
 
-#: apps/publisher/templates/publisher/base.html
-#: apps/publisher/templates/publisher/course_list.html apps/publisher/views.py
+#: apps/publisher/templates/publisher/base.html apps/publisher/templates/publisher/course_list.html
+#: apps/publisher/views.py
 msgid "Courses"
 msgstr "課程"
 
 #: apps/publisher/templates/publisher/comments/add_auth_comments.html
 msgid "Comment:"
-msgstr ""
+msgstr "評論："
 
 #: apps/publisher/templates/publisher/comments/add_auth_comments.html
 #: apps/publisher/templates/publisher/course_run_detail/_widgets.html
@@ -1541,42 +1503,42 @@ msgstr "提交"
 
 #: apps/publisher/templates/publisher/comments/add_auth_comments.html
 msgid "Add comment"
-msgstr ""
+msgstr "新增評論"
 
 #: apps/publisher/templates/publisher/comments/comments_list.html
 msgid "Submitted by"
-msgstr ""
+msgstr "提交者"
 
 #: apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_run_detail/_widgets.html
 msgid "EDIT"
-msgstr ""
+msgstr "編輯"
 
 #: apps/publisher/templates/publisher/course_detail.html
 msgid "Course Team Admin"
-msgstr ""
+msgstr "課程團隊管理員"
 
 #: apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 msgid "Certificate Price"
-msgstr ""
+msgstr "證書價格"
 
 #: apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_revision_history.html
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Primary Subject"
-msgstr ""
+msgstr "主要科目"
 
 #: apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_revision_history.html
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Additional Subject"
-msgstr ""
+msgstr "附加科目"
 
 #: apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Course Image"
-msgstr ""
+msgstr "課程圖片"
 
 #: apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_revision_history.html
@@ -1587,23 +1549,29 @@ msgstr "課程級別"
 #: apps/publisher/templates/publisher/course_detail.html
 #: apps/publisher/templates/publisher/course_revision_history.html
 msgid "About Video Link"
-msgstr ""
+msgstr "影片連結"
 
 #: apps/publisher/templates/publisher/course_detail/_edit_warning_popup.html
 #, python-format
 msgid ""
 "\n"
-"                The %(current_team_name)s team is currently reviewing this course. If you edit course information, you might overwrite the team’s changes, and you will have to send the course to the %(team_name)s team for review again.\n"
+"                The %(current_team_name)s team is currently reviewing this course. If you edit course "
+"information, you might overwrite the team’s changes, and you will have to send the course to the "
+"%(team_name)s team for review again.\n"
 "            "
 msgstr ""
+"\n"
+"                 %(current_team_name)s 團隊目前正在審閱此課程。 如果您編輯課程信息，則可能會覆蓋團隊的變更，"
+"您必須將課程發送給 %(team_name)s 團隊再次查看。\n"
+"            "
 
 #: apps/publisher/templates/publisher/course_detail/_widgets.html
 msgid "COURSE RUNS"
-msgstr ""
+msgstr "課程影片"
 
 #: apps/publisher/templates/publisher/course_detail/_widgets.html
 msgid "CREATE RUN"
-msgstr ""
+msgstr "觀看新的課程影片"
 
 #: apps/publisher/templates/publisher/course_detail/_widgets.html
 #, python-format
@@ -1612,29 +1580,30 @@ msgid ""
 "                        Created %(created_date)s at %(created_time)s by %(created_by)s\n"
 "                    "
 msgstr ""
+"\n"
+"                        創建於%(created_date)s的%(created_time)s由%(created_by)s所創\n"
+"                    "
 
 #: apps/publisher/templates/publisher/course_detail/_widgets.html
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "STUDIO URL"
-msgstr ""
+msgstr "STUDIO網址"
 
 #: apps/publisher/templates/publisher/course_detail/_widgets.html
 msgid "To be added by edX"
-msgstr ""
+msgstr "有DeltaMOOCx增加"
 
 #: apps/publisher/templates/publisher/course_detail/_widgets.html
 msgid "No course runs exist for this course"
-msgstr ""
+msgstr "本課程不存在任何課程"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Edit Course"
-msgstr ""
+msgstr "編輯課程"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
-msgid ""
-"All required fields must be complete before this course can be sent to edX "
-"marketing for review."
-msgstr ""
+msgid "All required fields must be complete before this course can be sent to edX marketing for review."
+msgstr "所有必填字段必須完整，然後才能將此課程發送至DeltaMOOCx市場營銷部門進行審核。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Note:"
@@ -1642,418 +1611,409 @@ msgstr "注釋:"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"If you edit course information after edX marketing has reviewed the course, "
-"you have to send the course for review again."
-msgstr ""
+"If you edit course information after edX marketing has reviewed the course, you have to send the course for "
+"review again."
+msgstr "如果您在DeltaMOOCx市場營銷部門審核課程後編輯課程信息，則必須重新發送課程以供審核。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Sequence Courses:"
-msgstr ""
+msgstr "序列課程："
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "255 character limit, including spaces."
-msgstr ""
+msgstr "255個字數限制，包括空格。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "BIO1.1x, BIO1.2x"
-msgstr ""
+msgstr "BIO1.1x, BIO1.2x"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "SHORT DESCRIPTION"
-msgstr ""
+msgstr "簡介"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "An effective short description:"
-msgstr ""
+msgstr "簡介："
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Contains 25–50 words."
-msgstr ""
+msgstr "包含25-50個字數。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Functions as a tagline."
-msgstr ""
+msgstr "標語。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Conveys compelling reasons to take the course."
-msgstr ""
+msgstr "傳達引人注目的理由參加課程。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Follows SEO guidelines."
-msgstr ""
+msgstr "遵循SEO準則。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"The first MOOC to teach positive psychology. Learn science-based principles "
-"and practices for a happy, meaningful life."
-msgstr ""
+"The first MOOC to teach positive psychology. Learn science-based principles and practices for a happy, "
+"meaningful life."
+msgstr "第一個MOOC教正面心理學。 學習基於科學的原則和實踐以獲得快樂，有意義的生活。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "LONG DESCRIPTION"
-msgstr ""
+msgstr "詳細描述"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "An effective long description:"
-msgstr ""
+msgstr "詳細描述："
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Contains 150–300 words."
-msgstr ""
+msgstr "包含150-300個字數。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Is easy to skim."
-msgstr ""
+msgstr "很簡單的瀏覽。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Uses bullet points instead of dense text paragraphs."
-msgstr ""
+msgstr "使用項目符號而不是密集的文本段落。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
-msgid ""
-"The first four lines are visible when the About page opens. Learners can "
-"select \\"
-msgstr ""
+msgid "The first four lines are visible when the About page opens. Learners can select \\"
+msgstr "前四行顯示關於頁面打開時。 學習者可以選擇\\"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Content-based example:"
-msgstr ""
+msgstr "基本內容的示例："
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"Want to learn computer programming, but unsure where to begin? This is the "
-"course for you! Scratch is the computer programming language that makes it "
-"easy and fun to create interactive stories, games and animations and share "
-"them online."
+"Want to learn computer programming, but unsure where to begin? This is the course for you! Scratch is the "
+"computer programming language that makes it easy and fun to create interactive stories, games and "
+"animations and share them online."
 msgstr ""
+"想學習計算機編程，但不確定從哪裡開始？ 這是適合你的課程！ Scratch是計算機編程語言，它使創建互動故事，遊戲和"
+"動畫以及在線分享它們變得簡單而有趣。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"This course is an introduction to computer science using the programming "
-"language Scratch, developed by MIT. Starting with the basics of using "
-"Scratch, the course will stretch your mind and challenge you. You will learn"
-" how to create amazing games, animated images and songs in just minutes with"
-" a simple “drag and drop” interface."
+"This course is an introduction to computer science using the programming language Scratch, developed by "
+"MIT. Starting with the basics of using Scratch, the course will stretch your mind and challenge you. You "
+"will learn how to create amazing games, animated images and songs in just minutes with a simple “drag and "
+"drop” interface."
 msgstr ""
+"本課程是由MIT開發的使用編程語言Scratch的計算機科學入門。 從使用Scratch的基礎開始，該課程將擴展您的想法並挑戰"
+"您自己。 您將學習如何使用簡單的\"拖放\"界面在短短幾分鐘內創建出色的遊戲，動畫圖像和歌曲。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
-msgid ""
-"No previous programming knowledge needed. Join us as you start your computer"
-" science journey."
-msgstr ""
+msgid "No previous programming knowledge needed. Join us as you start your computer science journey."
+msgstr "無需以前的編程知識。 加入我們，開始您的計算機科學之旅。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Skills-based example:"
-msgstr ""
+msgstr "基本技能的示例："
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"Taught by instructors with decades of experience on Wall Street, this M&A "
-"course will equip analysts and associates with the skills they need to rise "
-"to employment in the M&A field. Additionally, directors and managers who "
-"have transitioned, or hope to transition, to M&A from other areas such as "
-"equities or fixed income can use this course to eliminate skill gaps."
+"Taught by instructors with decades of experience on Wall Street, this M&A course will equip analysts and "
+"associates with the skills they need to rise to employment in the M&A field. Additionally, directors and "
+"managers who have transitioned, or hope to transition, to M&A from other areas such as equities or fixed "
+"income can use this course to eliminate skill gaps."
 msgstr ""
+"由擁有數十年華爾街經驗的教師授課，這門併購課程將使分析師和員工掌握他們在併購領域就業所需的技能。 此外，從股"
+"票或固定收益等其他領域轉變或希望轉型為併購的董事和經理可以使用此課程來消除技能差距。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "2500 character limit, including spaces."
-msgstr ""
+msgstr "2500個字數限制，包括空格。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "WHAT YOU WILL LEARN"
-msgstr ""
+msgstr "你將學到的知識"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "The skills and knowledge learners will acquire in this course."
-msgstr ""
+msgstr "學習者在本課程中學到的技能和知識。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Format each item as a bullet with four to ten words."
-msgstr ""
+msgstr "將每個項目簡化為4到10個字數。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Basic R Programming"
-msgstr ""
+msgstr "基礎的R語言"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "An applied understanding of linear and logistic regression"
-msgstr ""
+msgstr "對線性和羅吉斯回歸的應用理解"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Application of text analytics"
-msgstr ""
+msgstr "文本分析的應用"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Linear and integer optimization"
-msgstr ""
+msgstr "線性和整數最佳化"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "SUBJECT FIELD"
-msgstr ""
+msgstr "主題字段"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "The subject of the course."
-msgstr ""
+msgstr "課程主題。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"You can select up to two subjects in addition to the primary subject. Only "
-"the primary subject appears on the About page."
-msgstr ""
+"You can select up to two subjects in addition to the primary subject. Only the primary subject appears on "
+"the About page."
+msgstr "除主要科目外，您最多可以選擇兩個科目。 只有主要科目出現在關於頁面上。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "COURSE IMAGE"
 msgstr "課程圖片"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
-msgid ""
-"An eye-catching, colorful image that captures the essence of your course."
-msgstr ""
+msgid "An eye-catching, colorful image that captures the essence of your course."
+msgstr "一個吸引人且豐富多彩的圖像，捕捉您的課程的本質。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Course Image Guidelines:"
-msgstr ""
+msgstr "課程圖片指南："
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "New course images must be 1134 X 675 pixels in size. "
-msgstr ""
+msgstr "新的課程圖像尺寸必須為1134 X 675像素。 "
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Learn more."
-msgstr ""
+msgstr "學習更多。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Each course in a sequence must have a unique image."
-msgstr ""
+msgstr "序列中的每個課程都必須具有唯一的圖像。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "The image cannot include text or headlines."
-msgstr ""
+msgstr "圖片不能包含文字或標題。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"You must have permission to use the image. Possible image sources include "
-"Flickr creative commons, Stock Vault, Stock XCHNG, and iStock Photo."
-msgstr ""
+"You must have permission to use the image. Possible image sources include Flickr creative commons, Stock "
+"Vault, Stock XCHNG, and iStock Photo."
+msgstr "您必須擁有使用該圖片的權限。 可能的圖片來源包括Flickr創意共享，股票庫，股票XCHNG和iStock照片。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "PREREQUISITES"
-msgstr ""
+msgstr "必備條件"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Maximum 200 characters."
-msgstr ""
+msgstr "最多200字數。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"Specific knowledge learners must have to be successful in the course. If the"
-" course has no prerequisites, enter \\"
-msgstr ""
+"Specific knowledge learners must have to be successful in the course. If the course has no prerequisites, "
+"enter \\"
+msgstr "具體的知識學習者必須在課程中取得成功。 如果課程沒有先決條件，請輸入\\"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Secondary school (high school) algebra; basic mathematics concepts"
-msgstr ""
+msgstr "高中代數; 基本的數學概念"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Graduate-level understanding of Keynesian economics"
-msgstr ""
+msgstr "畢業水準對凱因斯經濟學的理解"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Basic algebra"
-msgstr ""
+msgstr "基本的代數經濟學"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "200 character limit, including spaces."
-msgstr ""
+msgstr "200個字數限制，包括空格。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "SYLLABUS"
-msgstr ""
+msgstr "教學大綱"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
-msgid ""
-"A review of content covered in your course, organized by week or module."
-msgstr ""
+msgid "A review of content covered in your course, organized by week or module."
+msgstr "按星期或模組對您的課程中涵蓋的內容進行回顧。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Focus on topics and content."
-msgstr ""
+msgstr "關注的主題和內容。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"Do not include detailed information about course logistics, such as grading,"
-" communication policies, and reading lists."
-msgstr ""
+"Do not include detailed information about course logistics, such as grading, communication policies, and "
+"reading lists."
+msgstr "不要包含有關課程後勤的詳細信息，例如評分，溝通政策和閱讀列表。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Format items as either paragraphs or a bulleted list."
-msgstr ""
+msgstr "將項目簡化為段落或項目符號列表。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Week 1: From Calculator to Computer"
-msgstr ""
+msgstr "第1週：從計算器到計算機"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"Introduction to basic programming concepts, such as values and expressions, "
-"as well as making decisions when implementing algorithms and developing "
-"programs."
-msgstr ""
+"Introduction to basic programming concepts, such as values and expressions, as well as making decisions "
+"when implementing algorithms and developing programs."
+msgstr "介紹基本的編程概念，如值和表達式，以及在執行算法和開發程序時作出決定。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Week 2: State Transformation"
-msgstr ""
+msgstr "第2週：狀態轉型"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"Introduction to state transformation, including representation of data and "
-"programs as well as conditional repetition."
-msgstr ""
+"Introduction to state transformation, including representation of data and programs as well as conditional "
+"repetition."
+msgstr "狀態轉換介紹，包括數據和程序的表示以及有條件的重複。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "LEVEL"
-msgstr ""
+msgstr "級別"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"Introductory - No prerequisites; a learner who has completed some or all "
-"secondary school could complete the course."
-msgstr ""
+"Introductory - No prerequisites; a learner who has completed some or all secondary school could complete "
+"the course."
+msgstr "介紹 - 沒有先決條件; 已完成部分或全部中學的學習者可以完成課程。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"Intermediate - Basic prerequisites; learners need to complete secondary "
-"school or some university courses."
-msgstr ""
+"Intermediate - Basic prerequisites; learners need to complete secondary school or some university courses."
+msgstr "中級 - 基本先決條件; 學習者需要完成中學或大學課程。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"Advanced - Significant prerequisites; the course is geared to third or "
-"fourth year university students or master's degree students."
-msgstr ""
+"Advanced - Significant prerequisites; the course is geared to third or fourth year university students or "
+"master's degree students."
+msgstr "高級 - 重要的先決條件; 該課程面向三，四年級大學生或碩士生。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Any frequently asked questions and the answers to those questions."
-msgstr ""
+msgstr "任何常見問題和這些問題的答案。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"The About video should excite and entice potential students to take your "
-"course. Think of it as a movie trailer or TV show promotion. The video "
-"should be compelling, and exhibit the instructor’s personality."
+"The About video should excite and entice potential students to take your course. Think of it as a movie "
+"trailer or TV show promotion. The video should be compelling, and exhibit the instructor’s personality."
 msgstr ""
+"關於視頻應該激發並吸引潛在的學生參加你的課程。 把它當作電影預告片或電視節目推廣。 視頻應該引人注目，並展現教"
+"練的個性。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
-msgid ""
-"The ideal length is 30-90 seconds (learners typically watch an average of 30"
-" seconds)."
-msgstr ""
+msgid "The ideal length is 30-90 seconds (learners typically watch an average of 30 seconds)."
+msgstr "理想的長度是30-90秒（學習者通常平均觀看30秒）。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
-msgid ""
-"The About video should be produced and edited, using elements such as "
-"graphics and stock footage."
-msgstr ""
+msgid "The About video should be produced and edited, using elements such as graphics and stock footage."
+msgstr "\"關於\"視頻應該使用圖形和素材等元素進行製作和編輯。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "The About video should answer these key questions."
-msgstr ""
+msgstr "關於視頻應回答這些關鍵問題。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Why should a learner register?"
-msgstr ""
+msgstr "學習者為什麼要註冊？"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "What topics and concepts are covered?"
-msgstr ""
+msgstr "涵蓋了哪些主題和概念？"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Who is teaching the course?"
-msgstr ""
+msgstr "負責教學的老師？"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "What institution is delivering the course?"
-msgstr ""
+msgstr "什麼機構提供課程？"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Naming specifications:"
-msgstr ""
+msgstr "命名規範："
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Name: InstitutionX_CourseNumber_About.mov"
-msgstr ""
+msgstr "名稱：InstitutionX_CourseNumber_About.mov"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Post to:"
-msgstr ""
+msgstr "發佈到："
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Technical specifications:"
-msgstr ""
+msgstr "技術規格："
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Codec: H.264"
-msgstr ""
+msgstr "編解碼器：H.264"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Container: .mp4"
-msgstr ""
+msgstr "檔案格式：.mp4"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Resolution: 1920x1080"
-msgstr ""
+msgstr "解析度：1920x1080"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Frame rate: 29.97 fps"
-msgstr ""
+msgstr "幀速率：29.97 fps"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Aspect: 1.0"
-msgstr ""
+msgstr "詳情：1.0"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Bitrate: 5Mbps VBR"
-msgstr ""
+msgstr "位元速率：5Mbps VBR"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Audio codec: AAC 44.1KHz/192 Kbps"
-msgstr ""
+msgstr "音頻編解碼器：AAC 44.1KHz / 192 Kbps"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Visit edX’s YouTube channel for examples of other About videos:"
-msgstr ""
+msgstr "訪問DeltaMOOCx的YouTube頻道查看其他關於視頻的示例："
 
 #: apps/publisher/templates/publisher/course_edit_form.html
-msgid ""
-"A quote from a learner in the course, demonstrating the value of taking the "
-"course."
-msgstr ""
+msgid "A quote from a learner in the course, demonstrating the value of taking the course."
+msgstr "學習者在課程中的引用，證明了課程的價值。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Should be no more than 25-50 words in length."
-msgstr ""
+msgstr "長度不應超過25-50個字。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"“Brilliant course! It's definitely the best introduction to electronics in "
-"the world! Interesting material, clean explanations, well prepared quizzes, "
-"challenging homeworks and fun labs.” – Previous Student"
+"“Brilliant course! It's definitely the best introduction to electronics in the world! Interesting material, "
+"clean explanations, well prepared quizzes, challenging homeworks and fun labs.” – Previous Student"
 msgstr ""
+"\"輝煌的過程！ 這絕對是全球電子產品的最佳介紹！ 有趣的材料，乾淨的解釋，精心準備的測驗，具有挑戰性的作業和有"
+"趣的實驗室。\" - 以前的學生"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "500 character limit, including spaces."
-msgstr ""
+msgstr "500個字數的限制，包括空格。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid ""
-"If you are transitioning the certificate type and price from the course run "
-"level to the course level, please be informed that this is a permanent "
-"change and you will be maintaining this information at the course level from"
-" now on."
+"If you are transitioning the certificate type and price from the course run level to the course level, "
+"please be informed that this is a permanent change and you will be maintaining this information at the "
+"course level from now on."
 msgstr ""
+"如果您將證書類型和價格從課程級別轉換到課程級別，請注意這是一個永久變更，您將從現在開始在課程級別維護此信息。"
 
 #: apps/publisher/templates/publisher/course_edit_form.html
 msgid "Update Course"
-msgstr ""
+msgstr "更新課程"
 
 #: apps/publisher/templates/publisher/course_list.html
 #: apps/publisher/templates/publisher/course_run_detail/_studio.html
@@ -2066,30 +2026,30 @@ msgstr "課程名稱"
 
 #: apps/publisher/templates/publisher/course_list.html
 msgid "Runs"
-msgstr ""
+msgstr "執行"
 
 #: apps/publisher/templates/publisher/course_list.html
 msgid "Course Team Status"
-msgstr ""
+msgstr "課程團隊狀態"
 
 #: apps/publisher/templates/publisher/course_list.html
 #, python-format
 msgid "%(site_name)s Status"
-msgstr ""
+msgstr "%(site_name)s 狀態"
 
 #: apps/publisher/templates/publisher/course_list.html
 #: apps/publisher/templates/publisher/dashboard/_in_progress.html
 msgid "Last Handoff"
-msgstr ""
+msgstr "最後一次切換"
 
 #: apps/publisher/templates/publisher/course_revision_history.html
 msgid "Revision History"
-msgstr ""
+msgstr "修訂記錄"
 
 #: apps/publisher/templates/publisher/course_revision_history.html
 #, python-format
 msgid "%(date)s by %(name)s"
-msgstr ""
+msgstr "%(date)s 由 %(name)s"
 
 #: apps/publisher/templates/publisher/course_revision_history.html
 msgid "Show changes"
@@ -2097,156 +2057,149 @@ msgstr "顯示變更"
 
 #: apps/publisher/templates/publisher/course_revision_history.html
 msgid "Expected Learning"
-msgstr ""
+msgstr "預先學習"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "Edit Course Run"
-msgstr ""
+msgstr "編輯課程運行"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 #, python-format
 msgid ""
-"%(span_start)s* All required fields must be complete before this course run "
-"can be sent for review.%(span_end)s"
-msgstr ""
+"%(span_start)s* All required fields must be complete before this course run can be sent for review."
+"%(span_end)s"
+msgstr "%(span_start)s* 所有必填字段必須完整，然後才能發送此課程以供審閱。%(span_end)s"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 #, python-format
 msgid ""
-"%(strong_start)sNote:%(strong_end)s If you edit course information after edX"
-" marketing has reviewed the course, you have to send the course to edX "
-"marketing for review again."
+"%(strong_start)sNote:%(strong_end)s If you edit course information after edX marketing has reviewed the "
+"course, you have to send the course to edX marketing for review again."
 msgstr ""
+"%(strong_start)s注意：%(strong_end)s 如果您在DeltaMOOCx市場營銷回顧課程後編輯課程信息，您必須將課程發送到"
+"DeltaMOOCx marketing再次查看。"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "Note that times use UTC."
-msgstr ""
+msgstr "請注意，時間格式使用UTC。"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid ""
-"Note that times use UTC. Specify a month, day, and year. If you are unsure "
-"of the exact date, specify a day that is close to the estimated end date. "
-"For example, if your course will end near the end of March, specify March "
-"31."
+"Note that times use UTC. Specify a month, day, and year. If you are unsure of the exact date, specify a day "
+"that is close to the estimated end date. For example, if your course will end near the end of March, "
+"specify March 31."
 msgstr ""
+"請注意，時間格式使用UTC。 指定月份，日期和年份。 如果您不確定具體日期，請指定一個接近估計結束日期的日期。 例"
+"如，如果您的課程將在3月底附近結束，請指定3月31日。"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "COURSE PACING"
-msgstr ""
+msgstr "課程啟動"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "The Studio URL for this course run. The edX PC creates this URL."
-msgstr ""
+msgstr "此課程的Studio網址運行。 DeltaMOOCx PC創建這個網址。"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "Not yet created"
-msgstr ""
+msgstr "尚未創建"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "PROGRAM ASSOCIATION"
-msgstr ""
+msgstr "程序協會"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
-msgid ""
-"If this course is part of a program, select the program type, and then enter"
-" the name of the program."
-msgstr ""
+msgid "If this course is part of a program, select the program type, and then enter the name of the program."
+msgstr "如果此課程是程序的一部分，請選擇程序類型，然後輸入程序的名稱。"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "COURSE STAFF"
-msgstr ""
+msgstr "課程人員"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "The primary instructor or instructors for the course."
-msgstr ""
+msgstr "該課程的主要教師或講師。"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
-msgid ""
-"Make sure that you search for an instructor before you create a new "
-"instructor."
-msgstr ""
+msgid "Make sure that you search for an instructor before you create a new instructor."
+msgstr "確保在創建新教師之前搜索教師。"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "Search for Instructor:"
-msgstr ""
+msgstr "搜尋教師："
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "Create new"
-msgstr ""
+msgstr "創建新的"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "instructor"
-msgstr ""
+msgstr "教師"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "ESTIMATED EFFORT"
-msgstr ""
+msgstr "預計的努力"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
-msgid ""
-"The number of hours per week the learner should expect to spend on the "
-"course. This may be a range."
-msgstr ""
+msgid "The number of hours per week the learner should expect to spend on the course. This may be a range."
+msgstr "學習者每週要花費在課程上的小時數。 這可能是一個範圍。"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "Min Effort"
-msgstr ""
+msgstr "最小付出"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "Max Effort"
-msgstr ""
+msgstr "最大付出"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "LANGUAGE(S)"
-msgstr ""
+msgstr "語言"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
-msgid ""
-"The languages available for videos, video transcripts, and other course "
-"content."
-msgstr ""
+msgid "The languages available for videos, video transcripts, and other course content."
+msgstr "可用於視頻，視頻記錄和其他課程內容的語言。"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "LENGTH"
-msgstr ""
+msgstr "長度"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
-msgid ""
-"The length of the course, in weeks, rounded to the nearest whole number."
-msgstr ""
+msgid "The length of the course, in weeks, rounded to the nearest whole number."
+msgstr "課程的長度，以周為單位，四捨五入到最接近的整數。"
 
 #: apps/publisher/templates/publisher/course_run/edit_run_form.html
 msgid "Update Course Run"
-msgstr ""
+msgstr "更新課程執行"
 
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 msgid "(Required) To be added by edX"
-msgstr ""
+msgstr "（必填）由DeltaMOOCx添加"
 
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 #: apps/publisher/templates/publisher/course_run_detail/_studio.html
 msgid "Start Date (time in UTC)"
-msgstr ""
+msgstr "開始日期（UTC格式）"
 
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 #: apps/publisher/templates/publisher/course_run_detail/_studio.html
 msgid "End Date (time in UTC)"
-msgstr ""
+msgstr "結束日期（UTC格式）"
 
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 msgid "Credit Price"
-msgstr ""
+msgstr "信貸價格"
 
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 msgid "Course Staff"
-msgstr ""
+msgstr "課程人員"
 
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "New"
-msgstr ""
+msgstr "新的"
 
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
@@ -2260,32 +2213,32 @@ msgstr "每週時間"
 
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 msgid "Course Content Language"
-msgstr ""
+msgstr "課程內容語言"
 
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 msgid "Video Transcript Language"
-msgstr ""
+msgstr "視頻腳本語言"
 
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 msgid "Course Video Language"
-msgstr ""
+msgstr "課程語言"
 
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Course Length (Weeks)"
-msgstr ""
+msgstr "課程長度(周)"
 
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 msgid "MicroMasters Program Name"
-msgstr ""
+msgstr "MicroMaster程序名稱"
 
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 msgid "XSeries Program Name"
-msgstr ""
+msgstr "XSeries程序名稱"
 
 #: apps/publisher/templates/publisher/course_run_detail/_all.html
 msgid "Professional Certificate Program Name"
-msgstr ""
+msgstr "專業證書課程名稱"
 
 #: apps/publisher/templates/publisher/course_run_detail/_cat.html
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
@@ -2295,7 +2248,7 @@ msgstr "課程ID"
 #: apps/publisher/templates/publisher/course_run_detail/_cat.html
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Enrollment Types"
-msgstr ""
+msgstr "註冊類型"
 
 #: apps/publisher/templates/publisher/course_run_detail/_credit_seat.html
 msgid "Credit Seats"
@@ -2322,7 +2275,7 @@ msgstr "學分時數"
 #: apps/publisher/templates/publisher/course_run_detail/_credit_seat.html
 #: apps/publisher/templates/publisher/course_run_detail/_seats.html
 msgid "Upgrade Deadline (time in UTC)"
-msgstr ""
+msgstr "升級截止日期（UTC格式）"
 
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
@@ -2332,7 +2285,7 @@ msgstr "數量"
 
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Subtitle"
-msgstr ""
+msgstr "字幕"
 
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Self Paced"
@@ -2352,16 +2305,16 @@ msgstr "語言"
 
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Video Transcript Languages"
-msgstr ""
+msgstr "視頻轉錄語言"
 
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "What You'll Learn"
-msgstr ""
+msgstr "你將學到什麼"
 
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 #: apps/publisher/templates/publisher/course_run_detail/_instructor_profile.html
 msgid "Download"
-msgstr ""
+msgstr "下載"
 
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Keywords"
@@ -2373,11 +2326,11 @@ msgstr "贊助"
 
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Course Syllabus"
-msgstr ""
+msgstr "課程大綱"
 
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Course About Video"
-msgstr ""
+msgstr "關於課程視頻"
 
 #: apps/publisher/templates/publisher/course_run_detail/_drupal.html
 msgid "Seats"
@@ -2386,30 +2339,32 @@ msgstr "名額"
 #: apps/publisher/templates/publisher/course_run_detail/_edit_warning.html
 #, python-format
 msgid ""
-"The %(current_team_name)s is currently reviewing this course run. If you "
-"edit course run information, you might overwrite the team’s changes, and you"
-" will have to send the course run to the %(team_name)s for review again."
+"The %(current_team_name)s is currently reviewing this course run. If you edit course run information, you "
+"might overwrite the team’s changes, and you will have to send the course run to the %(team_name)s for "
+"review again."
 msgstr ""
+"%(current_team_name)s正在審查本課程的運行。 如果您編輯課程運行信息，您可能會覆蓋團隊的變更，您將不得不將課程"
+"運行發送到%(team_name)s再次查看。"
 
 #: apps/publisher/templates/publisher/course_run_detail/_instructor_profile.html
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: apps/publisher/templates/publisher/course_run_detail/_instructor_profile.html
 msgid "Profile URL "
-msgstr ""
+msgstr "個人資料網址 "
 
 #: apps/publisher/templates/publisher/course_run_detail/_instructor_profile.html
 msgid "Facebook URL "
-msgstr ""
+msgstr "Facebook 網址 "
 
 #: apps/publisher/templates/publisher/course_run_detail/_instructor_profile.html
 msgid "Twitter URL "
-msgstr ""
+msgstr "Twitter 網址 "
 
 #: apps/publisher/templates/publisher/course_run_detail/_instructor_profile.html
 msgid "Blog URL "
-msgstr ""
+msgstr "Blog 網址 "
 
 #: apps/publisher/templates/publisher/course_run_detail/_instructor_profile.html
 msgid "Close"
@@ -2417,35 +2372,35 @@ msgstr "關閉"
 
 #: apps/publisher/templates/publisher/course_run_detail/_preview_accept_popup.html
 msgid "Accept About Page Preview"
-msgstr ""
+msgstr "接受關於頁面預覽"
 
 #: apps/publisher/templates/publisher/course_run_detail/_preview_accept_popup.html
 msgid ""
-"By accepting the About page preview, you are confirming that the information"
-" for this course run in Publisher is correct."
-msgstr ""
+"By accepting the About page preview, you are confirming that the information for this course run in "
+"Publisher is correct."
+msgstr "通過接受關於頁面預覽，您確認在出版者中運行的此課程的信息是正確的。"
 
 #: apps/publisher/templates/publisher/course_run_detail/_preview_accept_popup.html
 msgid ""
-"Note that before edX can publish the About page for this course run, the "
-"following information for the course run must be entered in Studio."
-msgstr ""
+"Note that before edX can publish the About page for this course run, the following information for the "
+"course run must be entered in Studio."
+msgstr "請注意，在DeltaMOOCx可以發布此課程運行的關於頁面之前，必須在Studio中輸入課程運行的以下信息。"
 
 #: apps/publisher/templates/publisher/course_run_detail/_preview_accept_popup.html
 msgid "The course run start and end date."
-msgstr ""
+msgstr "課程開始和結束日期。"
 
 #: apps/publisher/templates/publisher/course_run_detail/_preview_accept_popup.html
 msgid "The course card image."
-msgstr ""
+msgstr "課程卡圖片。"
 
 #: apps/publisher/templates/publisher/course_run_detail/_preview_accept_popup.html
 msgid "Names, titles, and signature images for all certificate signatories."
-msgstr ""
+msgstr "所有證書籤署人的名稱，標題和簽名圖像。"
 
 #: apps/publisher/templates/publisher/course_run_detail/_preview_accept_popup.html
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Course"
@@ -2453,55 +2408,55 @@ msgstr "課程"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Authored in Studio?"
-msgstr ""
+msgstr "在Studio中創作？"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Multiple Partner Course?"
-msgstr ""
+msgstr "多個合作夥伴課程？"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Subject Area"
-msgstr ""
+msgstr "學科領域"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Language: Course Text"
-msgstr ""
+msgstr "語言：課程文本"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Language: Transcripts"
-msgstr ""
+msgstr "語言：紀錄副本"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Language: Video"
-msgstr ""
+msgstr "語言：影片"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Course Run"
-msgstr ""
+msgstr "課程執行"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "New or Rerun?"
-msgstr ""
+msgstr "新的或重新?"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Platform"
-msgstr ""
+msgstr "平台"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Faculty"
-msgstr ""
+msgstr "學院"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Course Run Display Name"
-msgstr ""
+msgstr "課程執行顯示名稱"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Course Run Number"
-msgstr ""
+msgstr "課程執行編號"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "edX Course Run ID"
-msgstr ""
+msgstr "deltaMOOCx課程執行ID"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Certificate Type"
@@ -2509,19 +2464,19 @@ msgstr "證書類型"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Course $ (minimum)"
-msgstr ""
+msgstr "課程 $（最低）"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Credit $ (minimum)"
-msgstr ""
+msgstr "信貸$（最低）"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Self Paced?"
-msgstr ""
+msgstr "自我學習？"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "MDC Submission Due Date"
-msgstr ""
+msgstr "MDC提交到期日"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 #: apps/publisher/templates/publisher/dashboard/_studio_requests.html
@@ -2534,7 +2489,7 @@ msgstr "結束日期"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Verified Registration Expiration Date"
-msgstr ""
+msgstr "驗證註冊到期日期"
 
 #: apps/publisher/templates/publisher/course_run_detail/_salesforce.html
 msgid "Certificate Issued Date"
@@ -2542,7 +2497,7 @@ msgstr "證書頒發日期"
 
 #: apps/publisher/templates/publisher/course_run_detail/_seats.html
 msgid "Enrollment Type"
-msgstr ""
+msgstr "註冊類型"
 
 #: apps/publisher/templates/publisher/course_run_detail/_studio.html
 msgid "Pacing Type"
@@ -2550,17 +2505,16 @@ msgstr "學習類型"
 
 #: apps/publisher/templates/publisher/course_run_detail/_widgets.html
 msgid "Reason for declining preview"
-msgstr ""
+msgstr "預覽下降的原因"
 
 #: apps/publisher/templates/publisher/course_run_detail/course_run_detail.html
 #, python-format
-msgid ""
-"The About page for this course run was published on %(course_publish_date)s."
-msgstr ""
+msgid "The About page for this course run was published on %(course_publish_date)s."
+msgstr "本課程的\"關於\"頁面已發佈在%(course_publish_date)s上。"
 
 #: apps/publisher/templates/publisher/course_run_detail/course_run_detail.html
 msgid "View it on edx.org at"
-msgstr ""
+msgstr "在DeltaMOOCx.org上查看"
 
 #: apps/publisher/templates/publisher/course_run_detail/course_run_detail.html
 #: apps/publisher/templates/publisher/dashboard/_in_progress.html
@@ -2584,112 +2538,114 @@ msgstr "DRUPAL"
 
 #: apps/publisher/templates/publisher/course_run_detail/course_run_detail.html
 msgid "Successfully published to Studio, E-Commerce, and Discovery."
-msgstr ""
+msgstr "成功發佈到Studio，電子商務和 Discovery。"
 
 #: apps/publisher/templates/publisher/course_run_detail/course_run_detail.html
 msgid "Publication failed."
-msgstr ""
+msgstr "發布失敗。"
 
 #: apps/publisher/templates/publisher/courserun_list.html
 msgid "Course About Pages"
-msgstr ""
+msgstr "課程關於頁面"
 
 #: apps/publisher/templates/publisher/courserun_list.html
 msgid ""
-"EdX Publisher is used to create course About pages. Users enter, review, and"
-" approve content in Publisher. Publisher keeps track of the details and "
-"sends email updates when actions are necessary."
+"EdX Publisher is used to create course About pages. Users enter, review, and approve content in Publisher. "
+"Publisher keeps track of the details and sends email updates when actions are necessary."
 msgstr ""
+"DeltaMOOCx出版者用於創建關於頁面的課程。 用戶在出版者中輸入，審閱和批准內容。 發布商會跟踪詳細信息並在需要採"
+"取措施時發送電子郵件更新。"
 
 #: apps/publisher/templates/publisher/courserun_list.html
 msgid ""
-"EdX Publisher is a companion to edX Studio. Course teams enter About page "
-"information in Publisher, and course content in Studio."
+"EdX Publisher is a companion to edX Studio. Course teams enter About page information in Publisher, and "
+"course content in Studio."
 msgstr ""
+"DeltaMOOCx Publisher是DeltaMOOCx Studio的合作夥伴。 課程團隊在Publisher中輸入關於頁面信息，並在Studio中輸入"
+"課程內容。"
 
 #: apps/publisher/templates/publisher/courserun_list.html
 msgid "Add a New Course"
-msgstr ""
+msgstr "新增課程"
 
 #: apps/publisher/templates/publisher/courserun_list.html
 msgid "Add a Course Run"
-msgstr ""
+msgstr "新增課程執行"
 
 #: apps/publisher/templates/publisher/courserun_list.html
 msgid "Course runs"
-msgstr ""
+msgstr "課程執行"
 
 #: apps/publisher/templates/publisher/courserun_list.html
 msgid "In Development"
-msgstr ""
+msgstr "開發中"
 
 #: apps/publisher/templates/publisher/courserun_list.html
 msgid "In Preview"
-msgstr ""
+msgstr "預覽中"
 
 #: apps/publisher/templates/publisher/courserun_list.html
 msgid "Studio Request"
-msgstr ""
+msgstr "Studio請求"
 
 #: apps/publisher/templates/publisher/courserun_list.html
 msgid "Published About Pages"
-msgstr ""
+msgstr "發布關於頁面"
+
+#: apps/publisher/templates/publisher/dashboard/_in_preview.html
+msgid "No course runs currently have an About page preview available for course team review."
+msgstr "目前沒有任何關於課程頁面預覽可用於課程團隊審查。"
 
 #: apps/publisher/templates/publisher/dashboard/_in_preview.html
 msgid ""
-"No course runs currently have an About page preview available for course "
-"team review."
+"About page previews for the following course runs are available for course team review. After the course "
+"team approves the preview, the edX publisher will publish the About page for the course run on edx.org. The "
+"course team will receive an email message when the About page has been published."
 msgstr ""
-
-#: apps/publisher/templates/publisher/dashboard/_in_preview.html
-msgid ""
-"About page previews for the following course runs are available for course "
-"team review. After the course team approves the preview, the edX publisher "
-"will publish the About page for the course run on edx.org. The course team "
-"will receive an email message when the About page has been published."
-msgstr ""
+"關於以下課程的頁面預覽可用於課程團隊審核。 課程團隊批准預覽後，DeltaMOOCx發布者將發布關於DeltaMOOCx.org上課"
+"程的關於頁面。 關於頁面發布後，課程團隊將收到一封電子郵件。"
 
 #: apps/publisher/templates/publisher/dashboard/_in_preview.html
 msgid "Status"
-msgstr ""
+msgstr "狀態"
 
 #: apps/publisher/templates/publisher/dashboard/_in_preview.html
 #: apps/publisher/templates/publisher/email/studio_instance_created.html
 #: apps/publisher/templates/publisher/email/studio_instance_created.txt
 msgid "Course start date"
-msgstr ""
+msgstr "課程開始日期"
 
 #: apps/publisher/templates/publisher/dashboard/_in_preview.html
 msgid "Approved since "
-msgstr ""
+msgstr "批准，自從 "
 
 #: apps/publisher/templates/publisher/dashboard/_in_preview.html
 msgid "Declined since "
-msgstr ""
+msgstr "下降，自從 "
 
 #: apps/publisher/templates/publisher/dashboard/_in_preview.html
 msgid "Preview Requested since "
-msgstr ""
+msgstr "預覽請求，自從 "
 
 #: apps/publisher/templates/publisher/dashboard/_in_preview.html
 msgid "In Review since "
-msgstr ""
+msgstr "評論，自從 "
 
 #: apps/publisher/templates/publisher/dashboard/_in_progress.html
 msgid "No About pages for any course runs are currently in development."
-msgstr ""
+msgstr "沒有關於任何正在開發中課程的頁面。"
 
 #: apps/publisher/templates/publisher/dashboard/_in_progress.html
 msgid "Filter by"
-msgstr ""
+msgstr "過濾，由"
 
 #: apps/publisher/templates/publisher/dashboard/_in_progress.html
 msgid "With Course Team"
-msgstr ""
+msgstr "與課程團隊"
 
 #: apps/publisher/templates/publisher/dashboard/_in_progress.html
 msgid "With"
-msgstr ""
+msgstr "與"
 
 #: apps/publisher/templates/publisher/dashboard/_in_progress.html
 #: apps/publisher/templates/publisher/dashboard/_published.html
@@ -2703,14 +2659,13 @@ msgstr "課程結束"
 
 #: apps/publisher/templates/publisher/dashboard/_published.html
 msgid "No About pages have been published yet."
-msgstr ""
+msgstr "沒有關於已發布的頁面。"
 
 #: apps/publisher/templates/publisher/dashboard/_published.html
 #, python-format
 msgid ""
-"About pages for the following course runs have been published in the past "
-"%(default_published_days)s days."
-msgstr ""
+"About pages for the following course runs have been published in the past %(default_published_days)s days."
+msgstr "過去%(default_published_days)s天發布了以下課程的頁面。"
 
 #: apps/publisher/templates/publisher/dashboard/_published.html
 msgid "Published Date"
@@ -2718,11 +2673,11 @@ msgstr "發佈日期"
 
 #: apps/publisher/templates/publisher/dashboard/_studio_requests.html
 msgid "The following courses are ready for a Studio URL."
-msgstr ""
+msgstr "以下課程已準備好用於Studio網址。"
 
 #: apps/publisher/templates/publisher/dashboard/_studio_requests.html
 msgid "Studio Course Run Key"
-msgstr ""
+msgstr "工作室課程執行的密鑰"
 
 #: apps/publisher/templates/publisher/dashboard/_studio_requests.html
 msgid "Add"
@@ -2730,36 +2685,30 @@ msgstr "新增"
 
 #: apps/publisher/templates/publisher/dashboard/_studio_requests.html
 msgid "No courses are currently ready for a Studio URL."
-msgstr ""
+msgstr "目前沒有課程可用於Studio網址。"
 
 #: apps/publisher/templates/publisher/email/comment.html
 #, python-format
-msgid ""
-"%(user_name)s made the following comment on %(course_name)s on %(date)s at "
-"%(time)s"
-msgstr ""
+msgid "%(user_name)s made the following comment on %(course_name)s on %(date)s at %(time)s"
+msgstr "%(user_name)s在 %(date)s於%(time)s對%(course_name)s 進行了以下評論"
 
-#: apps/publisher/templates/publisher/email/comment.html
-#: apps/publisher/templates/publisher/email/comment.txt
+#: apps/publisher/templates/publisher/email/comment.html apps/publisher/templates/publisher/email/comment.txt
 msgid "View comment in Publisher"
-msgstr ""
+msgstr "在發布商中查看評論"
 
-#: apps/publisher/templates/publisher/email/comment.html
-#: apps/publisher/templates/publisher/email/comment.txt
+#: apps/publisher/templates/publisher/email/comment.html apps/publisher/templates/publisher/email/comment.txt
 #: apps/publisher/templates/publisher/email/course/send_for_review.txt
 #: apps/publisher/templates/publisher/email/course_created.html
 #: apps/publisher/templates/publisher/email/course_created.txt
 #: apps/publisher/templates/publisher/email/decline_preview.html
 #: apps/publisher/templates/publisher/email/decline_preview.txt
 msgid "The edX team"
-msgstr ""
+msgstr "The DeltaMOOCx team"
 
 #: apps/publisher/templates/publisher/email/comment.txt
 #, python-format
-msgid ""
-"%(user_name)s made the following comment on %(course_name)s %(date)s at "
-"%(time)s."
-msgstr ""
+msgid "%(user_name)s made the following comment on %(course_name)s %(date)s at %(time)s."
+msgstr "%(user_name)s在 %(date)s於%(time)s對%(course_name)s 進行了以下評論。"
 
 #: apps/publisher/templates/publisher/email/course/mark_as_reviewed.html
 #: apps/publisher/templates/publisher/email/course/mark_as_reviewed.txt
@@ -2782,27 +2731,28 @@ msgstr ""
 #: apps/publisher/templates/publisher/email/decline_preview.txt
 #, python-format
 msgid "Dear %(recipient_name)s,"
-msgstr ""
+msgstr "親愛的%(recipient_name)s,"
 
 #: apps/publisher/templates/publisher/email/course/mark_as_reviewed.html
 #: apps/publisher/templates/publisher/email/course/mark_as_reviewed.txt
 #, python-format
 msgid ""
-"The %(sender_team)s has reviewed %(link_start)s%(page_url)s%(link_middle)s "
-"%(course_name)s%(link_end)s and has suggested no changes. The review for "
-"this course is complete."
+"The %(sender_team)s has reviewed %(link_start)s%(page_url)s%(link_middle)s %(course_name)s%(link_end)s and "
+"has suggested no changes. The review for this course is complete."
 msgstr ""
+"%(sender_team)s已經審查了 %(link_start)s%(page_url)s%(link_middle)s %(course_name)s%(link_end)s並且沒有提出"
+"任何改變。 該課程的評論已完成。"
 
 #: apps/publisher/templates/publisher/email/course/mark_as_reviewed.html
 #: apps/publisher/templates/publisher/email/course/mark_as_reviewed.txt
 #, python-format
 msgid ""
-"You can now submit a course run for review. To do this, "
-"%(link_start)s%(page_url)s%(link_middle)s go to the course page%(link_end)s "
-"and open the page for any course run. On the course run page, add all "
-"required information for that course run, and then submit the course run for"
-" review."
+"You can now submit a course run for review. To do this, %(link_start)s%(page_url)s%(link_middle)s go to the "
+"course page%(link_end)s and open the page for any course run. On the course run page, add all required "
+"information for that course run, and then submit the course run for review."
 msgstr ""
+"您現在可以提交審查課程。 為此，%(link_start)s%(page_url)s%(link_middle)s 轉到課程頁%(link_end)s 並打開任何課"
+"程執行的頁面。 在課程執行頁面上，新增該課程執行所需的所有信息，然後提交課程執行以供審閱。"
 
 #. Translators: It's closing of mail.
 #. Translators: This is part of an email signature.
@@ -2832,7 +2782,7 @@ msgstr ""
 #: apps/publisher/templates/publisher/email/studio_instance_created.html
 #: apps/publisher/templates/publisher/email/studio_instance_created.txt
 msgid "Thanks,"
-msgstr ""
+msgstr "感謝您,"
 
 #: apps/publisher/templates/publisher/email/course/mark_as_reviewed.html
 #: apps/publisher/templates/publisher/email/course/send_for_review.html
@@ -2846,9 +2796,9 @@ msgstr ""
 #: apps/publisher/templates/publisher/email/studio_instance_created.html
 #, python-format
 msgid ""
-"<p>Note: This email address is unable to receive replies. For questions or "
-"comments, contact %(contact_us_email)s.</p>"
-msgstr ""
+"<p>Note: This email address is unable to receive replies. For questions or comments, contact "
+"%(contact_us_email)s.</p>"
+msgstr "<p>注意：此電子郵件地址無法收到回复。 如有問題或意見，請聯繫%(contact_us_email)s。</p>"
 
 #: apps/publisher/templates/publisher/email/course/mark_as_reviewed.txt
 #: apps/publisher/templates/publisher/email/course/send_for_review.txt
@@ -2863,374 +2813,377 @@ msgstr ""
 #: apps/publisher/templates/publisher/email/studio_instance_created.txt
 #, python-format
 msgid ""
-"Note: This email address is unable to receive replies. For questions or "
-"comments, contact %(contact_us_email)s."
-msgstr ""
+"Note: This email address is unable to receive replies. For questions or comments, contact "
+"%(contact_us_email)s."
+msgstr "注意：此電子郵件地址無法接收回复。 有關問題或意見，請聯繫 %(contact_us_email)s。"
 
 #: apps/publisher/templates/publisher/email/course/send_for_review.html
 #, python-format
 msgid ""
-"%(sender_team)s from %(org_name)s has submitted %(course_name)s for review. "
-"%(link_start)s%(page_url)s%(link_middle)s View this course in "
-"Publisher%(link_end)s to mark the course as reviewed or suggest edits."
+"%(sender_team)s from %(org_name)s has submitted %(course_name)s for review. %(link_start)s%(page_url)s"
+"%(link_middle)s View this course in Publisher%(link_end)s to mark the course as reviewed or suggest edits."
 msgstr ""
+"來自%(org_name)s的%(sender_team)s已提交 %(course_name)s 以供審閱。 %(link_start)s%(page_url)s"
+"%(link_middle)s 在Publisher%(link_end)s中查看此課程以將課程標記為已審核或建議編輯。"
 
 #: apps/publisher/templates/publisher/email/course/send_for_review.txt
 #, python-format
 msgid ""
-"%(sender_team)s from %(org_name)s has submitted %(course_name)s for review. "
-"%(page_url)s View this course in Publisher to mark the course as reviewed or"
-" suggest edits."
+"%(sender_team)s from %(org_name)s has submitted %(course_name)s for review. %(page_url)s View this course "
+"in Publisher to mark the course as reviewed or suggest edits."
 msgstr ""
+"來自%(org_name)s 的%(sender_team)s 已提交%(course_name)s 以供審閱。 %(page_url)s 在Publisher中查看此課程以將"
+"課程標記為已審核或建議編輯。"
 
 #: apps/publisher/templates/publisher/email/course/seo_review.html
 #, python-format
 msgid ""
-"%(sender_team)s from %(org_name)s has submitted %(course_name)s for review. "
-"%(link_start)s%(course_page_url)s%(link_middle)sView this course in "
-"Publisher%(link_end)s to determine OFAC status."
+"%(sender_team)s from %(org_name)s has submitted %(course_name)s for review. %(link_start)s"
+"%(course_page_url)s%(link_middle)sView this course in Publisher%(link_end)s to determine OFAC status."
 msgstr ""
+"來自 %(org_name)s 的%(sender_team)s已提交%(course_name)s以供審閱。%(link_start)s%(course_page_url)s"
+"%(link_middle)s在Publisher%(link_end)s中查看本課程以確定OFAC狀態。"
 
 #: apps/publisher/templates/publisher/email/course/seo_review.txt
 #, python-format
 msgid ""
-"%(sender_team)s from %(org_name)s has submitted %(course_name)s for review. "
-"%(course_page_url)s View this course in Publisher to determine OFAC status."
+"%(sender_team)s from %(org_name)s has submitted %(course_name)s for review. %(course_page_url)s View this "
+"course in Publisher to determine OFAC status."
 msgstr ""
+"來自 %(org_name)s的%(sender_team)s 已提交 %(course_name)s 以供審閱。 %(course_page_url)s 在Publisher中查看本"
+"課程以確定OFAC狀態。"
 
 #. Translators: project_coordinator_name is a member name.
 #: apps/publisher/templates/publisher/email/course_created.html
 #, python-format
 msgid "Dear %(project_coordinator_name)s,"
-msgstr ""
+msgstr "親愛的%(project_coordinator_name)s,"
 
 #: apps/publisher/templates/publisher/email/course_created.html
 #, python-format
 msgid ""
-"%(course_team_name)s created the "
-"%(link_start)s%(page_url)s%(link_middle)s%(run_number)s course "
-"run%(link_end)s of %(course_title)s in Publisher on %(date)s at %(time)s."
+"%(course_team_name)s created the %(link_start)s%(page_url)s%(link_middle)s%(run_number)s course run"
+"%(link_end)s of %(course_title)s in Publisher on %(date)s at %(time)s."
 msgstr ""
+"%(course_team_name)s在%(date)s於%(time)s中創建了%(course_title)s %(link_start)s%(page_url)s%(link_middle)s"
+"%(run_number)s  course run%(link_end)s（時間）秒。"
 
 #: apps/publisher/templates/publisher/email/course_created.txt
 msgid "Dear"
-msgstr ""
+msgstr "致"
 
 #: apps/publisher/templates/publisher/email/course_created.txt
 #, python-format
 msgid ""
-"%(course_team_name)s created the %(course_run)s : %(dashboard_url)s course "
-"run of %(course_title)s in Publisher on %(date)s at %(time)s."
+"%(course_team_name)s created the %(course_run)s : %(dashboard_url)s course run of %(course_title)s in "
+"Publisher on %(date)s at %(time)s."
 msgstr ""
+"%(course_team_name)s在 %(date)s %(time)s處創建了 %(course_run)s：%(course_title)s的%(dashboard_url)s課程執"
+"行。"
 
 #: apps/publisher/templates/publisher/email/course_run/mark_as_reviewed.html
 #: apps/publisher/templates/publisher/email/course_run/mark_as_reviewed_pc.html
 #, python-format
 msgid ""
-"%(sender_team)s has reviewed the "
-"%(link_start)s%(page_url)s%(link_middle)s%(run_number)s course "
-"run%(link_end)s of %(course_name)s and has not added comments or suggested "
-"edits. The review for this course run is complete."
+"%(sender_team)s has reviewed the %(link_start)s%(page_url)s%(link_middle)s%(run_number)s course run"
+"%(link_end)s of %(course_name)s and has not added comments or suggested edits. The review for this course "
+"run is complete."
 msgstr ""
+"%(sender_team)s 已查看%(link_start)s%(page_url)s%(link_middle)s%(run_number)s %(course_name)s 的課程運"
+"行%(link_end)s，並且未添加評論或建議的修改。 此課程的評估已完成。"
 
 #: apps/publisher/templates/publisher/email/course_run/mark_as_reviewed.html
 #: apps/publisher/templates/publisher/email/course_run/mark_as_reviewed.txt
-msgid ""
-"Please create a preview of the About page for this course run and enter the "
-"preview URL in Publisher."
-msgstr ""
+msgid "Please create a preview of the About page for this course run and enter the preview URL in Publisher."
+msgstr "請為此課程運行創建關於頁面的預覽，並在Publisher中輸入預覽網址。"
 
 #: apps/publisher/templates/publisher/email/course_run/mark_as_reviewed.html
 #: apps/publisher/templates/publisher/email/course_run/mark_as_reviewed.txt
 #: apps/publisher/templates/publisher/email/course_run/mark_as_reviewed_pc.html
 #: apps/publisher/templates/publisher/email/course_run/mark_as_reviewed_pc.txt
-msgid ""
-"Additionally, please check the comments in Publisher for information about "
-"OFAC blocking."
-msgstr ""
+msgid "Additionally, please check the comments in Publisher for information about OFAC blocking."
+msgstr "此外，請查看Publisher中的註釋以獲取有關OFAC阻止的信息。"
 
 #: apps/publisher/templates/publisher/email/course_run/mark_as_reviewed.txt
 #: apps/publisher/templates/publisher/email/course_run/mark_as_reviewed_pc.txt
 #, python-format
 msgid ""
-"The %(sender_team)s has reviewed the %(run_number)s %(page_url)s course run "
-"of %(course_name)s and has not added comments or suggested edits. The review"
-" for this course run is complete."
+"The %(sender_team)s has reviewed the %(run_number)s %(page_url)s course run of %(course_name)s and has not "
+"added comments or suggested edits. The review for this course run is complete."
 msgstr ""
+"%(sender_team)s 已經查看了 %(run_number)s %(page_url)s 的%(course_name)s 的課程執行並且未添加註釋或建議的編"
+"輯。 此課程的評估已完成。"
 
 #: apps/publisher/templates/publisher/email/course_run/preview_accepted.html
 #: apps/publisher/templates/publisher/email/course_run/preview_accepted.txt
 #, python-format
 msgid "Dear %(publisher_role_name)s,"
-msgstr ""
+msgstr "親愛的 %(publisher_role_name)s,"
 
 #: apps/publisher/templates/publisher/email/course_run/preview_accepted.html
 #, python-format
 msgid ""
-"%(course_team)s has reviewed the preview of the About page for the "
-"%(link_start)s%(page_url)s%(link_middle)s%(run_number)s%(link_end)s course "
-"run of %(course_name)s from %(org_name)s. You can now publish this About "
+"%(course_team)s has reviewed the preview of the About page for the %(link_start)s%(page_url)s%(link_middle)s"
+"%(run_number)s%(link_end)s course run of %(course_name)s from %(org_name)s. You can now publish this About "
 "page."
 msgstr ""
+"%(course_team)s已經查看 %(link_start)s%(page_url)s%(link_middle)s%(run_number)s%(link_end)s的關於頁面的預覽"
+"從%(org_name)s到%(course_name)s 。 您現在可以發布此關於頁面。"
 
 #: apps/publisher/templates/publisher/email/course_run/preview_accepted.txt
 #, python-format
 msgid ""
-"%(course_team)s has reviewed the preview of the About page for the "
-"%(run_number)s %(page_url)s course run of %(course_name)s from %(org_name)s."
-" You can now publish this About page."
+"%(course_team)s has reviewed the preview of the About page for the %(run_number)s %(page_url)s course run "
+"of %(course_name)s from %(org_name)s. You can now publish this About page."
 msgstr ""
+"%(course_team)s已經從%(org_name)s中查看了%(run_number)s %(page_url)s 的課程運行%(course_name)s的關於頁面的預"
+"覽。 您現在可以發布此關於頁面。"
 
 #: apps/publisher/templates/publisher/email/course_run/preview_available.html
 #: apps/publisher/templates/publisher/email/course_run/preview_available.txt
 #, python-format
 msgid "A preview is now available for the %(run)s run of %(title)s."
-msgstr ""
+msgstr "預覽現在可用於運行%(title)s的 %(run)s運行。"
 
 #: apps/publisher/templates/publisher/email/course_run/preview_available.html
 #: apps/publisher/templates/publisher/email/course_run/preview_available.txt
 msgid "Follow these steps to move forward with publishing the course run."
-msgstr ""
+msgstr "按照這些步驟繼續發布課程執行。"
 
 #: apps/publisher/templates/publisher/email/course_run/preview_available.html
 #: apps/publisher/templates/publisher/email/course_run/preview_available.txt
 msgid ""
-"Please do not share the preview URL publicly or use it in your own "
-"advertising. The finalized public URL will be available after the page is "
-"fully published."
-msgstr ""
+"Please do not share the preview URL publicly or use it in your own advertising. The finalized public URL "
+"will be available after the page is fully published."
+msgstr "請不要公開分享預覽網址，也不要在自己的廣告中使用它。 最終公開的網址將在頁面完全發布後可用。"
 
 #: apps/publisher/templates/publisher/email/course_run/preview_available.html
 #: apps/publisher/templates/publisher/email/course_run/preview_available.txt
 msgid "Preview the about page"
-msgstr ""
+msgstr "預覽關於頁面"
 
 #: apps/publisher/templates/publisher/email/course_run/preview_available.html
 #: apps/publisher/templates/publisher/email/course_run/preview_available.txt
 msgid "Submit feedback in Publisher"
-msgstr ""
+msgstr "在發布商中提交反饋"
 
 #: apps/publisher/templates/publisher/email/course_run/preview_available.html
 #, python-format
 msgid ""
-"Note: This email address is unable to receive replies. For questions or "
-"comments, contact <a "
-"href=\"mailto:%(contact_us_email)s\">%(contact_us_email)s</a>."
+"Note: This email address is unable to receive replies. For questions or comments, contact <a href=\"mailto:"
+"%(contact_us_email)s\">%(contact_us_email)s</a>."
 msgstr ""
+"在Publisher Note中提交反饋：此電子郵件地址無法接收回复。 有關問題或意見，請聯繫<a href=\"mailto:"
+"%(contact_us_email)s\">%(contact_us_email)s</a>。"
 
 #: apps/publisher/templates/publisher/email/course_run/published.html
 #: apps/publisher/templates/publisher/email/course_run/published.txt
 #, python-format
 msgid ""
-"The About page for the %(course_run_number)s course run of %(course_name)s "
-"has been published. No further action is necessary."
-msgstr ""
+"The About page for the %(course_run_number)s course run of %(course_name)s has been published. No further "
+"action is necessary."
+msgstr "%(course_run_number)s 的%(course_name)s課程的關於頁面已發布。 不需要採取進一步行動。"
 
 #: apps/publisher/templates/publisher/email/course_run/published.html
 #, python-format
-msgid ""
-"%(link_start)s%(preview_url)s%(link_middle)sView this About page on "
-"edx.org.%(link_end)s"
-msgstr ""
+msgid "%(link_start)s%(preview_url)s%(link_middle)sView this About page on edx.org.%(link_end)s"
+msgstr "%(link_start)s%(preview_url)s%(link_middle)s查看關於DeltaMOOCx.org上的頁面。%(link_end)s"
 
 #: apps/publisher/templates/publisher/email/course_run/published.txt
 #, python-format
 msgid "View this About page on edx.org. %(preview_url)s"
-msgstr ""
+msgstr "在DeltaMOOCx.org上查看此關於頁面。%(preview_url)s"
 
 #: apps/publisher/templates/publisher/email/course_run/published_course_run_editing.html
 #: apps/publisher/templates/publisher/email/course_run/published_course_run_editing.txt
 #, python-format
-msgid ""
-"%(course_team)s has made changes to the following published course run."
-msgstr ""
+msgid "%(course_team)s has made changes to the following published course run."
+msgstr "%(course_team)s對以下公佈的課程進行了更改。"
 
 #: apps/publisher/templates/publisher/email/course_run/published_course_run_editing.html
 #: apps/publisher/templates/publisher/email/course_run/published_course_run_editing.txt
 msgid "View the course run in Publisher"
-msgstr ""
+msgstr "查看在Publisher中執行的課程"
 
 #: apps/publisher/templates/publisher/email/course_run/published_course_run_editing.html
 #: apps/publisher/templates/publisher/email/course_run/published_course_run_editing.txt
 msgid "to make changes and republish the course run."
-msgstr ""
+msgstr "進行更改並重新發布課程運行。"
 
 #: apps/publisher/templates/publisher/email/course_run/send_for_review.html
 #, python-format
 msgid ""
-"%(sender_team)s for course_name from %(org_name)s has submitted the "
-"%(run_number)s course run for review. "
-"%(link_start)s%(page_url)s%(link_middle)s View this course run in "
-"Publisher%(link_end)s to review the changes or suggest edits."
+"%(sender_team)s for course_name from %(org_name)s has submitted the %(run_number)s course run for review. "
+"%(link_start)s%(page_url)s%(link_middle)s View this course run in Publisher%(link_end)s to review the "
+"changes or suggest edits."
 msgstr ""
+"來自%(org_name)s的course_name的%(sender_team)s 已經提交%(run_number)s 的課程進行審查。 %(link_start)s"
+"%(page_url)s%(link_middle)s 查看此課程在Publisher%(link_end)s 中運行以查看更改或建議編輯。"
 
 #: apps/publisher/templates/publisher/email/course_run/send_for_review.html
 #, python-format
 msgid ""
-"This is a good time to %(link_start)s%(studio_url)s%(link_middle)s review "
-"this course run in Studio%(link_end)s."
-msgstr ""
+"This is a good time to %(link_start)s%(studio_url)s%(link_middle)s review this course run in Studio"
+"%(link_end)s."
+msgstr "這是%(link_start)s%(studio_url)s%(link_middle)s 在Studio %(link_end)s 中查看本課程的好時機。"
 
 #. Translators: It's closing of mail.
 #: apps/publisher/templates/publisher/email/course_run/send_for_review.html
 #: apps/publisher/templates/publisher/email/course_run/send_for_review.txt
 msgid "Thank you,"
-msgstr ""
+msgstr "感謝您,"
 
 #: apps/publisher/templates/publisher/email/course_run/send_for_review.txt
 #, python-format
 msgid ""
-"%(sender_team)s for %(course_name)s from %(org_name)s has submitted the "
-"%(run_number)s course run for review. %(page_url)s  View this course run in "
-"Publisher to review the changes or suggest edits."
+"%(sender_team)s for %(course_name)s from %(org_name)s has submitted the %(run_number)s course run for "
+"review. %(page_url)s  View this course run in Publisher to review the changes or suggest edits."
 msgstr ""
+"來自%(org_name)s的%(course_name)s 的%(sender_team)s已提交%(run_number)s c的課程運行以供審閱。 %(page_url)s查"
+"看本課程在Publisher中運行以查看更改或建議編輯。"
 
 #: apps/publisher/templates/publisher/email/course_run/send_for_review.txt
 #, python-format
-msgid ""
-"This is a good time to %(studio_url)s review this course run in Studio."
-msgstr ""
+msgid "This is a good time to %(studio_url)s review this course run in Studio."
+msgstr "這是%(studio_url)s 審查在Studio中運行的課程的好時機。"
 
 #: apps/publisher/templates/publisher/email/decline_preview.html
 #, python-format
 msgid ""
-"%(team_name)s has declined the preview of the About page for the "
-"%(run_number)s course run of %(course_name)s. "
-"%(link_start)s%(page_url)s%(link_middle)sView the course run in "
-"Publisher.%(link_end)s"
+"%(team_name)s has declined the preview of the About page for the %(run_number)s course run of "
+"%(course_name)s. %(link_start)s%(page_url)s%(link_middle)sView the course run in Publisher.%(link_end)s"
 msgstr ""
+"%(team_name)s已拒絕%(run_number)s課程運行%(course_name)s的關於頁面的預覽。 %(link_start)s%(page_url)s"
+"%(link_middle)s查看在Publisher中運行的課程。%(link_end)s"
 
 #: apps/publisher/templates/publisher/email/decline_preview.html
 #, python-format
 msgid "%(team_name)s added the following comment."
-msgstr ""
+msgstr "%(team_name)s新增了以下評論。"
 
 #: apps/publisher/templates/publisher/email/decline_preview.txt
 #, python-format
 msgid ""
-"%(team_name)s has declined the preview of the About page for the "
-"%(run_number)s course run of %(course_name)s. View the course run in "
-"Publisher."
+"%(team_name)s has declined the preview of the About page for the %(run_number)s course run of "
+"%(course_name)s. View the course run in Publisher."
 msgstr ""
+"%(team_name)s 已拒絕%(run_number)s課程運行 %(course_name)s的關於頁面的預覽。 查看在Publisher中運行的課程。"
 
 #: apps/publisher/templates/publisher/email/decline_preview.txt
 msgid "{{ team_name }} added the following comment."
-msgstr ""
+msgstr "{{team_name}}新增了以下評論。"
 
 #: apps/publisher/templates/publisher/email/role_assignment_changed.html
 #, python-format
 msgid ""
-"The %(role_name)s for "
-"%(link_start)s%(course_url)s%(link_middle)s%(course_title)s%(link_end)s has "
-"changed."
-msgstr ""
+"The %(role_name)s for %(link_start)s%(course_url)s%(link_middle)s%(course_title)s%(link_end)s has changed."
+msgstr "%(link_start)s%(course_url)s%(link_middle)s%(course_title)s%(link_end)s的 %(role_name)s 已更改。"
 
 #: apps/publisher/templates/publisher/email/role_assignment_changed.html
 #: apps/publisher/templates/publisher/email/role_assignment_changed.txt
 #, python-format
 msgid "Former %(role_name)s: %(former_user_name)s"
-msgstr ""
+msgstr "前%(role_name)s：%(former_user_name)s"
 
 #: apps/publisher/templates/publisher/email/role_assignment_changed.html
 #: apps/publisher/templates/publisher/email/role_assignment_changed.txt
 #, python-format
 msgid "Current %(role_name)s: %(current_user_name)s"
-msgstr ""
+msgstr "當前%(role_name)s：%(current_user_name)s"
 
 #: apps/publisher/templates/publisher/email/role_assignment_changed.txt
 #, python-format
 msgid "The %(role_name)s for %(course_title)s: %(course_url)s has changed."
-msgstr ""
+msgstr "%(course_title)s的%(role_name)s：%(course_url)s已更改。"
 
 #. Translators: course_team_name is course team member name.
 #: apps/publisher/templates/publisher/email/studio_instance_created.html
 #: apps/publisher/templates/publisher/email/studio_instance_created.txt
 #, python-format
 msgid "Dear %(course_team_name)s,"
-msgstr ""
+msgstr "親愛的%(course_team_name)s,"
 
 #: apps/publisher/templates/publisher/email/studio_instance_created.html
 #, python-format
 msgid ""
-"%(project_coordinator_name)s has created a Studio URL for the "
-"%(course_run)s. You can now take either of the following actions."
-msgstr ""
+"%(project_coordinator_name)s has created a Studio URL for the %(course_run)s. You can now take either of "
+"the following actions."
+msgstr "%(project_coordinator_name)s為%(course_run)s創建了一個Studio URL。 您現在可以執行以下任一操作。"
 
 #: apps/publisher/templates/publisher/email/studio_instance_created.html
 #: apps/publisher/templates/publisher/email/studio_instance_created.txt
 msgid "Enter course run content in Studio."
-msgstr ""
+msgstr "在Studio中輸入課程運行內容。"
 
 #: apps/publisher/templates/publisher/email/studio_instance_created.html
 #: apps/publisher/templates/publisher/email/studio_instance_created.txt
-msgid ""
-"Continue adding About page information for this course run in Publisher."
-msgstr ""
+msgid "Continue adding About page information for this course run in Publisher."
+msgstr "在Publisher中繼續新增關於此課程的關於頁面信息。"
 
 #: apps/publisher/templates/publisher/email/studio_instance_created.html
 #: apps/publisher/templates/publisher/email/studio_instance_created.txt
 msgid "Important Notes"
-msgstr ""
+msgstr "重要筆記"
 
 #: apps/publisher/templates/publisher/email/studio_instance_created.html
 #: apps/publisher/templates/publisher/email/studio_instance_created.txt
 msgid ""
-"Before edX can publish the About page for this course run, you must also add"
-" the following items for this course run in Studio."
-msgstr ""
+"Before edX can publish the About page for this course run, you must also add the following items for this "
+"course run in Studio."
+msgstr "在DeltaMOOCx可以發布此課程運行的關於頁面之前，您還必須在Studio中為此課程運行添加以下項目。"
 
 #: apps/publisher/templates/publisher/email/studio_instance_created.html
 #: apps/publisher/templates/publisher/email/studio_instance_created.txt
 msgid "Course end date"
-msgstr ""
+msgstr "課程結束日期"
 
 #: apps/publisher/templates/publisher/email/studio_instance_created.html
 #: apps/publisher/templates/publisher/email/studio_instance_created.txt
 msgid "Course image"
-msgstr ""
+msgstr "課程圖片"
 
 #: apps/publisher/templates/publisher/email/studio_instance_created.html
 #: apps/publisher/templates/publisher/email/studio_instance_created.txt
-msgid ""
-"Certificate assets (including signatory names, titles, and signature images)"
-msgstr ""
-
-#: apps/publisher/templates/publisher/email/studio_instance_created.html
-#, python-format
-msgid ""
-"EdX expects your completed %(link_start)sMOOC Development "
-"Checklist%(link_end)s before the course run starts."
-msgstr ""
+msgid "Certificate assets (including signatory names, titles, and signature images)"
+msgstr "證書資產（包括簽名人名稱，標題和簽名圖像）"
 
 #: apps/publisher/templates/publisher/email/studio_instance_created.html
 #, python-format
 msgid ""
-"If this is the first run of a course, you should upload the course About "
-"video before you submit the course for review in Publisher. For more "
-"information, see %(link_start)sAdd a Course About Video to "
-"edx.org%(link_end)s."
-msgstr ""
-
-#: apps/publisher/templates/publisher/email/studio_instance_created.txt
-#, python-format
-msgid ""
-"%(project_coordinator_name)s has created a Studio URL for the %(course_run)s"
-" course run of %(course_name)s. You can now take either of the following "
-"actions."
-msgstr ""
-
-#: apps/publisher/templates/publisher/email/studio_instance_created.txt
-msgid ""
-"EdX expects your completed MOOC Development Checklist before the course run "
+"EdX expects your completed %(link_start)sMOOC Development Checklist%(link_end)s before the course run "
 "starts."
+msgstr "DeltaMOOCx希望在課程開始之前完成 %(link_start)sMOOC Development Checklist%(link_end)s 。"
+
+#: apps/publisher/templates/publisher/email/studio_instance_created.html
+#, python-format
+msgid ""
+"If this is the first run of a course, you should upload the course About video before you submit the course "
+"for review in Publisher. For more information, see %(link_start)sAdd a Course About Video to edx.org"
+"%(link_end)s."
 msgstr ""
+"如果這是課程的第一次運行，則應在發布者提交課程以供審閱之前上傳課程關於視頻。 有關更多信息，請參"
+"閱%(link_start)s將關於視頻的課程添加到DeltaMOOCx.org%(link_end)s。"
+
+#: apps/publisher/templates/publisher/email/studio_instance_created.txt
+#, python-format
+msgid ""
+"%(project_coordinator_name)s has created a Studio URL for the %(course_run)s course run of %(course_name)s. "
+"You can now take either of the following actions."
+msgstr ""
+"%(project_coordinator_name)s為%(course_run)s 的%(course_name)s課程創建了一個Studio URL。 您現在可以執行以下"
+"任一操作。"
+
+#: apps/publisher/templates/publisher/email/studio_instance_created.txt
+msgid "EdX expects your completed MOOC Development Checklist before the course run starts."
+msgstr "DeltaMOOCx希望在課程開始之前完成MOOC開發清單。"
 
 #: apps/publisher/templates/publisher/email/studio_instance_created.txt
 msgid ""
-"If this is the first run of a course, you should upload the course About "
-"video before you submit the course for review in Publisher. For more "
-"information, see Add a Course About Video to edx.org."
+"If this is the first run of a course, you should upload the course About video before you submit the course "
+"for review in Publisher. For more information, see Add a Course About Video to edx.org."
 msgstr ""
+"如果這是課程的第一次運行，則應在發布者提交課程以供審閱之前上傳課程關於視頻。 有關更多信息，請參閱將視頻添加"
+"到DeltaMOOCx.org。"
 
 #: apps/publisher/templates/publisher/seat_form.html
 msgid "Seat Form"
@@ -3239,170 +3192,163 @@ msgstr "名額欄位"
 #: apps/publisher/validators.py
 #, python-format
 msgid ""
-"The image you uploaded is of incorrect resolution. Course image files must "
-"be %(with)s x %(height)s pixels in size."
-msgstr ""
+"The image you uploaded is of incorrect resolution. Course image files must be %(with)s x %(height)s pixels "
+"in size."
+msgstr "您上傳的圖片解析度不正確。 課程圖片文件的大小必須為%(with)s x %(height)s 像素。"
 
 #: apps/publisher/validators.py
 #, python-format
 msgid ""
-"Invalid image size. The recommended image size is %(preferred)s. Older "
-"courses also support image sizes of %(supported)s."
-msgstr ""
+"Invalid image size. The recommended image size is %(preferred)s. Older courses also support image sizes of "
+"%(supported)s."
+msgstr "無效的圖像大小。 建議的圖像大小是 %(preferred)s.。 舊版課程還支持%(supported)s的圖像大小。"
 
 #: apps/publisher/validators.py
 #, python-brace-format
-msgid ""
-"Ensure this value has at most {allowed_char} characters (it has "
-"{current_char})."
-msgstr ""
+msgid "Ensure this value has at most {allowed_char} characters (it has {current_char})."
+msgstr "確保此值至多有{allowed_char}個字符（它具有{current_char}）。"
 
 #: apps/publisher/views.py
 msgid "PARTNER MANAGER"
-msgstr ""
+msgstr "合作夥伴經理"
 
 #: apps/publisher/views.py
 msgid "PROJECT COORDINATOR"
-msgstr ""
+msgstr "項目協調員"
 
 #: apps/publisher/views.py
 msgid "MARKETING"
-msgstr ""
+msgstr "MARKETING"
 
 #: apps/publisher/views.py
 msgid "PUBLISHER"
-msgstr ""
+msgstr "PUBLISHER"
 
 #: apps/publisher/views.py
 msgid "COURSE TEAM"
-msgstr ""
+msgstr "課程團隊"
 
 #: apps/publisher/views.py
 msgid "Send for Review"
-msgstr ""
+msgstr "發送回顧"
 
 #: apps/publisher/views.py
 msgid "Mark as Reviewed"
-msgstr ""
+msgstr "標記為已審核"
 
 #: apps/publisher/views.py
 msgid "course team"
-msgstr ""
+msgstr "課程團隊"
 
 #: apps/publisher/views.py
 msgid "project coordinator"
-msgstr ""
+msgstr "項目協調員"
 
 #: apps/publisher/views.py
 #, python-brace-format
 msgid ""
-"{course_title} has been created successfully. Enter information on this page"
-" to create a course run for this course."
-msgstr ""
+"{course_title} has been created successfully. Enter information on this page to create a course run for "
+"this course."
+msgstr "{course_title}已成功創建，請在此頁面上輸入信息以創建該課程的課程。"
 
 #: apps/publisher/views.py
 msgid ""
-"You have successfully created a course. You can edit the course information "
-"or enter information for the course About page at any time before you send "
-"the course to edX marketing for review. "
+"You have successfully created a course. You can edit the course information or enter information for the "
+"course About page at any time before you send the course to edX marketing for review. "
 msgstr ""
+"您已經成功創建了一門課程。 您可以隨時編輯課程信息或輸入課程關於頁面的信息，然後將課程發送給DeltaMOOCx "
+"marketing進行審閱。 "
 
 #: apps/publisher/views.py
 #, python-brace-format
 msgid "An error occurred while saving your changes. {error}"
-msgstr ""
+msgstr "保存更改時發生錯誤。{error}"
 
 #: apps/publisher/views.py
-msgid ""
-"The page could not be updated. Make sure that all values are correct, then "
-"try again."
-msgstr ""
-
-#: apps/publisher/views.py
-#, python-brace-format
-msgid ""
-"The entered price does not match the price for the following course run(s): "
-"{course_runs}. The price that you enter must match the price of all active "
-"and future course runs."
-msgstr ""
+msgid "The page could not be updated. Make sure that all values are correct, then try again."
+msgstr "目前該頁面無法更新。 確保所有的值都正確，然後再重試。"
 
 #: apps/publisher/views.py
 #, python-brace-format
 msgid ""
-"The entered seat type does not match the seat type for the following course "
-"run(s): {course_runs}. The seat type that you enter must match the seat type"
-" of all active and future course runs."
-msgstr ""
-
-#: apps/publisher/views.py
-msgid ""
-"Enrollment track cannot be unset or changed from verified or professional to"
-" audit or credit."
-msgstr ""
+"The entered price does not match the price for the following course run(s): {course_runs}. The price that "
+"you enter must match the price of all active and future course runs."
+msgstr "輸入的價格與以下課程的價格不符：{course_runs}。 您輸入的價格必須與所有活動和未來課程的價格相匹配。"
 
 #: apps/publisher/views.py
 #, python-brace-format
 msgid ""
-"The following active course run(s) are published: {course_runs}. You cannot "
-"change the mode if there are published active runs."
+"The entered seat type does not match the seat type for the following course run(s): {course_runs}. The seat "
+"type that you enter must match the seat type of all active and future course runs."
 msgstr ""
+"輸入的座位類型與以下課程運行的座位類型不匹配：{course_runs}。 您輸入的座位類型必須與所有活動和將來課程的座位"
+"類型相匹配。"
+
+#: apps/publisher/views.py
+msgid "Enrollment track cannot be unset or changed from verified or professional to audit or credit."
+msgstr "註冊不能從驗證或專業變為審核或信用。"
+
+#: apps/publisher/views.py
+#, python-brace-format
+msgid ""
+"The following active course run(s) are published: {course_runs}. You cannot change the mode if there are "
+"published active runs."
+msgstr "以下活動課程已發布：{course_runs}。 如果已發布活動運行，則無法更改模式。"
 
 #: apps/publisher/views.py
 msgid "Course updated successfully."
-msgstr ""
+msgstr "課程更新成功。"
 
 #: apps/publisher/views.py
 msgid "course"
-msgstr ""
+msgstr "課程"
 
 #: apps/publisher/views.py
 msgid "marketing"
-msgstr ""
+msgstr "行銷"
 
 #: apps/publisher/views.py
 msgid "There was an error saving this course run:"
-msgstr ""
+msgstr "保存此課程時發生錯誤:"
+
+#: apps/publisher/views.py
+msgid "The certificate configuration for this course is incorrect. Please fix it, then try again."
+msgstr "課程的證書設定不正確，請修改後再嘗試。"
 
 #: apps/publisher/views.py
 msgid ""
-"The certificate configuration for this course is incorrect. Please fix it, "
-"then try again."
-msgstr ""
-
-#: apps/publisher/views.py
-msgid ""
-"Your organization does not have default roles to review/approve this course-"
-"run. Please contact your partner manager to create default roles."
-msgstr ""
+"Your organization does not have default roles to review/approve this course-run. Please contact your "
+"partner manager to create default roles."
+msgstr "您的組織沒有默認角色來審查/批准此課程。 請聯繫您的合作夥伴經理以創建默認角色。"
 
 #: apps/publisher/views.py
 #, python-brace-format
 msgid "You have successfully created a course run for {course_title}."
-msgstr ""
+msgstr "您已成功為{course_title}創建了一門課程。"
 
 #: apps/publisher/views.py
 msgid "Course run updated successfully."
-msgstr ""
+msgstr "課程執行已成功更新。"
 
 #: apps/publisher/wrappers.py
 msgid "Submitted for Project Coordinator Review"
-msgstr ""
+msgstr "提交給項目協調員審查"
 
 #: apps/publisher/wrappers.py
 msgid "Awaiting Project Coordinator Review"
-msgstr ""
+msgstr "等待專案協調員審查"
 
 #: apps/publisher/wrappers.py
 msgid "Approved by Project Coordinator"
-msgstr ""
+msgstr "專案協調員批准"
 
 #: apps/publisher_comments/emails.py
 msgid "Comment added:"
-msgstr ""
+msgstr "新增評論："
 
 #: apps/publisher_comments/emails.py
 msgid "Comment updated:"
-msgstr ""
+msgstr "更新評論："
 
 #. Translators: subject_desc will be choice from ('New comment added',
 #. 'Comment updated'),
@@ -3411,7 +3357,7 @@ msgstr ""
 #: apps/publisher_comments/emails.py
 #, python-brace-format
 msgid "{subject_desc} {title} {start} - {pacing_type}"
-msgstr ""
+msgstr "{subject_desc} {title} {start} - {pacing_type}"
 
 #. Translators: 'subject_desc' will be choice from ('New comment added',
 #. 'Comment updated')
@@ -3419,22 +3365,22 @@ msgstr ""
 #: apps/publisher_comments/emails.py
 #, python-brace-format
 msgid "{subject_desc} {title}"
-msgstr ""
+msgstr "{subject_desc} {title}"
 
 #. Translators: subject_desc will be Preview Decline for course run,
 #. 'title' will be the value of course title.
 #: apps/publisher_comments/emails.py
 #, python-brace-format
 msgid "Preview declined: {course_name}"
-msgstr ""
+msgstr "預覽被拒：{course_name}"
 
 #: apps/publisher_comments/models.py
 msgid "Default"
-msgstr ""
+msgstr "預設值"
 
 #: apps/publisher_comments/models.py
 msgid "Decline Preview"
-msgstr ""
+msgstr "拒絕預覽"
 
 #: apps/publisher_comments/models.py
 msgid "modified"
@@ -3442,4 +3388,4 @@ msgstr "修改"
 
 #: urls.py
 msgid "Discovery Service Administration"
-msgstr ""
+msgstr "服務條款"

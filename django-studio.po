@@ -1,7 +1,7 @@
 # edX translation file.
 # Copyright (C) 2018 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
+#
 # Translators:
 # carlkang <carlkang@outlook.com>, 2014
 # carlkang <carlkang@outlook.com>, 2014
@@ -29,28 +29,29 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2018-04-22 20:42+0000\n"
-"PO-Revision-Date: 2018-02-06 09:29+0000\n"
+"PO-Revision-Date: 2018-05-27 21:58+0800\n"
 "Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/open-edx/edx-platform/language/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/open-edx/edx-platform/language/"
+"zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.7\n"
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:44
 msgid "Course team user does not exist"
-msgstr ""
+msgstr "課程團隊使用者不存在。"
 
 #: cms/djangoapps/contentstore/course_group_config.py:24
-msgid ""
-"The groups in this configuration can be mapped to cohorts in the Instructor "
-"Dashboard."
-msgstr ""
+#, fuzzy
+msgid "The groups in this configuration can be mapped to cohorts in the Instructor Dashboard."
+msgstr "可以在 \"不緩存\" 的選項 \"設置\"中 添加此配置。"
 
 #: cms/djangoapps/contentstore/course_group_config.py:27
 msgid "Content Groups"
-msgstr "內容群組"
+msgstr "群組內容"
 
 #: cms/djangoapps/contentstore/course_group_config.py:62
 #: cms/djangoapps/contentstore/views/certificates.py:135
@@ -59,20 +60,20 @@ msgstr "無效的JSON"
 
 #: cms/djangoapps/contentstore/course_group_config.py:71
 msgid "must have name of the configuration"
-msgstr "務必含設定的名稱"
+msgstr "務必包含設定的名稱"
 
 #: cms/djangoapps/contentstore/course_group_config.py:73
 msgid "must have at least one group"
-msgstr "務必至少含一個群組"
+msgstr "務必包含至少一個群組"
 
 #: cms/djangoapps/contentstore/course_info_model.py:71
 #: cms/djangoapps/contentstore/course_info_model.py:146
 msgid "Invalid course update id."
-msgstr "無效課程更新ID。"
+msgstr "無效課程需要更新ID。"
 
 #: cms/djangoapps/contentstore/course_info_model.py:111
 msgid "Course update not found."
-msgstr "沒有找到課程更新。"
+msgstr "課程並無更新。"
 
 #: cms/djangoapps/contentstore/courseware_index.py:249
 msgid "Could not index item: {}"
@@ -87,27 +88,33 @@ msgid "(Unnamed)"
 msgstr "(未命名的)"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:37
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid ""
-"GIT_REPO_EXPORT_DIR not set or path {0} doesn't exist, please create it, or "
-"configure a different path with GIT_REPO_EXPORT_DIR"
-msgstr "未設定GIT_REPO_EXPORT_DIR或者路徑 {0} 不存在，請建立它，或者對GIT_REPO_EXPORT_DIR配置一個不同的路徑 "
+"GIT_REPO_EXPORT_DIR not set or path {0} doesn't exist, please create it, or configure a "
+"different path with GIT_REPO_EXPORT_DIR"
+msgstr ""
+"未設定GIT_REPO_EXPORT_DIR或者路徑 {0} 不存在。請重新建立它，或者對GIT_REPO_EXPORT_DIR設定一個"
+"不同的路徑 "
 
 #: cms/djangoapps/contentstore/git_export_utils.py:40
+#, fuzzy
 msgid ""
-"Non writable git url provided. Expecting something like: "
-"git@github.com:mitocw/edx4edx_lite.git"
+"Non writable git url provided. Expecting something like: git@github.com:mitocw/edx4edx_lite."
+"git"
 msgstr "您所提供的 Git URL 是唯讀的，正常的範例像是 git@github.com:mitocw/edx4edx_lite.git"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:42
+#, fuzzy
 msgid ""
-"If using http urls, you must provide the username and password in the url. "
-"Similar to https://user:pass@github.com/user/course."
-msgstr "如果使用http urls，您必須在URL中提供使用者帳號和密碼。例如 https://user:pass@github.com/user/course."
+"If using http urls, you must provide the username and password in the url. Similar to https://"
+"user:pass@github.com/user/course."
+msgstr ""
+"如果使用http urls，您必須在URL中提供使用者帳號和密碼。例如： https://user:pass@github.com/"
+"user/course."
 
 #: cms/djangoapps/contentstore/git_export_utils.py:45
 msgid "Unable to determine branch, repo in detached HEAD mode"
-msgstr "在分離 HEAD 模式下，無法確認所在的分支(branch)及repo"
+msgstr "在分離(單獨/獨立) HEAD 模式下，無法確認所在的分支及repo"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:46
 msgid "Unable to update or clone git repository."
@@ -122,41 +129,38 @@ msgid "Unable to configure git username and password"
 msgstr "無法設定Git使用者帳號和密碼"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:49
-msgid ""
-"Unable to commit changes. This is usually because there are no changes to be"
-" committed"
-msgstr "無法提交變更，通常的原因是因為沒有任何變更需要提交"
+msgid "Unable to commit changes. This is usually because there are no changes to be committed"
+msgstr "無法提交變更。大部分原因是沒有任何變更需要提交"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:51
 msgid ""
-"Unable to push changes.  This is usually because the remote repository "
-"cannot be contacted"
-msgstr "無法push更改，通常是因為無法聯繫遠端的資源庫"
+"Unable to push changes.  This is usually because the remote repository cannot be contacted"
+msgstr "無法推送更改。大部分原因是無法聯繫遠端的資源庫"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:53
 msgid "Bad course location provided"
-msgstr "您提供的課程位置是錯的"
+msgstr "您提供的課程位置有錯誤"
 
 #: cms/djangoapps/contentstore/git_export_utils.py:54
 msgid "Missing branch on fresh clone"
-msgstr "在新的副本中漏失了分支資訊"
+msgstr "在新的副本中缺少了分支的資訊"
 
 #: cms/djangoapps/contentstore/management/commands/git_export.py:34
 msgid ""
 "Take the specified course and attempt to export it to a git repository\n"
 ". Course directory must already be a git repository. Usage:  git_export <course_loc> <git_url>"
-msgstr "拿具體指定課程並且嘗試去匯入它到git庫\n。課程目錄必須已經是一個git庫。用法：git_export <course_loc> <git_url>"
+msgstr ""
+"選擇指定的課程並且嘗試匯入到git資料庫\n"
+"。課程目錄必須已經是一個git資料庫。用法：git_export <course_loc> <git_url>"
 
-#: cms/djangoapps/contentstore/tasks.py:479
-#: cms/djangoapps/contentstore/tasks.py:610
+#: cms/djangoapps/contentstore/tasks.py:479 cms/djangoapps/contentstore/tasks.py:610
 #, python-brace-format
 msgid "Unknown User ID: {0}"
-msgstr ""
+msgstr "未知的使用者ID: {0}"
 
-#: cms/djangoapps/contentstore/tasks.py:483
-#: cms/djangoapps/contentstore/tasks.py:614
+#: cms/djangoapps/contentstore/tasks.py:483 cms/djangoapps/contentstore/tasks.py:614
 msgid "Permission denied"
-msgstr ""
+msgstr "許可權被拒絕"
 
 #: cms/djangoapps/contentstore/tasks.py:638
 #: cms/djangoapps/contentstore/views/import_export.py:132
@@ -165,11 +169,11 @@ msgstr "我們僅支援上傳 .tar.gz 格式的檔案。"
 
 #: cms/djangoapps/contentstore/tasks.py:651
 msgid "Tar file not found"
-msgstr ""
+msgstr "找不到 Tar 檔案"
 
 #: cms/djangoapps/contentstore/tasks.py:697
 msgid "Unsafe tar file. Aborting import."
-msgstr ""
+msgstr "不安全的 Tar 檔案。正在中止導入。"
 
 #: cms/djangoapps/contentstore/tasks.py:730
 #, python-brace-format
@@ -178,7 +182,7 @@ msgstr "在此封裝中無法找到檔案 {0} "
 
 #: cms/djangoapps/contentstore/utils.py:419
 msgid "Deleted Group"
-msgstr "已刪除的組"
+msgstr "已刪除的群組"
 
 #. Translators: This is building up a list of groups. It is marked for
 #. translation because of the
@@ -186,7 +190,7 @@ msgstr "已刪除的組"
 #: cms/djangoapps/contentstore/utils.py:479
 #, python-brace-format
 msgid "{previous_groups}, {current_group}"
-msgstr ""
+msgstr "{previous_groups}, {current_group}"
 
 #: cms/djangoapps/contentstore/views/assets.py:419
 msgid "Upload completed"
@@ -194,13 +198,12 @@ msgstr "上傳完成"
 
 #: cms/djangoapps/contentstore/views/assets.py:459
 #, python-brace-format
-msgid ""
-"File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
-msgstr ""
+msgid "File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
+msgstr "檔案 {filename} 超過 {maximum_size_in_megabytes} MB的最大大小。"
 
 #: cms/djangoapps/contentstore/views/certificates.py:158
 msgid "must have name of the certificate"
-msgstr "務必含設定證書的名稱"
+msgstr "務必包含證書的名稱"
 
 #: cms/djangoapps/contentstore/views/certificates.py:225
 #, python-brace-format
@@ -236,25 +239,23 @@ msgstr "課程已經成功重新索引。"
 
 #: cms/djangoapps/contentstore/views/course.py:626
 msgid "Unscheduled"
-msgstr "未排程"
+msgstr "未排定"
 
 #: cms/djangoapps/contentstore/views/course.py:788
-msgid ""
-"Special characters not allowed in organization, course number, and course "
-"run."
+msgid "Special characters not allowed in organization, course number, and course run."
 msgstr "組織名稱、課程編號以及開課時程中不允許使用特殊字元"
 
 #: cms/djangoapps/contentstore/views/course.py:824
 msgid ""
-"There is already a course defined with the same organization and course "
-"number. Please change either organization or course number to be unique."
-msgstr "已經有一個具有相同機構、課號和課程單元的課程存在，請更改機構或是課號以確保與其他課程不同。"
+"There is already a course defined with the same organization and course number. Please change "
+"either organization or course number to be unique."
+msgstr ""
+"已經有一個具有相同架構、課號和課程單元的課程存在，請更改架構或是課號以確保與其他課程不同。"
 
 #: cms/djangoapps/contentstore/views/course.py:829
 #: cms/djangoapps/contentstore/views/course.py:832
-msgid ""
-"Please change either the organization or course number so that it is unique."
-msgstr "請更改機構或是課號，讓它有別於其他課程。"
+msgid "Please change either the organization or course number so that it is unique."
+msgstr "請更改架構或是課號，讓它有別於其他課程(以確保與其他課程不同)。"
 
 #: cms/djangoapps/contentstore/views/course.py:837
 #, python-brace-format
@@ -262,18 +263,20 @@ msgid ""
 "Unable to create course '{name}'.\n"
 "\n"
 "{err}"
-msgstr "無法建立課程'{name}'.\n\n{err}"
+msgstr ""
+"無法建立課程'{name}'.\n"
+"\n"
+"{err}"
 
 #: cms/djangoapps/contentstore/views/course.py:850
 msgid ""
-"You must link this course to an organization in order to continue. "
-"Organization you selected does not exist in the system, you will need to add"
-" it to the system"
-msgstr "你為了繼續必須將此課程連結到一個機構。你選擇了不存在於系統中的機構，你需要將此機構新增到系統"
+"You must link this course to an organization in order to continue. Organization you selected "
+"does not exist in the system, you will need to add it to the system"
+msgstr "您必須將此課程連結到架構才能繼續。您選擇的架構在系統中不存在，您需要將其添加至系統"
 
 #: cms/djangoapps/contentstore/views/course.py:1120
 msgid "Invalid prerequisite course key"
-msgstr "無效的預備課程key"
+msgstr "無效的預備課程金鑰"
 
 #: cms/djangoapps/contentstore/views/course.py:1307
 msgid "An error occurred while trying to save your tabs"
@@ -285,15 +288,15 @@ msgstr "標籤異常"
 
 #: cms/djangoapps/contentstore/views/course.py:1532
 msgid "This group configuration is in use and cannot be deleted."
-msgstr "此群組設定在使用中，無法刪除。"
+msgstr "此群組設定正在使用中，無法刪除。"
 
 #: cms/djangoapps/contentstore/views/course.py:1546
 msgid "This content group is in use and cannot be deleted."
-msgstr "此內容群組在使用中，無法刪除。"
+msgstr "此內容群組正在使用中，無法刪除。"
 
 #: cms/djangoapps/contentstore/views/entrance_exam.py:158
 msgid "Entrance Exam - Subsection"
-msgstr "資格考試 － 小節"
+msgstr "資格考試 － 小節(分段)"
 
 #: cms/djangoapps/contentstore/views/entrance_exam.py:252
 msgid "Completed Course Entrance Exam"
@@ -309,7 +312,7 @@ msgstr "垂直"
 
 #: cms/djangoapps/contentstore/views/import_export.py:170
 msgid "File upload corrupted. Please try again"
-msgstr "檔案上傳毀損，請再試一遍。"
+msgstr "檔案上傳毀損(失敗)，請再試一遍。"
 
 #: cms/djangoapps/contentstore/views/item.py:577
 msgid "Invalid data"
@@ -323,39 +326,38 @@ msgstr "無效資料 ({details})"
 #: cms/djangoapps/contentstore/views/item.py:754
 #, python-brace-format
 msgid "You can not move {source_type} into {target_parent_type}."
-msgstr ""
+msgstr "無法將 {source_type} 移動至 {target_parent_type} 中。"
 
 #: cms/djangoapps/contentstore/views/item.py:759
 msgid "Item is already present in target location."
-msgstr ""
+msgstr "專案已經存在於目標位置中。"
 
 #: cms/djangoapps/contentstore/views/item.py:761
 msgid "You can not move an item into itself."
-msgstr ""
+msgstr "您無法將專案移入其中。"
 
 #: cms/djangoapps/contentstore/views/item.py:763
 msgid "You can not move an item into it's child."
-msgstr ""
+msgstr "您無法將專案移入子目錄中。"
 
 #: cms/djangoapps/contentstore/views/item.py:765
 msgid "You can not move an item directly into content experiment."
-msgstr ""
+msgstr "您無法直接將專案移動到目錄實驗。"
 
 #: cms/djangoapps/contentstore/views/item.py:767
 #, python-brace-format
 msgid "{source_usage_key} not found in {parent_usage_key}."
-msgstr ""
+msgstr "{parent_usage_key} 中找不到 {source_usage_key} 。"
 
 #: cms/djangoapps/contentstore/views/item.py:775
 #, python-brace-format
-msgid ""
-"You can not move {source_usage_key} at an invalid index ({target_index})."
-msgstr ""
+msgid "You can not move {source_usage_key} at an invalid index ({target_index})."
+msgstr "您無法在無效索引 ({target_index}) 中移動 {source_usage_key} 。"
 
 #: cms/djangoapps/contentstore/views/item.py:780
 #, python-brace-format
 msgid "You must provide target_index ({target_index}) as an integer."
-msgstr ""
+msgstr "您必須提供(使) target_index ({target_index}) 為整數。"
 
 #: cms/djangoapps/contentstore/views/item.py:839
 #, python-brace-format
@@ -372,9 +374,8 @@ msgstr "與'{0}'重複"
 #. '% o'. The percent sign is also translatable as a standalone string.
 #: cms/djangoapps/contentstore/views/item.py:1145
 #, python-brace-format
-msgid ""
-"Students must score {score}{pct_sign} or higher to access course materials."
-msgstr "學生必須得分 {score}{pct_sign} 或高於此分數以存取課程教材。"
+msgid "Students must score {score}{pct_sign} or higher to access course materials."
+msgstr "學生必須獲得 {score}{pct_sign} 分或高於此分數以存取課程教材。"
 
 #. Translators: This is the percent sign. It will be used to represent
 #. a percent value out of 100, e.g. "58%" means "58/100".
@@ -390,7 +391,7 @@ msgstr "{section_or_subsection} \"{display_name}\""
 #: cms/djangoapps/contentstore/views/library.py:168
 #, python-brace-format
 msgid "Unable to create library - missing required field '{field}'"
-msgstr "無法建立課程組件庫 －  缺少需要的欄位 '{field}'"
+msgstr "無法建立課程組件庫(收藏) －  缺少需要的欄位 '{field}'"
 
 #: cms/djangoapps/contentstore/views/library.py:173
 #, python-brace-format
@@ -398,52 +399,53 @@ msgid ""
 "Unable to create library '{name}'.\n"
 "\n"
 "{err}"
-msgstr "無法建立課程組件庫 '{name}'.\n\n{err}"
+msgstr ""
+"無法建立課程組件庫(收藏) '{name}'.\n"
+"\n"
+"{err}"
 
 #: cms/djangoapps/contentstore/views/library.py:179
 msgid ""
-"There is already a library defined with the same organization and library "
-"code. Please change your library code so that it is unique within your "
-"organization."
-msgstr "已有一個課程組件庫使用相同的架構及編碼，請變更您的編碼，以確保在架構下的唯一性。"
+"There is already a library defined with the same organization and library code. Please change "
+"your library code so that it is unique within your organization."
+msgstr ""
+"已經有一個使用相同的架構及編碼的課程組件庫(收藏)。請變更您的編碼，以確保在架構下的唯一性。"
 
 #: cms/djangoapps/contentstore/views/preview.py:284
 #, python-brace-format
 msgid "Access restricted to: {list_of_groups}"
-msgstr ""
+msgstr "取得限制：{list_of_groups}"
 
 #: cms/djangoapps/contentstore/views/transcript_settings.py:124
 msgid "The information you entered is incorrect."
-msgstr ""
+msgstr "您輸入的訊息不正確。"
 
 #: cms/djangoapps/contentstore/views/transcript_settings.py:153
 #: cms/djangoapps/contentstore/views/transcript_settings.py:193
 #, python-brace-format
 msgid "The following parameters are required: {missing}."
-msgstr ""
+msgstr "需要下列參數： {missing}。"
 
 #: cms/djangoapps/contentstore/views/transcript_settings.py:198
 #, python-brace-format
 msgid "A transcript with the \"{language_code}\" language code already exists."
-msgstr ""
+msgstr "具有 \"{language_code}\" 語言代碼的字幕已存在。"
 
 #: cms/djangoapps/contentstore/views/transcript_settings.py:202
 msgid "A transcript file is required."
-msgstr ""
+msgstr "需要字幕的檔案。"
 
 #: cms/djangoapps/contentstore/views/transcript_settings.py:259
-msgid ""
-"There is a problem with this transcript file. Try to upload a different "
-"file."
-msgstr ""
+msgid "There is a problem with this transcript file. Try to upload a different file."
+msgstr "這個字幕檔案有問題。請嘗試上傳不同的檔案。"
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:464
 msgid "Incoming video data is empty."
-msgstr "新進的影像資料為空。"
+msgstr "匯入的影片資料是空的。"
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:469
 msgid "Can't find item by locator."
-msgstr "定位器找不到項目。"
+msgstr "無法透過定位器找到項目。"
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py:472
 msgid "Transcripts are supported only for \"video\" modules."
@@ -460,7 +462,7 @@ msgstr "無法透過電子郵件地址 '{email}' 找到使用者"
 
 #: cms/djangoapps/contentstore/views/user.py:155
 msgid "No `role` specified."
-msgstr "No `role` specified."
+msgstr "沒有指定 `role` 。"
 
 #: cms/djangoapps/contentstore/views/user.py:160
 #, python-brace-format
@@ -469,7 +471,7 @@ msgstr "使用者 {email} 已經註冊但尚未啟用他/她的帳號"
 
 #: cms/djangoapps/contentstore/views/user.py:181
 msgid "Invalid `role` specified."
-msgstr "Invalid `role` specified."
+msgstr "指定無效 `role`。"
 
 #: cms/djangoapps/contentstore/views/user.py:185
 msgid "You may not remove the last Admin. Add another Admin first."
@@ -513,19 +515,19 @@ msgstr "取消"
 #. due to being flagged as a duplicate by an external or internal CMS
 #: cms/djangoapps/contentstore/views/videos.py:108
 msgid "Failed Duplicate"
-msgstr "失敗的複製"
+msgstr "複製失敗"
 
 #. Translators: This is the status for a video which has duplicate token for
 #. youtube
 #: cms/djangoapps/contentstore/views/videos.py:110
 msgid "YouTube Duplicate"
-msgstr ""
+msgstr "複製 YouTube"
 
 #. Translators: This is the status for a video for which an invalid
 #. processing token was provided in the course settings
 #: cms/djangoapps/contentstore/views/videos.py:113
 msgid "Invalid Token"
-msgstr "Invalid Token"
+msgstr "標記無效"
 
 #. Translators: This is the status for a video that was included in a course
 #. import
@@ -542,64 +544,59 @@ msgstr "未知"
 #. transcription in progress on servers
 #: cms/djangoapps/contentstore/views/videos.py:119
 msgid "Transcription in Progress"
-msgstr ""
+msgstr "正在進行轉錄"
 
 #. Translators: This is the status for a video whose transcription is complete
 #: cms/djangoapps/contentstore/views/videos.py:121
 msgid "Transcript Ready"
-msgstr ""
+msgstr "轉錄就緒"
 
 #: cms/djangoapps/contentstore/views/videos.py:202
 msgid "The image must have name, content type, and size information."
-msgstr ""
+msgstr "影像必須包含名稱、內容類型和大小訊息。"
 
 #: cms/djangoapps/contentstore/views/videos.py:204
 #, python-brace-format
 msgid ""
-"This image file type is not supported. Supported file types are "
-"{supported_file_formats}."
-msgstr ""
+"This image file type is not supported. Supported file types are {supported_file_formats}."
+msgstr "不支援此影像檔案類型。支援的檔案類型為 {supported_file_formats}。"
 
 #: cms/djangoapps/contentstore/views/videos.py:208
 #, python-brace-format
 msgid "This image file must be smaller than {image_max_size}."
-msgstr ""
+msgstr "此影像檔案必須小於 {image_max_size} 。"
 
 #: cms/djangoapps/contentstore/views/videos.py:212
 #, python-brace-format
 msgid "This image file must be larger than {image_min_size}."
-msgstr ""
+msgstr "此影像檔案必須大於 {image_min_size} 。"
 
 #: cms/djangoapps/contentstore/views/videos.py:219
 #: cms/djangoapps/contentstore/views/videos.py:221
-msgid ""
-"There is a problem with this image file. Try to upload a different file."
-msgstr ""
+msgid "There is a problem with this image file. Try to upload a different file."
+msgstr "這個影像檔案有問題。請嘗試上傳不同的檔案。"
 
 #: cms/djangoapps/contentstore/views/videos.py:224
 #, python-brace-format
 msgid ""
-"Recommended image resolution is "
-"{image_file_max_width}x{image_file_max_height}. The minimum resolution is "
-"{image_file_min_width}x{image_file_min_height}."
+"Recommended image resolution is {image_file_max_width}x{image_file_max_height}. The minimum "
+"resolution is {image_file_min_width}x{image_file_min_height}."
 msgstr ""
+"建議的影像解析度為 {image_file_max_width}x{image_file_max_height}。 最小解析度為 "
+"{image_file_min_width}x{image_file_min_height}。"
 
 #: cms/djangoapps/contentstore/views/videos.py:232
 #, python-brace-format
-msgid ""
-"This image file must have an aspect ratio of "
-"{video_image_aspect_ratio_text}."
-msgstr ""
+msgid "This image file must have an aspect ratio of {video_image_aspect_ratio_text}."
+msgstr "此影像檔案必須有 {video_image_aspect_ratio_text} 的畫面比例。"
 
 #: cms/djangoapps/contentstore/views/videos.py:239
-msgid ""
-"The image file name can only contain letters, numbers, hyphens (-), and "
-"underscores (_)."
-msgstr ""
+msgid "The image file name can only contain letters, numbers, hyphens (-), and underscores (_)."
+msgstr "影像檔案的名稱只能包含字母、數位、連字符號 (-) 和底線 (_)。"
 
 #: cms/djangoapps/contentstore/views/videos.py:253
 msgid "An image file is required."
-msgstr ""
+msgstr "需要影像檔案。"
 
 #. Translators: This is the header for a CSV file column
 #. containing URLs for video encodings for the named profile
@@ -653,9 +650,7 @@ msgid "Current course creator state"
 msgstr "目前課程建立者的狀態"
 
 #: cms/djangoapps/course_creators/models.py:43
-msgid ""
-"Optional notes about this user (for example, why course creation access was "
-"denied)"
+msgid "Optional notes about this user (for example, why course creation access was denied)"
 msgstr "關於使用者的可選提示訊息 (例如：建立課程被拒絕的原因)"
 
 #: cms/djangoapps/maintenance/views.py:29
@@ -663,12 +658,14 @@ msgid "Force Publish Course"
 msgstr "強制發布課程"
 
 #: cms/djangoapps/maintenance/views.py:32
+#, fuzzy
 msgid ""
-"Sometimes the draft and published branches of a course can get out of sync. "
-"Force publish course command resets the published branch of a course to "
-"point to the draft branch, effectively force publishing the course. This "
-"view dry runs the force publish command"
-msgstr "有時，課程的草稿和已發布課程分頁同步會失效。強制發布課程指令重置已發布課程去連至草稿分頁，有效地強制發布課程。此視圖為模擬強制發布指令"
+"Sometimes the draft and published branches of a course can get out of sync. Force publish "
+"course command resets the published branch of a course to point to the draft branch, "
+"effectively force publishing the course. This view dry runs the force publish command"
+msgstr ""
+"有時候課程的草稿和已發布的課程分頁同步會失效(可能無法同步)。強制發布的課程指令重置已發布之課程"
+"去連至草稿分頁，有效地強制發布課程。此目的為模擬強制發布指令"
 
 #: cms/djangoapps/maintenance/views.py:41
 msgid "Please provide course id."
@@ -676,7 +673,7 @@ msgstr "請提供課程帳號。"
 
 #: cms/djangoapps/maintenance/views.py:42
 msgid "Invalid course key."
-msgstr "無效的course key"
+msgstr "無效的course key."
 
 #: cms/djangoapps/maintenance/views.py:43
 msgid "No matching course found."
@@ -697,11 +694,11 @@ msgstr "'{name}'域格式不正確。{detailed_message}"
 
 #: cms/envs/common.py:161
 msgid "Your Platform Studio"
-msgstr ""
+msgstr "您的 Studio 平台"
 
 #: cms/envs/common.py:162
 msgid "Studio"
-msgstr ""
+msgstr "Studio"
 
 #: cms/lib/xblock/tagging/tagging.py:23
 msgid "Dictionary with the available tags"
@@ -709,4 +706,4 @@ msgstr "可使用標籤的字典"
 
 #: cms/urls.py:17
 msgid "Studio Administration"
-msgstr ""
+msgstr "Studio管理"

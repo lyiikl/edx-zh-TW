@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Joey Chiou <Joeyc0916@gmail.com>, 2014
 # Xaver Y.R. Chen <yrchen@atcity.org>, 2014
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-12 13:42-0500\n"
-"PO-Revision-Date: 2017-09-23 19:33+0000\n"
+"PO-Revision-Date: 2018-05-27 22:01+0800\n"
 "Last-Translator: Xaver Y.R. Chen <yrchen@atcity.org>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/open-edx/edx-platform/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.7\n"
 
 #. Translators: This string separates two items in a pair (e.g.
 #. "Foo and Bar"); note that this includes any necessary whitespace to
@@ -41,42 +42,39 @@ msgstr "，"
 msgid ", and "
 msgstr "，和"
 
-#: notifier/templates/digest-email.html:72
-#: notifier/templates/digest-email.txt:8
+#: notifier/templates/digest-email.html:72 notifier/templates/digest-email.txt:8
 #, python-format
 msgid "Hi %(name)s,"
 msgstr "您好 %(name)s,"
 
-#: notifier/templates/digest-email.html:74
-#: notifier/templates/digest-email.txt:10
+#: notifier/templates/digest-email.html:74 notifier/templates/digest-email.txt:10
 #, python-format
 msgid ""
-"You have %(thread_count)s discussion thread with updates in "
-"%(course_names)s. The most recent highlights are shown below. As a reminder,"
-" you can turn off all discussion digests from any course's Discussion Home "
-"page."
+"You have %(thread_count)s discussion thread with updates in %(course_names)s. The most recent highlights are "
+"shown below. As a reminder, you can turn off all discussion digests from any course's Discussion Home page."
 msgid_plural ""
-"You have %(thread_count)s discussion threads with updates in "
-"%(course_names)s. The most recent highlights are shown below. As a reminder,"
-" you can turn off all discussion digests from any course's Discussion Home "
-"page."
-msgstr[0] "您有在 %(course_names)s 中 %(thread_count)s 討論串更新。最新的摘要如下所示。提醒您，您可以從任何課程的討論主頁中關閉該課程所有的討論摘要。"
+"You have %(thread_count)s discussion threads with updates in %(course_names)s. The most recent highlights are "
+"shown below. As a reminder, you can turn off all discussion digests from any course's Discussion Home page."
+msgstr[0] ""
+"您在 %(course_names)s 中有 %(thread_count)s 討論串更新。最新的摘要如下所示。提醒您，您可以從任何課程的討論主頁中"
+"關閉該課程所有的討論摘要。"
 
 #: notifier/templates/digest-email.html:103
 #, python-format
-msgid ""
-"<span %(author_span_attrs)s>%(author)s: </span><span "
-"%(datetime_span_attrs)s>on %(datetime)s UTC</span>"
-msgstr "<span %(author_span_attrs)s>%(author)s：</span><span %(datetime_span_attrs)s> 在 %(datetime)s 世界標準時間 </span>"
+msgid "<span %(author_span_attrs)s>%(author)s: </span><span %(datetime_span_attrs)s>on %(datetime)s UTC</span>"
+msgstr ""
+"<span %(author_span_attrs)s>%(author)s：</span><span %(datetime_span_attrs)s> 在 %(datetime)s 世界標準時間 </"
+"span>"
 
 #: notifier/templates/digest-email.html:119
 #, python-format
 msgid ""
-"If you would like to stop receiving these updates, you can turn off all "
-"Course Discussion digests from any course's Discussion Home page. You can "
-"also <a %(a_attrs)s>quickly turn off these notifications from this "
-"email.</a>"
-msgstr "如果您想停止接收這些更新，您可以從任何課程的討論主頁中關閉該課程所有的討論摘要。您也可以 <a %(a_attrs)s> 從這封電子郵件快速的關閉這些提醒。</a>"
+"If you would like to stop receiving these updates, you can turn off all Course Discussion digests from any "
+"course's Discussion Home page. You can also <a %(a_attrs)s>quickly turn off these notifications from this email."
+"</a>"
+msgstr ""
+"如果您想停止接收這些更新，您可以從任何課程的討論主頁中關閉該課程所有的討論摘要。您也可以 <a %(a_attrs)s> 從這封電"
+"子郵件快速的關閉這些提醒。</a>"
 
 #: notifier/templates/digest-email.txt:20
 #, python-format
@@ -86,7 +84,8 @@ msgstr "%(author)s：在 %(datetime)s 世界標準時間"
 #: notifier/templates/digest-email.txt:28
 #, python-format
 msgid ""
-"If you would like to stop receiving these updates, you can turn off all "
-"Course Discussion digests from any course's Discussion Home page. You can "
-"also quickly turn off these notifications by going to %(unsubscribe_url)s."
-msgstr "如果您想停止接收這些更新，您可以從任何課程的討論主頁中關閉該課程所有的討論摘要。您也可以透過前往 %(unsubscribe_url)s 來快速地關閉這些提醒。"
+"If you would like to stop receiving these updates, you can turn off all Course Discussion digests from any "
+"course's Discussion Home page. You can also quickly turn off these notifications by going to %(unsubscribe_url)s."
+msgstr ""
+"如果您想停止接收這些更新，您可以從任何課程的討論主頁中關閉該課程所有的討論摘要。您也可以透過前往 "
+"%(unsubscribe_url)s 來快速地關閉這些提醒。"

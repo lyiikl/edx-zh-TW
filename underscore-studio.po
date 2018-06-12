@@ -1,7 +1,7 @@
 # edX translation file
 # Copyright (C) 2018 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
+#
 # Translators:
 # Andrew Lau <alau52@yahoo.com>, 2017
 # SatoshiLiang <inactive+SatoshiLiang@transifex.com>, 2015
@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2018-04-22 20:42+0000\n"
-"PO-Revision-Date: 2018-03-13 13:50+0000\n"
+"PO-Revision-Date: 2018-06-02 19:20+0800\n"
 "Last-Translator: JEN-HAO HSIEH <orienthauz@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/open-edx/edx-platform/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -35,15 +35,14 @@ msgstr ""
 "Generated-By: Babel 1.3\n"
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.7\n"
 
 #: cms/templates/js/access-editor.underscore:3
 msgid "Limit Access"
 msgstr "限制存取"
 
 #: cms/templates/js/access-editor.underscore:7
-msgid ""
-"Select a prerequisite subsection and enter a minimum score percentage to "
-"limit access to this subsection."
+msgid "Select a prerequisite subsection and enter a minimum score percentage to limit access to this subsection."
 msgstr "選擇一個先修子節並輸入一個最小分數百分比以限制進入此節。"
 
 #: cms/templates/js/access-editor.underscore:11
@@ -137,8 +136,7 @@ msgstr "此課程中的上傳檔案和資產清單"
 msgid "Preview"
 msgstr "預覽"
 
-#: cms/templates/js/asset-library.underscore:20
-#: cms/templates/js/asset-library.underscore:53
+#: cms/templates/js/asset-library.underscore:20 cms/templates/js/asset-library.underscore:53
 msgid "- Sortable"
 msgstr "可排序"
 
@@ -150,8 +148,7 @@ msgstr "顯示全部"
 msgid "Other"
 msgstr "其他"
 
-#: cms/templates/js/asset-library.underscore:52
-#: cms/templates/js/previous-video-upload-list.underscore:15
+#: cms/templates/js/asset-library.underscore:52 cms/templates/js/previous-video-upload-list.underscore:15
 msgid "Date Added"
 msgstr "新增日期"
 
@@ -207,24 +204,20 @@ msgstr "鎖定這個資源"
 msgid "Lock/unlock file"
 msgstr "鎖定/解除這個檔案"
 
-#: cms/templates/js/certificate-details.underscore:11
-#: cms/templates/js/group-configuration-details.underscore:14
+#: cms/templates/js/certificate-details.underscore:11 cms/templates/js/group-configuration-details.underscore:14
 #: cms/templates/js/partition-group-details.underscore:14
 msgid "ID"
 msgstr "身份標識"
 
-#: cms/templates/js/certificate-details.underscore:18
-#: cms/templates/js/certificate-editor.underscore:23
+#: cms/templates/js/certificate-details.underscore:18 cms/templates/js/certificate-editor.underscore:23
 msgid "Certificate Details"
 msgstr "證書詳細資訊"
 
-#: cms/templates/js/certificate-details.underscore:23
-#: cms/templates/js/certificate-editor.underscore:26
+#: cms/templates/js/certificate-details.underscore:23 cms/templates/js/certificate-editor.underscore:26
 msgid "Course Title"
 msgstr "課程標題"
 
-#: cms/templates/js/certificate-details.underscore:28
-#: cms/templates/js/certificate-editor.underscore:30
+#: cms/templates/js/certificate-details.underscore:28 cms/templates/js/certificate-editor.underscore:30
 msgid "Course Title Override"
 msgstr "改寫課程標題"
 
@@ -236,17 +229,14 @@ msgstr "課程編號"
 msgid "Course Number Override"
 msgstr "改寫課程成員"
 
-#: cms/templates/js/certificate-details.underscore:53
-#: cms/templates/js/certificate-editor.underscore:36
+#: cms/templates/js/certificate-details.underscore:53 cms/templates/js/certificate-editor.underscore:36
 msgid "Certificate Signatories"
 msgstr "證書簽署人"
 
-#: cms/templates/js/certificate-details.underscore:55
-#: cms/templates/js/certificate-editor.underscore:38
+#: cms/templates/js/certificate-details.underscore:55 cms/templates/js/certificate-editor.underscore:38
 msgid ""
-"It is strongly recommended that you include four or fewer signatories. If "
-"you include additional signatories, preview the certificate in Print View to"
-" ensure the certificate will print correctly on one page."
+"It is strongly recommended that you include four or fewer signatories. If you include additional signatories, "
+"preview the certificate in Print View to ensure the certificate will print correctly on one page."
 msgstr "強烈建議您的簽名文字四個或更少的文字。如果其他附加簽名，預覽證書以確保正確的正確在這一個頁面。"
 
 #: cms/templates/js/certificate-editor.underscore:11
@@ -257,13 +247,11 @@ msgstr "證書資訊"
 msgid "Certificate Name"
 msgstr "證書名稱"
 
-#: cms/templates/js/certificate-editor.underscore:14
-#: cms/templates/js/certificate-editor.underscore:15
+#: cms/templates/js/certificate-editor.underscore:14 cms/templates/js/certificate-editor.underscore:15
 msgid "Name of the certificate"
 msgstr "證書名稱"
 
-#: cms/templates/js/certificate-editor.underscore:19
-#: cms/templates/js/certificate-editor.underscore:20
+#: cms/templates/js/certificate-editor.underscore:19 cms/templates/js/certificate-editor.underscore:20
 msgid "Description of the certificate"
 msgstr "證書描述"
 
@@ -273,8 +261,8 @@ msgstr "課程標題"
 
 #: cms/templates/js/certificate-editor.underscore:32
 msgid ""
-"Specify an alternative to the official course title to display on "
-"certificates. Leave blank to use the official course title."
+"Specify an alternative to the official course title to display on certificates. Leave blank to use the official "
+"course title."
 msgstr "指定一個替代的課程標題並顯示於證書。請於空白處使用官方課程標題。"
 
 #: cms/templates/js/certificate-editor.underscore:41
@@ -285,8 +273,7 @@ msgstr "新增額外的簽署人"
 msgid "(Add signatories for a certificate)"
 msgstr "(新增證書簽署人)"
 
-#: cms/templates/js/certificate-editor.underscore:46
-#: cms/templates/js/content-group-editor.underscore:31
+#: cms/templates/js/certificate-editor.underscore:46 cms/templates/js/content-group-editor.underscore:31
 #: cms/templates/js/group-configuration-editor.underscore:45
 msgid "Create"
 msgstr "建立"
@@ -320,15 +307,13 @@ msgid "Access to this {blockType} is restricted to: {selectedGroupsLabel}"
 msgstr "訪問此{blockType}僅限於：{selectedGroupsLabel}"
 
 #: cms/templates/js/container-access.underscore:26
-msgid ""
-"Access to some content in this {blockType} is restricted to specific groups "
-"of learners."
+msgid "Access to some content in this {blockType} is restricted to specific groups of learners."
 msgstr "訪問此{blockType}中的某些內容僅限於一組特定的學習者。"
 
 #: cms/templates/js/container-message.underscore:5
 msgid ""
-"Caution: The last published version of this unit is live. By publishing "
-"changes you will change the student experience."
+"Caution: The last published version of this unit is live. By publishing changes you will change the student "
+"experience."
 msgstr "注意:這單元最新發佈的版本已上線。藉由更新的發佈將會改善學生體驗。 "
 
 #: cms/templates/js/content-group-editor.underscore:10
@@ -347,8 +332,7 @@ msgstr "這是群組的名稱"
 msgid "This content group is used in one or more units."
 msgstr "此內容群組運用到一個或多個單元"
 
-#: cms/templates/js/content-group-editor.underscore:40
-#: cms/templates/js/partition-group-details.underscore:35
+#: cms/templates/js/content-group-editor.underscore:40 cms/templates/js/partition-group-details.underscore:35
 msgid "Cannot delete when in use by a unit"
 msgstr "被單元使用時無法刪除"
 
@@ -374,14 +358,14 @@ msgstr "在截止日期過後隱藏內容"
 
 #: cms/templates/js/content-visibility-editor.underscore:20
 msgid ""
-"After the course\\'s end date has passed, learners can no longer access "
-"subsection content. The subsection remains included in grade calculations."
+"After the course\\'s end date has passed, learners can no longer access subsection content. The subsection "
+"remains included in grade calculations."
 msgstr "課程結束日期結束後，學習者無法再訪次節內容。 但次節分數仍包括在成績計算中。"
 
 #: cms/templates/js/content-visibility-editor.underscore:22
 msgid ""
-"After the subsection\\'s due date has passed, learners can no longer access "
-"its content. The subsection remains included in grade calculations."
+"After the subsection\\'s due date has passed, learners can no longer access its content. The subsection remains "
+"included in grade calculations."
 msgstr "在小節\\'s的到期日過後，學習者不能再訪問其內容。 該節將包含在成績計算中。"
 
 #: cms/templates/js/content-visibility-editor.underscore:27
@@ -390,21 +374,19 @@ msgstr "隱藏所有的小節"
 
 #: cms/templates/js/content-visibility-editor.underscore:30
 msgid ""
-"Learners do not see the subsection in the course outline. The subsection is "
-"not included in grade calculations."
+"Learners do not see the subsection in the course outline. The subsection is not included in grade calculations."
 msgstr "學習者無法在課程大綱中看到該小節。該小節將不被包含在成績計算中。"
 
 #: cms/templates/js/content-visibility-editor.underscore:36
 #, python-format
 msgid ""
-"If you select an option other than \"%(hide_label)s\", published units in "
-"this subsection become available to learners unless they are explicitly "
-"hidden."
+"If you select an option other than \"%(hide_label)s\", published units in this subsection become available to "
+"learners unless they are explicitly hidden."
 msgstr "如果您選擇了除“%(hide_label)s”之外的選項，則本小節中的已發佈單元可供學習者使用，除非它們被明確的隱藏。"
 
 #: cms/templates/js/course-highlights-enable.underscore:3
 msgid "Weekly Highlight Emails"
-msgstr ""
+msgstr "每週重點電子郵件"
 
 #: cms/templates/js/course-highlights-enable.underscore:7
 msgid "Enabled"
@@ -412,7 +394,7 @@ msgstr "已啟用"
 
 #: cms/templates/js/course-highlights-enable.underscore:9
 msgid "Enable Now"
-msgstr ""
+msgstr "立即啟用"
 
 #: cms/templates/js/course-instructor-details.underscore:4
 msgid "Instructor Name"
@@ -430,8 +412,7 @@ msgstr "教師頭銜"
 msgid "Please add the instructor's title"
 msgstr "請添加教師頭銜"
 
-#: cms/templates/js/course-instructor-details.underscore:15
-#: cms/templates/js/signatory-details.underscore:21
+#: cms/templates/js/course-instructor-details.underscore:15 cms/templates/js/signatory-details.underscore:21
 msgid "Organization"
 msgstr "組織名稱"
 
@@ -468,9 +449,7 @@ msgid "Instructor Photo URL"
 msgstr "教師的照片連結"
 
 #: cms/templates/js/course-instructor-details.underscore:34
-msgid ""
-"Please add a photo of the instructor (Note: only JPEG or PNG format "
-"supported)"
+msgid "Please add a photo of the instructor (Note: only JPEG or PNG format supported)"
 msgstr "請添加教師的照片(注意：僅支援JPG或PNG格式)"
 
 #: cms/templates/js/course-instructor-details.underscore:36
@@ -503,9 +482,7 @@ msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
 msgstr "訪問此單元僅限於：{selectedGroupsLabel}"
 
 #: cms/templates/js/course-outline.underscore:75
-msgid ""
-"Access to some content in this unit is restricted to specific groups of "
-"learners"
+msgid "Access to some content in this unit is restricted to specific groups of learners"
 msgstr "訪問本單元中的某些內容僅限於特定一組的學習者"
 
 #: cms/templates/js/course-outline.underscore:80
@@ -524,8 +501,7 @@ msgstr "監考考試"
 msgid "Timed Exam"
 msgstr "定時考試"
 
-#: cms/templates/js/course-outline.underscore:108
-#: cms/templates/js/xblock-outline.underscore:11
+#: cms/templates/js/course-outline.underscore:108 cms/templates/js/xblock-outline.underscore:11
 #, python-format
 msgid "Collapse/Expand this %(xblock_type)s"
 msgstr "折疊/展開 %(xblock_type)s"
@@ -534,24 +510,20 @@ msgstr "折疊/展開 %(xblock_type)s"
 msgid "Display Name"
 msgstr "顯示名稱"
 
-#: cms/templates/js/course-outline.underscore:130
-#: cms/templates/js/course-outline.underscore:132
+#: cms/templates/js/course-outline.underscore:130 cms/templates/js/course-outline.underscore:132
 #: cms/templates/js/publish-xblock.underscore:121
 msgid "Publish"
 msgstr "發佈"
 
-#: cms/templates/js/course-outline.underscore:138
-#: cms/templates/js/course-outline.underscore:140
+#: cms/templates/js/course-outline.underscore:138 cms/templates/js/course-outline.underscore:140
 msgid "Configure"
 msgstr "設定"
 
-#: cms/templates/js/course-outline.underscore:146
-#: cms/templates/js/course-outline.underscore:148
+#: cms/templates/js/course-outline.underscore:146 cms/templates/js/course-outline.underscore:148
 msgid "Duplicate"
 msgstr "重複"
 
-#: cms/templates/js/course-outline.underscore:162
-#: cms/templates/js/course-outline.underscore:164
+#: cms/templates/js/course-outline.underscore:162 cms/templates/js/course-outline.underscore:164
 msgid "Drag to reorder"
 msgstr "拖動以重新排序"
 
@@ -559,29 +531,24 @@ msgstr "拖動以重新排序"
 msgid "Release Status:"
 msgstr "發佈狀態:"
 
-#: cms/templates/js/course-outline.underscore:187
-#: cms/templates/js/publish-xblock.underscore:15
+#: cms/templates/js/course-outline.underscore:187 cms/templates/js/publish-xblock.underscore:15
 #: cms/templates/js/xblock-outline.underscore:43
 msgid "Released:"
 msgstr "已釋出："
 
-#: cms/templates/js/course-outline.underscore:190
-#: cms/templates/js/publish-xblock.underscore:17
+#: cms/templates/js/course-outline.underscore:190 cms/templates/js/publish-xblock.underscore:17
 msgid "Scheduled:"
 msgstr "時程表:"
 
-#: cms/templates/js/course-outline.underscore:208
-#: cms/templates/js/highlights-editor.underscore:2
+#: cms/templates/js/course-outline.underscore:208 cms/templates/js/highlights-editor.underscore:2
 msgid "Section Highlights"
-msgstr ""
+msgstr "部分強調"
 
-#: cms/templates/js/course-outline.underscore:215
-#: cms/templates/js/course-outline.underscore:229
+#: cms/templates/js/course-outline.underscore:215 cms/templates/js/course-outline.underscore:229
 msgid "Graded as:"
 msgstr "當前評分方式："
 
-#: cms/templates/js/course-outline.underscore:222
-#: cms/templates/js/course-outline.underscore:233
+#: cms/templates/js/course-outline.underscore:222 cms/templates/js/course-outline.underscore:233
 msgid "Due:"
 msgstr "原因："
 
@@ -593,15 +560,12 @@ msgstr "小節在課程結束日期後隱藏"
 msgid "Subsection is hidden after due date"
 msgstr "小節在截止日期後隱藏"
 
-#: cms/templates/js/course-outline.underscore:268
-#: cms/templates/js/xblock-outline.underscore:57
+#: cms/templates/js/course-outline.underscore:268 cms/templates/js/xblock-outline.underscore:57
 msgid "You haven't added any content to this course yet."
 msgstr "尚未向該課程新增任何內容。"
 
-#: cms/templates/js/course-outline.underscore:272
-#: cms/templates/js/course-outline.underscore:293
-#: cms/templates/js/xblock-outline.underscore:61
-#: cms/templates/js/xblock-outline.underscore:77
+#: cms/templates/js/course-outline.underscore:272 cms/templates/js/course-outline.underscore:293
+#: cms/templates/js/xblock-outline.underscore:61 cms/templates/js/xblock-outline.underscore:77
 #, python-format
 msgid "Click to add a new %(xblock_type)s"
 msgstr "點選以新增%(xblock_type)s"
@@ -622,71 +586,70 @@ msgstr "捨棄變更"
 
 #: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:3
 msgid "Press discard changes to discard your changes."
-msgstr ""
+msgstr "點選放棄更改以放棄您的更改。"
 
 #: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:6
 #: cms/templates/js/course-video-settings-update-settings-footer.underscore:6
 msgid "Update Settings"
-msgstr ""
+msgstr "更新設置"
 
 #: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:7
 msgid "Press update settings to update the information for your organization."
-msgstr ""
+msgstr "點選更新設置更新貴團體的信息。"
 
 #: cms/templates/js/course-video-settings-update-settings-footer.underscore:3
 msgid "Press discard changes to discard changes."
-msgstr ""
+msgstr "點選放棄更改以放棄更改。"
 
 #: cms/templates/js/course-video-settings-update-settings-footer.underscore:7
 msgid "Press update settings to update course video settings"
-msgstr ""
+msgstr "點選更新設置更新課程視頻設置"
 
 #: cms/templates/js/course-video-settings-update-settings-footer.underscore:11
 msgid "Last updated"
-msgstr ""
+msgstr "最近更新時間"
 
 #: cms/templates/js/course-video-settings.underscore:7
 msgid "Press close to hide course video settings"
-msgstr ""
+msgstr "點選關閉可隱藏課程視頻設置"
 
 #: cms/templates/js/course-video-settings.underscore:13
 msgid "Course Video Settings"
-msgstr ""
+msgstr "課程視頻設置"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:3
 msgid "Transcript Turnaround"
-msgstr ""
+msgstr "成績單周轉"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:8
 msgid "Transcript Fidelity"
-msgstr ""
+msgstr "成績單保真度"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:13
 msgid "Video Source Language"
-msgstr ""
+msgstr "視頻源語言"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:18
 msgid "Transcript Languages"
 msgstr "字幕語言"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:25
-#: cms/templates/js/metadata-dict-entry.underscore:6
-#: cms/templates/js/metadata-list-entry.underscore:9
+#: cms/templates/js/metadata-dict-entry.underscore:6 cms/templates/js/metadata-list-entry.underscore:9
 #: cms/templates/js/video/metadata-translations-entry.underscore:6
 msgid "Add"
 msgstr "新增"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:25
 msgid "Press Add to language"
-msgstr ""
+msgstr "點選添加到語言"
 
 #: cms/templates/js/course-video-transcript-provider-empty.underscore:1
 msgid "Automated Transcripts"
-msgstr ""
+msgstr "自動抄本"
 
 #: cms/templates/js/course-video-transcript-provider-selected.underscore:1
 msgid "Transcript Provider"
-msgstr ""
+msgstr "成績單提供者"
 
 #: cms/templates/js/course-video-transcript-provider-selected.underscore:5
 msgid "Change"
@@ -694,7 +657,7 @@ msgstr "修改"
 
 #: cms/templates/js/course-video-transcript-provider-selected.underscore:6
 msgid "Press change to change selected transcript provider."
-msgstr ""
+msgstr "點選更改以更改選定的成績單提供者。"
 
 #: cms/templates/js/course_grade_policy.underscore:3
 msgid "Assignment Type Name"
@@ -702,8 +665,8 @@ msgstr "作業類型名稱"
 
 #: cms/templates/js/course_grade_policy.underscore:5
 msgid ""
-"The general category for this type of assignment, for example, Homework or "
-"Midterm Exam. This name is visible to learners."
+"The general category for this type of assignment, for example, Homework or Midterm Exam. This name is visible to "
+"learners."
 msgstr "評分類型的常見類別，例如，作業或期中考試。這個名稱可顯示給學習者。"
 
 #: cms/templates/js/course_grade_policy.underscore:9
@@ -712,8 +675,8 @@ msgstr "縮寫"
 
 #: cms/templates/js/course_grade_policy.underscore:11
 msgid ""
-"This short name for the assignment type (for example, HW or Midterm) appears"
-" next to assignments on a learner's Progress page."
+"This short name for the assignment type (for example, HW or Midterm) appears next to assignments on a learner's "
+"Progress page."
 msgstr "評分類別的縮名(例如，HW或Midterm)顯示在學員進度頁面上的作業旁邊。"
 
 #: cms/templates/js/course_grade_policy.underscore:15
@@ -722,8 +685,8 @@ msgstr "總等級權重"
 
 #: cms/templates/js/course_grade_policy.underscore:17
 msgid ""
-"The weight of all assignments of this type as a percentage of the total "
-"grade, for example, 40. Do not include the percent symbol."
+"The weight of all assignments of this type as a percentage of the total grade, for example, 40. Do not include "
+"the percent symbol."
 msgstr "這種類型佔所有作業總成績的權重百分比，例如40。不包括百分比符號。"
 
 #: cms/templates/js/course_grade_policy.underscore:21
@@ -731,9 +694,7 @@ msgid "Total Number"
 msgstr "總數"
 
 #: cms/templates/js/course_grade_policy.underscore:23
-msgid ""
-"The number of subsections in the course that contain problems of this "
-"assignment type."
+msgid "The number of subsections in the course that contain problems of this assignment type."
 msgstr "此作業類型問題為課程中的小節數。"
 
 #: cms/templates/js/course_grade_policy.underscore:27
@@ -742,8 +703,7 @@ msgstr "可放棄的數量"
 
 #: cms/templates/js/course_grade_policy.underscore:29
 msgid ""
-"The number of assignments of this type that will be dropped. The lowest "
-"scoring assignments are dropped first."
+"The number of assignments of this type that will be dropped. The lowest scoring assignments are dropped first."
 msgstr "此類型的作業數將被放棄。最低的得分作業須先放棄。"
 
 #: cms/templates/js/course_info_handouts.underscore:3
@@ -755,9 +715,7 @@ msgid "You have no handouts defined"
 msgstr "您尚未定義講義"
 
 #: cms/templates/js/course_info_handouts.underscore:13
-msgid ""
-"There is invalid code in your content. Please check to make sure it is valid"
-" HTML."
+msgid "There is invalid code in your content. Please check to make sure it is valid HTML."
 msgstr "您的內容有無效的代碼。請仔細檢查以確保其是合法的HTML。"
 
 #: cms/templates/js/course_info_update.underscore:14
@@ -780,8 +738,7 @@ msgstr "截止日期:"
 msgid "Due Time in UTC:"
 msgstr "截止時間以國際標準時間顯示"
 
-#: cms/templates/js/due-date-editor.underscore:17
-#: cms/templates/js/due-date-editor.underscore:19
+#: cms/templates/js/due-date-editor.underscore:17 cms/templates/js/due-date-editor.underscore:19
 msgid "Clear Grading Due Date"
 msgstr "清除評分"
 
@@ -830,9 +787,7 @@ msgid "Introduction to Cookie Baking"
 msgstr "烘烤餅乾簡介"
 
 #: cms/templates/js/edit-textbook.underscore:14
-msgid ""
-"provide the title/name of the text book as you would like your students to "
-"see it"
+msgid "provide the title/name of the text book as you would like your students to see it"
 msgstr "提供您希望學生看到的課本標題/名稱"
 
 #: cms/templates/js/edit-textbook.underscore:18
@@ -866,12 +821,11 @@ msgstr "此群組設定被使用在；"
 
 #: cms/templates/js/group-configuration-details.underscore:84
 msgid ""
-"This Group Configuration is not in use. Start by adding a content experiment"
-" to any Unit via the {linkStart}Course Outline{linkEnd}."
+"This Group Configuration is not in use. Start by adding a content experiment to any Unit via the {linkStart}"
+"Course Outline{linkEnd}."
 msgstr "此群組設定未被使用。首先，透過{linkStart}課程大綱{linkEnd}至任何單元添加內容實驗。"
 
-#: cms/templates/js/group-configuration-details.underscore:88
-#: cms/templates/js/partition-group-details.underscore:63
+#: cms/templates/js/group-configuration-details.underscore:88 cms/templates/js/partition-group-details.underscore:63
 msgid "Course Outline"
 msgstr "課程大綱"
 
@@ -913,8 +867,8 @@ msgstr "群組"
 
 #: cms/templates/js/group-configuration-editor.underscore:31
 msgid ""
-"Name of the groups that students will be assigned to, for example, Control, "
-"Video, Problems. You must have two or more groups."
+"Name of the groups that students will be assigned to, for example, Control, Video, Problems. You must have two or "
+"more groups."
 msgstr "要分配給學生的組名稱，例如:控制、影片、問題。 您必須要有兩個以上的組。"
 
 #: cms/templates/js/group-configuration-editor.underscore:33
@@ -923,8 +877,8 @@ msgstr "增加其他群組"
 
 #: cms/templates/js/group-configuration-editor.underscore:39
 msgid ""
-"This configuration is currently used in content experiments. If you make "
-"changes to the groups, you may need to edit those experiments."
+"This configuration is currently used in content experiments. If you make changes to the groups, you may need to "
+"edit those experiments."
 msgstr "此設定現在被使用在內容實驗中。如果您對群組做變更，您將會需會編輯那些實驗。"
 
 #: cms/templates/js/group-edit.underscore:4
@@ -933,24 +887,22 @@ msgstr "刪除群組"
 
 #: cms/templates/js/highlights-editor.underscore:7
 msgid ""
-"This feature is currently in testing. Course teams can enter highlights, but"
-" learners will not receive email messages."
-msgstr ""
+"This feature is currently in testing. Course teams can enter highlights, but learners will not receive email "
+"messages."
+msgstr "此功能目前正在測試中。課程團隊可以輸入精彩內容，但學員不會收到電子郵件。"
 
 #: cms/templates/js/highlights-editor.underscore:11
 msgid ""
-"Enter 3-5 highlights to include in the email message that learners receive "
-"for this section (250 character limit)."
-msgstr ""
+"Enter 3-5 highlights to include in the email message that learners receive for this section (250 character limit)."
+msgstr "輸入3-5個重點以包含學員在本節中收到的電子郵件（250個字符限制）。"
 
-#: cms/templates/js/highlights-editor.underscore:42
-#: cms/templates/js/highlights-editor.underscore:55
+#: cms/templates/js/highlights-editor.underscore:42 cms/templates/js/highlights-editor.underscore:55
 msgid "Highlight {highlight_index}"
-msgstr ""
+msgstr "重點 {highlight_index}"
 
 #: cms/templates/js/highlights-editor.underscore:61
 msgid "A highlight to look forward to this week."
-msgstr ""
+msgstr "本週預測重點。"
 
 #: cms/templates/js/license-selector.underscore:3
 msgid "License Type"
@@ -973,13 +925,10 @@ msgid "License Display"
 msgstr "顯示授權"
 
 #: cms/templates/js/license-selector.underscore:77
-msgid ""
-"The following message will be displayed at the bottom of the courseware "
-"pages within your course:"
+msgid "The following message will be displayed at the bottom of the courseware pages within your course:"
 msgstr "以下的訊息將會顯示在您課程內的教材頁面下方"
 
-#: cms/templates/js/license-selector.underscore:82
-#: cms/templates/js/license-selector.underscore:110
+#: cms/templates/js/license-selector.underscore:82 cms/templates/js/license-selector.underscore:110
 msgid "All Rights Reserved"
 msgstr "版權所有"
 
@@ -1001,22 +950,16 @@ msgstr "%(new_item_message)s"
 msgid "New %(item_type)s"
 msgstr "新增%(item_type)s"
 
-#: cms/templates/js/metadata-dict-entry.underscore:9
-#: cms/templates/js/metadata-file-uploader-entry.underscore:5
-#: cms/templates/js/metadata-list-entry.underscore:12
-#: cms/templates/js/metadata-number-entry.underscore:4
-#: cms/templates/js/metadata-option-entry.underscore:12
-#: cms/templates/js/metadata-string-entry.underscore:4
+#: cms/templates/js/metadata-dict-entry.underscore:9 cms/templates/js/metadata-file-uploader-entry.underscore:5
+#: cms/templates/js/metadata-list-entry.underscore:12 cms/templates/js/metadata-number-entry.underscore:4
+#: cms/templates/js/metadata-option-entry.underscore:12 cms/templates/js/metadata-string-entry.underscore:4
 #: cms/templates/js/video/metadata-translations-entry.underscore:9
 msgid "Clear"
 msgstr "清除"
 
-#: cms/templates/js/metadata-dict-entry.underscore:11
-#: cms/templates/js/metadata-file-uploader-entry.underscore:6
-#: cms/templates/js/metadata-list-entry.underscore:14
-#: cms/templates/js/metadata-number-entry.underscore:5
-#: cms/templates/js/metadata-option-entry.underscore:13
-#: cms/templates/js/metadata-string-entry.underscore:5
+#: cms/templates/js/metadata-dict-entry.underscore:11 cms/templates/js/metadata-file-uploader-entry.underscore:6
+#: cms/templates/js/metadata-list-entry.underscore:14 cms/templates/js/metadata-number-entry.underscore:5
+#: cms/templates/js/metadata-option-entry.underscore:13 cms/templates/js/metadata-string-entry.underscore:5
 #: cms/templates/js/video/metadata-translations-entry.underscore:11
 msgid "Clear Value"
 msgstr "清除職"
@@ -1025,8 +968,7 @@ msgstr "清除職"
 msgid "Component Location ID"
 msgstr "位置ID的元件"
 
-#: cms/templates/js/metadata-file-uploader-item.underscore:1
-#: cms/templates/js/video-transcripts.underscore:37
+#: cms/templates/js/metadata-file-uploader-item.underscore:1 cms/templates/js/video-transcripts.underscore:37
 #: cms/templates/js/video/metadata-translations-item.underscore:5
 msgid "Replace"
 msgstr "取代"
@@ -1036,8 +978,7 @@ msgstr "取代"
 msgid "Upload"
 msgstr "上傳"
 
-#: cms/templates/js/metadata-file-uploader-item.underscore:2
-#: cms/templates/js/video-transcripts.underscore:34
+#: cms/templates/js/metadata-file-uploader-item.underscore:2 cms/templates/js/video-transcripts.underscore:34
 #: cms/templates/js/video/metadata-translations-item.underscore:8
 msgid "Download"
 msgstr "下載"
@@ -1071,9 +1012,7 @@ msgid "This group controls access to:"
 msgstr "這一組控制訪問權："
 
 #: cms/templates/js/partition-group-details.underscore:59
-msgid ""
-"In the {linkStart}Course Outline{linkEnd}, use this group to control access "
-"to a component."
+msgid "In the {linkStart}Course Outline{linkEnd}, use this group to control access to a component."
 msgstr "在{linkStart}課程大綱{linkEnd}中，使用這一組來控制對組件的存取使用權。"
 
 #: cms/templates/js/previous-video-upload-list.underscore:2
@@ -1113,8 +1052,7 @@ msgstr "從未發佈"
 msgid "Last published %(last_published_date)s by %(publish_username)s"
 msgstr "最新發佈 %(last_published_date)s 藉由 %(publish_username)s"
 
-#: cms/templates/js/publish-history.underscore:10
-#: cms/templates/js/publish-xblock.underscore:54
+#: cms/templates/js/publish-history.underscore:10 cms/templates/js/publish-xblock.underscore:54
 msgid "Previously published"
 msgstr "過去發佈"
 
@@ -1147,16 +1085,15 @@ msgid "Publishing Status"
 msgstr "發佈狀態"
 
 #: cms/templates/js/publish-xblock.underscore:31
-msgid ""
-"Draft saved on {lastSavedStart}{editedOn}{lastSavedEnd} by "
-"{editedByStart}{editedBy}{editedByEnd}"
+msgid "Draft saved on {lastSavedStart}{editedOn}{lastSavedEnd} by {editedByStart}{editedBy}{editedByEnd}"
 msgstr "草稿已保存在 {lastSavedStart}{editedOn}{lastSavedEnd} 由 {editedByStart}{editedBy}{editedByEnd}"
 
 #: cms/templates/js/publish-xblock.underscore:43
 msgid ""
-"Last published {lastPublishedStart}{publishedOn}{lastPublishedEnd} by "
-"{publishedByStart}{publishedBy}{publishedByEnd}"
-msgstr "最後發表在 {lastPublishedStart}{publishedOn}{lastPublishedEnd} 由 {publishedByStart}{publishedBy}{publishedByEnd}"
+"Last published {lastPublishedStart}{publishedOn}{lastPublishedEnd} by {publishedByStart}{publishedBy}"
+"{publishedByEnd}"
+msgstr ""
+"最後發表在 {lastPublishedStart}{publishedOn}{lastPublishedEnd} 由 {publishedByStart}{publishedBy}{publishedByEnd}"
 
 #: cms/templates/js/publish-xblock.underscore:67
 #, python-format
@@ -1184,8 +1121,7 @@ msgstr "與 %(section_or_subsection)s"
 msgid "Staff and Learners"
 msgstr "工作人員和學習者"
 
-#: cms/templates/js/publish-xblock.underscore:108
-#: cms/templates/js/staff-lock-editor.underscore:12
+#: cms/templates/js/publish-xblock.underscore:108 cms/templates/js/staff-lock-editor.underscore:12
 msgid "Hide from learners"
 msgstr "對學習者隱藏"
 
@@ -1205,8 +1141,7 @@ msgstr "釋出日期:"
 msgid "Release Time in UTC:"
 msgstr "釋出時間以國際標準時間顯示"
 
-#: cms/templates/js/release-date-editor.underscore:21
-#: cms/templates/js/release-date-editor.underscore:23
+#: cms/templates/js/release-date-editor.underscore:21 cms/templates/js/release-date-editor.underscore:23
 msgid "Clear Release Date/Time"
 msgstr "清除釋出日期/時間"
 
@@ -1220,8 +1155,8 @@ msgstr "永遠顯示評估的結果"
 
 #: cms/templates/js/show-correctness-editor.underscore:10
 msgid ""
-"When learners submit an answer to an assessment, they immediately see "
-"whether the answer is correct or incorrect, and the score received."
+"When learners submit an answer to an assessment, they immediately see whether the answer is correct or incorrect, "
+"and the score received."
 msgstr "當學生提交評估的答案時，他們會立即看到答案是正確還是不正確，並收到得分。"
 
 #: cms/templates/js/show-correctness-editor.underscore:14
@@ -1229,9 +1164,7 @@ msgid "Never show assessment results"
 msgstr "不要顯示評估結果"
 
 #: cms/templates/js/show-correctness-editor.underscore:17
-msgid ""
-"Learners never see whether their answers to assessments are correct or "
-"incorrect, nor the score received."
+msgid "Learners never see whether their answers to assessments are correct or incorrect, nor the score received."
 msgstr "學習者不會看到他們對評估的答案是正確還是不正確，也不會得到分數。"
 
 #: cms/templates/js/show-correctness-editor.underscore:21
@@ -1240,41 +1173,36 @@ msgstr "在小節是過期時顯示評估結果"
 
 #: cms/templates/js/show-correctness-editor.underscore:25
 msgid ""
-"Learners do not see whether their answers to assessments were correct or "
-"incorrect, nor the score received, until after the course end date has "
-"passed."
+"Learners do not see whether their answers to assessments were correct or incorrect, nor the score received, until "
+"after the course end date has passed."
 msgstr "學習者不會看到他們對評估的答案是正確還是不正確，也不會得到分數，直到課程結束日期過去之後，。"
 
 #: cms/templates/js/show-correctness-editor.underscore:26
 msgid ""
-"If the course does not have an end date, learners always see their scores "
-"when they submit answers to assessments."
+"If the course does not have an end date, learners always see their scores when they submit answers to assessments."
 msgstr "如果課程沒有結束日期，學生在提交評估答案時總是會看到他們的成績。"
 
 #: cms/templates/js/show-correctness-editor.underscore:28
 msgid ""
-"Learners do not see whether their answers to assessments were correct or "
-"incorrect, nor the score received, until after the due date for the "
-"subsection has passed."
+"Learners do not see whether their answers to assessments were correct or incorrect, nor the score received, until "
+"after the due date for the subsection has passed."
 msgstr "學習者不會看到他們對評估的答案是正確還是不正確，也不會收到分數，直到該小節的截止日期過去了。"
 
 #: cms/templates/js/show-correctness-editor.underscore:29
 msgid ""
-"If the subsection does not have a due date, learners always see their scores"
-" when they submit answers to assessments."
+"If the subsection does not have a due date, learners always see their scores when they submit answers to "
+"assessments."
 msgstr "如果該小節沒有截止日期，學生在提交評估答案時總是會看到他們的分數。"
 
 #: cms/templates/js/show-textbook.underscore:37
 msgid "View Live"
 msgstr "線上檢視"
 
-#: cms/templates/js/signatory-details.underscore:9
-#: cms/templates/js/signatory-editor.underscore:8
+#: cms/templates/js/signatory-details.underscore:9 cms/templates/js/signatory-editor.underscore:8
 msgid "Signatory"
 msgstr "簽章"
 
-#: cms/templates/js/signatory-details.underscore:28
-#: cms/templates/js/signatory-editor.underscore:37
+#: cms/templates/js/signatory-details.underscore:28 cms/templates/js/signatory-editor.underscore:37
 msgid "Signature Image"
 msgstr "簽名影像"
 
@@ -1303,9 +1231,7 @@ msgid "Title of the signatory"
 msgstr "簽署人標題"
 
 #: cms/templates/js/signatory-editor.underscore:23
-msgid ""
-"Titles more than 100 characters may prevent students from printing their "
-"certificate on a single page."
+msgid "Titles more than 100 characters may prevent students from printing their certificate on a single page."
 msgstr "標題超過100字元可以防止學生在單一頁面印出他們的證書。"
 
 #: cms/templates/js/signatory-editor.underscore:29
@@ -1317,9 +1243,7 @@ msgid "Organization of the signatory"
 msgstr "簽署人組織"
 
 #: cms/templates/js/signatory-editor.underscore:31
-msgid ""
-"The organization that this signatory belongs to, as it should appear on "
-"certificates."
+msgid "The organization that this signatory belongs to, as it should appear on certificates."
 msgstr "簽署人組織應與證書相同。"
 
 #: cms/templates/js/signatory-editor.underscore:43
@@ -1344,18 +1268,19 @@ msgstr "章節能見度"
 
 #: cms/templates/js/staff-lock-editor.underscore:17
 msgid ""
-"If the unit was previously published and released to learners, any changes "
-"you made to the unit when it was hidden will now be visible to learners."
+"If the unit was previously published and released to learners, any changes you made to the unit when it was "
+"hidden will now be visible to learners."
 msgstr "如果此單元先前已被發佈且釋出給學習者，任何單元於隱藏時的改動現在將不再對學習者隱藏。"
 
 #: cms/templates/js/staff-lock-editor.underscore:19
 #, python-format
 msgid ""
-"If you make this %(xblockType)s visible to learners, learners will be able "
-"to see its content after the release date has passed and you have published "
-"the unit. Only units that are explicitly hidden from learners will remain "
+"If you make this %(xblockType)s visible to learners, learners will be able to see its content after the release "
+"date has passed and you have published the unit. Only units that are explicitly hidden from learners will remain "
 "hidden after you clear this option for the %(xblockType)s."
-msgstr "如果您對學生公開此 %(xblockType)s，學生將會看到此內容在釋出日期通過之後並且您已經發佈此單元。在清除 %(xblockType)s選項後，只有對學習者隱藏的單元會繼續隱藏。"
+msgstr ""
+"如果您對學生公開此 %(xblockType)s，學生將會看到此內容在釋出日期通過之後並且您已經發佈此單元。在清除 %(xblockType)s"
+"選項後，只有對學習者隱藏的單元會繼續隱藏。"
 
 #: cms/templates/js/team-member.underscore:4
 msgid "Current Role:"
@@ -1403,11 +1328,11 @@ msgstr "定時"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:14
 msgid ""
-"Use a timed exam to limit the time learners can spend on problems in this "
-"subsection. Learners must submit answers before the time expires. You can "
-"allow additional time for individual learners through the Instructor "
+"Use a timed exam to limit the time learners can spend on problems in this subsection. Learners must submit "
+"answers before the time expires. You can allow additional time for individual learners through the Instructor "
 "Dashboard."
-msgstr "使用定時考試時間讓學習者在這個問題上。學習者在時間到期前必須提交答案。你可以透過導師儀表版讓學習者有延長作答時間。"
+msgstr ""
+"使用定時考試時間讓學習者在這個問題上。學習者在時間到期前必須提交答案。你可以透過導師儀表版讓學習者有延長作答時間。"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:19
 msgid "Proctored"
@@ -1415,9 +1340,8 @@ msgstr "監考"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:21
 msgid ""
-"Proctored exams are timed and they record video of each learner taking the "
-"exam. The videos are then reviewed to ensure that learners follow all "
-"examination rules."
+"Proctored exams are timed and they record video of each learner taking the exam. The videos are then reviewed to "
+"ensure that learners follow all examination rules."
 msgstr "監考測驗是有對每一位學習者錄影在監考測驗中還有時間有限。然後，影片審查，以確保學生遵守所有考試規則。"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:25
@@ -1426,8 +1350,8 @@ msgstr "練習監考"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:27
 msgid ""
-"Use a practice proctored exam to introduce learners to the proctoring tools "
-"and processes. Results of a practice exam do not affect a learner's grade."
+"Use a practice proctored exam to introduce learners to the proctoring tools and processes. Results of a practice "
+"exam do not affect a learner's grade."
 msgstr "介紹使用監考工具和流程給學習者練習監考考試。 模擬考試的結果不會影響學生的成績。"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:33
@@ -1436,9 +1360,8 @@ msgstr "分配時間 (HH:MM):"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:37
 msgid ""
-"Select a time allotment for the exam. If it is over 24 hours, type in the "
-"amount of time. You can grant individual learners extra time to complete the"
-" exam through the Instructor Dashboard."
+"Select a time allotment for the exam. If it is over 24 hours, type in the amount of time. You can grant "
+"individual learners extra time to complete the exam through the Instructor Dashboard."
 msgstr "選擇考試時間分配。如果是超過24小時,輸入時間長度的,您可以透過工作人員面版給予個別學習者額外的時間"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:41
@@ -1447,45 +1370,45 @@ msgstr "複審規則"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:49
 msgid ""
-"Specify any rules or rule exceptions that the proctoring review team should "
-"enforce when reviewing the videos. For example, you could specify that "
-"calculators are allowed. These specified rules are visible to learners "
-"before the learners start the exam, along with the {linkStart}general "
-"proctored exam rules{linkEnd}."
+"Specify any rules or rule exceptions that the proctoring review team should enforce when reviewing the videos. "
+"For example, you could specify that calculators are allowed. These specified rules are visible to learners before "
+"the learners start the exam, along with the {linkStart}general proctored exam rules{linkEnd}."
 msgstr ""
+"指定監考小組在審查視頻時應執行的任何規則或規則例外。例如，您可以指定允許使用計算器。這些指定的規則在學習者開始考試"
+"之前與學習者一起顯示，以及{linkStart}通用監考考試規則{linkEnd}。"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:53
 msgid "General Proctored Exam Rules"
-msgstr ""
+msgstr "一般監考考試規則"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:58
 msgid ""
-"Specify any rules or rule exceptions that the proctoring review team should "
-"enforce when reviewing the videos. For example, you could specify that "
-"calculators are allowed. These specified rules are visible to learners "
-"before the learners start the exam."
+"Specify any rules or rule exceptions that the proctoring review team should enforce when reviewing the videos. "
+"For example, you could specify that calculators are allowed. These specified rules are visible to learners before "
+"the learners start the exam."
 msgstr ""
+"指定監考小組在審查視頻時應執行的任何規則或規則例外。例如，您可以指定允許使用計算器。在學習者開始考試之前，這些指定"
+"的規則對學習者是可見的。"
 
 #: cms/templates/js/transcript-organization-credentials.underscore:3
 msgid "Account"
 msgstr "帳號"
 
 #: cms/templates/js/transcript-organization-credentials.underscore:5
-msgid ""
-"This action updates the {provider} information for your entire organization."
-msgstr ""
+msgid "This action updates the {provider} information for your entire organization."
+msgstr "此操作會更新整個團體的{provider}信息。"
 
 #: cms/templates/js/transcript-organization-credentials.underscore:7
 msgid "Enter the account information for your organization."
-msgstr ""
+msgstr "輸入貴團體的帳號信息。"
 
 #: cms/templates/js/transcript-organization-credentials.underscore:11
 msgid "API Key"
-msgstr ""
+msgstr "API Key"
 
 #: cms/templates/js/transcript-organization-credentials.underscore:22
 msgid "API Secret"
-msgstr ""
+msgstr "API Secret"
 
 #: cms/templates/js/unit-access-editor.underscore:8
 msgid "Unit Access"
@@ -1508,9 +1431,7 @@ msgid "Deleted Group"
 msgstr "已刪除的組"
 
 #: cms/templates/js/unit-access-editor.underscore:32
-msgid ""
-"This group no longer exists. Choose another group or do not restrict access "
-"to this unit."
+msgid "This group no longer exists. Choose another group or do not restrict access to this unit."
 msgstr "該組已經不再存在。 選擇其他組或不限制對本單元的訪問權。"
 
 #: cms/templates/js/upload-dialog.underscore:25
@@ -1518,9 +1439,7 @@ msgid "File upload succeeded"
 msgstr "檔案上傳成功"
 
 #: cms/templates/js/validation-error-modal.underscore:16
-msgid ""
-"Please check the following validation feedbacks and reflect them in your "
-"course settings:"
+msgid "Please check the following validation feedbacks and reflect them in your course settings:"
 msgstr "請確認以下驗證回饋並且思考它們在您的課程設定:"
 
 #: cms/templates/js/verification-access-editor.underscore:3
@@ -1537,32 +1456,32 @@ msgstr "驗證完成"
 
 #: cms/templates/js/verification-access-editor.underscore:38
 msgid ""
-"Learners who require verification must pass the selected checkpoint to see "
-"the content in this unit. Learners who do not require verification see this "
-"content by default."
+"Learners who require verification must pass the selected checkpoint to see the content in this unit. Learners who "
+"do not require verification see this content by default."
 msgstr "需要驗證的學生必須通過所選擇的檢查點以檢視單元內容。預設為學生不需要驗證就可以檢視。"
 
 #: cms/templates/js/video-thumbnail.underscore:17
 msgid ""
-"Recommended image resolution is {imageResolution}, maximum image file size "
-"should be {maxFileSize} and format must be one of {supportedImageFormats}."
-msgstr "推薦的圖形解析度為{imageResolution}，最大圖像文件大小應為{maxFileSize}，格式必須為{supportedImageFormats}之一。"
+"Recommended image resolution is {imageResolution}, maximum image file size should be {maxFileSize} and format "
+"must be one of {supportedImageFormats}."
+msgstr ""
+"推薦的圖形解析度為{imageResolution}，最大圖像文件大小應為{maxFileSize}，格式必須為{supportedImageFormats}之一。"
 
 #: cms/templates/js/video-transcript-upload-status.underscore:4
 msgid "Read more"
-msgstr ""
+msgstr "讀更多"
 
 #: cms/templates/js/video-transcripts.underscore:7
 msgid "Show transcripts ({totalTranscripts})"
-msgstr ""
+msgstr "顯示成績單({totalTranscripts})"
 
 #: cms/templates/js/video-transcripts.underscore:12
 msgid "No transcript uploaded."
-msgstr ""
+msgstr "沒有成績單上傳"
 
 #: cms/templates/js/video-transcripts.underscore:19
 msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
-msgstr ""
+msgstr "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
 
 #: cms/templates/js/xblock-access-editor.underscore:3
 msgid "Set Access"
@@ -1575,14 +1494,12 @@ msgstr "編輯 %(display_name)s (必填)"
 
 #: cms/templates/js/maintenance/force-published-course-response.underscore:3
 msgid ""
-"You have done a dry run of force publishing the course. Nothing has changed."
-" Had you run it, the following course versions would have been change."
+"You have done a dry run of force publishing the course. Nothing has changed. Had you run it, the following course "
+"versions would have been change."
 msgstr "您做了一個發佈課程的預演。沒有任何東西被改變。如果您運行它，將會改變課程版本。"
 
 #: cms/templates/js/maintenance/force-published-course-response.underscore:7
-msgid ""
-"The published branch version, {published}, was reset to the draft branch "
-"version, {draft}."
+msgid "The published branch version, {published}, was reset to the draft branch version, {draft}."
 msgstr "已發布的分支版本{published}已重置為分支版本草稿{draft}。"
 
 #: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:8
@@ -1591,11 +1508,12 @@ msgstr "為其他格式新增URL"
 
 #: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:11
 msgid ""
-"To be sure all students can access the video, we recommend providing both an"
-" .mp4 and a .webm version of your video. Click below to add a URL for "
-"another version. These URLs cannot be YouTube URLs. The first listed video "
+"To be sure all students can access the video, we recommend providing both an .mp4 and a .webm version of your "
+"video. Click below to add a URL for another version. These URLs cannot be YouTube URLs. The first listed video "
 "that's compatible with the student's computer will play."
-msgstr "為了確保所有學生都可以存取影片，我們建議您同時提供 .mp4 和 .webm 版的影片。點擊下方來新增一個URL給另一個版本。請勿使用YouTube的URLs。學生將會看到列表中第一個和其電腦相容的影片"
+msgstr ""
+"為了確保所有學生都可以存取影片，我們建議您同時提供 .mp4 和 .webm 版的影片。點擊下方來新增一個URL給另一個版本。請勿"
+"使用YouTube的URLs。學生將會看到列表中第一個和其電腦相容的影片"
 
 #: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore:25
 msgid "Default Timed Transcript"
@@ -1608,8 +1526,8 @@ msgstr "字幕衝突"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:7
 msgid ""
-"The timed transcript for the first video file does not appear to be the same"
-" as the timed transcript for the second video file."
+"The timed transcript for the first video file does not appear to be the same as the timed transcript for the "
+"second video file."
 msgstr "第一個影片檔案的字幕似乎與第二個影片檔案的字幕不同。"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore:9
@@ -1637,10 +1555,11 @@ msgstr "找到字幕"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:3
 msgid ""
-"EdX has a timed transcript for this video. If you want to edit this "
-"transcript, you can download, edit, and re-upload the existing transcript. "
-"If you want to replace this transcript, upload a new .srt transcript file."
-msgstr "EdX 有該影片的字幕。如果您希望編輯該字幕，可以下載編輯後重新上傳。如果您想替換該字幕，請上傳一個新的.srt 字幕檔案。"
+"EdX has a timed transcript for this video. If you want to edit this transcript, you can download, edit, and re-"
+"upload the existing transcript. If you want to replace this transcript, upload a new .srt transcript file."
+msgstr ""
+"EdX 有該影片的字幕。如果您希望編輯該字幕，可以下載編輯後重新上傳。如果您想替換該字幕，請上傳一個新的.srt 字幕檔"
+"案。"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:10
 #: cms/templates/js/video/transcripts/messages/transcripts-found.underscore:11
@@ -1676,10 +1595,11 @@ msgstr "沒有EdX字幕"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:3
 msgid ""
-"EdX doesn't have a timed transcript for this video in Studio, but we found a"
-" transcript on YouTube. You can import the YouTube transcript or upload your"
-" own .srt transcript file."
-msgstr "在Edx Studio中沒有這個影片的字幕，但是我們在YouTube上找到一個字幕。您可以匯入YouTube的字幕或者上傳您自己的 .srt 的字幕檔。"
+"EdX doesn't have a timed transcript for this video in Studio, but we found a transcript on YouTube. You can "
+"import the YouTube transcript or upload your own .srt transcript file."
+msgstr ""
+"在Edx Studio中沒有這個影片的字幕，但是我們在YouTube上找到一個字幕。您可以匯入YouTube的字幕或者上傳您自己的 .srt 的"
+"字幕檔。"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:10
 #: cms/templates/js/video/transcripts/messages/transcripts-import.underscore:11
@@ -1691,15 +1611,13 @@ msgid "No Timed Transcript"
 msgstr "沒有字幕"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-not-found.underscore:3
-msgid ""
-"EdX doesn\\'t have a timed transcript for this video. Please upload an .srt "
-"file."
+msgid "EdX doesn\\'t have a timed transcript for this video. Please upload an .srt file."
 msgstr "EdX 沒有該影片的字幕。請上傳一個 .srt 檔案。"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:7
 msgid ""
-"The timed transcript for this video on edX is out of date, but YouTube has a"
-" current timed transcript for this video."
+"The timed transcript for this video on edX is out of date, but YouTube has a current timed transcript for this "
+"video."
 msgstr "edX 上該視頻的字幕已過時，但YouTube 上有該視頻字幕的當前版本。"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-replace.underscore:9
@@ -1718,10 +1636,11 @@ msgstr "字幕上傳成功"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-uploaded.underscore:3
 msgid ""
-"EdX has a timed transcript for this video. If you want to replace this "
-"transcript, upload a new .srt transcript file. If you want to edit this "
-"transcript, you can download, edit, and re-upload the existing transcript."
-msgstr "EdX 有該影片的字幕。如果您希望替換該字幕，請上傳一個新的.srt 字幕文件。如果您希望編輯該字幕，可以下載編輯後重新上傳。"
+"EdX has a timed transcript for this video. If you want to replace this transcript, upload a new .srt transcript "
+"file. If you want to edit this transcript, you can download, edit, and re-upload the existing transcript."
+msgstr ""
+"EdX 有該影片的字幕。如果您希望替換該字幕，請上傳一個新的.srt 字幕文件。如果您希望編輯該字幕，可以下載編輯後重新上"
+"傳。"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:3
 msgid "Confirm Timed Transcript"
@@ -1729,9 +1648,8 @@ msgstr "默認字幕"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:7
 msgid ""
-"You changed a video URL, but did not change the timed transcript file. Do "
-"you want to use the current timed transcript or upload a new .srt transcript"
-" file?"
+"You changed a video URL, but did not change the timed transcript file. Do you want to use the current timed "
+"transcript or upload a new .srt transcript file?"
 msgstr "您變更了影片的URL，但沒有變更字幕檔案。您希望繼續使用當前的字幕檔案還是上傳一個新的.srt 字幕檔案？"
 
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore:21

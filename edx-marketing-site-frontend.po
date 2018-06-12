@@ -1,11 +1,10 @@
-# 
-#, fuzzy
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-07 03:28+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-05-27 22:07+0800\n"
 "Last-Translator: vincent <orzkng2007@yahoo.com.tw>, 2017\n"
 "Language-Team: Chinese (Taiwan) (https://www.transifex.com/open-edx/teams/6205/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -13,114 +12,114 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.7\n"
 
-#: ./views/program-detail.html:65
+#: views/program-detail.html:65
 msgid "View Courses"
 msgstr "查看課程"
 
-#: ./views/program-detail.html:68
+#: views/program-detail.html:68
 msgid "Meet the Instructors"
-msgstr "見講師"
+msgstr "認識講師"
 
-#: ./views/program-detail.html:72
+#: views/program-detail.html:72
 msgid "The %(type)s"
 msgstr "這 %(type)s"
 
-#: ./views/program-detail.html:82
+#: views/program-detail.html:82
 msgid "Skip the %(type)s Main Overview"
-msgstr "跳過 %(type)s 主要概述"
+msgstr "跳過 %(type)s 的主要概述"
 
-#: ./views/program-detail.html:90
-msgid ""
-"A series of courses that add up to a rich understanding of an area of study."
-msgstr "一系列的課程增加對學習領域的豐富理解。"
+#: views/program-detail.html:90
+msgid "A series of courses that add up to a rich understanding of an area of study."
+msgstr "增加對學習領域豐富理解的一系列課程。"
 
-#: ./views/program-detail.html:92
+#: views/program-detail.html:92
 msgid "A series of credit-eligible courses recognized by industry."
-msgstr "一系列符合行業認可資格的課程。"
+msgstr "符合行業認可資格的一系列課程。"
 
-#: ./views/program-detail.html:94
+#: views/program-detail.html:94
 msgid "A series of career-oriented courses to develop in-demand skills."
-msgstr "一系列以職業為導向的課程，來發展需求的技能。"
+msgstr "一系列以職業為導向的課程，藉此來發展所需的技能。"
 
-#: ./views/program-detail.html:106
+#: views/program-detail.html:106
 msgid "See more"
 msgstr "查看更多"
 
-#: ./views/program-detail.html:108
+#: views/program-detail.html:108
 msgid "about %(title)s"
 msgstr "關於 %(title)s"
 
-#: ./views/program-detail.html:117
+#: views/program-detail.html:117
 msgid "Hide"
 msgstr "隱藏"
 
-#: ./views/program-detail.html:189
+#: views/program-detail.html:189
 msgid "%(type)s Details"
 msgstr "%(type)s 細節"
 
-#: ./views/program-detail.html:192
+#: views/program-detail.html:192
 msgid "About %(type)s"
 msgstr "關於 %(type)s"
 
-#: ./views/program-detail.html:199 ./views/_navbar.html:14
+#: views/program-detail.html:199 views/_navbar.html:14
 msgid "Courses"
 msgstr "課程"
 
-#: ./views/program-detail.html:216
+#: views/program-detail.html:216
 msgid "Instructors"
 msgstr "教師"
 
-#: ./views/program-detail.html:224
+#: views/program-detail.html:224
 msgid "bio for %(title)s"
 msgstr " %(title)s的傳記"
 
-#: ./views/program-detail.html:248
+#: views/program-detail.html:248
 msgid "View a PDF of a sample %(type)s Certificate"
-msgstr "看PDF的證書樣本 %(type)s "
+msgstr "查看PDF的證書樣本 %(type)s "
 
-#: ./views/person-detail.html:5 ./views/person-detail.html:8
-#: ./views/person-detail.html:18
+#: views/person-detail.html:5 views/person-detail.html:8
+#: views/person-detail.html:18
 msgid "Image of %(name)s"
 msgstr "%(name)s的圖像"
 
-#: ./views/person-detail.html:28 ./views/person-detail.html:27
-#: ./views/person-detail.html:37 ./views/person-detail.html:38
+#: views/person-detail.html:28 views/person-detail.html:27
+#: views/person-detail.html:37 views/person-detail.html:38
 msgid "Courses taught by %(name)s"
-msgstr ""
+msgstr "由 %(name)s 教授的課程"
 
-#: ./views/_navbar.html:9
+#: views/_navbar.html:9
 msgid "%(site_name)s home page"
-msgstr ""
+msgstr "%(site_name)s 的主頁"
 
-#: ./views/_navbar.html:17
+#: views/_navbar.html:17
 msgid "Programs"
 msgstr "程式"
 
-#: ./views/_navbar.html:20
+#: views/_navbar.html:20
 msgid "Schools & Partners"
-msgstr "聯盟夥伴"
+msgstr "學校與合作夥伴"
 
-#: ./views/_navbar.html:23
+#: views/_navbar.html:23
 msgid "About"
 msgstr "關於"
 
-#: ./views/_navbar.html:27 ./views/_navbar.html:28
+#: views/_navbar.html:27 views/_navbar.html:28
 msgid "Search"
 msgstr "搜尋"
 
-#: ./views/_navbar.html:37
+#: views/_navbar.html:37
 msgid "Dashboard"
 msgstr "我的課程"
 
-#: ./views/_navbar.html:38
+#: views/_navbar.html:38
 msgid "Profile"
 msgstr "個人檔案"
 
-#: ./views/_navbar.html:39
+#: views/_navbar.html:39
 msgid "Account"
 msgstr "帳號"
 
-#: ./views/_navbar.html:40
+#: views/_navbar.html:40
 msgid "Sign Out"
 msgstr "登出"

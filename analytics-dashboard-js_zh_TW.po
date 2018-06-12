@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Keng-Hui Wu <aabb0852@hotmail.com>, 2016
 # JEN-HAO HSIEH <orienthauz@gmail.com>, 2015
@@ -24,14 +24,16 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-21 18:32-0400\n"
-"PO-Revision-Date: 2017-10-06 06:55+0000\n"
+"PO-Revision-Date: 2018-06-10 21:50+0800\n"
 "Last-Translator: Xaver Y.R. Chen <yrchen@atcity.org>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/open-edx/edx-platform/language/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/open-edx/edx-"
+"platform/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.7\n"
 
 #: static/apps/components/download/views/download-data.js:25
 msgid "Download CSV"
@@ -125,16 +127,16 @@ msgstr "頁面"
 #. Translators: describes the state of a pagination button as not clickable
 #: static/apps/components/generic-list/list/views/paging-footer.js:88
 msgid "disabled"
-msgstr ""
+msgstr "禁用"
 
 #. Translators: describes a pagination button as representing the current page
 #: static/apps/components/generic-list/list/views/paging-footer.js:91
 msgid "active"
-msgstr ""
+msgstr "活性"
 
 #: static/apps/components/generic-list/list/views/table.js:27
 msgid "Generic List"
-msgstr ""
+msgstr "一般清單"
 
 #. Translators: This message indicates content is loading in the page.
 #: static/apps/components/loading/views/loading-view.js:20
@@ -160,7 +162,7 @@ msgstr "伺服器錯誤"
 #: static/apps/components/utils/utils.js:68
 #: static/apps/components/utils/utils.js:80
 msgid "Your request could not be processed. Reload the page to try again."
-msgstr "您的要求無法被執行，請重新載入此頁面"
+msgstr "您的要求無法被執行，請重新載入此頁面。"
 
 #: static/apps/components/utils/utils.js:79
 msgid "Network error"
@@ -256,54 +258,54 @@ msgstr "通過的學生"
 
 #: static/apps/course-list/common/collections/course-list.js:89
 msgid "Availability"
-msgstr ""
+msgstr "可用性"
 
 #: static/apps/course-list/common/collections/course-list.js:90
 msgid "Pacing Type"
-msgstr ""
+msgstr "選取作業類型"
 
 #: static/apps/course-list/common/collections/course-list.js:91
 msgid "Programs"
-msgstr ""
+msgstr "程序"
 
 #: static/apps/course-list/list/views/base-header-cell.js:11
 msgid "Course name advertised on edX site."
-msgstr "在系統中顯示的課程名稱"
+msgstr "在DeltaMOOCx網站上公佈的課程名稱。"
 
 #: static/apps/course-list/list/views/base-header-cell.js:12
 msgid "Start date advertised on edX site."
-msgstr "在Studio中設定的開始日期"
+msgstr "在DeltaMOOCx網站上公佈的開始日期。"
 
 #: static/apps/course-list/list/views/base-header-cell.js:13
 msgid "End date set in edX Studio."
-msgstr "在Studio中設定的結束日期"
+msgstr "結束日期設置在DeltaMOOCx工作室。"
 
 #: static/apps/course-list/list/views/base-header-cell.js:14
 msgid "Learners who ever enrolled in the course."
-msgstr "曾經選修課程的學生"
+msgstr "曾經選修課程的學生。"
 
 #: static/apps/course-list/list/views/base-header-cell.js:15
 msgid "Learners currently enrolled in the course."
-msgstr "目前選修此課程的學生"
+msgstr "目前選修此課程的學生。"
 
 #: static/apps/course-list/list/views/base-header-cell.js:16
 msgid "Net difference in current enrollment in the last week."
-msgstr "與上週相比註冊人數的變化"
+msgstr "與上週相比註冊人數的變化。"
 
 #: static/apps/course-list/list/views/base-header-cell.js:18
 msgid ""
 "Number of currently enrolled learners pursuing a verified certificate of "
 "achievement."
-msgstr "目前選修並目標為認證證書的學生人數"
+msgstr "目前選修並目標為認證證書的學生人數。"
 
 #: static/apps/course-list/list/views/base-header-cell.js:19
 msgid "Learners who have earned a passing grade."
-msgstr ""
+msgstr "獲得及格成績的學習者。"
 
 #: static/apps/course-list/list/views/controls.js:38
 #: static/apps/learners/roster/views/controls.js:39
 msgid "Skip to results"
-msgstr ""
+msgstr "跳轉至結果"
 
 #: static/apps/course-list/list/views/controls.js:58
 msgid "Find a course"
@@ -311,15 +313,15 @@ msgstr "尋找課程"
 
 #: static/apps/course-list/list/views/controls.js:68
 msgid "availability"
-msgstr ""
+msgstr "可用性"
 
 #: static/apps/course-list/list/views/controls.js:76
 msgid "pacing_type"
-msgstr ""
+msgstr "選取作業類型"
 
 #: static/apps/course-list/list/views/controls.js:84
 msgid "program_ids"
-msgstr ""
+msgstr "程序ids"
 
 #: static/apps/course-list/list/views/course-list.js:66
 msgid "Download full course list to CSV"
@@ -349,9 +351,12 @@ msgstr "目前您的課程沒有任何課程內容。"
 
 #: static/apps/course-list/list/views/results.js:57
 msgid ""
-"No courses are enrolled, or course activity data has not yet been processed."
-" Data is updated every day, so check back regularly for up-to-date metrics."
+"No courses are enrolled, or course activity data has not yet been "
+"processed. Data is updated every day, so check back regularly for up-to-"
+"date metrics."
 msgstr ""
+"沒有課程登記, 或課程活動資料尚未處理。(每天更新資料, 因此定期檢查最新的度量"
+"標準。)"
 
 #: static/apps/course-list/list/views/search.js:71
 msgid "Search courses"
@@ -369,7 +374,7 @@ msgstr "清除搜尋"
 
 #: static/apps/course-list/list/views/table.js:48
 msgid "Date not available"
-msgstr ""
+msgstr "日期不可用"
 
 #: static/apps/learners/app/controller.js:59
 msgid "Learner Roster"
@@ -527,11 +532,11 @@ msgstr "此學生的名稱和用戶名。 點擊用戶名進行排序。"
 
 #: static/apps/learners/roster/views/base-header-cell.js:11
 msgid "Number of unique problems this learner attempted."
-msgstr "此學生嘗試的不同問題數量"
+msgstr "此學生嘗試的不同問題數量。"
 
 #: static/apps/learners/roster/views/base-header-cell.js:12
 msgid "Number of unique problems the learner answered correctly."
-msgstr "此學生回答正確的不同問題數量"
+msgstr "此學生回答正確的不同問題數量。"
 
 #: static/apps/learners/roster/views/base-header-cell.js:13
 msgid "Number of unique videos this learner played."
@@ -541,7 +546,8 @@ msgstr "此學生已播放的不同影片數量。"
 msgid ""
 "Average number of attempts per correct problem. Learners with a relatively "
 "high value compared to their peers may be struggling."
-msgstr "每題答對所需之平均嘗試次數，此值高於其他人可能表示其在學習上較為辛苦。"
+msgstr ""
+"每題答對所需之平均嘗試次數，此值高於其他人可能表示其在學習上較為辛苦。"
 
 #: static/apps/learners/roster/views/base-header-cell.js:17
 msgid ""
@@ -559,7 +565,7 @@ msgstr "學習夥伴組別"
 
 #: static/apps/learners/roster/views/controls.js:73
 msgid "cohort"
-msgstr ""
+msgstr "學習夥伴"
 
 #: static/apps/learners/roster/views/controls.js:87
 msgid "Enrollment Tracks"
@@ -591,9 +597,11 @@ msgstr "目前在您的課程中未有學生資料。"
 #: static/apps/learners/roster/views/results.js:57
 msgid ""
 "No learners are enrolled, or course activity data has not yet been "
-"processed. Data is updated every day, so check back regularly for up-to-date"
-" metrics."
-msgstr "沒有學生註冊此課程或是課程資料尚在處理。課程統計資料每天都會更新，請定期檢查以確保資料是最新的。"
+"processed. Data is updated every day, so check back regularly for up-to-"
+"date metrics."
+msgstr ""
+"沒有學生註冊此課程或是課程資料尚在處理。課程統計資料每天都會更新，請定期檢"
+"查以確保資料是最新的。"
 
 #: static/apps/learners/roster/views/roster.js:110
 msgid "Learner roster controls"
